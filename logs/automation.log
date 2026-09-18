@@ -1,0 +1,310 @@
+2026-09-17 14:37:42,914 - INFO - Login credentials retrieved from config file
+2026-09-17 14:37:46,945 - INFO - OrangeHRM application opened
+2026-09-17 14:41:45,693 - INFO - Login credentials retrieved from config file
+2026-09-17 14:41:49,590 - INFO - OrangeHRM application opened
+2026-09-17 14:41:52,678 - INFO - Login successful
+2026-09-17 14:41:52,679 - INFO - Dashboard displayed successfully
+2026-09-17 14:41:58,515 - INFO - PIM page opened successfully
+2026-09-17 14:42:01,534 - INFO - Employee data read from Excel. Total employees: 5
+2026-09-17 14:42:02,383 - INFO - Add Employee page opened successfully
+2026-09-17 14:42:02,481 - INFO - Employee Created Successfully
+2026-09-17 14:42:05,776 - INFO - Add Employee page opened successfully
+2026-09-17 14:42:05,859 - INFO - Employee Created Successfully
+2026-09-17 14:42:09,611 - INFO - Add Employee page opened successfully
+2026-09-17 14:42:09,689 - INFO - Employee Created Successfully
+2026-09-17 14:42:13,012 - INFO - Add Employee page opened successfully
+2026-09-17 14:42:13,095 - INFO - Employee Created Successfully
+2026-09-17 14:42:16,407 - INFO - Add Employee page opened successfully
+2026-09-17 14:42:16,500 - INFO - Employee Created Successfully
+2026-09-17 14:43:51,060 - INFO - Login credentials retrieved from config file
+2026-09-17 14:43:54,885 - INFO - OrangeHRM application opened
+2026-09-17 14:43:57,995 - INFO - Login successful
+2026-09-17 14:43:57,995 - INFO - Dashboard displayed successfully
+2026-09-17 14:44:03,779 - INFO - PIM page opened successfully
+2026-09-17 14:44:06,798 - INFO - Employee data read from Excel. Total employees: 5
+2026-09-17 14:44:07,657 - INFO - Add Employee page opened successfully
+2026-09-17 14:44:07,782 - INFO - Employee Created Successfully
+2026-09-17 14:44:11,094 - INFO - Add Employee page opened successfully
+2026-09-17 14:44:11,170 - INFO - Employee Created Successfully
+2026-09-17 14:44:13,996 - INFO - Add Employee page opened successfully
+2026-09-17 14:44:14,096 - INFO - Employee Created Successfully
+2026-09-17 14:44:17,447 - INFO - Add Employee page opened successfully
+2026-09-17 14:44:17,523 - INFO - Employee Created Successfully
+2026-09-17 14:44:22,203 - INFO - Add Employee page opened successfully
+2026-09-17 14:44:22,285 - INFO - Employee Created Successfully
+2026-09-17 14:53:00,991 - INFO - Login credentials retrieved from config file
+2026-09-17 14:53:05,469 - INFO - OrangeHRM application opened
+2026-09-17 14:53:09,796 - INFO - Login successful
+2026-09-17 14:53:09,796 - INFO - Dashboard displayed successfully
+2026-09-17 14:53:15,619 - INFO - PIM page opened successfully
+2026-09-17 14:53:18,634 - INFO - Employee data read from Excel. Total employees: 5
+2026-09-17 14:53:19,927 - INFO - Add Employee page opened successfully
+2026-09-17 14:53:20,023 - INFO - Employee Created Successfully
+2026-09-17 14:53:22,816 - INFO - Add Employee page opened successfully
+2026-09-17 14:53:22,914 - INFO - Employee Created Successfully
+2026-09-17 14:53:25,668 - INFO - Add Employee page opened successfully
+2026-09-17 14:53:25,761 - INFO - Employee Created Successfully
+2026-09-17 14:53:28,555 - INFO - Add Employee page opened successfully
+2026-09-17 14:53:28,650 - INFO - Employee Created Successfully
+2026-09-17 14:53:31,391 - INFO - Add Employee page opened successfully
+2026-09-17 14:53:31,519 - INFO - Employee Created Successfully
+2026-09-17 14:59:56,190 - INFO - Login credentials retrieved from config file
+2026-09-17 15:00:02,056 - INFO - OrangeHRM application opened
+2026-09-17 15:00:06,055 - INFO - Login successful
+2026-09-17 15:00:06,055 - INFO - Dashboard displayed successfully
+2026-09-17 15:00:39,049 - INFO - PIM page opened successfully
+2026-09-17 15:00:42,065 - INFO - Employee data read from Excel. Total employees: 5
+2026-09-17 15:00:49,776 - INFO - Add Employee page opened successfully
+2026-09-17 15:00:49,855 - INFO - Employee Created Successfully
+2026-09-17 15:00:57,405 - INFO - Add Employee page opened successfully
+2026-09-17 15:00:57,484 - INFO - Employee Created Successfully
+2026-09-17 15:07:46,968 - INFO - Login credentials retrieved from config file
+2026-09-17 15:07:51,471 - INFO - OrangeHRM application opened
+2026-09-17 15:08:04,086 - INFO - Login successful
+2026-09-17 15:08:04,087 - INFO - Dashboard displayed successfully
+2026-09-17 15:08:25,610 - INFO - PIM page opened successfully
+2026-09-17 15:08:28,632 - INFO - Employee data read from Excel. Total employees: 5
+2026-09-17 15:08:35,344 - INFO - Add Employee page opened successfully
+2026-09-17 15:08:35,453 - INFO - Employee Created Successfully
+2026-09-17 15:08:41,923 - INFO - Add Employee page opened successfully
+2026-09-17 15:08:42,000 - INFO - Employee Created Successfully
+2026-09-17 15:08:52,579 - INFO - Add Employee page opened successfully
+2026-09-17 15:08:52,681 - INFO - Employee Created Successfully
+2026-09-17 15:08:59,379 - INFO - Add Employee page opened successfully
+2026-09-17 15:08:59,459 - INFO - Employee Created Successfully
+2026-09-17 15:09:09,689 - INFO - Add Employee page opened successfully
+2026-09-17 15:09:09,799 - INFO - Employee Created Successfully
+2026-09-17 15:22:40,275 - INFO - Login credentials retrieved from config file
+2026-09-17 15:22:57,312 - INFO - OrangeHRM application opened
+2026-09-17 15:23:17,797 - INFO - Login successful
+2026-09-17 15:23:17,797 - INFO - Dashboard displayed successfully
+2026-09-17 15:23:47,316 - INFO - PIM page opened successfully
+2026-09-17 15:23:50,336 - INFO - Employee data read from Excel. Total employees: 5
+2026-09-17 15:24:05,032 - INFO - Add Employee page opened successfully
+2026-09-17 15:24:05,129 - INFO - Employee Created Successfully
+2026-09-17 15:24:17,798 - INFO - Add Employee page opened successfully
+2026-09-17 15:24:17,874 - INFO - Employee Created Successfully
+2026-09-17 15:24:30,763 - INFO - Add Employee page opened successfully
+2026-09-17 15:24:30,842 - INFO - Employee Created Successfully
+2026-09-17 15:24:39,314 - INFO - Add Employee page opened successfully
+2026-09-17 15:24:39,386 - INFO - Employee Created Successfully
+2026-09-17 15:24:48,347 - INFO - Add Employee page opened successfully
+2026-09-17 15:24:48,412 - INFO - Employee Created Successfully
+2026-09-17 15:25:29,852 - INFO - Login credentials retrieved from config file
+2026-09-17 15:25:35,699 - INFO - OrangeHRM application opened
+2026-09-17 15:25:51,410 - INFO - Login successful
+2026-09-17 15:25:51,410 - INFO - Dashboard displayed successfully
+2026-09-17 15:26:06,266 - INFO - PIM page opened successfully
+2026-09-17 15:26:09,285 - INFO - Employee data read from Excel. Total employees: 5
+2026-09-17 15:26:16,823 - INFO - Add Employee page opened successfully
+2026-09-17 15:26:16,919 - INFO - Employee Created Successfully
+2026-09-17 15:26:21,297 - INFO - Add Employee page opened successfully
+2026-09-17 15:26:21,372 - INFO - Employee Created Successfully
+2026-09-17 15:26:24,819 - INFO - Add Employee page opened successfully
+2026-09-17 15:26:24,896 - INFO - Employee Created Successfully
+2026-09-17 15:26:27,313 - INFO - Add Employee page opened successfully
+2026-09-17 15:26:27,393 - INFO - Employee Created Successfully
+2026-09-17 15:26:28,987 - INFO - Add Employee page opened successfully
+2026-09-17 15:26:29,058 - INFO - Employee Created Successfully
+2026-09-17 16:00:18,289 - INFO - Login credentials retrieved from config file
+2026-09-17 16:00:22,967 - INFO - OrangeHRM application opened
+2026-09-17 16:00:27,230 - INFO - Login successful
+2026-09-17 16:00:27,230 - INFO - Dashboard displayed successfully
+2026-09-17 16:00:33,067 - INFO - PIM page opened successfully
+2026-09-17 16:00:36,085 - INFO - Employee data read from Excel. Total employees: 5
+2026-09-17 16:00:36,885 - INFO - Add Employee page opened successfully
+2026-09-17 16:00:37,024 - INFO - Employee Created Successfully
+2026-09-17 16:00:38,667 - INFO - Add Employee page opened successfully
+2026-09-17 16:00:38,741 - INFO - Employee Created Successfully
+2026-09-17 16:00:40,026 - INFO - Add Employee page opened successfully
+2026-09-17 16:00:40,114 - INFO - Employee Created Successfully
+2026-09-17 16:00:42,864 - INFO - Add Employee page opened successfully
+2026-09-17 16:00:42,956 - INFO - Employee Created Successfully
+2026-09-17 16:00:44,145 - INFO - Add Employee page opened successfully
+2026-09-17 16:00:44,242 - INFO - Employee Created Successfully
+2026-09-17 16:20:19,326 - INFO - Login credentials retrieved from config file
+2026-09-17 16:20:23,802 - INFO - OrangeHRM application opened
+2026-09-17 16:20:28,148 - INFO - Login successful
+2026-09-17 16:20:28,148 - INFO - Dashboard displayed successfully
+2026-09-17 16:20:34,034 - INFO - PIM page opened successfully
+2026-09-17 16:20:37,055 - INFO - Employee data read from Excel. Total employees: 5
+2026-09-17 16:20:37,909 - INFO - Add Employee page opened successfully
+2026-09-17 16:20:38,020 - INFO - Employee Created Successfully
+2026-09-17 16:20:40,884 - INFO - Add Employee page opened successfully
+2026-09-17 16:20:40,977 - INFO - Employee Created Successfully
+2026-09-17 16:20:43,772 - INFO - Add Employee page opened successfully
+2026-09-17 16:20:43,867 - INFO - Employee Created Successfully
+2026-09-17 16:20:47,194 - INFO - Add Employee page opened successfully
+2026-09-17 16:20:47,280 - INFO - Employee Created Successfully
+2026-09-17 16:20:50,541 - INFO - Add Employee page opened successfully
+2026-09-17 16:20:50,631 - INFO - Employee Created Successfully
+2026-09-17 16:25:56,305 - INFO - Login credentials retrieved from config file
+2026-09-17 16:26:00,555 - INFO - OrangeHRM application opened
+2026-09-17 16:26:04,730 - INFO - Login successful
+2026-09-17 16:26:04,730 - INFO - Dashboard displayed successfully
+2026-09-17 16:26:10,650 - INFO - PIM page opened successfully
+2026-09-17 16:26:13,663 - INFO - Employee data read from Excel. Total employees: 5
+2026-09-17 16:26:14,455 - INFO - Add Employee page opened successfully
+2026-09-17 16:26:14,575 - INFO - Employee Created Successfully
+2026-09-17 16:26:17,325 - INFO - Add Employee page opened successfully
+2026-09-17 16:26:17,425 - INFO - Employee Created Successfully
+2026-09-17 16:26:20,233 - INFO - Add Employee page opened successfully
+2026-09-17 16:26:20,331 - INFO - Employee Created Successfully
+2026-09-17 16:26:23,131 - INFO - Add Employee page opened successfully
+2026-09-17 16:26:23,225 - INFO - Employee Created Successfully
+2026-09-17 16:26:26,464 - INFO - Add Employee page opened successfully
+2026-09-17 16:26:26,535 - INFO - Employee Created Successfully
+2026-09-17 16:37:14,023 - INFO - Login credentials retrieved from config file
+2026-09-17 16:37:17,568 - INFO - OrangeHRM application opened
+2026-09-17 16:37:21,771 - INFO - Login successful
+2026-09-17 16:37:21,771 - INFO - Dashboard displayed successfully
+2026-09-17 16:37:27,597 - INFO - PIM page opened successfully
+2026-09-17 16:37:30,616 - INFO - Employee data read from Excel. Total employees: 5
+2026-09-17 16:37:31,968 - INFO - Add Employee page opened successfully
+2026-09-17 16:37:32,058 - INFO - Employee Created Successfully
+2026-09-17 16:37:34,825 - INFO - Add Employee page opened successfully
+2026-09-17 16:37:34,928 - INFO - Employee Created Successfully
+2026-09-17 16:37:37,718 - INFO - Add Employee page opened successfully
+2026-09-17 16:37:37,818 - INFO - Employee Created Successfully
+2026-09-17 16:37:40,591 - INFO - Add Employee page opened successfully
+2026-09-17 16:37:40,670 - INFO - Employee Created Successfully
+2026-09-17 16:37:43,969 - INFO - Add Employee page opened successfully
+2026-09-17 16:37:44,042 - INFO - Employee Created Successfully
+2026-09-17 16:41:59,808 - INFO - Login credentials retrieved from config file
+2026-09-17 16:42:04,681 - INFO - OrangeHRM application opened
+2026-09-17 16:42:10,099 - INFO - Login successful
+2026-09-17 16:42:10,099 - INFO - Dashboard displayed successfully
+2026-09-17 16:42:16,926 - INFO - PIM page opened successfully
+2026-09-17 16:42:19,939 - INFO - Employee data read from Excel. Total employees: 5
+2026-09-17 16:42:21,928 - INFO - Add Employee page opened successfully
+2026-09-17 16:42:21,995 - INFO - Employee Created Successfully
+2026-09-17 16:42:24,811 - INFO - Add Employee page opened successfully
+2026-09-17 16:42:24,886 - INFO - Employee Created Successfully
+2026-09-17 16:42:28,202 - INFO - Add Employee page opened successfully
+2026-09-17 16:42:28,276 - INFO - Employee Created Successfully
+2026-09-17 16:42:31,335 - INFO - Add Employee page opened successfully
+2026-09-17 16:42:31,400 - INFO - Employee Created Successfully
+2026-09-17 16:42:34,212 - INFO - Add Employee page opened successfully
+2026-09-17 16:42:34,277 - INFO - Employee Created Successfully
+2026-09-17 16:44:32,703 - INFO - Login credentials retrieved from config file
+2026-09-17 16:44:36,645 - INFO - OrangeHRM application opened
+2026-09-17 16:44:40,783 - INFO - Login successful
+2026-09-17 16:44:40,783 - INFO - Dashboard displayed successfully
+2026-09-17 16:44:46,544 - INFO - PIM page opened successfully
+2026-09-17 16:44:49,565 - INFO - Employee data read from Excel. Total employees: 5
+2026-09-17 16:44:50,874 - INFO - Add Employee page opened successfully
+2026-09-17 16:44:50,944 - INFO - Employee Created Successfully
+2026-09-17 16:44:53,756 - INFO - Add Employee page opened successfully
+2026-09-17 16:44:53,836 - INFO - Employee Created Successfully
+2026-09-17 16:44:57,130 - INFO - Add Employee page opened successfully
+2026-09-17 16:44:57,196 - INFO - Employee Created Successfully
+2026-09-17 16:45:00,021 - INFO - Add Employee page opened successfully
+2026-09-17 16:45:00,101 - INFO - Employee Created Successfully
+2026-09-17 16:45:03,351 - INFO - Add Employee page opened successfully
+2026-09-17 16:45:03,419 - INFO - Employee Created Successfully
+2026-09-17 16:46:06,115 - INFO - Login credentials retrieved from config file
+2026-09-17 16:46:09,596 - INFO - OrangeHRM application opened
+2026-09-17 16:46:14,236 - INFO - Login successful
+2026-09-17 16:46:14,236 - INFO - Dashboard displayed successfully
+2026-09-17 16:46:20,100 - INFO - PIM page opened successfully
+2026-09-17 16:46:23,119 - INFO - Employee data read from Excel. Total employees: 5
+2026-09-17 16:46:23,975 - INFO - Add Employee page opened successfully
+2026-09-17 16:46:24,031 - INFO - Employee Created Successfully
+2026-09-17 16:46:27,326 - INFO - Add Employee page opened successfully
+2026-09-17 16:46:27,364 - INFO - Employee Created Successfully
+2026-09-17 16:46:30,664 - INFO - Add Employee page opened successfully
+2026-09-17 16:46:30,701 - INFO - Employee Created Successfully
+2026-09-17 16:46:33,510 - INFO - Add Employee page opened successfully
+2026-09-17 16:46:33,563 - INFO - Employee Created Successfully
+2026-09-17 16:46:36,836 - INFO - Add Employee page opened successfully
+2026-09-17 16:46:36,876 - INFO - Employee Created Successfully
+2026-09-17 16:59:15,545 - INFO - Login credentials retrieved from config file
+2026-09-17 16:59:22,422 - INFO - OrangeHRM application opened
+2026-09-17 16:59:38,449 - INFO - Login successful
+2026-09-17 16:59:38,449 - INFO - Dashboard displayed successfully
+2026-09-17 17:00:00,054 - INFO - PIM page opened successfully
+2026-09-17 17:00:03,073 - INFO - Employee data read from Excel. Total employees: 5
+2026-09-17 17:00:15,136 - INFO - Add Employee page opened successfully
+2026-09-17 17:00:15,200 - INFO - Employee Created Successfully
+2026-09-17 17:00:27,554 - INFO - Add Employee page opened successfully
+2026-09-17 17:00:27,645 - INFO - Employee Created Successfully
+2026-09-17 17:00:42,386 - INFO - Add Employee page opened successfully
+2026-09-17 17:00:42,445 - INFO - Employee Created Successfully
+2026-09-17 17:00:57,950 - INFO - Add Employee page opened successfully
+2026-09-17 17:00:57,989 - INFO - Employee Created Successfully
+2026-09-17 17:01:08,946 - INFO - Add Employee page opened successfully
+2026-09-17 17:01:08,988 - INFO - Employee Created Successfully
+2026-09-17 17:04:35,508 - INFO - Login credentials retrieved from config file
+2026-09-17 17:04:41,254 - INFO - OrangeHRM application opened
+2026-09-17 17:04:49,859 - INFO - Login successful
+2026-09-17 17:04:49,859 - INFO - Dashboard displayed successfully
+2026-09-17 17:04:59,136 - INFO - PIM page opened successfully
+2026-09-17 17:05:02,158 - INFO - Employee data read from Excel. Total employees: 5
+2026-09-17 17:05:05,803 - INFO - Add Employee page opened successfully
+2026-09-17 17:05:05,859 - INFO - Employee Created Successfully
+2026-09-17 17:05:11,606 - INFO - Add Employee page opened successfully
+2026-09-17 17:05:11,645 - INFO - Employee Created Successfully
+2026-09-17 17:05:21,140 - INFO - Add Employee page opened successfully
+2026-09-17 17:05:21,182 - INFO - Employee Created Successfully
+2026-09-17 17:05:28,009 - INFO - Add Employee page opened successfully
+2026-09-17 17:05:28,094 - INFO - Employee Created Successfully
+2026-09-17 17:05:33,616 - INFO - Add Employee page opened successfully
+2026-09-17 17:05:33,650 - INFO - Employee Created Successfully
+2026-09-17 17:12:41,604 - INFO - Login credentials retrieved from config file
+2026-09-17 17:12:51,379 - INFO - OrangeHRM application opened
+2026-09-17 17:13:10,656 - INFO - Login successful
+2026-09-17 17:13:10,656 - INFO - Dashboard displayed successfully
+2026-09-17 17:13:35,764 - INFO - PIM page opened successfully
+2026-09-17 17:13:38,776 - INFO - Employee data read from Excel. Total employees: 5
+2026-09-17 17:13:53,495 - INFO - Add Employee page opened successfully
+2026-09-17 17:13:53,548 - INFO - Employee Created Successfully
+2026-09-17 17:14:13,378 - INFO - Add Employee page opened successfully
+2026-09-17 17:14:13,418 - INFO - Employee Created Successfully
+2026-09-17 17:14:30,655 - INFO - Add Employee page opened successfully
+2026-09-17 17:14:30,695 - INFO - Employee Created Successfully
+2026-09-17 17:14:46,126 - INFO - Add Employee page opened successfully
+2026-09-17 17:14:46,165 - INFO - Employee Created Successfully
+2026-09-17 17:15:02,360 - INFO - Add Employee page opened successfully
+2026-09-17 17:15:02,399 - INFO - Employee Created Successfully
+2026-09-17 17:16:00,292 - INFO - Login credentials retrieved from config file
+2026-09-17 17:16:11,570 - INFO - OrangeHRM application opened
+2026-09-17 17:16:18,107 - INFO - Login successful
+2026-09-17 17:16:18,108 - INFO - Dashboard displayed successfully
+2026-09-17 17:17:20,013 - INFO - Login credentials retrieved from config file
+2026-09-17 17:17:32,989 - INFO - OrangeHRM application opened
+2026-09-17 17:18:00,060 - INFO - Login successful
+2026-09-17 17:18:00,061 - INFO - Dashboard displayed successfully
+2026-09-17 17:18:33,448 - INFO - PIM page opened successfully
+2026-09-17 17:18:36,471 - INFO - Employee data read from Excel. Total employees: 5
+2026-09-17 17:19:07,350 - INFO - Add Employee page opened successfully
+2026-09-17 17:19:23,701 - INFO - Employee Created Successfully
+2026-09-17 17:19:46,437 - INFO - Add Employee page opened successfully
+2026-09-17 17:19:58,766 - INFO - Employee Created Successfully
+2026-09-17 17:20:18,158 - INFO - Add Employee page opened successfully
+2026-09-17 17:20:29,360 - INFO - Employee Created Successfully
+2026-09-18 09:47:06,118 - INFO - Login credentials retrieved from config file
+2026-09-18 09:47:09,470 - INFO - OrangeHRM application opened
+2026-09-18 09:47:12,573 - INFO - Login successful
+2026-09-18 09:47:12,573 - INFO - Dashboard displayed successfully
+2026-09-18 09:47:18,342 - INFO - PIM page opened successfully
+2026-09-18 09:47:21,376 - INFO - Employee data read from Excel. Total employees: 5
+2026-09-18 09:47:22,168 - INFO - Add Employee page opened successfully
+2026-09-18 09:47:26,167 - INFO - Employee Created Successfully
+2026-09-18 09:47:29,881 - INFO - Add Employee page opened successfully
+2026-09-18 09:47:33,937 - INFO - Employee Created Successfully
+2026-09-18 09:47:37,913 - INFO - Add Employee page opened successfully
+2026-09-18 09:47:41,580 - INFO - Employee Created Successfully
+2026-09-18 09:47:44,377 - INFO - Add Employee page opened successfully
+2026-09-18 09:47:48,406 - INFO - Employee Created Successfully
+2026-09-18 09:47:51,189 - INFO - Add Employee page opened successfully
+2026-09-18 09:47:55,218 - INFO - Employee Created Successfully
+2026-09-18 09:57:13,263 - INFO - Login credentials retrieved from config file
+2026-09-18 09:57:16,646 - INFO - OrangeHRM application opened
+2026-09-18 09:57:19,743 - INFO - Login successful
+2026-09-18 09:57:19,744 - INFO - Dashboard displayed successfully
+2026-09-18 09:57:25,702 - INFO - PIM page opened successfully
+2026-09-18 09:57:28,735 - INFO - Employee data read from Excel. Total employees: 5
+2026-09-18 09:57:29,480 - INFO - Add Employee page opened successfully
+2026-09-18 09:57:36,852 - INFO - Employee Created Successfully
+2026-09-18 09:57:39,578 - INFO - Add Employee page opened successfully
+2026-09-18 09:57:59,728 - INFO - Employee Created Successfully
