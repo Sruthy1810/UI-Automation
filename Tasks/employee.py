@@ -428,18 +428,13 @@ def upload_document(page, employee):
 
             print("Clicking Add...")
 
-            add_button = attachments.get_by_role(
-                "button",
-                name="Add",
-                exact=True
+            add_button = page.locator("button.oxd-button").filter(
+                has_text="Add"
             )
 
-            add_button.wait_for(
-                state="visible",
-                timeout=10000
-            )
+            print("Add buttons found:", add_button.count())
 
-            add_button.click()
+            add_button.last.click()
 
             print("Add Attachment form opened")
 
