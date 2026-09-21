@@ -2,11 +2,39 @@ from playwright.sync_api import sync_playwright
 import time
 import tkinter as tk
 from login import get_login_credentials
-from excel_reader import read_employee_data,update_employee_status
+from excel_reader import ( read_employee_data,update_employee_status )
 from employee import create_employee
 from logger import logger
 from pathlib import Path
+from screenshot import take_screenshot
+from datetime import datetime
+from email_notification import ( send_start_email,send_completion_email)
 
+
+
+# =========================================================
+# START EXECUTION TIMER
+# =========================================================
+
+
+start_time = datetime.now()
+
+
+# =========================================================
+# SEND START EMAIL
+# =========================================================
+
+send_start_email(start_time)
+
+
+# =========================================================
+# VARIABLES
+# =========================================================
+
+successful_records = 0
+failed_records = 0
+
+errors = []
 
 
 
@@ -25,6 +53,8 @@ screen_height = root.winfo_screenheight()
 root.destroy()
 
 try:
+
+    logger.info("Bot execution started")
     #opening chromium
     with sync_playwright() as p:
 
@@ -91,7 +121,8 @@ try:
         
         
         employees = read_employee_data(file_path)
-        
+
+        total_employees = len(employees)
 
         logger.info(f"Employee data read from Excel. Total employees: {len(employees)}")
 
@@ -107,6 +138,10 @@ try:
             last_name = str(
                 employee["Last Name"]
             ).strip()
+
+            employee_name = (
+                    f"{first_name} {last_name}"
+                )
 
             try:
 
@@ -158,6 +193,8 @@ try:
                         "Employee created and document uploaded successfully"
                     )
 
+                    successful_records += 1
+
                     print(
                         f"Completed: "
                         f"{first_name} {last_name}"
@@ -173,6 +210,8 @@ try:
                 # ==========================================
 
                 else:
+
+                    failed_records += 1
 
                     update_employee_status(
                         file_path,
@@ -202,6 +241,10 @@ try:
 
                 error_message = str(e)
 
+                failed_records += 1
+                screenshot_path = take_screenshot(page,
+                    employee_name)
+
                 update_employee_status(
                     file_path,
                     row_number,
@@ -225,10 +268,65 @@ try:
                 )
             page.wait_for_timeout(2000)
 
+        # -------------------------------------------------
+        # Close browser
+        # -------------------------------------------------
+
+        context.close()
+        browser.close()
+
+        logger.info(
+            "Browser closed successfully"
+        )
+
 except Exception as e:
 
-        print("\nPage unable to open")
-        print(e)
+        logger.exception(
+        "Critical bot execution failure"
+    )
+
+        errors.append(
+        f"Critical Bot Error: {str(e)}"
+    )
+
+
+finally:
+
+    # =====================================================
+    # EXECUTION END
+    # =====================================================
+
+    end_time = datetime.now()
+
+    # -----------------------------------------------------
+    # Calculate total processed
+    # -----------------------------------------------------
+
+    total_employees = (
+        successful_records +
+        failed_records
+    )
+
+    # -----------------------------------------------------
+    # SEND COMPLETION EMAIL
+    # -----------------------------------------------------
+
+    send_completion_email(
+        start_time=start_time,
+        end_time=end_time,
+        total_employees=total_employees,
+        successful_records=successful_records,
+        failed_records=failed_records,
+        errors=errors
+    )
+
+    logger.info(
+        "Completion email sent"
+    )
+
+    logger.info(
+        "Bot execution completed"
+    )
 
 
     

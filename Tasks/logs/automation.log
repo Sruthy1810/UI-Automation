@@ -544,3 +544,157 @@ playwright._impl._errors.TargetClosedError: Target page, context or browser has 
 2026-09-21 11:13:55,725 - ERROR - Employee creation failed: Emily Johnson
 2026-09-21 11:14:00,632 - INFO - Add Employee page opened for James Martinez
 2026-09-21 11:14:32,661 - ERROR - Employee creation failed: James Martinez
+2026-09-21 11:42:44,735 - INFO - Login credentials retrieved from config file
+2026-09-21 11:42:48,269 - INFO - OrangeHRM application opened
+2026-09-21 11:42:53,086 - INFO - Login successful
+2026-09-21 11:42:53,086 - INFO - Dashboard displayed successfully
+2026-09-21 11:42:58,834 - INFO - PIM page opened successfully
+2026-09-21 11:43:01,855 - INFO - Employee data read from Excel. Total employees: 5
+2026-09-21 11:43:03,102 - INFO - Add Employee page opened for Michael Anderson
+2026-09-21 11:43:11,254 - INFO - Employee Personal details filled successfully
+2026-09-21 11:43:11,466 - INFO - Employee created successfully: Michael Anderson
+2026-09-21 11:43:11,507 - INFO - Employee created successfully: Michael Anderson
+2026-09-21 11:43:16,297 - INFO - Add Employee page opened for Sophia Williams
+2026-09-21 11:43:25,101 - INFO - Employee Personal details filled successfully
+2026-09-21 11:43:25,285 - INFO - Employee created successfully: Sophia Williams
+2026-09-21 11:43:25,349 - INFO - Employee created successfully: Sophia Williams
+2026-09-21 11:43:30,140 - INFO - Add Employee page opened for Daniel Thompson
+2026-09-21 11:43:38,304 - ERROR - Employee creation failed: Daniel Thompson
+2026-09-21 11:43:43,209 - INFO - Add Employee page opened for Emily Johnson
+2026-09-21 11:43:51,391 - INFO - Employee Personal details filled successfully
+2026-09-21 11:43:51,562 - INFO - Employee created successfully: Emily Johnson
+2026-09-21 11:43:51,621 - INFO - Employee created successfully: Emily Johnson
+2026-09-21 11:43:56,392 - INFO - Add Employee page opened for James Martinez
+2026-09-21 11:44:04,620 - INFO - Employee Personal details filled successfully
+2026-09-21 11:44:04,794 - INFO - Employee created successfully: James Martinez
+2026-09-21 11:44:04,828 - INFO - Employee created successfully: James Martinez
+2026-09-21 12:47:40,275 - INFO - Bot execution started
+2026-09-21 12:47:46,564 - INFO - Login credentials retrieved from config file
+2026-09-21 12:47:50,756 - INFO - OrangeHRM application opened
+2026-09-21 12:47:56,879 - INFO - Login successful
+2026-09-21 12:47:56,879 - INFO - Dashboard displayed successfully
+2026-09-21 12:48:03,012 - INFO - PIM page opened successfully
+2026-09-21 12:48:06,040 - INFO - Employee data read from Excel. Total employees: 5
+2026-09-21 12:48:09,352 - INFO - Add Employee page opened for Michael Anderson
+2026-09-21 12:48:19,703 - INFO - Employee Personal details filled successfully
+2026-09-21 12:48:19,917 - INFO - Employee created successfully: Michael Anderson
+2026-09-21 12:48:19,958 - INFO - Employee created successfully: Michael Anderson
+2026-09-21 12:48:25,454 - INFO - Add Employee page opened for Sophia Williams
+2026-09-21 12:48:38,054 - INFO - Employee Personal details filled successfully
+2026-09-21 12:48:38,227 - INFO - Employee created successfully: Sophia Williams
+2026-09-21 12:48:38,258 - INFO - Employee created successfully: Sophia Williams
+2026-09-21 12:48:46,096 - INFO - Add Employee page opened for Daniel Thompson
+2026-09-21 12:49:02,822 - INFO - Employee Personal details filled successfully
+2026-09-21 12:49:02,998 - INFO - Employee created successfully: Daniel Thompson
+2026-09-21 12:49:03,036 - INFO - Employee created successfully: Daniel Thompson
+2026-09-21 12:49:10,463 - INFO - Add Employee page opened for Emily Johnson
+2026-09-21 12:49:30,592 - INFO - Employee Personal details filled successfully
+2026-09-21 12:49:30,753 - INFO - Employee created successfully: Emily Johnson
+2026-09-21 12:49:30,794 - INFO - Employee created successfully: Emily Johnson
+2026-09-21 12:49:38,238 - INFO - Add Employee page opened for James Martinez
+2026-09-21 12:49:51,251 - INFO - Employee Personal details filled successfully
+2026-09-21 12:49:51,429 - INFO - Employee created successfully: James Martinez
+2026-09-21 12:49:51,462 - INFO - Employee created successfully: James Martinez
+2026-09-21 12:49:55,920 - INFO - Browser closed successfully
+2026-09-21 12:49:59,791 - INFO - Completion email sent
+2026-09-21 12:49:59,791 - INFO - Bot execution completed
+2026-09-21 12:53:10,764 - INFO - Bot execution started
+2026-09-21 12:53:13,806 - INFO - Login credentials retrieved from config file
+2026-09-21 12:53:19,012 - INFO - OrangeHRM application opened
+2026-09-21 12:53:24,104 - INFO - Login successful
+2026-09-21 12:53:24,105 - INFO - Dashboard displayed successfully
+2026-09-21 12:53:31,278 - INFO - PIM page opened successfully
+2026-09-21 12:53:34,297 - INFO - Employee data read from Excel. Total employees: 5
+2026-09-21 12:53:36,077 - INFO - Add Employee page opened for Michael Anderson
+2026-09-21 12:53:53,743 - INFO - Employee Personal details filled successfully
+2026-09-21 12:53:53,943 - INFO - Employee created successfully: Michael Anderson
+2026-09-21 12:53:53,972 - INFO - Employee created successfully: Michael Anderson
+2026-09-21 12:54:01,377 - INFO - Add Employee page opened for Sophia Williams
+2026-09-21 12:54:10,479 - INFO - Completion email sent
+2026-09-21 12:54:10,479 - INFO - Bot execution completed
+2026-09-21 12:54:17,155 - INFO - Bot execution started
+2026-09-21 12:54:33,750 - INFO - Login credentials retrieved from config file
+2026-09-21 12:54:37,690 - INFO - OrangeHRM application opened
+2026-09-21 12:54:42,310 - INFO - Login successful
+2026-09-21 12:54:42,310 - INFO - Dashboard displayed successfully
+2026-09-21 12:54:50,005 - INFO - PIM page opened successfully
+2026-09-21 12:54:53,039 - INFO - Employee data read from Excel. Total employees: 5
+2026-09-21 12:54:54,644 - INFO - Add Employee page opened for Michael Anderson
+2026-09-21 12:55:27,280 - ERROR - Employee creation failed: Michael Anderson
+2026-09-21 12:55:34,036 - INFO - Add Employee page opened for Sophia Williams
+2026-09-21 12:55:48,224 - INFO - Completion email sent
+2026-09-21 12:55:48,225 - INFO - Bot execution completed
+2026-09-21 13:10:39,402 - INFO - Bot execution started
+2026-09-21 13:10:42,345 - INFO - Login credentials retrieved from config file
+2026-09-21 13:10:47,210 - INFO - OrangeHRM application opened
+2026-09-21 13:10:54,372 - INFO - Login successful
+2026-09-21 13:10:54,372 - INFO - Dashboard displayed successfully
+2026-09-21 13:11:01,976 - INFO - PIM page opened successfully
+2026-09-21 13:11:05,028 - INFO - Employee data read from Excel. Total employees: 5
+2026-09-21 13:11:06,935 - INFO - Add Employee page opened for Michael Anderson
+2026-09-21 13:11:15,877 - INFO - Employee Personal details filled successfully
+2026-09-21 13:11:16,089 - INFO - Employee created successfully: Michael Anderson
+2026-09-21 13:11:16,119 - INFO - Employee created successfully: Michael Anderson
+2026-09-21 13:11:21,852 - INFO - Add Employee page opened for Sophia Williams
+2026-09-21 13:11:30,749 - INFO - Employee Personal details filled successfully
+2026-09-21 13:11:30,936 - INFO - Employee created successfully: Sophia Williams
+2026-09-21 13:11:30,975 - INFO - Employee created successfully: Sophia Williams
+2026-09-21 13:11:35,779 - INFO - Add Employee page opened for Daniel Thompson
+2026-09-21 13:11:44,661 - INFO - Employee Personal details filled successfully
+2026-09-21 13:11:44,902 - INFO - Employee created successfully: Daniel Thompson
+2026-09-21 13:11:44,941 - INFO - Employee created successfully: Daniel Thompson
+2026-09-21 13:11:49,747 - INFO - Add Employee page opened for Emily Johnson
+2026-09-21 13:11:58,120 - INFO - Employee Personal details filled successfully
+2026-09-21 13:11:58,291 - INFO - Employee created successfully: Emily Johnson
+2026-09-21 13:11:58,317 - INFO - Employee created successfully: Emily Johnson
+2026-09-21 13:12:03,110 - INFO - Add Employee page opened for James Martinez
+2026-09-21 13:12:12,031 - INFO - Employee Personal details filled successfully
+2026-09-21 13:12:12,216 - INFO - Employee created successfully: James Martinez
+2026-09-21 13:12:12,257 - INFO - Employee created successfully: James Martinez
+2026-09-21 13:12:16,809 - INFO - Browser closed successfully
+2026-09-21 13:12:20,379 - INFO - Completion email sent
+2026-09-21 13:12:20,379 - INFO - Bot execution completed
+2026-09-21 13:17:58,177 - INFO - Bot execution started
+2026-09-21 13:18:04,944 - INFO - Login credentials retrieved from config file
+2026-09-21 13:18:10,364 - INFO - OrangeHRM application opened
+2026-09-21 13:18:14,807 - INFO - Login successful
+2026-09-21 13:18:14,807 - INFO - Dashboard displayed successfully
+2026-09-21 13:18:27,717 - INFO - PIM page opened successfully
+2026-09-21 13:18:30,732 - INFO - Employee data read from Excel. Total employees: 5
+2026-09-21 13:18:37,796 - INFO - Add Employee page opened for Michael Anderson
+2026-09-21 13:19:11,501 - ERROR - Employee creation failed: Michael Anderson
+2026-09-21 13:19:15,910 - ERROR - Future exception was never retrieved
+future: <Future finished exception=TargetClosedError('Target page, context or browser has been closed')>
+playwright._impl._errors.TargetClosedError: Target page, context or browser has been closed
+2026-09-21 13:20:41,237 - INFO - Bot execution started
+2026-09-21 13:23:25,492 - INFO - Bot execution started
+2026-09-21 14:21:11,321 - INFO - Bot execution started
+2026-09-21 14:21:13,819 - INFO - Login credentials retrieved from config file
+2026-09-21 14:21:17,156 - INFO - OrangeHRM application opened
+2026-09-21 14:21:20,261 - INFO - Login successful
+2026-09-21 14:21:20,262 - INFO - Dashboard displayed successfully
+2026-09-21 14:21:26,368 - INFO - PIM page opened successfully
+2026-09-21 14:21:29,389 - INFO - Employee data read from Excel. Total employees: 5
+2026-09-21 14:21:31,256 - INFO - Add Employee page opened for Michael Anderson
+2026-09-21 14:21:40,880 - INFO - Employee Personal details filled successfully
+2026-09-21 14:21:41,106 - INFO - Employee created successfully: Michael Anderson
+2026-09-21 14:21:41,180 - INFO - Employee created successfully: Michael Anderson
+2026-09-21 14:21:46,805 - INFO - Add Employee page opened for Sophia Williams
+2026-09-21 14:21:55,819 - INFO - Employee Personal details filled successfully
+2026-09-21 14:21:56,090 - INFO - Employee created successfully: Sophia Williams
+2026-09-21 14:21:56,143 - INFO - Employee created successfully: Sophia Williams
+2026-09-21 14:22:01,104 - INFO - Add Employee page opened for Daniel Thompson
+2026-09-21 14:22:10,171 - INFO - Employee Personal details filled successfully
+2026-09-21 14:22:10,475 - INFO - Employee created successfully: Daniel Thompson
+2026-09-21 14:22:10,566 - INFO - Employee created successfully: Daniel Thompson
+2026-09-21 14:22:15,874 - INFO - Add Employee page opened for Emily Johnson
+2026-09-21 14:22:23,392 - INFO - Employee Personal details filled successfully
+2026-09-21 14:22:23,605 - INFO - Employee created successfully: Emily Johnson
+2026-09-21 14:22:23,645 - INFO - Employee created successfully: Emily Johnson
+2026-09-21 14:22:28,468 - INFO - Add Employee page opened for James Martinez
+2026-09-21 14:22:36,907 - INFO - Employee Personal details filled successfully
+2026-09-21 14:22:37,118 - INFO - Employee created successfully: James Martinez
+2026-09-21 14:22:37,170 - INFO - Employee created successfully: James Martinez
+2026-09-21 14:22:41,849 - INFO - Browser closed successfully
+2026-09-21 14:22:45,763 - INFO - Completion email sent
+2026-09-21 14:22:45,764 - INFO - Bot execution completed
