@@ -698,3 +698,1834 @@ playwright._impl._errors.TargetClosedError: Target page, context or browser has 
 2026-09-21 14:22:41,849 - INFO - Browser closed successfully
 2026-09-21 14:22:45,763 - INFO - Completion email sent
 2026-09-21 14:22:45,764 - INFO - Bot execution completed
+2026-09-21 15:11:36,547 - INFO - Bot execution started
+2026-09-21 15:11:36,548 - ERROR - Critical bot execution failure
+Traceback (most recent call last):
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\main.py", line 35, in main
+    file_path = get_employee_file_path()
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\config\config_reader.py", line 31, in get_employee_file_path
+    file_path = config["FILES"]["employee_excel"]
+                ~~~~~~^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\configparser.py", line 1000, in __getitem__
+    raise KeyError(key)
+KeyError: 'FILES'
+2026-09-21 15:11:40,612 - INFO - Completion email sent
+2026-09-21 15:11:40,612 - INFO - Bot execution completed
+2026-09-21 15:14:44,201 - INFO - ============================================================
+2026-09-21 15:14:44,202 - INFO - BOT EXECUTION STARTED
+2026-09-21 15:14:44,202 - INFO - ============================================================
+2026-09-21 15:14:44,202 - ERROR - Critical bot execution failure
+Traceback (most recent call last):
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\main.py", line 31, in main
+    file_path = get_employee_file_path()
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\config\config_reader.py", line 31, in get_employee_file_path
+    file_path = config["FILES"]["employee_excel"]
+                ~~~~~~^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\configparser.py", line 1000, in __getitem__
+    raise KeyError(key)
+KeyError: 'FILES'
+2026-09-21 15:28:39,641 - INFO - ============================================================
+2026-09-21 15:28:39,641 - INFO - BOT STARTED
+2026-09-21 15:28:39,641 - INFO - ============================================================
+2026-09-21 15:28:39,641 - INFO - Bot execution started
+2026-09-21 15:28:39,641 - ERROR - Critical bot execution failure
+Traceback (most recent call last):
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\main.py", line 39, in main
+    file_path = get_employee_file_path()
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\config\config_reader.py", line 23, in get_employee_file_path
+    file_path = config["FILES"]["employee_excel"]
+                ~~~~~~^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\configparser.py", line 1000, in __getitem__
+    raise KeyError(key)
+KeyError: 'FILES'
+2026-09-21 15:28:43,769 - INFO - Completion email sent
+2026-09-21 15:28:43,770 - INFO - Bot execution completed
+2026-09-21 16:51:58,061 - INFO - ============================================================
+2026-09-21 16:51:58,062 - INFO - BOT STARTED
+2026-09-21 16:51:58,062 - INFO - ============================================================
+2026-09-21 16:51:58,062 - INFO - Bot execution started
+2026-09-21 16:51:58,062 - ERROR - Critical bot execution failure
+Traceback (most recent call last):
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\main.py", line 39, in main
+    file_path = get_employee_file_path()
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\config\config_reader.py", line 23, in get_employee_file_path
+    file_path = config["FILES"]["employee_excel"]
+                ~~~~~~^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\configparser.py", line 1000, in __getitem__
+    raise KeyError(key)
+KeyError: 'FILES'
+2026-09-21 16:52:02,422 - INFO - Completion email sent
+2026-09-21 16:52:02,422 - INFO - Bot execution completed
+2026-09-21 16:58:49,586 - INFO - ============================================================
+2026-09-21 16:58:49,587 - INFO - BOT STARTED
+2026-09-21 16:58:49,587 - INFO - ============================================================
+2026-09-21 16:58:49,587 - ERROR - Critical bot execution failure
+Traceback (most recent call last):
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\main.py", line 30, in main
+    file_path = get_employee_file_path()
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\config\config_reader.py", line 23, in get_employee_file_path
+    file_path = config["FILES"]["employee_excel"]
+                ~~~~~~^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\configparser.py", line 1000, in __getitem__
+    raise KeyError(key)
+KeyError: 'FILES'
+2026-09-21 16:58:53,426 - INFO - Completion email sent.
+2026-09-21 16:58:53,426 - INFO - Bot execution completed.
+2026-09-21 17:12:46,297 - INFO - ============================================================
+2026-09-21 17:12:46,298 - INFO - BOT STARTED
+2026-09-21 17:12:46,298 - INFO - ============================================================
+2026-09-21 17:12:46,298 - ERROR - Critical bot execution failure
+Traceback (most recent call last):
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\main.py", line 30, in main
+    file_path = get_employee_file_path()
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\config\config_reader.py", line 23, in get_employee_file_path
+    file_path = config["FILES"]["employee_excel"]
+                ~~~~~~^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\configparser.py", line 1000, in __getitem__
+    raise KeyError(key)
+KeyError: 'FILES'
+2026-09-21 17:12:50,215 - INFO - Completion email sent.
+2026-09-21 17:12:50,215 - INFO - Bot execution completed.
+2026-09-21 17:15:14,767 - INFO - ============================================================
+2026-09-21 17:15:14,768 - INFO - BOT STARTED
+2026-09-21 17:15:14,768 - INFO - ============================================================
+2026-09-21 17:15:14,769 - ERROR - Critical bot execution failure
+Traceback (most recent call last):
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\main.py", line 30, in main
+    file_path = get_employee_file_path()
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\config\config_reader.py", line 23, in get_employee_file_path
+    file_path = config["FILES"]["employee_excel"]
+                ~~~~~~^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\configparser.py", line 1000, in __getitem__
+    raise KeyError(key)
+KeyError: 'FILES'
+2026-09-22 12:44:23,509 - INFO - Browser started
+2026-09-22 12:44:23,511 - ERROR - Bot execution failed: cannot access local variable 'login' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\modules\bot_runner.py", line 38, in run_bot
+    login = login(
+            ^^^^^
+UnboundLocalError: cannot access local variable 'login' where it is not associated with a value
+2026-09-22 12:44:23,995 - INFO - Browser closed successfully
+2026-09-22 12:44:24,015 - ERROR - Bot execution failed
+Traceback (most recent call last):
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\main.py", line 50, in main
+    total_employees, successful_records, failed_records, errors = run_bot(
+                                                                  ~~~~~~~^
+        file_path,
+        ^^^^^^^^^^
+        username,
+        ^^^^^^^^^
+        password
+        ^^^^^^^^
+    )
+    ^
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\modules\bot_runner.py", line 38, in run_bot
+    login = login(
+            ^^^^^
+UnboundLocalError: cannot access local variable 'login' where it is not associated with a value
+2026-09-22 14:12:15,153 - INFO - Browser started
+2026-09-22 14:12:15,154 - ERROR - Bot execution failed: login() missing 1 required positional argument: 'url'
+Traceback (most recent call last):
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\modules\bot_runner.py", line 36, in run_bot
+    login(
+    ~~~~~^
+        page,
+        ^^^^^
+        username,
+        ^^^^^^^^^
+        password
+        ^^^^^^^^
+    )
+    ^
+TypeError: login() missing 1 required positional argument: 'url'
+2026-09-22 14:12:15,650 - INFO - Browser closed successfully
+2026-09-22 14:12:15,675 - ERROR - Bot execution failed
+Traceback (most recent call last):
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\main.py", line 50, in main
+    total_employees, successful_records, failed_records, errors = run_bot(
+                                                                  ~~~~~~~^
+        file_path,
+        ^^^^^^^^^^
+        username,
+        ^^^^^^^^^
+        password
+        ^^^^^^^^
+    )
+    ^
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\modules\bot_runner.py", line 36, in run_bot
+    login(
+    ~~~~~^
+        page,
+        ^^^^^
+        username,
+        ^^^^^^^^^
+        password
+        ^^^^^^^^
+    )
+    ^
+TypeError: login() missing 1 required positional argument: 'url'
+2026-09-22 14:19:46,311 - INFO - Browser started
+2026-09-22 14:20:20,531 - INFO - Login successful
+2026-09-22 14:20:33,303 - INFO - PIM page opened successfully
+2026-09-22 14:20:33,303 - INFO - PIM opened
+2026-09-22 14:20:33,318 - INFO - Employee data read from Excel. Total employees: 5
+2026-09-22 14:20:44,144 - INFO - Creating employee: Michael Anderson
+2026-09-22 14:20:44,257 - ERROR - Employee creation failed: Michael Anderson
+2026-09-22 14:20:56,675 - INFO - Creating employee: Sophia Williams
+2026-09-22 14:20:56,787 - ERROR - Employee creation failed: Sophia Williams
+2026-09-22 14:21:11,172 - INFO - Creating employee: Daniel Thompson
+2026-09-22 14:21:11,272 - ERROR - Employee creation failed: Daniel Thompson
+2026-09-22 14:21:24,886 - INFO - Creating employee: Emily Johnson
+2026-09-22 14:21:25,008 - ERROR - Employee creation failed: Emily Johnson
+2026-09-22 14:21:34,501 - INFO - Creating employee: James Martinez
+2026-09-22 14:21:34,626 - ERROR - Employee creation failed: James Martinez
+2026-09-22 14:21:37,195 - INFO - Browser closed successfully
+2026-09-22 14:49:08,342 - INFO - Browser started
+2026-09-22 14:49:59,567 - INFO - Login successful
+2026-09-22 14:50:10,843 - INFO - PIM page opened successfully
+2026-09-22 14:50:10,843 - INFO - PIM opened
+2026-09-22 14:50:10,862 - INFO - Employee data read from Excel. Total employees: 5
+2026-09-22 14:50:23,841 - INFO - Creating employee: Michael Anderson
+2026-09-22 14:51:30,321 - ERROR - Employee creation failed: Michael Anderson
+2026-09-22 14:51:41,991 - INFO - Creating employee: Sophia Williams
+2026-09-22 14:52:52,923 - ERROR - Employee creation failed: Sophia Williams
+2026-09-22 14:53:02,912 - INFO - Creating employee: Daniel Thompson
+2026-09-22 14:54:11,963 - ERROR - Employee creation failed: Daniel Thompson
+2026-09-22 14:54:20,963 - INFO - Creating employee: Emily Johnson
+2026-09-22 14:55:28,168 - ERROR - Employee creation failed: Emily Johnson
+2026-09-22 14:55:37,739 - INFO - Creating employee: James Martinez
+2026-09-22 14:56:43,061 - ERROR - Employee creation failed: James Martinez
+2026-09-22 14:56:45,714 - INFO - Browser closed successfully
+2026-09-22 15:02:50,309 - INFO - Browser started
+2026-09-22 15:03:38,709 - INFO - Login successful
+2026-09-22 15:03:58,887 - INFO - PIM page opened successfully
+2026-09-22 15:03:58,887 - INFO - PIM opened
+2026-09-22 15:03:58,917 - INFO - Employee data read from Excel. Total employees: 5
+2026-09-22 15:04:07,886 - INFO - Creating employee: Michael Anderson
+2026-09-22 15:04:45,989 - ERROR - Employee creation failed: Michael Anderson
+2026-09-22 15:04:54,320 - INFO - Creating employee: Sophia Williams
+2026-09-22 15:05:31,333 - ERROR - Employee creation failed: Sophia Williams
+2026-09-22 15:05:41,444 - INFO - Creating employee: Daniel Thompson
+2026-09-22 15:06:18,479 - ERROR - Employee creation failed: Daniel Thompson
+2026-09-22 15:06:29,485 - INFO - Creating employee: Emily Johnson
+2026-09-22 15:07:06,998 - ERROR - Employee creation failed: Emily Johnson
+2026-09-22 15:07:19,374 - INFO - Creating employee: James Martinez
+2026-09-22 15:07:59,672 - ERROR - Employee creation failed: James Martinez
+2026-09-22 15:08:02,233 - INFO - Browser closed successfully
+2026-09-22 15:08:19,283 - INFO - Browser started
+2026-09-22 15:08:40,389 - ERROR - Bot execution failed: Target page, context or browser has been closed
+Traceback (most recent call last):
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\modules\bot_runner.py", line 40, in run_bot
+    login(
+    ~~~~~^
+        page,
+        ^^^^^
+    ...<2 lines>...
+        url
+        ^^^
+    )
+    ^
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\modules\login.py", line 114, in login
+    page.wait_for_load_state("networkidle")
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\sync_api\_generated.py", line 9875, in wait_for_load_state
+    self._sync(
+    ~~~~~~~~~~^
+        self._impl_obj.wait_for_load_state(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+            state=state, timeout=to_milliseconds(timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        )
+        ^
+    )
+    ^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_page.py", line 580, in wait_for_load_state
+    return await self._main_frame.wait_for_load_state(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_frame.py", line 298, in wait_for_load_state
+    return await self._wait_for_load_state_impl(state, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_frame.py", line 326, in _wait_for_load_state_impl
+    await waiter.result()
+playwright._impl._errors.Error: Target page, context or browser has been closed
+2026-09-22 15:08:41,059 - INFO - Browser closed successfully
+2026-09-22 15:08:41,086 - ERROR - Bot execution failed
+Traceback (most recent call last):
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\main.py", line 50, in main
+    total_employees, successful_records, failed_records, errors = run_bot(
+                                                                  ~~~~~~~^
+        file_path,
+        ^^^^^^^^^^
+        username,
+        ^^^^^^^^^
+        password
+        ^^^^^^^^
+    )
+    ^
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\modules\bot_runner.py", line 40, in run_bot
+    login(
+    ~~~~~^
+        page,
+        ^^^^^
+    ...<2 lines>...
+        url
+        ^^^
+    )
+    ^
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\modules\login.py", line 114, in login
+    page.wait_for_load_state("networkidle")
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\sync_api\_generated.py", line 9875, in wait_for_load_state
+    self._sync(
+    ~~~~~~~~~~^
+        self._impl_obj.wait_for_load_state(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+            state=state, timeout=to_milliseconds(timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        )
+        ^
+    )
+    ^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_page.py", line 580, in wait_for_load_state
+    return await self._main_frame.wait_for_load_state(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_frame.py", line 298, in wait_for_load_state
+    return await self._wait_for_load_state_impl(state, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_frame.py", line 326, in _wait_for_load_state_impl
+    await waiter.result()
+playwright._impl._errors.Error: Target page, context or browser has been closed
+2026-09-22 15:52:10,644 - INFO - Login cancelled by user
+2026-09-22 15:52:42,430 - INFO - Browser started
+2026-09-22 15:53:04,676 - ERROR - Bot execution failed: Page.goto: net::ERR_CONNECTION_TIMED_OUT at https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+Call log:
+  - navigating to "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login", waiting until "domcontentloaded"
+Traceback (most recent call last):
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\modules\bot_runner.py", line 32, in run_bot
+    browser, context, page = start_browser(p)
+                             ~~~~~~~~~~~~~^^^
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\browser\browser_manager.py", line 41, in start_browser
+    page.goto(
+    ~~~~~~~~~^
+        get_orangehrm_url(),
+        ^^^^^^^^^^^^^^^^^^^^
+        wait_until="domcontentloaded"
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\sync_api\_generated.py", line 9770, in goto
+    self._sync(
+    ~~~~~~~~~~^
+        self._impl_obj.goto(
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        )
+        ^
+    )
+    ^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_page.py", line 560, in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_frame.py", line 156, in goto
+    await self._channel.send(
+        "goto", self._navigation_timeout, locals_to_params(locals())
+    )
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_connection.py", line 563, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: Page.goto: net::ERR_CONNECTION_TIMED_OUT at https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+Call log:
+  - navigating to "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login", waiting until "domcontentloaded"
+
+2026-09-22 15:53:04,682 - INFO - Browser closed successfully
+2026-09-22 15:53:05,245 - ERROR - Bot execution failed
+Traceback (most recent call last):
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\main.py", line 50, in main
+    total_employees, successful_records, failed_records, errors = run_bot(
+                                                                  ~~~~~~~^
+        file_path,
+        ^^^^^^^^^^
+        username,
+        ^^^^^^^^^
+        password
+        ^^^^^^^^
+    )
+    ^
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\modules\bot_runner.py", line 32, in run_bot
+    browser, context, page = start_browser(p)
+                             ~~~~~~~~~~~~~^^^
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\browser\browser_manager.py", line 41, in start_browser
+    page.goto(
+    ~~~~~~~~~^
+        get_orangehrm_url(),
+        ^^^^^^^^^^^^^^^^^^^^
+        wait_until="domcontentloaded"
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\sync_api\_generated.py", line 9770, in goto
+    self._sync(
+    ~~~~~~~~~~^
+        self._impl_obj.goto(
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        )
+        ^
+    )
+    ^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_page.py", line 560, in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_frame.py", line 156, in goto
+    await self._channel.send(
+        "goto", self._navigation_timeout, locals_to_params(locals())
+    )
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_connection.py", line 563, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: Page.goto: net::ERR_CONNECTION_TIMED_OUT at https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+Call log:
+  - navigating to "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login", waiting until "domcontentloaded"
+
+2026-09-22 15:53:25,578 - INFO - Browser started
+2026-09-22 15:53:47,362 - ERROR - Bot execution failed: Page.goto: net::ERR_CONNECTION_TIMED_OUT at https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+Call log:
+  - navigating to "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login", waiting until "domcontentloaded"
+Traceback (most recent call last):
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\modules\bot_runner.py", line 32, in run_bot
+    browser, context, page = start_browser(p)
+                             ~~~~~~~~~~~~~^^^
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\browser\browser_manager.py", line 41, in start_browser
+    page.goto(
+    ~~~~~~~~~^
+        get_orangehrm_url(),
+        ^^^^^^^^^^^^^^^^^^^^
+        wait_until="domcontentloaded"
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\sync_api\_generated.py", line 9770, in goto
+    self._sync(
+    ~~~~~~~~~~^
+        self._impl_obj.goto(
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        )
+        ^
+    )
+    ^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_page.py", line 560, in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_frame.py", line 156, in goto
+    await self._channel.send(
+        "goto", self._navigation_timeout, locals_to_params(locals())
+    )
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_connection.py", line 563, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: Page.goto: net::ERR_CONNECTION_TIMED_OUT at https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+Call log:
+  - navigating to "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login", waiting until "domcontentloaded"
+
+2026-09-22 15:53:47,366 - INFO - Browser closed successfully
+2026-09-22 15:53:47,870 - ERROR - Bot execution failed
+Traceback (most recent call last):
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\main.py", line 50, in main
+    total_employees, successful_records, failed_records, errors = run_bot(
+                                                                  ~~~~~~~^
+        file_path,
+        ^^^^^^^^^^
+        username,
+        ^^^^^^^^^
+        password
+        ^^^^^^^^
+    )
+    ^
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\modules\bot_runner.py", line 32, in run_bot
+    browser, context, page = start_browser(p)
+                             ~~~~~~~~~~~~~^^^
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\browser\browser_manager.py", line 41, in start_browser
+    page.goto(
+    ~~~~~~~~~^
+        get_orangehrm_url(),
+        ^^^^^^^^^^^^^^^^^^^^
+        wait_until="domcontentloaded"
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\sync_api\_generated.py", line 9770, in goto
+    self._sync(
+    ~~~~~~~~~~^
+        self._impl_obj.goto(
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        )
+        ^
+    )
+    ^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_page.py", line 560, in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_frame.py", line 156, in goto
+    await self._channel.send(
+        "goto", self._navigation_timeout, locals_to_params(locals())
+    )
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_connection.py", line 563, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: Page.goto: net::ERR_CONNECTION_TIMED_OUT at https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+Call log:
+  - navigating to "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login", waiting until "domcontentloaded"
+
+2026-09-22 15:54:20,230 - INFO - Browser started
+2026-09-22 15:54:42,139 - ERROR - Bot execution failed: Page.goto: net::ERR_CONNECTION_TIMED_OUT at https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+Call log:
+  - navigating to "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login", waiting until "domcontentloaded"
+Traceback (most recent call last):
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\modules\bot_runner.py", line 32, in run_bot
+    browser, context, page = start_browser(p)
+                             ~~~~~~~~~~~~~^^^
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\browser\browser_manager.py", line 41, in start_browser
+    page.goto(
+    ~~~~~~~~~^
+        get_orangehrm_url(),
+        ^^^^^^^^^^^^^^^^^^^^
+        wait_until="domcontentloaded"
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\sync_api\_generated.py", line 9770, in goto
+    self._sync(
+    ~~~~~~~~~~^
+        self._impl_obj.goto(
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        )
+        ^
+    )
+    ^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_page.py", line 560, in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_frame.py", line 156, in goto
+    await self._channel.send(
+        "goto", self._navigation_timeout, locals_to_params(locals())
+    )
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_connection.py", line 563, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: Page.goto: net::ERR_CONNECTION_TIMED_OUT at https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+Call log:
+  - navigating to "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login", waiting until "domcontentloaded"
+
+2026-09-22 15:54:42,143 - INFO - Browser closed successfully
+2026-09-22 15:54:42,752 - ERROR - Bot execution failed
+Traceback (most recent call last):
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\main.py", line 50, in main
+    total_employees, successful_records, failed_records, errors = run_bot(
+                                                                  ~~~~~~~^
+        file_path,
+        ^^^^^^^^^^
+        username,
+        ^^^^^^^^^
+        password
+        ^^^^^^^^
+    )
+    ^
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\modules\bot_runner.py", line 32, in run_bot
+    browser, context, page = start_browser(p)
+                             ~~~~~~~~~~~~~^^^
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\browser\browser_manager.py", line 41, in start_browser
+    page.goto(
+    ~~~~~~~~~^
+        get_orangehrm_url(),
+        ^^^^^^^^^^^^^^^^^^^^
+        wait_until="domcontentloaded"
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\sync_api\_generated.py", line 9770, in goto
+    self._sync(
+    ~~~~~~~~~~^
+        self._impl_obj.goto(
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        )
+        ^
+    )
+    ^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_page.py", line 560, in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_frame.py", line 156, in goto
+    await self._channel.send(
+        "goto", self._navigation_timeout, locals_to_params(locals())
+    )
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_connection.py", line 563, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: Page.goto: net::ERR_CONNECTION_TIMED_OUT at https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+Call log:
+  - navigating to "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login", waiting until "domcontentloaded"
+
+2026-09-22 15:57:29,669 - INFO - Browser started
+2026-09-22 15:58:46,004 - INFO - Login successful
+2026-09-22 15:59:10,740 - INFO - PIM page opened successfully
+2026-09-22 15:59:10,740 - INFO - PIM opened
+2026-09-22 15:59:10,757 - INFO - Employee data read from Excel. Total employees: 5
+2026-09-22 15:59:23,403 - INFO - Creating employee: Michael Anderson
+2026-09-22 15:59:56,359 - INFO - Employee Personal details filled successfully
+2026-09-22 15:59:56,589 - INFO - Employee created successfully: Michael Anderson
+2026-09-22 15:59:56,666 - INFO - Employee created successfully: Michael Anderson
+2026-09-22 16:00:04,083 - INFO - Creating employee: Sophia Williams
+2026-09-22 16:00:37,241 - INFO - Employee Personal details filled successfully
+2026-09-22 16:00:37,466 - INFO - Employee created successfully: Sophia Williams
+2026-09-22 16:00:37,541 - INFO - Employee created successfully: Sophia Williams
+2026-09-22 16:00:47,367 - INFO - Creating employee: Daniel Thompson
+2026-09-22 16:01:14,933 - INFO - Employee Personal details filled successfully
+2026-09-22 16:01:15,094 - INFO - Employee created successfully: Daniel Thompson
+2026-09-22 16:01:15,133 - INFO - Employee created successfully: Daniel Thompson
+2026-09-22 16:01:21,542 - INFO - Creating employee: Emily Johnson
+2026-09-22 16:01:35,568 - INFO - Employee Personal details filled successfully
+2026-09-22 16:01:35,755 - INFO - Employee created successfully: Emily Johnson
+2026-09-22 16:01:35,797 - INFO - Employee created successfully: Emily Johnson
+2026-09-22 16:01:39,052 - INFO - Creating employee: James Martinez
+2026-09-22 16:01:48,159 - INFO - Employee Personal details filled successfully
+2026-09-22 16:01:48,346 - INFO - Employee created successfully: James Martinez
+2026-09-22 16:01:48,408 - INFO - Employee created successfully: James Martinez
+2026-09-22 16:01:50,995 - INFO - Browser closed successfully
+2026-09-22 16:01:51,051 - INFO - Failed employee rows formatted successfully
+2026-09-22 16:28:50,326 - INFO - Browser started
+2026-09-22 16:29:06,817 - INFO - Login successful
+2026-09-22 16:29:10,810 - INFO - PIM page opened successfully
+2026-09-22 16:29:10,811 - INFO - PIM opened
+2026-09-22 16:29:10,826 - INFO - Employee data read from Excel. Total employees: 5
+2026-09-22 16:29:14,853 - INFO - Creating employee: Michael Anderson
+2026-09-22 16:29:25,308 - INFO - Employee Personal details filled successfully
+2026-09-22 16:29:25,524 - INFO - Employee created successfully: Michael Anderson
+2026-09-22 16:29:25,558 - INFO - Employee created successfully: Michael Anderson
+2026-09-22 16:29:29,397 - INFO - Creating employee: Sophia Williams
+2026-09-22 16:29:37,937 - INFO - Employee Personal details filled successfully
+2026-09-22 16:29:38,248 - INFO - Employee created successfully: Sophia Williams
+2026-09-22 16:29:38,366 - INFO - Employee created successfully: Sophia Williams
+2026-09-22 16:29:41,699 - INFO - Creating employee: Daniel Thompson
+2026-09-22 16:29:50,452 - INFO - Employee Personal details filled successfully
+2026-09-22 16:29:50,550 - ERROR - Employee creation failed: Daniel Thompson
+2026-09-22 16:29:53,821 - INFO - Creating employee: Emily Johnson
+2026-09-22 16:30:04,685 - INFO - Employee Personal details filled successfully
+2026-09-22 16:30:04,897 - INFO - Employee created successfully: Emily Johnson
+2026-09-22 16:30:04,937 - INFO - Employee created successfully: Emily Johnson
+2026-09-22 16:30:07,947 - INFO - Creating employee: James Martinez
+2026-09-22 16:30:17,835 - INFO - Employee Personal details filled successfully
+2026-09-22 16:30:18,019 - INFO - Employee created successfully: James Martinez
+2026-09-22 16:30:18,060 - INFO - Employee created successfully: James Martinez
+2026-09-22 16:30:20,737 - INFO - Browser closed successfully
+2026-09-22 16:30:20,794 - INFO - Failed employee rows formatted successfully
+2026-09-22 17:28:57,970 - INFO - Browser started
+2026-09-22 17:29:17,905 - INFO - Login successful
+2026-09-22 17:29:24,269 - INFO - PIM page opened successfully
+2026-09-22 17:29:24,269 - INFO - PIM opened
+2026-09-22 17:29:24,302 - INFO - Employee data read from Excel. Total employees: 5
+2026-09-22 17:29:31,953 - INFO - Creating employee: Michael Anderson
+2026-09-22 17:30:22,195 - ERROR - Employee creation failed: Michael Anderson
+2026-09-22 17:30:55,963 - ERROR - Bot execution failed: Page.screenshot: Target page, context or browser has been closed
+Call log:
+  - taking page screenshot
+  - waiting for fonts to load...
+  - fonts loaded
+Traceback (most recent call last):
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\modules\bot_runner.py", line 61, in run_bot
+    result = process_employees(
+        page,
+        file_path
+    )
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\modules\employee_processor.py", line 101, in process_employees
+    take_screenshot(
+    ~~~~~~~~~~~~~~~^
+        page,
+        ^^^^^
+        employee_name
+        ^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\utils\screenshot.py", line 33, in take_screenshot
+    page.screenshot(
+    ~~~~~~~~~~~~~~~^
+        path=str(screenshot_path),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+        full_page=True
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\sync_api\_generated.py", line 10754, in screenshot
+    self._sync(
+    ~~~~~~~~~~^
+        self._impl_obj.screenshot(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<13 lines>...
+        )
+        ^
+    )
+    ^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_page.py", line 828, in screenshot
+    encoded_binary = await self._channel.send(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^
+        "screenshot", self._timeout_settings.timeout, params
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_connection.py", line 563, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: Page.screenshot: Target page, context or browser has been closed
+Call log:
+  - taking page screenshot
+  - waiting for fonts to load...
+  - fonts loaded
+
+2026-09-22 17:30:56,697 - INFO - Browser closed successfully
+2026-09-22 17:30:56,734 - ERROR - Bot execution failed
+Traceback (most recent call last):
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\main.py", line 50, in main
+    total_employees, successful_records, failed_records, errors = run_bot(
+                                                                  ~~~~~~~^
+        file_path,
+        ^^^^^^^^^^
+        username,
+        ^^^^^^^^^
+        password
+        ^^^^^^^^
+    )
+    ^
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\modules\bot_runner.py", line 61, in run_bot
+    result = process_employees(
+        page,
+        file_path
+    )
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\modules\employee_processor.py", line 101, in process_employees
+    take_screenshot(
+    ~~~~~~~~~~~~~~~^
+        page,
+        ^^^^^
+        employee_name
+        ^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\utils\screenshot.py", line 33, in take_screenshot
+    page.screenshot(
+    ~~~~~~~~~~~~~~~^
+        path=str(screenshot_path),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+        full_page=True
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\sync_api\_generated.py", line 10754, in screenshot
+    self._sync(
+    ~~~~~~~~~~^
+        self._impl_obj.screenshot(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<13 lines>...
+        )
+        ^
+    )
+    ^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_page.py", line 828, in screenshot
+    encoded_binary = await self._channel.send(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^
+        "screenshot", self._timeout_settings.timeout, params
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_connection.py", line 563, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: Page.screenshot: Target page, context or browser has been closed
+Call log:
+  - taking page screenshot
+  - waiting for fonts to load...
+  - fonts loaded
+
+2026-09-23 09:42:10,227 - INFO - Browser started
+2026-09-23 09:42:16,987 - INFO - Login successful
+2026-09-23 09:42:18,085 - INFO - PIM page opened successfully
+2026-09-23 09:42:18,085 - INFO - PIM opened
+2026-09-23 09:42:18,105 - INFO - Employee data read from Excel. Total employees: 5
+2026-09-23 09:42:19,082 - INFO - Creating employee: Michael Anderson
+2026-09-23 09:42:58,657 - ERROR - Employee creation failed: Michael Anderson
+2026-09-23 09:43:01,425 - INFO - Creating employee: Sophia Williams
+2026-09-23 09:43:11,357 - INFO - Employee Personal details filled successfully
+2026-09-23 09:43:12,570 - ERROR - Employee failed. Fields: ['Date of Birth', 'Attachment']
+2026-09-23 09:43:12,612 - INFO - Employee created successfully: Sophia Williams
+2026-09-23 09:43:15,409 - INFO - Creating employee: Daniel Thompson
+2026-09-23 09:43:24,174 - INFO - Employee Personal details filled successfully
+2026-09-23 09:43:25,377 - ERROR - Employee failed. Fields: ['Attachment']
+2026-09-23 09:43:25,442 - INFO - Employee created successfully: Daniel Thompson
+2026-09-23 09:43:28,215 - INFO - Creating employee: Emily Johnson
+2026-09-23 09:43:36,860 - INFO - Employee Personal details filled successfully
+2026-09-23 09:43:38,074 - ERROR - Employee failed. Fields: ['Attachment']
+2026-09-23 09:43:38,115 - INFO - Employee created successfully: Emily Johnson
+2026-09-23 09:43:40,872 - INFO - Creating employee: James Martinez
+2026-09-23 09:43:50,132 - INFO - Employee Personal details filled successfully
+2026-09-23 09:43:51,358 - ERROR - Employee failed. Fields: ['Date of Birth', 'Attachment']
+2026-09-23 09:43:51,397 - INFO - Employee created successfully: James Martinez
+2026-09-23 09:43:53,872 - INFO - Browser closed successfully
+2026-09-23 09:43:53,925 - INFO - Failed employee rows formatted successfully
+2026-09-23 09:54:46,750 - INFO - Browser started
+2026-09-23 09:54:54,667 - INFO - Login successful
+2026-09-23 09:54:55,802 - INFO - PIM page opened successfully
+2026-09-23 09:54:55,802 - INFO - PIM opened
+2026-09-23 09:54:55,837 - INFO - Employee data read from Excel. Total employees: 5
+2026-09-23 09:54:57,235 - INFO - Creating employee: Michael Anderson
+2026-09-23 10:02:04,771 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-27' coro=<Page.wait_for_url() done, defined at C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_page.py:582> exception=TimeoutError('Timeout 30000ms exceeded.\n=========================== logs ===========================\nwaiting for navigation to "**/pim/viewPersonalDetails/empNumber/**" until \'load\'\n============================================================')>
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_page.py", line 588, in wait_for_url
+    return await self._main_frame.wait_for_url(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_frame.py", line 288, in wait_for_url
+    async with self.expect_navigation(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+        url=url, waitUntil=waitUntil, timeout=timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ):
+    ^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_event_context_manager.py", line 33, in __aexit__
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_frame.py", line 264, in continuation
+    event = await waiter.result()
+            ^^^^^^^^^^^^^^^^^^^^^
+playwright._impl._errors.TimeoutError: Timeout 30000ms exceeded.
+=========================== logs ===========================
+waiting for navigation to "**/pim/viewPersonalDetails/empNumber/**" until 'load'
+============================================================
+2026-09-23 10:02:04,772 - ERROR - Future exception was never retrieved
+future: <Future finished exception=TargetClosedError('Target page, context or browser has been closed')>
+playwright._impl._errors.TargetClosedError: Target page, context or browser has been closed
+2026-09-23 10:06:29,281 - INFO - Browser started
+2026-09-23 10:06:35,765 - INFO - Login successful
+2026-09-23 10:06:36,885 - INFO - PIM page opened successfully
+2026-09-23 10:06:36,885 - INFO - PIM opened
+2026-09-23 10:06:36,905 - INFO - Employee data read from Excel. Total employees: 5
+2026-09-23 10:06:37,856 - INFO - Creating employee: Michael Anderson
+2026-09-23 10:06:46,653 - INFO - Employee Personal details filled successfully
+2026-09-23 10:06:47,878 - ERROR - Employee failed. Fields: ['Date of Birth', 'Attachment']
+2026-09-23 10:06:48,092 - ERROR - Bot execution failed: [Errno 13] Permission denied: 'C:\\Users\\Admin\\OneDrive - StayAhead\\Documents\\Demo_Sruthy\\Tasks\\Input\\EmployeeData.xlsx'
+Traceback (most recent call last):
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\modules\employee_processor.py", line 63, in process_employees
+    update_employee_status(
+    ~~~~~~~~~~~~~~~~~~~~~~^
+        file_path,
+        ^^^^^^^^^^
+    ...<2 lines>...
+        "Employee created and document uploaded successfully"
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\modules\excel_reader.py", line 86, in update_employee_status
+    workbook.save(file_path)
+    ~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\openpyxl\workbook\workbook.py", line 386, in save
+    save_workbook(self, filename)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\openpyxl\writer\excel.py", line 291, in save_workbook
+    archive = ZipFile(filename, 'w', ZIP_DEFLATED, allowZip64=True)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\zipfile\__init__.py", line 1367, in __init__
+    self.fp = io.open(file, filemode)
+              ~~~~~~~^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'C:\\Users\\Admin\\OneDrive - StayAhead\\Documents\\Demo_Sruthy\\Tasks\\Input\\EmployeeData.xlsx'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\modules\bot_runner.py", line 61, in run_bot
+    result = process_employees(
+        page,
+        file_path
+    )
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\modules\employee_processor.py", line 106, in process_employees
+    update_employee_status(
+    ~~~~~~~~~~~~~~~~~~~~~~^
+        file_path,
+        ^^^^^^^^^^
+    ...<2 lines>...
+        error_message
+        ^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\modules\excel_reader.py", line 86, in update_employee_status
+    workbook.save(file_path)
+    ~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\openpyxl\workbook\workbook.py", line 386, in save
+    save_workbook(self, filename)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\openpyxl\writer\excel.py", line 291, in save_workbook
+    archive = ZipFile(filename, 'w', ZIP_DEFLATED, allowZip64=True)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\zipfile\__init__.py", line 1367, in __init__
+    self.fp = io.open(file, filemode)
+              ~~~~~~~^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'C:\\Users\\Admin\\OneDrive - StayAhead\\Documents\\Demo_Sruthy\\Tasks\\Input\\EmployeeData.xlsx'
+2026-09-23 10:06:48,674 - INFO - Browser closed successfully
+2026-09-23 10:06:48,694 - ERROR - Bot execution failed
+Traceback (most recent call last):
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\modules\employee_processor.py", line 63, in process_employees
+    update_employee_status(
+    ~~~~~~~~~~~~~~~~~~~~~~^
+        file_path,
+        ^^^^^^^^^^
+    ...<2 lines>...
+        "Employee created and document uploaded successfully"
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\modules\excel_reader.py", line 86, in update_employee_status
+    workbook.save(file_path)
+    ~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\openpyxl\workbook\workbook.py", line 386, in save
+    save_workbook(self, filename)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\openpyxl\writer\excel.py", line 291, in save_workbook
+    archive = ZipFile(filename, 'w', ZIP_DEFLATED, allowZip64=True)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\zipfile\__init__.py", line 1367, in __init__
+    self.fp = io.open(file, filemode)
+              ~~~~~~~^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'C:\\Users\\Admin\\OneDrive - StayAhead\\Documents\\Demo_Sruthy\\Tasks\\Input\\EmployeeData.xlsx'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\main.py", line 50, in main
+    total_employees, successful_records, failed_records, errors = run_bot(
+                                                                  ~~~~~~~^
+        file_path,
+        ^^^^^^^^^^
+        username,
+        ^^^^^^^^^
+        password
+        ^^^^^^^^
+    )
+    ^
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\modules\bot_runner.py", line 61, in run_bot
+    result = process_employees(
+        page,
+        file_path
+    )
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\modules\employee_processor.py", line 106, in process_employees
+    update_employee_status(
+    ~~~~~~~~~~~~~~~~~~~~~~^
+        file_path,
+        ^^^^^^^^^^
+    ...<2 lines>...
+        error_message
+        ^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\modules\excel_reader.py", line 86, in update_employee_status
+    workbook.save(file_path)
+    ~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\openpyxl\workbook\workbook.py", line 386, in save
+    save_workbook(self, filename)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\openpyxl\writer\excel.py", line 291, in save_workbook
+    archive = ZipFile(filename, 'w', ZIP_DEFLATED, allowZip64=True)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\zipfile\__init__.py", line 1367, in __init__
+    self.fp = io.open(file, filemode)
+              ~~~~~~~^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'C:\\Users\\Admin\\OneDrive - StayAhead\\Documents\\Demo_Sruthy\\Tasks\\Input\\EmployeeData.xlsx'
+2026-09-23 10:07:43,371 - INFO - Browser started
+2026-09-23 10:07:50,925 - INFO - Login successful
+2026-09-23 10:07:52,454 - INFO - PIM page opened successfully
+2026-09-23 10:07:52,454 - INFO - PIM opened
+2026-09-23 10:07:52,469 - INFO - Employee data read from Excel. Total employees: 5
+2026-09-23 10:07:53,294 - INFO - Creating employee: Michael Anderson
+2026-09-23 10:08:02,251 - INFO - Employee Personal details filled successfully
+2026-09-23 10:08:03,494 - ERROR - Employee failed. Fields: ['Date of Birth', 'Attachment']
+2026-09-23 10:08:03,544 - INFO - Employee created successfully: Michael Anderson
+2026-09-23 10:08:06,395 - INFO - Creating employee: Sophia Williams
+2026-09-23 10:08:16,304 - INFO - Employee Personal details filled successfully
+2026-09-23 10:08:17,515 - ERROR - Employee failed. Fields: ['Date of Birth', 'Attachment']
+2026-09-23 10:08:17,556 - INFO - Employee created successfully: Sophia Williams
+2026-09-23 10:08:20,343 - INFO - Creating employee: Daniel Thompson
+2026-09-23 10:08:29,656 - INFO - Employee Personal details filled successfully
+2026-09-23 10:08:30,841 - ERROR - Employee failed. Fields: ['Attachment']
+2026-09-23 10:08:30,873 - INFO - Employee created successfully: Daniel Thompson
+2026-09-23 10:08:33,681 - INFO - Creating employee: Emily Johnson
+2026-09-23 10:09:13,045 - ERROR - Employee creation failed: Emily Johnson
+2026-09-23 10:09:15,969 - INFO - Creating employee: James Martinez
+2026-09-23 10:09:26,215 - INFO - Employee Personal details filled successfully
+2026-09-23 10:09:27,430 - ERROR - Employee failed. Fields: ['Date of Birth', 'Attachment']
+2026-09-23 10:09:27,462 - INFO - Employee created successfully: James Martinez
+2026-09-23 10:09:29,954 - INFO - Browser closed successfully
+2026-09-23 10:09:29,994 - INFO - Failed employee rows formatted successfully
+2026-09-23 10:28:03,272 - INFO - Browser started
+2026-09-23 10:28:10,057 - INFO - Login successful
+2026-09-23 10:28:11,178 - INFO - PIM page opened successfully
+2026-09-23 10:28:11,178 - INFO - PIM opened
+2026-09-23 10:28:11,218 - INFO - Employee data read from Excel. Total employees: 5
+2026-09-23 10:28:12,139 - INFO - Creating employee: Michael Anderson
+2026-09-23 10:28:21,119 - INFO - Employee Personal details filled successfully
+2026-09-23 10:28:22,376 - ERROR - Employee failed. Fields: ['Date of Birth', 'Attachment']
+2026-09-23 10:28:22,424 - INFO - Employee created successfully: Michael Anderson
+2026-09-23 10:28:25,223 - INFO - Creating employee: Sophia Williams
+2026-09-23 10:28:34,019 - INFO - Employee Personal details filled successfully
+2026-09-23 10:28:35,220 - ERROR - Employee failed. Fields: ['Date of Birth', 'Attachment']
+2026-09-23 10:28:35,261 - INFO - Employee created successfully: Sophia Williams
+2026-09-23 10:28:38,050 - INFO - Creating employee: Daniel Thompson
+2026-09-23 10:28:48,613 - INFO - Employee Personal details filled successfully
+2026-09-23 10:28:49,800 - ERROR - Employee failed. Fields: ['Attachment']
+2026-09-23 10:28:49,853 - INFO - Employee created successfully: Daniel Thompson
+2026-09-23 10:28:54,030 - INFO - Creating employee: Emily Johnson
+2026-09-23 10:29:42,438 - ERROR - Employee creation failed: Emily Johnson
+2026-09-23 10:29:45,224 - INFO - Creating employee: James Martinez
+2026-09-23 10:29:54,576 - INFO - Employee Personal details filled successfully
+2026-09-23 10:29:55,777 - ERROR - Employee failed. Fields: ['Date of Birth', 'Attachment']
+2026-09-23 10:29:55,812 - INFO - Employee created successfully: James Martinez
+2026-09-23 10:29:58,385 - INFO - Browser closed successfully
+2026-09-23 10:29:58,433 - INFO - Failed employee rows formatted successfully
+2026-09-23 10:29:58,434 - ERROR - Bot execution failed
+Traceback (most recent call last):
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\main.py", line 88, in main
+    email_status = send_completion_email(
+                    start_time,
+    ...<4 lines>...
+                    errors
+        )
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\utils\email_notification.py", line 139, in send_completion_email
+    total_employees = int(total_employees)
+ValueError: invalid literal for int() with base 10: 'total'
+2026-09-23 11:20:34,388 - INFO - Browser started
+2026-09-23 11:20:49,257 - INFO - Login successful
+2026-09-23 11:20:52,894 - INFO - PIM page opened successfully
+2026-09-23 11:20:52,894 - INFO - PIM opened
+2026-09-23 11:20:52,923 - INFO - Employee data read from Excel. Total employees: 5
+2026-09-23 11:20:55,891 - INFO - Creating employee: Michael Anderson
+2026-09-23 11:21:11,281 - INFO - Employee Personal details filled successfully
+2026-09-23 11:21:12,592 - ERROR - Employee failed. Fields: ['Date of Birth', 'Attachment']
+2026-09-23 11:21:12,629 - INFO - Employee created successfully: Michael Anderson
+2026-09-23 11:21:16,855 - INFO - Creating employee: Sophia Williams
+2026-09-23 11:21:29,143 - INFO - Employee Personal details filled successfully
+2026-09-23 11:21:30,343 - ERROR - Employee failed. Fields: ['Date of Birth', 'Attachment']
+2026-09-23 11:21:30,394 - INFO - Employee created successfully: Sophia Williams
+2026-09-23 11:21:34,226 - INFO - Creating employee: Daniel Thompson
+2026-09-23 11:21:47,055 - INFO - Employee Personal details filled successfully
+2026-09-23 11:21:48,241 - ERROR - Employee failed. Fields: ['Attachment']
+2026-09-23 11:21:48,283 - INFO - Employee created successfully: Daniel Thompson
+2026-09-23 11:21:51,643 - INFO - Creating employee: Emily Johnson
+2026-09-23 11:22:02,129 - INFO - Employee Personal details filled successfully
+2026-09-23 11:22:03,318 - ERROR - Employee failed. Fields: ['Attachment']
+2026-09-23 11:22:03,357 - INFO - Employee created successfully: Emily Johnson
+2026-09-23 11:22:06,625 - INFO - Creating employee: James Martinez
+2026-09-23 11:22:15,655 - INFO - Employee Personal details filled successfully
+2026-09-23 11:22:16,854 - ERROR - Employee failed. Fields: ['Date of Birth', 'Attachment']
+2026-09-23 11:22:16,895 - INFO - Employee created successfully: James Martinez
+2026-09-23 11:22:19,373 - INFO - Browser closed successfully
+2026-09-23 11:22:19,423 - INFO - Failed employee rows formatted successfully
+2026-09-23 11:22:19,424 - ERROR - Bot execution failed
+Traceback (most recent call last):
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\main.py", line 91, in main
+    email_status = send_completion_email(
+                    start_time,
+    ...<4 lines>...
+                    errors
+        )
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\utils\email_notification.py", line 139, in send_completion_email
+    total_employees = int(total_employees)
+ValueError: invalid literal for int() with base 10: 'total'
+2026-09-23 11:49:34,062 - INFO - Browser started
+2026-09-23 11:49:57,066 - INFO - Login successful
+2026-09-23 11:50:02,877 - INFO - PIM page opened successfully
+2026-09-23 11:50:02,877 - INFO - PIM opened
+2026-09-23 11:50:02,907 - INFO - Employee data read from Excel. Total employees: 5
+2026-09-23 11:50:02,907 - INFO - Processing Michael Anderson - Attempt 1/2
+2026-09-23 11:50:07,106 - INFO - Creating employee: Michael Anderson
+2026-09-23 11:50:18,455 - INFO - Employee Personal details filled successfully
+2026-09-23 11:50:19,777 - ERROR - Employee failed. Fields: ['Date of Birth', 'Attachment']
+2026-09-23 11:50:19,851 - INFO - Employee created successfully: Michael Anderson
+2026-09-23 11:50:21,858 - INFO - Processing Sophia Williams - Attempt 1/2
+2026-09-23 11:50:23,557 - INFO - Creating employee: Sophia Williams
+2026-09-23 11:50:33,210 - INFO - Employee Personal details filled successfully
+2026-09-23 11:50:34,410 - ERROR - Employee failed. Fields: ['Date of Birth', 'Attachment']
+2026-09-23 11:50:34,470 - INFO - Employee created successfully: Sophia Williams
+2026-09-23 11:50:36,483 - INFO - Processing Daniel Thompson - Attempt 1/2
+2026-09-23 11:50:37,285 - INFO - Creating employee: Daniel Thompson
+2026-09-23 11:51:16,682 - ERROR - Employee creation failed: Daniel Thompson Attempt 1/2
+2026-09-23 11:51:16,682 - WARNING - Retrying employee: Daniel Thompson
+2026-09-23 11:51:18,688 - INFO - Processing Daniel Thompson - Attempt 2/2
+2026-09-23 11:51:19,556 - INFO - Creating employee: Daniel Thompson
+2026-09-23 11:51:51,582 - ERROR - Employee creation failed: Daniel Thompson Attempt 2/2
+2026-09-23 11:51:51,626 - ERROR - Employee permanently failed: Daniel Thompson
+2026-09-23 11:51:53,643 - INFO - Processing Emily Johnson - Attempt 1/2
+2026-09-23 11:51:54,931 - INFO - Creating employee: Emily Johnson
+2026-09-23 11:52:07,085 - INFO - Employee Personal details filled successfully
+2026-09-23 11:52:09,129 - ERROR - Employee failed. Fields: ['Attachment']
+2026-09-23 11:52:09,167 - INFO - Employee created successfully: Emily Johnson
+2026-09-23 11:52:11,186 - INFO - Processing James Martinez - Attempt 1/2
+2026-09-23 11:52:13,579 - INFO - Creating employee: James Martinez
+2026-09-23 11:52:23,438 - INFO - Employee Personal details filled successfully
+2026-09-23 11:52:24,650 - ERROR - Employee failed. Fields: ['Date of Birth', 'Attachment']
+2026-09-23 11:52:24,691 - INFO - Employee created successfully: James Martinez
+2026-09-23 11:52:27,290 - INFO - Browser closed successfully
+2026-09-23 11:52:27,360 - INFO - Failed employee rows formatted successfully
+2026-09-23 12:12:08,801 - INFO - Browser started
+2026-09-23 12:12:17,241 - INFO - Login successful
+2026-09-23 12:12:18,492 - INFO - PIM page opened successfully
+2026-09-23 12:12:18,493 - INFO - PIM opened
+2026-09-23 12:12:18,538 - INFO - Employee data read from Excel. Total employees: 5
+2026-09-23 12:12:18,539 - INFO - Processing Michael Anderson - Attempt 1/2
+2026-09-23 12:12:20,045 - INFO - Creating employee: Michael Anderson
+2026-09-23 12:12:30,303 - INFO - Employee Personal details filled successfully
+2026-09-23 12:12:31,526 - ERROR - Employee failed. Fields: ['Date of Birth', 'Attachment']
+2026-09-23 12:12:31,553 - INFO - Employee created successfully: Michael Anderson
+2026-09-23 12:12:33,559 - INFO - Processing Sophia Williams - Attempt 1/2
+2026-09-23 12:12:35,027 - INFO - Creating employee: Sophia Williams
+2026-09-23 12:12:46,163 - INFO - Employee Personal details filled successfully
+2026-09-23 12:12:47,374 - ERROR - Employee failed. Fields: ['Date of Birth', 'Attachment']
+2026-09-23 12:12:47,417 - INFO - Employee created successfully: Sophia Williams
+2026-09-23 12:12:49,424 - INFO - Processing Daniel Thompson - Attempt 1/2
+2026-09-23 12:12:50,898 - INFO - Creating employee: Daniel Thompson
+2026-09-23 12:13:01,273 - INFO - Employee Personal details filled successfully
+2026-09-23 12:13:02,461 - ERROR - Employee failed. Fields: ['Attachment']
+2026-09-23 12:13:02,516 - INFO - Employee created successfully: Daniel Thompson
+2026-09-23 12:13:04,524 - INFO - Processing Emily Johnson - Attempt 1/2
+2026-09-23 12:13:07,239 - INFO - Creating employee: Emily Johnson
+2026-09-23 12:13:52,504 - ERROR - Employee creation failed: Emily Johnson Attempt 1/2
+2026-09-23 12:13:52,505 - WARNING - Retrying employee: Emily Johnson
+2026-09-23 12:13:54,513 - INFO - Processing Emily Johnson - Attempt 2/2
+2026-09-23 12:13:55,345 - INFO - Creating employee: Emily Johnson
+2026-09-23 12:14:27,265 - ERROR - Employee creation failed: Emily Johnson Attempt 2/2
+2026-09-23 12:14:27,321 - ERROR - Employee permanently failed: Emily Johnson
+2026-09-23 12:14:29,325 - INFO - Processing James Martinez - Attempt 1/2
+2026-09-23 12:14:30,599 - INFO - Creating employee: James Martinez
+2026-09-23 12:14:40,710 - INFO - Employee Personal details filled successfully
+2026-09-23 12:14:41,928 - ERROR - Employee failed. Fields: ['Date of Birth', 'Attachment']
+2026-09-23 12:14:41,977 - INFO - Employee created successfully: James Martinez
+2026-09-23 12:14:44,528 - INFO - Browser closed successfully
+2026-09-23 12:14:44,578 - INFO - Failed employee rows formatted successfully
+2026-09-23 12:38:11,692 - INFO - Browser started
+2026-09-23 12:38:20,420 - INFO - Login successful
+2026-09-23 12:38:21,726 - INFO - PIM page opened successfully
+2026-09-23 12:38:21,726 - INFO - PIM opened
+2026-09-23 12:38:21,764 - INFO - Employee data read from Excel. Total employees: 5
+2026-09-23 12:38:21,764 - INFO - Processing Michael Anderson - Attempt 1/2
+2026-09-23 12:38:23,182 - INFO - Creating employee: Michael Anderson
+2026-09-23 12:38:55,143 - ERROR - Employee creation failed: Michael Anderson Attempt 1/2
+2026-09-23 12:38:55,143 - INFO - Taking failure screenshot for Michael Anderson
+2026-09-23 12:38:55,285 - INFO - Screenshot saved at: C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\Screenshots\failed\Michael_Anderson_attempt_1_20260923_123855.png
+2026-09-23 12:38:55,285 - WARNING - Retrying employee: Michael Anderson
+2026-09-23 12:38:57,297 - INFO - Processing Michael Anderson - Attempt 2/2
+2026-09-23 12:39:02,942 - INFO - Creating employee: Michael Anderson
+2026-09-23 12:39:37,158 - ERROR - Employee creation failed: Michael Anderson Attempt 2/2
+2026-09-23 12:39:37,159 - INFO - Taking failure screenshot for Michael Anderson
+2026-09-23 12:39:37,285 - INFO - Screenshot saved at: C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\Screenshots\failed\Michael_Anderson_attempt_2_20260923_123937.png
+2026-09-23 12:39:37,311 - ERROR - Employee permanently failed: Michael Anderson
+2026-09-23 12:39:39,314 - INFO - Processing Sophia Williams - Attempt 1/2
+2026-09-23 12:39:42,935 - INFO - Creating employee: Sophia Williams
+2026-09-23 12:40:16,064 - ERROR - Employee creation failed: Sophia Williams Attempt 1/2
+2026-09-23 12:40:16,065 - INFO - Taking failure screenshot for Sophia Williams
+2026-09-23 12:40:16,176 - INFO - Screenshot saved at: C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\Screenshots\failed\Sophia_Williams_attempt_1_20260923_124016.png
+2026-09-23 12:40:16,176 - WARNING - Retrying employee: Sophia Williams
+2026-09-23 12:40:18,193 - INFO - Processing Sophia Williams - Attempt 2/2
+2026-09-23 12:40:19,042 - INFO - Creating employee: Sophia Williams
+2026-09-23 12:40:46,707 - ERROR - Future exception was never retrieved
+future: <Future finished exception=TargetClosedError('Target page, context or browser has been closed')>
+playwright._impl._errors.TargetClosedError: Target page, context or browser has been closed
+2026-09-23 12:42:38,067 - INFO - Browser started
+2026-09-23 12:42:56,347 - INFO - Login successful
+2026-09-23 12:42:58,737 - INFO - PIM page opened successfully
+2026-09-23 12:42:58,737 - INFO - PIM opened
+2026-09-23 12:42:58,760 - INFO - Employee data read from Excel. Total employees: 5
+2026-09-23 12:42:58,761 - INFO - Processing Michael Anderson - Attempt 1/2
+2026-09-23 12:43:02,213 - INFO - Creating employee: Michael Anderson
+2026-09-23 12:43:21,615 - INFO - Employee Personal details filled successfully
+2026-09-23 12:43:22,844 - ERROR - Employee failed. Fields: ['Date of Birth', 'Attachment']
+2026-09-23 12:43:22,882 - INFO - Employee created successfully: Michael Anderson
+2026-09-23 12:43:24,895 - INFO - Processing Sophia Williams - Attempt 1/2
+2026-09-23 12:43:30,302 - INFO - Creating employee: Sophia Williams
+2026-09-23 12:43:48,840 - INFO - Employee Personal details filled successfully
+2026-09-23 12:43:50,039 - ERROR - Employee failed. Fields: ['Date of Birth', 'Attachment']
+2026-09-23 12:43:50,085 - INFO - Employee created successfully: Sophia Williams
+2026-09-23 12:43:52,101 - INFO - Processing Daniel Thompson - Attempt 1/2
+2026-09-23 12:43:54,910 - INFO - Creating employee: Daniel Thompson
+2026-09-23 12:44:14,969 - INFO - Employee Personal details filled successfully
+2026-09-23 12:44:16,169 - ERROR - Employee failed. Fields: ['Attachment']
+2026-09-23 12:44:16,209 - INFO - Employee created successfully: Daniel Thompson
+2026-09-23 12:44:18,217 - INFO - Processing Emily Johnson - Attempt 1/2
+2026-09-23 12:44:21,574 - INFO - Creating employee: Emily Johnson
+2026-09-23 12:45:17,506 - ERROR - Employee creation failed: Emily Johnson Attempt 1/2
+2026-09-23 12:45:17,506 - INFO - Taking failure screenshot for Emily Johnson
+2026-09-23 12:45:17,712 - INFO - Screenshot saved at: C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\Screenshots\failed\Emily_Johnson_attempt_1_20260923_124517.png
+2026-09-23 12:45:17,713 - WARNING - Retrying employee: Emily Johnson
+2026-09-23 12:45:19,722 - INFO - Processing Emily Johnson - Attempt 2/2
+2026-09-23 12:45:24,676 - INFO - Creating employee: Emily Johnson
+2026-09-23 12:45:58,382 - ERROR - Employee creation failed: Emily Johnson Attempt 2/2
+2026-09-23 12:45:58,382 - INFO - Taking failure screenshot for Emily Johnson
+2026-09-23 12:45:58,489 - INFO - Screenshot saved at: C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\Screenshots\failed\Emily_Johnson_attempt_2_20260923_124558.png
+2026-09-23 12:45:58,522 - ERROR - Employee permanently failed: Emily Johnson
+2026-09-23 12:46:00,535 - INFO - Processing James Martinez - Attempt 1/2
+2026-09-23 12:46:05,815 - INFO - Creating employee: James Martinez
+2026-09-23 12:46:36,264 - INFO - Employee Personal details filled successfully
+2026-09-23 12:46:37,500 - ERROR - Employee failed. Fields: ['Date of Birth', 'Attachment']
+2026-09-23 12:46:37,541 - INFO - Employee created successfully: James Martinez
+2026-09-23 12:46:40,051 - INFO - Browser closed successfully
+2026-09-23 12:46:40,093 - INFO - Failed employee rows formatted successfully
+2026-09-23 12:50:03,438 - INFO - Browser started
+2026-09-23 12:50:38,870 - INFO - Login successful
+2026-09-23 12:50:48,170 - INFO - PIM page opened successfully
+2026-09-23 12:50:48,170 - INFO - PIM opened
+2026-09-23 12:50:48,192 - INFO - Employee data read from Excel. Total employees: 5
+2026-09-23 12:50:48,192 - INFO - Processing Michael Anderson - Attempt 1/2
+2026-09-23 12:50:54,819 - INFO - Creating employee: Michael Anderson
+2026-09-23 12:51:16,698 - INFO - Employee Personal details filled successfully
+2026-09-23 12:51:17,925 - ERROR - Employee failed. Fields: ['Date of Birth', 'Attachment']
+2026-09-23 12:51:17,941 - INFO - Employee created successfully: Michael Anderson
+2026-09-23 12:51:19,949 - INFO - Processing Sophia Williams - Attempt 1/2
+2026-09-23 12:51:22,852 - INFO - Creating employee: Sophia Williams
+2026-09-23 12:51:35,630 - INFO - Employee Personal details filled successfully
+2026-09-23 12:51:36,826 - ERROR - Employee failed. Fields: ['Date of Birth', 'Attachment']
+2026-09-23 12:51:36,856 - INFO - Employee created successfully: Sophia Williams
+2026-09-23 12:51:38,875 - INFO - Processing Daniel Thompson - Attempt 1/2
+2026-09-23 12:51:40,456 - INFO - Creating employee: Daniel Thompson
+2026-09-23 12:51:51,792 - INFO - Employee Personal details filled successfully
+2026-09-23 12:51:53,008 - ERROR - Employee failed. Fields: ['Attachment']
+2026-09-23 12:51:53,046 - INFO - Employee created successfully: Daniel Thompson
+2026-09-23 12:51:55,056 - INFO - Processing Emily Johnson - Attempt 1/2
+2026-09-23 12:51:55,902 - INFO - Creating employee: Emily Johnson
+2026-09-23 12:52:36,043 - ERROR - Employee creation failed: Emily Johnson Attempt 1/2
+2026-09-23 12:52:36,044 - INFO - Taking failure screenshot for Emily Johnson
+2026-09-23 12:52:36,212 - INFO - Screenshot saved at: C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\Screenshots\failed\Emily_Johnson_attempt_1_2026-09-23_12-52-36.png
+2026-09-23 12:52:36,213 - WARNING - Retrying employee: Emily Johnson
+2026-09-23 12:52:38,224 - INFO - Processing Emily Johnson - Attempt 2/2
+2026-09-23 12:52:39,717 - INFO - Creating employee: Emily Johnson
+2026-09-23 12:53:11,758 - ERROR - Employee creation failed: Emily Johnson Attempt 2/2
+2026-09-23 12:53:11,758 - INFO - Taking failure screenshot for Emily Johnson
+2026-09-23 12:53:11,878 - INFO - Screenshot saved at: C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\Screenshots\failed\Emily_Johnson_attempt_2_2026-09-23_12-53-11.png
+2026-09-23 12:53:11,905 - ERROR - Employee permanently failed: Emily Johnson
+2026-09-23 12:53:13,913 - INFO - Processing James Martinez - Attempt 1/2
+2026-09-23 12:53:17,027 - INFO - Creating employee: James Martinez
+2026-09-23 12:53:27,923 - INFO - Employee Personal details filled successfully
+2026-09-23 12:53:29,123 - ERROR - Employee failed. Fields: ['Date of Birth', 'Attachment']
+2026-09-23 12:53:29,189 - INFO - Employee created successfully: James Martinez
+2026-09-23 12:53:31,674 - INFO - Browser closed successfully
+2026-09-23 12:53:31,718 - INFO - Failed employee rows formatted successfully
+2026-09-23 12:58:54,207 - INFO - Browser started
+2026-09-23 12:59:20,171 - INFO - Login successful
+2026-09-23 12:59:24,940 - INFO - PIM page opened successfully
+2026-09-23 12:59:24,940 - INFO - PIM opened
+2026-09-23 12:59:24,969 - INFO - Employee data read from Excel. Total employees: 5
+2026-09-23 12:59:24,969 - INFO - Processing Michael Anderson - Attempt 1/2
+2026-09-23 12:59:29,497 - INFO - Creating employee: Michael Anderson
+2026-09-23 13:00:00,393 - INFO - Employee Personal details filled successfully
+2026-09-23 13:00:01,604 - ERROR - Employee failed. Fields: ['Date of Birth', 'Attachment']
+2026-09-23 13:00:01,698 - INFO - Employee created successfully: Michael Anderson
+2026-09-23 13:00:03,710 - INFO - Processing Sophia Williams - Attempt 1/2
+2026-09-23 13:00:08,172 - INFO - Creating employee: Sophia Williams
+2026-09-23 13:00:29,746 - INFO - Employee Personal details filled successfully
+2026-09-23 13:00:30,946 - ERROR - Employee failed. Fields: ['Date of Birth', 'Attachment']
+2026-09-23 13:00:30,989 - INFO - Employee created successfully: Sophia Williams
+2026-09-23 13:00:32,993 - INFO - Processing Daniel Thompson - Attempt 1/2
+2026-09-23 13:00:37,441 - INFO - Creating employee: Daniel Thompson
+2026-09-23 13:01:00,957 - INFO - Employee Personal details filled successfully
+2026-09-23 13:01:02,146 - ERROR - Employee failed. Fields: ['Attachment']
+2026-09-23 13:01:02,197 - INFO - Employee created successfully: Daniel Thompson
+2026-09-23 13:01:04,206 - INFO - Processing Emily Johnson - Attempt 1/2
+2026-09-23 13:01:10,267 - INFO - Creating employee: Emily Johnson
+2026-09-23 13:01:34,356 - INFO - Employee Personal details filled successfully
+2026-09-23 13:01:35,598 - ERROR - Employee failed. Fields: ['Attachment']
+2026-09-23 13:01:35,641 - INFO - Employee created successfully: Emily Johnson
+2026-09-23 13:01:37,646 - INFO - Processing James Martinez - Attempt 1/2
+2026-09-23 13:01:45,682 - INFO - Creating employee: James Martinez
+2026-09-23 13:02:42,816 - ERROR - Employee creation failed: James Martinez Attempt 1/2
+2026-09-23 13:02:42,816 - INFO - Taking failure screenshot for James Martinez
+2026-09-23 13:02:42,960 - ERROR - Screenshot failed for James Martinez: [Errno 22] Invalid argument: 'C:\\Users\\Admin\\OneDrive - StayAhead\\Documents\\Demo_Sruthy\\Tasks\\Screenshots\\failed\\James_Martinez_attempt_1_2026-09-23_13:02:42.png'
+2026-09-23 13:02:42,960 - WARNING - Retrying employee: James Martinez
+2026-09-23 13:02:44,979 - INFO - Processing James Martinez - Attempt 2/2
+2026-09-23 13:02:49,932 - INFO - Creating employee: James Martinez
+2026-09-23 13:03:24,170 - ERROR - Employee creation failed: James Martinez Attempt 2/2
+2026-09-23 13:03:24,170 - INFO - Taking failure screenshot for James Martinez
+2026-09-23 13:03:24,276 - ERROR - Screenshot failed for James Martinez: [Errno 22] Invalid argument: 'C:\\Users\\Admin\\OneDrive - StayAhead\\Documents\\Demo_Sruthy\\Tasks\\Screenshots\\failed\\James_Martinez_attempt_2_2026-09-23_13:03:24.png'
+2026-09-23 13:03:24,313 - ERROR - Employee permanently failed: James Martinez
+2026-09-23 13:03:26,722 - INFO - Browser closed successfully
+2026-09-23 13:03:26,774 - INFO - Failed employee rows formatted successfully
+2026-09-23 14:02:36,509 - INFO - Browser started
+2026-09-23 14:02:57,402 - INFO - Login successful
+2026-09-23 14:03:01,555 - INFO - PIM page opened successfully
+2026-09-23 14:03:01,555 - INFO - PIM opened
+2026-09-23 14:03:01,584 - INFO - Employee data read from Excel. Total employees: 5
+2026-09-23 14:03:01,584 - INFO - Processing Michael Anderson - Attempt 1/2
+2026-09-23 14:03:05,420 - INFO - Creating employee: Michael Anderson
+2026-09-23 14:03:22,419 - INFO - Employee Personal details filled successfully
+2026-09-23 14:03:23,630 - ERROR - Employee failed. Fields: ['Date of Birth', 'Attachment']
+2026-09-23 14:03:23,668 - INFO - Employee created successfully: Michael Anderson
+2026-09-23 14:03:25,694 - INFO - Processing Sophia Williams - Attempt 1/2
+2026-09-23 14:03:27,850 - INFO - Creating employee: Sophia Williams
+2026-09-23 14:04:13,282 - ERROR - Employee creation failed: Sophia Williams Attempt 1/2
+2026-09-23 14:04:13,282 - INFO - Taking failure screenshot for Sophia Williams
+2026-09-23 14:04:13,458 - ERROR - Screenshot failed for Sophia Williams: [Errno 22] Invalid argument: 'C:\\Users\\Admin\\OneDrive - StayAhead\\Documents\\Demo_Sruthy\\Tasks\\Screenshots\\failed\\Sophia_Williams_attempt_1_2026-09-23_14:04:13.png'
+2026-09-23 14:04:13,458 - WARNING - Retrying employee: Sophia Williams
+2026-09-23 14:04:15,461 - INFO - Processing Sophia Williams - Attempt 2/2
+2026-09-23 14:04:46,017 - ERROR - Employee failed: Sophia Williams Attempt 2/2
+Traceback (most recent call last):
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\modules\employee_processor.py", line 74, in process_employees
+    ).wait_for(
+      ~~~~~~~~^
+        state="visible"
+        ^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\sync_api\_generated.py", line 20298, in wait_for
+    self._sync(
+    ~~~~~~~~~~^
+        self._impl_obj.wait_for(timeout=to_milliseconds(timeout), state=state)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_locator.py", line 741, in wait_for
+    await self._frame.wait_for_selector(
+        self._selector, strict=True, timeout=timeout, state=state
+    )
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_frame.py", line 394, in wait_for_selector
+    await self._channel.send(
+        "waitForSelector", self._timeout, locals_to_params(locals())
+    )
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_connection.py", line 563, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: Locator.wait_for: Target page, context or browser has been closed
+Call log:
+  - waiting for get_by_placeholder("First Name") to be visible
+
+2026-09-23 14:04:46,021 - INFO - Taking failure screenshot for Sophia Williams
+2026-09-23 14:04:46,024 - ERROR - Screenshot failed for Sophia Williams: Page.screenshot: Target page, context or browser has been closed
+2026-09-23 14:04:46,117 - ERROR - Employee permanently failed: Sophia Williams
+2026-09-23 14:04:46,119 - ERROR - Bot execution failed: Page.wait_for_timeout: Target page, context or browser has been closed
+Traceback (most recent call last):
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\modules\bot_runner.py", line 61, in run_bot
+    result = process_employees(
+        page,
+        file_path
+    )
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\modules\employee_processor.py", line 244, in process_employees
+    page.wait_for_timeout(2000)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\sync_api\_generated.py", line 12529, in wait_for_timeout
+    self._sync(
+    ~~~~~~~~~~^
+        self._impl_obj.wait_for_timeout(timeout=to_milliseconds(timeout))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_page.py", line 1135, in wait_for_timeout
+    await self._main_frame.wait_for_timeout(timeout)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_frame.py", line 916, in wait_for_timeout
+    await self._channel.send("waitForTimeout", None, {"waitTimeout": timeout})
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_connection.py", line 563, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: Page.wait_for_timeout: Target page, context or browser has been closed
+2026-09-23 14:04:46,545 - INFO - Browser closed successfully
+2026-09-23 14:04:46,619 - ERROR - Bot execution failed
+Traceback (most recent call last):
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\main.py", line 54, in main
+    total_employees, successful_records, failed_records, errors = run_bot(
+                                                                  ~~~~~~~^
+        file_path,
+        ^^^^^^^^^^
+        username,
+        ^^^^^^^^^
+        password
+        ^^^^^^^^
+    )
+    ^
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\modules\bot_runner.py", line 61, in run_bot
+    result = process_employees(
+        page,
+        file_path
+    )
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\modules\employee_processor.py", line 244, in process_employees
+    page.wait_for_timeout(2000)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\sync_api\_generated.py", line 12529, in wait_for_timeout
+    self._sync(
+    ~~~~~~~~~~^
+        self._impl_obj.wait_for_timeout(timeout=to_milliseconds(timeout))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_page.py", line 1135, in wait_for_timeout
+    await self._main_frame.wait_for_timeout(timeout)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_frame.py", line 916, in wait_for_timeout
+    await self._channel.send("waitForTimeout", None, {"waitTimeout": timeout})
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_connection.py", line 563, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: Page.wait_for_timeout: Target page, context or browser has been closed
+2026-09-23 14:05:42,108 - INFO - Browser started
+2026-09-23 14:06:00,495 - INFO - Login successful
+2026-09-23 14:06:05,222 - INFO - PIM page opened successfully
+2026-09-23 14:06:05,223 - INFO - PIM opened
+2026-09-23 14:06:05,240 - INFO - Employee data read from Excel. Total employees: 5
+2026-09-23 14:06:05,241 - INFO - Processing Michael Anderson - Attempt 1/2
+2026-09-23 14:06:08,748 - INFO - Creating employee: Michael Anderson
+2026-09-23 14:06:42,464 - ERROR - Employee creation failed: Michael Anderson Attempt 1/2
+2026-09-23 14:06:42,464 - INFO - Taking failure screenshot for Michael Anderson
+2026-09-23 14:06:42,593 - ERROR - Screenshot failed for Michael Anderson: [Errno 22] Invalid argument: 'C:\\Users\\Admin\\OneDrive - StayAhead\\Documents\\Demo_Sruthy\\Tasks\\Screenshots\\failed\\Michael_Anderson_attempt_1_2026-09-23_14:06:42.png'
+2026-09-23 14:06:42,593 - WARNING - Retrying employee: Michael Anderson
+2026-09-23 14:06:44,610 - INFO - Processing Michael Anderson - Attempt 2/2
+2026-09-23 14:06:49,752 - INFO - Creating employee: Michael Anderson
+2026-09-23 14:07:22,841 - ERROR - Employee creation failed: Michael Anderson Attempt 2/2
+2026-09-23 14:07:22,842 - INFO - Taking failure screenshot for Michael Anderson
+2026-09-23 14:07:22,970 - ERROR - Screenshot failed for Michael Anderson: [Errno 22] Invalid argument: 'C:\\Users\\Admin\\OneDrive - StayAhead\\Documents\\Demo_Sruthy\\Tasks\\Screenshots\\failed\\Michael_Anderson_attempt_2_2026-09-23_14:07:22.png'
+2026-09-23 14:07:23,004 - ERROR - Employee permanently failed: Michael Anderson
+2026-09-23 14:07:25,009 - INFO - Processing Sophia Williams - Attempt 1/2
+2026-09-23 14:07:29,367 - INFO - Creating employee: Sophia Williams
+2026-09-23 14:08:04,651 - ERROR - Employee creation failed: Sophia Williams Attempt 1/2
+2026-09-23 14:08:04,651 - INFO - Taking failure screenshot for Sophia Williams
+2026-09-23 14:08:04,763 - ERROR - Screenshot failed for Sophia Williams: [Errno 22] Invalid argument: 'C:\\Users\\Admin\\OneDrive - StayAhead\\Documents\\Demo_Sruthy\\Tasks\\Screenshots\\failed\\Sophia_Williams_attempt_1_2026-09-23_14:08:04.png'
+2026-09-23 14:08:04,763 - WARNING - Retrying employee: Sophia Williams
+2026-09-23 14:08:06,774 - INFO - Processing Sophia Williams - Attempt 2/2
+2026-09-23 14:08:09,486 - INFO - Creating employee: Sophia Williams
+2026-09-23 14:08:43,680 - ERROR - Employee creation failed: Sophia Williams Attempt 2/2
+2026-09-23 14:08:43,681 - INFO - Taking failure screenshot for Sophia Williams
+2026-09-23 14:08:43,784 - ERROR - Screenshot failed for Sophia Williams: [Errno 22] Invalid argument: 'C:\\Users\\Admin\\OneDrive - StayAhead\\Documents\\Demo_Sruthy\\Tasks\\Screenshots\\failed\\Sophia_Williams_attempt_2_2026-09-23_14:08:43.png'
+2026-09-23 14:08:43,818 - ERROR - Employee permanently failed: Sophia Williams
+2026-09-23 14:08:45,821 - INFO - Processing Daniel Thompson - Attempt 1/2
+2026-09-23 14:08:52,250 - INFO - Creating employee: Daniel Thompson
+2026-09-23 14:09:16,900 - INFO - Employee Personal details filled successfully
+2026-09-23 14:09:18,124 - ERROR - Employee failed. Fields: ['Attachment']
+2026-09-23 14:09:18,176 - INFO - Employee created successfully: Daniel Thompson
+2026-09-23 14:09:20,186 - INFO - Processing Emily Johnson - Attempt 1/2
+2026-09-23 14:09:26,356 - INFO - Creating employee: Emily Johnson
+2026-09-23 14:09:54,149 - INFO - Employee Personal details filled successfully
+2026-09-23 14:09:55,351 - ERROR - Employee failed. Fields: ['Attachment']
+2026-09-23 14:09:55,399 - INFO - Employee created successfully: Emily Johnson
+2026-09-23 14:09:57,405 - INFO - Processing James Martinez - Attempt 1/2
+2026-09-23 14:10:04,003 - INFO - Creating employee: James Martinez
+2026-09-23 14:10:31,445 - INFO - Employee Personal details filled successfully
+2026-09-23 14:10:32,631 - ERROR - Employee failed. Fields: ['Date of Birth', 'Attachment']
+2026-09-23 14:10:32,673 - INFO - Employee created successfully: James Martinez
+2026-09-23 14:10:35,203 - INFO - Browser closed successfully
+2026-09-23 14:10:35,254 - INFO - Failed employee rows formatted successfully
+2026-09-23 14:59:20,167 - INFO - Browser started
+2026-09-23 15:00:08,803 - INFO - Login successful
+2026-09-23 15:00:20,148 - INFO - PIM page opened successfully
+2026-09-23 15:00:20,148 - INFO - PIM opened
+2026-09-23 15:00:20,200 - INFO - Employee data read from Excel. Total employees: 5
+2026-09-23 15:00:20,200 - INFO - Processing Michael Anderson - Attempt 1/2
+2026-09-23 15:00:28,886 - INFO - Add Employee page opened for Michael Anderson
+2026-09-23 15:01:15,230 - INFO - Employee Personal details filled successfully
+2026-09-23 15:01:16,468 - ERROR - Employee failed. Fields: ['Date of Birth', 'Attachment']
+2026-09-23 15:01:16,508 - INFO - Employee created successfully: Michael Anderson
+2026-09-23 15:01:18,512 - INFO - Processing Sophia Williams - Attempt 1/2
+2026-09-23 15:01:23,526 - INFO - Add Employee page opened for Sophia Williams
+2026-09-23 15:02:18,067 - ERROR - Employee creation returned False: Sophia Williams - Attempt 1/2
+2026-09-23 15:02:18,067 - INFO - Taking failure screenshot: Sophia Williams - Attempt 1
+2026-09-23 15:02:18,216 - ERROR - Screenshot failed for Sophia Williams: [Errno 22] Invalid argument: 'C:\\Users\\Admin\\OneDrive - StayAhead\\Documents\\Demo_Sruthy\\Tasks\\Screenshots\\failed\\Sophia_Williams_attempt_1_2026-09-23_15:02:18.png'
+2026-09-23 15:02:18,216 - WARNING - Retrying employee: Sophia Williams
+2026-09-23 15:02:20,230 - INFO - Processing Sophia Williams - Attempt 2/2
+2026-09-23 15:02:28,523 - INFO - Add Employee page opened for Sophia Williams
+2026-09-23 15:03:03,810 - ERROR - Employee creation returned False: Sophia Williams - Attempt 2/2
+2026-09-23 15:03:03,810 - INFO - Taking failure screenshot: Sophia Williams - Attempt 2
+2026-09-23 15:03:03,935 - ERROR - Screenshot failed for Sophia Williams: [Errno 22] Invalid argument: 'C:\\Users\\Admin\\OneDrive - StayAhead\\Documents\\Demo_Sruthy\\Tasks\\Screenshots\\failed\\Sophia_Williams_attempt_2_2026-09-23_15:03:03.png'
+2026-09-23 15:03:03,977 - ERROR - Employee permanently failed: Sophia Williams
+2026-09-23 15:03:05,982 - INFO - Skipping Daniel Thompson - Already Completed
+2026-09-23 15:03:05,982 - INFO - Processing Emily Johnson - Attempt 1/2
+2026-09-23 15:03:11,516 - INFO - Add Employee page opened for Emily Johnson
+2026-09-23 15:03:46,701 - INFO - Employee Personal details filled successfully
+2026-09-23 15:03:47,884 - ERROR - Employee failed. Fields: ['Attachment']
+2026-09-23 15:03:47,925 - INFO - Employee created successfully: Emily Johnson
+2026-09-23 15:03:49,931 - INFO - Skipping James Martinez - Already Completed
+2026-09-23 15:03:50,390 - INFO - Browser closed successfully
+2026-09-23 15:03:50,449 - INFO - Failed employee rows formatted successfully
+2026-09-23 15:03:50,471 - ERROR - Bot execution failed
+Traceback (most recent call last):
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\main.py", line 115, in main
+    email_status = send_completion_email(
+            start_time,
+    ...<5 lines>...
+            execution_log_file
+        )
+TypeError: send_completion_email() takes 6 positional arguments but 7 were given
+2026-09-23 15:21:07,285 - INFO - Browser started
+2026-09-23 15:21:20,966 - INFO - Login successful
+2026-09-23 15:21:23,863 - INFO - PIM page opened successfully
+2026-09-23 15:21:23,864 - INFO - PIM opened
+2026-09-23 15:21:23,885 - INFO - Employee data read from Excel. Total employees: 5
+2026-09-23 15:21:23,885 - INFO - Processing Michael Anderson - Attempt 1/2
+2026-09-23 15:21:26,334 - INFO - Add Employee page opened for Michael Anderson
+2026-09-23 15:21:40,433 - INFO - Employee Personal details filled successfully
+2026-09-23 15:21:41,648 - ERROR - Employee failed. Fields: ['Date of Birth', 'Attachment']
+2026-09-23 15:21:41,696 - INFO - Employee created successfully: Michael Anderson
+2026-09-23 15:21:43,711 - INFO - Processing Sophia Williams - Attempt 1/2
+2026-09-23 15:21:45,648 - INFO - Add Employee page opened for Sophia Williams
+2026-09-23 15:22:02,577 - ERROR - Employee creation returned False: Sophia Williams - Attempt 1/2
+2026-09-23 15:22:02,577 - INFO - Taking failure screenshot: Sophia Williams - Attempt 1
+2026-09-23 15:22:02,743 - INFO - Failure screenshot saved: C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\Screenshots\failed\Sophia_Williams_attempt_1_2026-09-23_15-22-02.png
+2026-09-23 15:22:02,743 - WARNING - Retrying employee: Sophia Williams
+2026-09-23 15:22:04,755 - INFO - Processing Sophia Williams - Attempt 2/2
+2026-09-23 15:22:34,776 - ERROR - Employee failed: Sophia Williams - Attempt 2/2
+Traceback (most recent call last):
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\modules\employee_processor.py", line 106, in process_employees
+    ).click()
+      ~~~~~^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\sync_api\_generated.py", line 17672, in click
+    self._sync(
+    ~~~~~~~~~~^
+        self._impl_obj.click(
+        ^^^^^^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+        )
+        ^
+    )
+    ^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_locator.py", line 163, in click
+    return await self._frame._click(self._selector, strict=True, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_frame.py", line 591, in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_connection.py", line 563, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role("link", name="Add Employee", exact=True)
+
+2026-09-23 15:22:34,782 - INFO - Taking exception screenshot: Sophia Williams - Attempt 2
+2026-09-23 15:22:34,938 - INFO - Exception screenshot saved: C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\Screenshots\failed\Sophia_Williams_attempt_2_2026-09-23_15-22-34.png
+2026-09-23 15:22:34,984 - ERROR - Employee permanently failed: Sophia Williams
+2026-09-23 15:22:36,997 - INFO - Skipping Daniel Thompson - Already Completed
+2026-09-23 15:22:36,997 - INFO - Processing Emily Johnson - Attempt 1/2
+2026-09-23 15:23:07,013 - ERROR - Employee failed: Emily Johnson - Attempt 1/2
+Traceback (most recent call last):
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\modules\employee_processor.py", line 106, in process_employees
+    ).click()
+      ~~~~~^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\sync_api\_generated.py", line 17672, in click
+    self._sync(
+    ~~~~~~~~~~^
+        self._impl_obj.click(
+        ^^^^^^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+        )
+        ^
+    )
+    ^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_locator.py", line 163, in click
+    return await self._frame._click(self._selector, strict=True, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_frame.py", line 591, in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_connection.py", line 563, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role("link", name="Add Employee", exact=True)
+
+2026-09-23 15:23:07,018 - INFO - Taking exception screenshot: Emily Johnson - Attempt 1
+2026-09-23 15:23:07,142 - INFO - Exception screenshot saved: C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\Screenshots\failed\Emily_Johnson_attempt_1_2026-09-23_15-23-07.png
+2026-09-23 15:23:07,142 - WARNING - Retrying employee: Emily Johnson
+2026-09-23 15:23:09,153 - INFO - Processing Emily Johnson - Attempt 2/2
+2026-09-23 15:23:39,183 - ERROR - Employee failed: Emily Johnson - Attempt 2/2
+Traceback (most recent call last):
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\modules\employee_processor.py", line 106, in process_employees
+    ).click()
+      ~~~~~^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\sync_api\_generated.py", line 17672, in click
+    self._sync(
+    ~~~~~~~~~~^
+        self._impl_obj.click(
+        ^^^^^^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+        )
+        ^
+    )
+    ^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_locator.py", line 163, in click
+    return await self._frame._click(self._selector, strict=True, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_frame.py", line 591, in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_connection.py", line 563, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role("link", name="Add Employee", exact=True)
+
+2026-09-23 15:23:39,187 - INFO - Taking exception screenshot: Emily Johnson - Attempt 2
+2026-09-23 15:23:39,315 - INFO - Exception screenshot saved: C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\Screenshots\failed\Emily_Johnson_attempt_2_2026-09-23_15-23-39.png
+2026-09-23 15:23:39,367 - ERROR - Employee permanently failed: Emily Johnson
+2026-09-23 15:23:41,386 - INFO - Skipping James Martinez - Already Completed
+2026-09-23 15:23:42,010 - INFO - Browser closed successfully
+2026-09-23 15:23:42,078 - INFO - Failed employee rows formatted successfully
+2026-09-23 15:38:58,546 - INFO - Browser started
+2026-09-23 15:39:24,547 - INFO - Login successful
+2026-09-23 15:39:32,903 - INFO - PIM page opened successfully
+2026-09-23 15:39:32,904 - INFO - PIM opened
+2026-09-23 15:39:32,936 - INFO - Employee data read from Excel. Total employees: 5
+2026-09-23 15:39:32,936 - INFO - Processing Michael Anderson - Attempt 1/2
+2026-09-23 15:39:41,544 - INFO - Add Employee page opened for Michael Anderson
+2026-09-23 15:40:08,399 - INFO - Employee Personal details filled successfully
+2026-09-23 15:40:09,639 - ERROR - Employee failed. Fields: ['Date of Birth', 'Attachment']
+2026-09-23 15:40:09,668 - INFO - Employee created successfully: Michael Anderson
+2026-09-23 15:40:11,687 - INFO - Processing Sophia Williams - Attempt 1/2
+2026-09-23 15:40:17,831 - INFO - Add Employee page opened for Sophia Williams
+2026-09-23 15:40:47,397 - INFO - Employee Personal details filled successfully
+2026-09-23 15:40:48,602 - ERROR - Employee failed. Fields: ['Date of Birth', 'Attachment']
+2026-09-23 15:40:48,644 - INFO - Employee created successfully: Sophia Williams
+2026-09-23 15:40:50,652 - INFO - Processing Daniel Thompson - Attempt 1/2
+2026-09-23 15:40:57,219 - INFO - Add Employee page opened for Daniel Thompson
+2026-09-23 15:41:19,374 - INFO - Employee Personal details filled successfully
+2026-09-23 15:41:20,575 - ERROR - Employee failed. Fields: ['Attachment']
+2026-09-23 15:41:20,629 - INFO - Employee created successfully: Daniel Thompson
+2026-09-23 15:41:22,647 - INFO - Skipping Emily Johnson - Already Completed
+2026-09-23 15:41:22,647 - INFO - Processing James Martinez - Attempt 1/2
+2026-09-23 15:41:27,874 - INFO - Add Employee page opened for James Martinez
+2026-09-23 15:41:50,532 - INFO - Employee Personal details filled successfully
+2026-09-23 15:41:51,732 - ERROR - Employee failed. Fields: ['Date of Birth', 'Attachment']
+2026-09-23 15:41:51,822 - INFO - Employee created successfully: James Martinez
+2026-09-23 15:41:54,262 - INFO - Browser closed successfully
+2026-09-23 15:41:54,320 - INFO - Failed employee rows formatted successfully
+2026-09-23 16:30:30,798 - INFO - Browser started
+2026-09-23 16:30:57,862 - INFO - Login successful
+2026-09-23 16:31:03,030 - INFO - PIM page opened successfully
+2026-09-23 16:31:03,030 - INFO - PIM opened
+2026-09-23 16:31:03,052 - INFO - Employee data read from Excel. Total employees: 5
+2026-09-23 16:31:03,052 - INFO - Processing Michael Anderson - Attempt 1/2
+2026-09-23 16:31:07,576 - INFO - Add Employee page opened for Michael Anderson
+2026-09-23 16:31:33,039 - ERROR - Employee creation returned False: Michael Anderson - Attempt 1/2
+2026-09-23 16:31:33,039 - INFO - Taking failure screenshot: Michael Anderson - Attempt 1
+2026-09-23 16:31:33,046 - ERROR - Screenshot failed for Michael Anderson: Page.screenshot: Target page, context or browser has been closed
+2026-09-23 16:31:33,047 - WARNING - Retrying employee: Michael Anderson
+2026-09-23 16:31:33,051 - ERROR - Bot execution failed: Page.wait_for_timeout: Target page, context or browser has been closed
+Traceback (most recent call last):
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\modules\bot_runner.py", line 61, in run_bot
+    result = process_employees(
+        page,
+        file_path
+    )
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\modules\employee_processor.py", line 275, in process_employees
+    page.wait_for_timeout(2000)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\sync_api\_generated.py", line 12529, in wait_for_timeout
+    self._sync(
+    ~~~~~~~~~~^
+        self._impl_obj.wait_for_timeout(timeout=to_milliseconds(timeout))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_page.py", line 1135, in wait_for_timeout
+    await self._main_frame.wait_for_timeout(timeout)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_frame.py", line 916, in wait_for_timeout
+    await self._channel.send("waitForTimeout", None, {"waitTimeout": timeout})
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_connection.py", line 563, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: Page.wait_for_timeout: Target page, context or browser has been closed
+2026-09-23 16:31:33,700 - INFO - Browser closed successfully
+2026-09-23 16:31:33,719 - ERROR - Bot execution failed
+Traceback (most recent call last):
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\main.py", line 68, in main
+    total_employees, successful_records, failed_records, errors = run_bot(
+                                                                  ~~~~~~~^
+        file_path,
+        ^^^^^^^^^^
+        username,
+        ^^^^^^^^^
+        password
+        ^^^^^^^^
+    )
+    ^
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\modules\bot_runner.py", line 61, in run_bot
+    result = process_employees(
+        page,
+        file_path
+    )
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\modules\employee_processor.py", line 275, in process_employees
+    page.wait_for_timeout(2000)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\sync_api\_generated.py", line 12529, in wait_for_timeout
+    self._sync(
+    ~~~~~~~~~~^
+        self._impl_obj.wait_for_timeout(timeout=to_milliseconds(timeout))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_page.py", line 1135, in wait_for_timeout
+    await self._main_frame.wait_for_timeout(timeout)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_frame.py", line 916, in wait_for_timeout
+    await self._channel.send("waitForTimeout", None, {"waitTimeout": timeout})
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_connection.py", line 563, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: Page.wait_for_timeout: Target page, context or browser has been closed
+2026-09-23 16:33:52,067 - INFO - Browser started
+2026-09-23 16:33:59,833 - INFO - Login successful
+2026-09-23 16:34:00,999 - INFO - PIM page opened successfully
+2026-09-23 16:34:00,999 - INFO - PIM opened
+2026-09-23 16:34:01,030 - INFO - Employee data read from Excel. Total employees: 5
+2026-09-23 16:34:01,030 - INFO - Processing Michael Anderson - Attempt 1/2
+2026-09-23 16:34:03,256 - INFO - Add Employee page opened for Michael Anderson
+2026-09-23 16:34:11,804 - INFO - Employee Personal details filled successfully
+2026-09-23 16:34:13,028 - ERROR - Employee failed. Fields: ['Date of Birth', 'Attachment']
+2026-09-23 16:34:13,061 - INFO - Employee created successfully: Michael Anderson
+2026-09-23 16:34:15,075 - INFO - Processing Sophia Williams - Attempt 1/2
+2026-09-23 16:34:15,836 - INFO - Add Employee page opened for Sophia Williams
+2026-09-23 16:34:25,649 - INFO - Employee Personal details filled successfully
+2026-09-23 16:34:26,861 - ERROR - Employee failed. Fields: ['Date of Birth', 'Attachment']
+2026-09-23 16:34:26,901 - INFO - Employee created successfully: Sophia Williams
+2026-09-23 16:34:28,908 - INFO - Processing Daniel Thompson - Attempt 1/2
+2026-09-23 16:34:29,719 - INFO - Add Employee page opened for Daniel Thompson
+2026-09-23 16:35:08,411 - ERROR - Employee creation returned False: Daniel Thompson - Attempt 1/2
+2026-09-23 16:35:08,411 - INFO - Taking failure screenshot: Daniel Thompson - Attempt 1
+2026-09-23 16:35:08,565 - INFO - Failure screenshot saved: C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\Screenshots\failed\Daniel_Thompson_attempt_1_2026-09-23_16-35-08.png
+2026-09-23 16:35:08,565 - WARNING - Retrying employee: Daniel Thompson
+2026-09-23 16:35:10,574 - INFO - Processing Daniel Thompson - Attempt 2/2
+2026-09-23 16:35:11,827 - INFO - Add Employee page opened for Daniel Thompson
+2026-09-23 16:35:43,499 - ERROR - Employee creation returned False: Daniel Thompson - Attempt 2/2
+2026-09-23 16:35:43,499 - INFO - Taking failure screenshot: Daniel Thompson - Attempt 2
+2026-09-23 16:35:43,610 - INFO - Failure screenshot saved: C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\Screenshots\failed\Daniel_Thompson_attempt_2_2026-09-23_16-35-43.png
+2026-09-23 16:35:43,653 - ERROR - Employee permanently failed: Daniel Thompson
+2026-09-23 16:35:45,669 - INFO - Skipping Emily Johnson - Already Completed
+2026-09-23 16:35:45,669 - INFO - Processing James Martinez - Attempt 1/2
+2026-09-23 16:35:46,434 - INFO - Add Employee page opened for James Martinez
+2026-09-23 16:35:55,720 - INFO - Employee Personal details filled successfully
+2026-09-23 16:35:56,959 - ERROR - Employee failed. Fields: ['Date of Birth', 'Attachment']
+2026-09-23 16:35:57,000 - INFO - Employee created successfully: James Martinez
+2026-09-23 16:35:59,535 - INFO - Browser closed successfully
+2026-09-23 16:35:59,586 - INFO - Failed employee rows formatted successfully

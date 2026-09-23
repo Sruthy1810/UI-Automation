@@ -1,6 +1,6 @@
 import os
 from pathlib import Path
-from logger import logger
+from utils.logger import logger
 
 def create_employee(page, employee):
 
@@ -64,7 +64,7 @@ def create_employee(page, employee):
         # 5. FIND PROFILE PHOTO
         # =====================================================
 
-        base_dir = Path(__file__).resolve().parent
+        base_dir = Path(__file__).resolve().parent.parent
         assets_dir = base_dir / "assets"
 
         photo_path = assets_dir / f"{first_name} {last_name}.jpg"
@@ -200,6 +200,8 @@ def create_employee(page, employee):
 
         print("Personal Details filled successfully")
 
+        failed_fields = []
+
         # =====================================================
         #   SAVE PERSONAL DETAILS
          # =====================================================
@@ -218,7 +220,38 @@ def create_employee(page, employee):
 
         personal_details_form.get_by_role("button", name="Save").click()
 
+        page.wait_for_timeout(1000)
+
         print("Employee Personal details updated")
+
+        #              VERIFY PERSONAL DETAILS                #
+
+        if not verify_dropdown(
+            page,
+            "Nationality",
+            employee["Nationality"]
+        ):
+            failed_fields.append("Nationality")
+
+        if not verify_dropdown(
+            page,
+            "Marital Status",
+            employee["Marital Status"]
+        ):
+            failed_fields.append("Marital Status")
+
+        if not verify_gender(
+            page,
+            employee["Gender"]
+        ):
+            failed_fields.append("Gender")
+
+        if not verify_date_of_birth(
+            page,
+            employee["Date of Birth"]
+        ):
+            failed_fields.append("Date of Birth")
+
 
         # =====================================================
         # 16. BLOOD GROUP
@@ -242,26 +275,55 @@ def create_employee(page, employee):
 
         custom_fields_form.get_by_role("button", name="Save").click()
 
+        page.wait_for_timeout(1000)
+
         print("Employee details updated")
 
+
+        # Verify Blood Group
+        if not verify_dropdown(
+            page,
+            "Blood Type",
+            employee["Blood Group"]
+        ):
+            failed_fields.append("Blood Group")
 
         # =====================================================
         #  UPLOAD DOCUMENT
         # =====================================================
 
         
-        upload_document(
+        attachment_success = upload_document(
             page,
             employee
         )
 
-        # 19. SUCCESS
+        if not attachment_success:
+            failed_fields.append("Attachment")
+
+
+        if failed_fields:
+
+            logger.error(
+                f"Employee failed. Fields: {failed_fields}"
+            )
+
+            return {
+                "success": False,
+                "failed_fields": failed_fields
+            }
+
         logger.info(
             f"Employee created successfully: "
             f"{first_name} {last_name}"
         )
 
-        return True
+        return {
+            "success": True,
+            "failed_fields": []
+        }
+
+        
 
     except Exception as e:
 
@@ -298,6 +360,47 @@ def fill_dropdown(page, label, value):
     print(f"{label} selected successfully")
 
 # ==========================================================
+# FAILED DROPDOWN
+# ==========================================================
+
+def verify_dropdown(page, label, expected_value):
+
+    try:
+
+        group = page.locator(
+            ".oxd-input-group"
+        ).filter(
+            has=page.locator(
+                "label",
+                has_text=label
+            )
+        )
+
+        actual_value = group.locator(
+            ".oxd-select-text"
+        ).inner_text().strip()
+
+        expected_value = str(
+            expected_value
+        ).strip()
+
+        print(
+            f"Verify {label}: "
+            f"Expected={expected_value}, "
+            f"Actual={actual_value}"
+        )
+
+        return actual_value == expected_value
+
+    except Exception as e:
+
+        logger.error(
+            f"Unable to verify {label}: {e}"
+        )
+
+        return False
+    
+# ==========================================================
 # Gender Helper
 # ==========================================================
 
@@ -315,6 +418,44 @@ def select_gender(page, gender):
     ).check(force=True)
 
     print("Gender selected successfully")
+
+
+# ==========================================================
+# VERIFY GENDER
+# ==========================================================
+
+
+def verify_gender(page, expected_gender):
+
+    try:
+
+        expected_gender = str(
+            expected_gender
+        ).strip()
+
+        radio = page.get_by_role(
+            "radio",
+            name=expected_gender,
+            exact=True
+        )
+
+        result = radio.is_checked()
+
+        print(
+            f"Verify Gender: "
+            f"Expected={expected_gender}, "
+            f"Checked={result}"
+        )
+
+        return result
+
+    except Exception as e:
+
+        logger.error(
+            f"Unable to verify Gender: {e}"
+        )
+
+        return False
 
 # ==========================================================
 # DATE OF BIRTH HELPER
@@ -342,12 +483,58 @@ def enter_date_of_birth(page, dob):
 
     print("Date of Birth entered successfully")
 
+# ==========================================================
+# VERIFY DOB
+# ==========================================================
+
+
+def verify_date_of_birth(page, expected_dob):
+
+    try:
+
+        if hasattr(expected_dob, "strftime"):
+            expected_value = expected_dob.strftime(
+                "%Y-%m-%d"
+            )
+        else:
+            expected_value = str(
+                expected_dob
+            ).strip()
+
+        dob_group = page.locator(
+            ".oxd-input-group"
+        ).filter(
+            has_text="Date of Birth"
+        )
+
+        actual_value = dob_group.locator(
+            "input"
+        ).input_value().strip()
+
+        print(
+            f"Verify Date of Birth: "
+            f"Expected={expected_value}, "
+            f"Actual={actual_value}"
+        )
+
+        return actual_value == expected_value
+
+    except Exception as e:
+
+        logger.error(
+            f"Unable to verify Date of Birth: {e}"
+        )
+
+        return False
+
 
 # ==========================================================
 # BLOOD TYPE 
 # ==========================================================
 
 def fill_dropdown(page, label, value):
+
+    value = str(value).strip()
     print(f"Selecting {label}: {value}")
 
     # Find the input group containing the label
@@ -360,20 +547,18 @@ def fill_dropdown(page, label, value):
 
     # Select option
     page.locator(".oxd-select-option").filter(
-        has_text=str(value).strip()
-    ).click()
+        has_text=value
+    ).get_by_text(value, exact=True).click()
 
     print(f"{label} selected successfully")
 
 
 
-
-def upload_document(page, employee):
-
     # ---------------------------------------------
     # Documents folder
     # ---------------------------------------------
-
+def upload_document(page, employee):
+            
             print("\n" + "-" * 40)
             print("Uploading employee document")
             print("-" * 40)
@@ -381,7 +566,7 @@ def upload_document(page, employee):
             first_name = str(employee["First Name"]).strip()
             last_name = str(employee["Last Name"]).strip()
 
-            base_dir = Path(__file__).resolve().parent
+            base_dir = Path(__file__).resolve().parent.parent
             documents_dir = base_dir / "documents"
 
             

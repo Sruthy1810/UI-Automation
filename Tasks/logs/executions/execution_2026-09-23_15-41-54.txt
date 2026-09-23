@@ -1,0 +1,28 @@
+2026-09-23 15:38:58,546 - INFO - Browser started
+2026-09-23 15:39:24,547 - INFO - Login successful
+2026-09-23 15:39:32,903 - INFO - PIM page opened successfully
+2026-09-23 15:39:32,904 - INFO - PIM opened
+2026-09-23 15:39:32,936 - INFO - Employee data read from Excel. Total employees: 5
+2026-09-23 15:39:32,936 - INFO - Processing Michael Anderson - Attempt 1/2
+2026-09-23 15:39:41,544 - INFO - Add Employee page opened for Michael Anderson
+2026-09-23 15:40:08,399 - INFO - Employee Personal details filled successfully
+2026-09-23 15:40:09,639 - ERROR - Employee failed. Fields: ['Date of Birth', 'Attachment']
+2026-09-23 15:40:09,668 - INFO - Employee created successfully: Michael Anderson
+2026-09-23 15:40:11,687 - INFO - Processing Sophia Williams - Attempt 1/2
+2026-09-23 15:40:17,831 - INFO - Add Employee page opened for Sophia Williams
+2026-09-23 15:40:47,397 - INFO - Employee Personal details filled successfully
+2026-09-23 15:40:48,602 - ERROR - Employee failed. Fields: ['Date of Birth', 'Attachment']
+2026-09-23 15:40:48,644 - INFO - Employee created successfully: Sophia Williams
+2026-09-23 15:40:50,652 - INFO - Processing Daniel Thompson - Attempt 1/2
+2026-09-23 15:40:57,219 - INFO - Add Employee page opened for Daniel Thompson
+2026-09-23 15:41:19,374 - INFO - Employee Personal details filled successfully
+2026-09-23 15:41:20,575 - ERROR - Employee failed. Fields: ['Attachment']
+2026-09-23 15:41:20,629 - INFO - Employee created successfully: Daniel Thompson
+2026-09-23 15:41:22,647 - INFO - Skipping Emily Johnson - Already Completed
+2026-09-23 15:41:22,647 - INFO - Processing James Martinez - Attempt 1/2
+2026-09-23 15:41:27,874 - INFO - Add Employee page opened for James Martinez
+2026-09-23 15:41:50,532 - INFO - Employee Personal details filled successfully
+2026-09-23 15:41:51,732 - ERROR - Employee failed. Fields: ['Date of Birth', 'Attachment']
+2026-09-23 15:41:51,822 - INFO - Employee created successfully: James Martinez
+2026-09-23 15:41:54,262 - INFO - Browser closed successfully
+2026-09-23 15:41:54,320 - INFO - Failed employee rows formatted successfully
