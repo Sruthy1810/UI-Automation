@@ -201,7 +201,7 @@ def send_completion_email(
 
     # Determine execution status
 
-    if total_employees > 0 and successful_records == total_employees:
+    if failed_records == 0 and not errors:
         execution_status = "Success"
 
     elif successful_records > 0 and failed_records > 0:

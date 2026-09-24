@@ -1,0 +1,22 @@
+2026-09-24 15:31:27,267 - INFO - Browser started
+2026-09-24 15:32:13,581 - INFO - Login successful
+2026-09-24 15:32:31,665 - INFO - PIM page opened successfully
+2026-09-24 15:32:31,666 - INFO - PIM opened
+2026-09-24 15:32:31,705 - INFO - Employee data read from Excel. Total employees: 5
+2026-09-24 15:32:31,705 - INFO - Skipping Michael Anderson - Already successful
+2026-09-24 15:32:31,705 - INFO - Processing Sophia Williams - Attempt 1/2
+2026-09-24 15:32:31,706 - INFO - Opening Add Employee page for Sophia Williams
+2026-09-24 15:32:44,020 - INFO - Add Employee page opened for Sophia Williams
+2026-09-24 15:33:37,841 - INFO - Employee Personal details filled successfully
+2026-09-24 15:33:39,082 - ERROR - Employee failed. Fields: ['Date of Birth', 'Attachment']
+2026-09-24 15:33:39,143 - INFO - Employee created successfully: Sophia Williams
+2026-09-24 15:33:41,151 - INFO - Skipping Daniel Thompson - Already successful
+2026-09-24 15:33:41,153 - INFO - Processing Emily Johnson - Attempt 1/2
+2026-09-24 15:33:41,154 - INFO - Opening Add Employee page for Emily Johnson
+2026-09-24 15:33:53,570 - INFO - Add Employee page opened for Emily Johnson
+2026-09-24 15:34:33,820 - INFO - Employee Personal details filled successfully
+2026-09-24 15:34:35,008 - ERROR - Employee failed. Fields: ['Attachment']
+2026-09-24 15:34:35,060 - INFO - Employee created successfully: Emily Johnson
+2026-09-24 15:34:37,069 - INFO - Skipping James Martinez - Already successful
+2026-09-24 15:34:37,648 - INFO - Browser closed successfully
+2026-09-24 15:34:37,693 - INFO - Failed employee rows formatted successfully

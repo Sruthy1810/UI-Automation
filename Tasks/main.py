@@ -16,7 +16,7 @@ from utils.execution_log import (
 
 from utils.excel_formatter import color_failed_rows
 from utils.logger import logger
-from modules.excel_reader import reset_employee_status
+
 
 def main():
 
@@ -58,12 +58,7 @@ def main():
 
     file_path = get_employee_file_path()
 
-    
-
     try:
-
-        reset_employee_status(file_path)
-
 
         total_employees, successful_records, failed_records, errors = run_bot(
             file_path,

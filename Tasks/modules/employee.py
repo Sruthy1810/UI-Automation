@@ -148,19 +148,53 @@ def create_employee(page, employee):
 
         print("Waiting for Personal Details page...")
 
-        page.wait_for_url("**/pim/viewPersonalDetails/empNumber/**", timeout=30000)
+        try:
 
-        print("Moved to Personal Details page")
-        print("Current URL:", page.url)
+            page.wait_for_url(
+                "**/pim/viewPersonalDetails/empNumber/**",
+                timeout=30000
+            )
+
+            print("Moved to Personal Details page")
+            print("Current URL:", page.url)
+
+        except Exception as e:
+
+            print("Personal Details URL wait timed out")
+
+            print("Current URL:", page.url)
+
+            # -------------------------------------------------
+            # CHECK WHETHER EMPLOYEE WAS ACTUALLY CREATED
+            # -------------------------------------------------
+
+            if "/pim/viewPersonalDetails/empNumber/" in page.url:
+
+                print(
+                    "Employee was created successfully "
+                    "despite navigation timeout."
+                )
+
+            else:
+
+                # Employee was not created
+                raise e
+
 
         # =====================================================
         # 11. WAIT FOR PERSONAL DETAILS TO APPEAR
         # =====================================================
 
-        page.get_by_role("link", name="Personal Details", exact=True).wait_for(
-         state="visible",timeout=10000)
-            
+        print("Checking Personal Details page...")
 
+        page.get_by_role(
+            "link",
+            name="Personal Details",
+            exact=True
+        ).wait_for(
+            state="visible",
+            timeout=10000
+        )
 
         print(
             f"Entered: {first_name} {last_name}"
@@ -168,6 +202,8 @@ def create_employee(page, employee):
         )
 
         print("Personal Details page opened")
+
+        #return True
 
         # =====================================================
         # 12. NATIONALITY
@@ -224,7 +260,9 @@ def create_employee(page, employee):
 
         print("Employee Personal details updated")
 
+
         #              VERIFY PERSONAL DETAILS                #
+
 
         if not verify_dropdown(
             page,

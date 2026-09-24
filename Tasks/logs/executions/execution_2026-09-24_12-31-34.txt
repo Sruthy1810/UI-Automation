@@ -1,0 +1,24 @@
+2026-09-24 12:28:05,828 - INFO - Browser started
+2026-09-24 12:29:03,280 - INFO - Login successful
+2026-09-24 12:29:19,836 - INFO - PIM page opened successfully
+2026-09-24 12:29:19,837 - INFO - PIM opened
+2026-09-24 12:29:19,852 - INFO - Employee data read from Excel. Total employees: 5
+2026-09-24 12:29:19,852 - INFO - Skipping Michael Anderson - Already successful
+2026-09-24 12:29:19,862 - INFO - Skipping Sophia Williams - Already successful
+2026-09-24 12:29:19,862 - INFO - Processing Daniel Thompson - Attempt 1/2
+2026-09-24 12:29:19,863 - INFO - Opening Add Employee page for Daniel Thompson
+2026-09-24 12:29:31,137 - INFO - Add Employee page opened for Daniel Thompson
+2026-09-24 12:30:59,904 - ERROR - Employee creation returned False: Daniel Thompson - Attempt 1/2
+2026-09-24 12:30:59,904 - INFO - Taking failure screenshot: Daniel Thompson - Attempt 1
+2026-09-24 12:31:00,071 - INFO - Failure screenshot saved: C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\Screenshots\failed\Daniel_Thompson_attempt_1_2026-09-24_12-30-59.png
+2026-09-24 12:31:00,071 - WARNING - Retrying employee: Daniel Thompson
+2026-09-24 12:31:02,086 - INFO - Processing Daniel Thompson - Attempt 2/2
+2026-09-24 12:31:02,087 - INFO - Retrying Daniel Thompson from current page
+2026-09-24 12:31:32,198 - ERROR - Employee creation returned False: Daniel Thompson - Attempt 2/2
+2026-09-24 12:31:32,198 - INFO - Taking failure screenshot: Daniel Thompson - Attempt 2
+2026-09-24 12:31:32,331 - INFO - Failure screenshot saved: C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\Screenshots\failed\Daniel_Thompson_attempt_2_2026-09-24_12-31-32.png
+2026-09-24 12:31:32,359 - ERROR - Employee permanently failed: Daniel Thompson
+2026-09-24 12:31:34,367 - INFO - Skipping Emily Johnson - Already successful
+2026-09-24 12:31:34,368 - INFO - Skipping James Martinez - Already successful
+2026-09-24 12:31:34,857 - INFO - Browser closed successfully
+2026-09-24 12:31:34,901 - INFO - Failed employee rows formatted successfully

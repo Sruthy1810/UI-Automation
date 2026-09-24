@@ -1,0 +1,17 @@
+2026-09-24 12:05:09,798 - INFO - Browser started
+2026-09-24 12:05:52,659 - INFO - Login successful
+2026-09-24 12:06:05,602 - INFO - PIM page opened successfully
+2026-09-24 12:06:05,602 - INFO - PIM opened
+2026-09-24 12:06:05,617 - INFO - Employee data read from Excel. Total employees: 5
+2026-09-24 12:06:05,617 - INFO - Skipping Michael Anderson - Already successful
+2026-09-24 12:06:05,617 - INFO - Skipping Sophia Williams - Already successful
+2026-09-24 12:06:05,617 - INFO - Skipping Daniel Thompson - Already successful
+2026-09-24 12:06:05,618 - INFO - Skipping Emily Johnson - Already successful
+2026-09-24 12:06:05,618 - INFO - Processing James Martinez - Attempt 1/2
+2026-09-24 12:06:05,618 - INFO - Opening Add Employee page for James Martinez
+2026-09-24 12:06:15,576 - INFO - Add Employee page opened for James Martinez
+2026-09-24 12:06:51,825 - INFO - Employee Personal details filled successfully
+2026-09-24 12:06:53,055 - ERROR - Employee failed. Fields: ['Date of Birth', 'Attachment']
+2026-09-24 12:06:53,109 - INFO - Employee created successfully: James Martinez
+2026-09-24 12:06:55,566 - INFO - Browser closed successfully
+2026-09-24 12:06:55,613 - INFO - Failed employee rows formatted successfully

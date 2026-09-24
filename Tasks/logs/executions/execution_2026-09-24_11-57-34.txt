@@ -1,0 +1,44 @@
+2026-09-24 11:49:33,287 - INFO - Browser started
+2026-09-24 11:50:25,584 - INFO - Login successful
+2026-09-24 11:50:35,083 - INFO - PIM page opened successfully
+2026-09-24 11:50:35,083 - INFO - PIM opened
+2026-09-24 11:50:35,098 - INFO - Employee data read from Excel. Total employees: 5
+2026-09-24 11:50:35,098 - INFO - Processing Michael Anderson - Attempt 1/2
+2026-09-24 11:50:35,098 - INFO - Opening Add Employee page for Michael Anderson
+2026-09-24 11:50:49,238 - INFO - Add Employee page opened for Michael Anderson
+2026-09-24 11:51:39,143 - INFO - Employee Personal details filled successfully
+2026-09-24 11:51:40,496 - ERROR - Employee failed. Fields: ['Date of Birth', 'Attachment']
+2026-09-24 11:51:40,558 - INFO - Employee created successfully: Michael Anderson
+2026-09-24 11:51:42,585 - INFO - Processing Sophia Williams - Attempt 1/2
+2026-09-24 11:51:42,586 - INFO - Opening Add Employee page for Sophia Williams
+2026-09-24 11:51:52,829 - INFO - Add Employee page opened for Sophia Williams
+2026-09-24 11:52:35,232 - INFO - Employee Personal details filled successfully
+2026-09-24 11:52:36,479 - ERROR - Employee failed. Fields: ['Date of Birth', 'Attachment']
+2026-09-24 11:52:36,528 - INFO - Employee created successfully: Sophia Williams
+2026-09-24 11:52:38,535 - INFO - Processing Daniel Thompson - Attempt 1/2
+2026-09-24 11:52:38,537 - INFO - Opening Add Employee page for Daniel Thompson
+2026-09-24 11:52:48,350 - INFO - Add Employee page opened for Daniel Thompson
+2026-09-24 11:53:45,447 - INFO - Employee Personal details filled successfully
+2026-09-24 11:53:52,469 - ERROR - Employee failed. Fields: ['Attachment']
+2026-09-24 11:53:52,501 - INFO - Employee created successfully: Daniel Thompson
+2026-09-24 11:53:54,507 - INFO - Processing Emily Johnson - Attempt 1/2
+2026-09-24 11:53:54,508 - INFO - Opening Add Employee page for Emily Johnson
+2026-09-24 11:54:09,472 - INFO - Add Employee page opened for Emily Johnson
+2026-09-24 11:55:12,689 - INFO - Employee Personal details filled successfully
+2026-09-24 11:55:19,705 - ERROR - Employee failed. Fields: ['Attachment']
+2026-09-24 11:55:19,729 - INFO - Employee created successfully: Emily Johnson
+2026-09-24 11:55:21,737 - INFO - Processing James Martinez - Attempt 1/2
+2026-09-24 11:55:21,737 - INFO - Opening Add Employee page for James Martinez
+2026-09-24 11:55:32,856 - INFO - Add Employee page opened for James Martinez
+2026-09-24 11:56:59,117 - ERROR - Employee creation returned False: James Martinez - Attempt 1/2
+2026-09-24 11:56:59,117 - INFO - Taking failure screenshot: James Martinez - Attempt 1
+2026-09-24 11:56:59,274 - INFO - Failure screenshot saved: C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\Screenshots\failed\James_Martinez_attempt_1_2026-09-24_11-56-59.png
+2026-09-24 11:56:59,274 - WARNING - Retrying employee: James Martinez
+2026-09-24 11:57:01,282 - INFO - Processing James Martinez - Attempt 2/2
+2026-09-24 11:57:01,282 - INFO - Retrying James Martinez from current page
+2026-09-24 11:57:31,380 - ERROR - Employee creation returned False: James Martinez - Attempt 2/2
+2026-09-24 11:57:31,380 - INFO - Taking failure screenshot: James Martinez - Attempt 2
+2026-09-24 11:57:31,525 - INFO - Failure screenshot saved: C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\Screenshots\failed\James_Martinez_attempt_2_2026-09-24_11-57-31.png
+2026-09-24 11:57:31,576 - ERROR - Employee permanently failed: James Martinez
+2026-09-24 11:57:34,242 - INFO - Browser closed successfully
+2026-09-24 11:57:34,323 - INFO - Failed employee rows formatted successfully

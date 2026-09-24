@@ -44,10 +44,9 @@ def reset_employee_status(file_path):
     workbook = load_workbook(file_path)
     sheet = workbook.active
 
-    headers = {}
-
-    for cell in sheet[1]:
-        headers[cell.value] = cell.column
+    headers = {cell.value: cell.column
+        for cell in sheet[1]
+    }
 
     status_column = headers.get("Status")
     remarks_column = headers.get("Remarks")
@@ -71,12 +70,16 @@ def reset_employee_status(file_path):
 
     print("Previous Status and Remarks cleared")
 
+# ---------------------------------------------------------
+# Update Employee Status
+# ---------------------------------------------------------
+
+
 def update_employee_status(
     file_path,
     row_number,
     status,
-    remarks,
-    processing_status=None
+    remarks
 ):
 
     workbook = load_workbook(file_path)
@@ -115,20 +118,6 @@ def update_employee_status(
             column=remarks_column
         ).value = "Remarks"
 
-    # -----------------------------------------
-    # Processing Status column
-    # -----------------------------------------
-
-    processing_column = headers.get(
-        "Processing Status"
-    )
-
-    if processing_column is None:
-        processing_column = sheet.max_column + 1
-        sheet.cell(
-            row=1,
-            column=processing_column
-        ).value = "Processing Status"
 
     # -----------------------------------------
     # Update values
@@ -143,13 +132,6 @@ def update_employee_status(
         row=row_number,
         column=remarks_column
     ).value = remarks
-
-
-    if processing_status is not None:
-        sheet.cell(
-            row=row_number,
-            column=processing_column
-        ).value = processing_status
 
     workbook.save(file_path)
 

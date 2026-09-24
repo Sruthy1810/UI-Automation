@@ -1,0 +1,17 @@
+2026-09-24 12:34:59,272 - INFO - Browser started
+2026-09-24 12:35:54,886 - INFO - Login successful
+2026-09-24 12:36:13,392 - INFO - PIM page opened successfully
+2026-09-24 12:36:13,393 - INFO - PIM opened
+2026-09-24 12:36:13,409 - INFO - Employee data read from Excel. Total employees: 5
+2026-09-24 12:36:13,409 - INFO - Skipping Michael Anderson - Already successful
+2026-09-24 12:36:13,410 - INFO - Skipping Sophia Williams - Already successful
+2026-09-24 12:36:13,410 - INFO - Processing Daniel Thompson - Attempt 1/2
+2026-09-24 12:36:13,410 - INFO - Opening Add Employee page for Daniel Thompson
+2026-09-24 12:36:25,742 - INFO - Add Employee page opened for Daniel Thompson
+2026-09-24 12:37:24,602 - INFO - Employee Personal details filled successfully
+2026-09-24 12:37:25,892 - ERROR - Employee failed. Fields: ['Attachment']
+2026-09-24 12:37:25,955 - INFO - Employee created successfully: Daniel Thompson
+2026-09-24 12:37:27,966 - INFO - Skipping Emily Johnson - Already successful
+2026-09-24 12:37:27,967 - INFO - Skipping James Martinez - Already successful
+2026-09-24 12:37:28,475 - INFO - Browser closed successfully
+2026-09-24 12:37:28,532 - INFO - Failed employee rows formatted successfully

@@ -1,0 +1,44 @@
+2026-09-24 10:23:46,503 - INFO - Browser started
+2026-09-24 10:23:53,443 - INFO - Login successful
+2026-09-24 10:23:54,570 - INFO - PIM page opened successfully
+2026-09-24 10:23:54,570 - INFO - PIM opened
+2026-09-24 10:23:54,588 - INFO - Employee data read from Excel. Total employees: 5
+2026-09-24 10:23:54,588 - INFO - Processing Michael Anderson - Attempt 1/2
+2026-09-24 10:23:54,588 - INFO - Opening Add Employee page for Michael Anderson
+2026-09-24 10:23:55,508 - INFO - Add Employee page opened for Michael Anderson
+2026-09-24 10:24:05,019 - INFO - Employee Personal details filled successfully
+2026-09-24 10:24:06,255 - ERROR - Employee failed. Fields: ['Date of Birth', 'Attachment']
+2026-09-24 10:24:06,285 - INFO - Employee created successfully: Michael Anderson
+2026-09-24 10:24:08,292 - INFO - Processing Sophia Williams - Attempt 1/2
+2026-09-24 10:24:08,293 - INFO - Opening Add Employee page for Sophia Williams
+2026-09-24 10:24:09,043 - INFO - Add Employee page opened for Sophia Williams
+2026-09-24 10:24:18,274 - INFO - Employee Personal details filled successfully
+2026-09-24 10:24:19,487 - ERROR - Employee failed. Fields: ['Date of Birth', 'Attachment']
+2026-09-24 10:24:19,530 - INFO - Employee created successfully: Sophia Williams
+2026-09-24 10:24:21,541 - INFO - Processing Daniel Thompson - Attempt 1/2
+2026-09-24 10:24:21,543 - INFO - Opening Add Employee page for Daniel Thompson
+2026-09-24 10:24:22,839 - INFO - Add Employee page opened for Daniel Thompson
+2026-09-24 10:25:01,188 - ERROR - Employee creation returned False: Daniel Thompson - Attempt 1/2
+2026-09-24 10:25:01,188 - INFO - Taking failure screenshot: Daniel Thompson - Attempt 1
+2026-09-24 10:25:01,361 - INFO - Failure screenshot saved: C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\Screenshots\failed\Daniel_Thompson_attempt_1_2026-09-24_10-25-01.png
+2026-09-24 10:25:01,361 - WARNING - Retrying employee: Daniel Thompson
+2026-09-24 10:25:03,369 - INFO - Processing Daniel Thompson - Attempt 2/2
+2026-09-24 10:25:03,373 - INFO - Retrying Daniel Thompson from current page
+2026-09-24 10:25:33,477 - ERROR - Employee creation returned False: Daniel Thompson - Attempt 2/2
+2026-09-24 10:25:33,477 - INFO - Taking failure screenshot: Daniel Thompson - Attempt 2
+2026-09-24 10:25:33,606 - INFO - Failure screenshot saved: C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\Screenshots\failed\Daniel_Thompson_attempt_2_2026-09-24_10-25-33.png
+2026-09-24 10:25:33,647 - ERROR - Employee permanently failed: Daniel Thompson
+2026-09-24 10:25:35,662 - INFO - Processing Emily Johnson - Attempt 1/2
+2026-09-24 10:25:35,663 - INFO - Opening Add Employee page for Emily Johnson
+2026-09-24 10:25:36,934 - INFO - Add Employee page opened for Emily Johnson
+2026-09-24 10:25:45,361 - INFO - Employee Personal details filled successfully
+2026-09-24 10:25:46,590 - ERROR - Employee failed. Fields: ['Attachment']
+2026-09-24 10:25:46,629 - INFO - Employee created successfully: Emily Johnson
+2026-09-24 10:25:48,637 - INFO - Processing James Martinez - Attempt 1/2
+2026-09-24 10:25:48,638 - INFO - Opening Add Employee page for James Martinez
+2026-09-24 10:25:49,392 - INFO - Add Employee page opened for James Martinez
+2026-09-24 10:25:58,086 - INFO - Employee Personal details filled successfully
+2026-09-24 10:25:59,312 - ERROR - Employee failed. Fields: ['Date of Birth', 'Attachment']
+2026-09-24 10:25:59,367 - INFO - Employee created successfully: James Martinez
+2026-09-24 10:26:01,823 - INFO - Browser closed successfully
+2026-09-24 10:26:01,873 - INFO - Failed employee rows formatted successfully

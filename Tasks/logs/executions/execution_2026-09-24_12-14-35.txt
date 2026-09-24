@@ -1,0 +1,27 @@
+2026-09-24 12:09:44,215 - INFO - Browser started
+2026-09-24 12:10:28,912 - INFO - Login successful
+2026-09-24 12:10:49,285 - INFO - PIM page opened successfully
+2026-09-24 12:10:49,286 - INFO - PIM opened
+2026-09-24 12:10:49,308 - INFO - Employee data read from Excel. Total employees: 5
+2026-09-24 12:10:49,308 - INFO - Processing Michael Anderson - Attempt 1/2
+2026-09-24 12:10:49,309 - INFO - Opening Add Employee page for Michael Anderson
+2026-09-24 12:11:05,052 - INFO - Add Employee page opened for Michael Anderson
+2026-09-24 12:11:49,996 - INFO - Employee Personal details filled successfully
+2026-09-24 12:11:51,335 - ERROR - Employee failed. Fields: ['Date of Birth', 'Attachment']
+2026-09-24 12:11:51,418 - INFO - Employee created successfully: Michael Anderson
+2026-09-24 12:11:53,426 - INFO - Skipping Sophia Williams - Already successful
+2026-09-24 12:11:53,427 - INFO - Processing Daniel Thompson - Attempt 1/2
+2026-09-24 12:11:53,427 - INFO - Opening Add Employee page for Daniel Thompson
+2026-09-24 12:12:09,862 - INFO - Add Employee page opened for Daniel Thompson
+2026-09-24 12:13:04,517 - INFO - Employee Personal details filled successfully
+2026-09-24 12:13:05,747 - ERROR - Employee failed. Fields: ['Attachment']
+2026-09-24 12:13:05,835 - INFO - Employee created successfully: Daniel Thompson
+2026-09-24 12:13:07,846 - INFO - Skipping Emily Johnson - Already successful
+2026-09-24 12:13:07,846 - INFO - Processing James Martinez - Attempt 1/2
+2026-09-24 12:13:07,847 - INFO - Opening Add Employee page for James Martinez
+2026-09-24 12:13:22,669 - INFO - Add Employee page opened for James Martinez
+2026-09-24 12:14:31,118 - INFO - Employee Personal details filled successfully
+2026-09-24 12:14:32,336 - ERROR - Employee failed. Fields: ['Date of Birth', 'Attachment']
+2026-09-24 12:14:32,414 - INFO - Employee created successfully: James Martinez
+2026-09-24 12:14:35,301 - INFO - Browser closed successfully
+2026-09-24 12:14:35,377 - INFO - Failed employee rows formatted successfully

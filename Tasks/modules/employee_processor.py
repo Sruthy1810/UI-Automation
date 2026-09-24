@@ -23,40 +23,9 @@ def process_employees(page, file_path):
 
     for employee in employees:
 
-        # =================================================
-        # CHECK PROCESSING STATUS
-        # =================================================
-
-        processing_status = str(
-            employee.get("Processing Status", "")
-        ).strip().lower()
-
-        if processing_status == "completed":
-
-            first_name = str(
-                employee["First Name"]
-            ).strip()
-
-            last_name = str(
-                employee["Last Name"]
-            ).strip()
-
-            employee_name = f"{first_name} {last_name}"
-
-            logger.info(
-                f"Skipping {employee_name} - "
-                f"Already Completed"
-            )
-
-            print(
-                f"Skipping {employee_name} - "
-                f"Already Completed"
-            )
-
-            continue
 
     # =================================================
-    # PROCESS EMPLOYEE
+    # GET EMPLOYEE DETAILS
     # =================================================
 
         row_number = employee["_row_number"]
@@ -72,7 +41,30 @@ def process_employees(page, file_path):
         employee_name = f"{first_name} {last_name}"
 
         # =================================================
-        # RETRY EMPLOYEE - MAXIMUM 2 ATTEMPTS
+        # CHECK STATUS
+        # =================================================
+
+        status = str(
+            employee.get("Status", "") or ""
+        ).strip().lower()
+
+        if status == "success":
+
+            logger.info(
+                f"Skipping {employee_name} - "
+                f"Already successful"
+            )
+
+            print(
+                f"Skipping {employee_name} - "
+                f"Already successful"
+            )
+
+            continue
+
+
+        # =================================================
+        # PROCESS EMPLOYEE
         # =================================================
 
         employee_success = False
@@ -96,28 +88,53 @@ def process_employees(page, file_path):
                 )
 
                 # -----------------------------------------
-                # Open Add Employee
+                # ATTEMPT 1
+                # Open Add Employee page
                 # -----------------------------------------
 
-                page.get_by_role(
-                    "link",
-                    name="Add Employee",
-                    exact=True
-                ).click()
+                if attempt == 1:
 
-                page.get_by_placeholder(
-                    "First Name"
-                ).wait_for(
-                    state="visible"
-                )
+                    logger.info(
+                        f"Opening Add Employee page for "
+                        f"{employee_name}"
+                    )
 
-                logger.info(
-                    f"Add Employee page opened for "
-                    f"{employee_name}"
-                )
+                    page.get_by_role(
+                        "link",
+                        name="Add Employee",
+                        exact=True
+                    ).click()
+
+                    page.get_by_placeholder(
+                        "First Name"
+                    ).wait_for(
+                        state="visible"
+                    )
+
+                    logger.info(
+                        f"Add Employee page opened for "
+                        f"{employee_name}"
+                    )
+
+                # =================================================
+                # ATTEMPT 2
+                # Do NOT open Add Employee again
+                # =================================================
+
+                else:
+
+                    logger.info(
+                        f"Retrying {employee_name} "
+                        f"from current page"
+                    )
+
+                    print(
+                        f"Retrying {employee_name} "
+                        f"from current page..."
+                    )
 
                 # -----------------------------------------
-                # Create Employee
+                # Create Employee  / RETRY EMPLOYEE
                 # -----------------------------------------
 
                 success = create_employee(
