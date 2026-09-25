@@ -1,0 +1,12 @@
+2026-09-24 16:48:01 - INFO - Browser started
+2026-09-24 16:48:48 - INFO - Login successful
+2026-09-24 16:49:01 - INFO - PIM page opened successfully
+2026-09-24 16:49:01 - INFO - PIM opened
+2026-09-24 16:49:01 - INFO - Employee data read from Excel. Total employees: 5
+2026-09-24 16:49:01 - INFO - Skipping Michael Anderson - Already successful
+2026-09-24 16:49:01 - INFO - Skipping Sophia Williams - Already successful
+2026-09-24 16:49:01 - INFO - Skipping Daniel Thompson - Already successful
+2026-09-24 16:49:01 - INFO - Skipping Emily Johnson - Already successful
+2026-09-24 16:49:01 - INFO - Skipping James Martinez - Already successful
+2026-09-24 16:49:02 - INFO - Browser closed successfully
+2026-09-24 16:49:02 - INFO - Failed employee rows formatted successfully

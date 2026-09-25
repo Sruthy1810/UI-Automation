@@ -1,5 +1,5 @@
 from datetime import datetime
-
+import os
 from config.config_reader import get_employee_file_path
 
 from modules.login import get_login_credentials_from_popup
@@ -7,7 +7,8 @@ from modules.bot_runner import run_bot
 
 from utils.email_notification import (
     send_start_email,
-    send_completion_email
+    send_completion_email,
+    send_exception_email
 )
 from utils.execution_log import (
     start_execution_log,
@@ -16,11 +17,14 @@ from utils.execution_log import (
 
 from utils.excel_formatter import color_failed_rows
 from utils.logger import logger
+from utils.archive_manager import archive_execution_files
 
 
 def main():
 
     execution_log_file = None
+
+    BASE_PATH = os.path.dirname(os.path.abspath(__file__))
 
     # -----------------------------------------
     # Login Popup
@@ -135,6 +139,17 @@ def main():
         print("BOT ERROR:", e)
 
         # -----------------------------------------
+        # Exception Email
+        # -----------------------------------------
+
+        print("Sending exception email...")
+
+        send_exception_email(
+            e,
+            start_time
+        )
+
+        # -----------------------------------------
         # Create Current Execution Log
         # Even when bot fails
         # -----------------------------------------
@@ -158,6 +173,21 @@ def main():
             [str(e)],
             execution_log_file
         )
+
+    finally:
+
+        try:
+            archive_execution_files(BASE_PATH)
+
+            logger.info(
+                "Old execution logs and failed screenshots archived successfully"
+            )
+
+        except Exception as archive_error:
+
+            logger.exception(
+                f"Archive process failed: {archive_error}"
+            )
 
 
 if __name__ == "__main__":

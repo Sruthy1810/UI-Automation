@@ -1,0 +1,93 @@
+2026-09-25 11:59:07 - INFO - Browser started
+2026-09-25 11:59:33 - INFO - Login successful
+2026-09-25 11:59:39 - INFO - PIM page opened successfully
+2026-09-25 11:59:39 - INFO - PIM opened
+2026-09-25 11:59:39 - INFO - Employee data read from Excel. Total employees: 5
+2026-09-25 11:59:39 - INFO - Skipping Michael Anderson - Already successful
+2026-09-25 11:59:39 - INFO - Skipping Sophia Williams - Already successful
+2026-09-25 11:59:39 - INFO - Processing Daniel Thompson - Attempt 1/2
+2026-09-25 11:59:39 - INFO - Opening Add Employee page for Daniel Thompson
+2026-09-25 11:59:50 - INFO - Add Employee page opened for Daniel Thompson
+2026-09-25 12:00:43 - ERROR - Employee creation returned False: Daniel Thompson - Attempt 1/2
+2026-09-25 12:00:43 - INFO - Taking failure screenshot: Daniel Thompson - Attempt 1
+2026-09-25 12:00:43 - ERROR - Screenshot failed for Daniel Thompson: Page.screenshot: Target page, context or browser has been closed
+2026-09-25 12:00:43 - WARNING - Retrying employee: Daniel Thompson
+2026-09-25 12:00:43 - ERROR - Bot execution failed: Page.wait_for_timeout: Target page, context or browser has been closed
+Traceback (most recent call last):
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\modules\bot_runner.py", line 61, in run_bot
+    result = process_employees(
+        page,
+        file_path
+    )
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\modules\employee_processor.py", line 292, in process_employees
+    page.wait_for_timeout(2000)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\sync_api\_generated.py", line 12529, in wait_for_timeout
+    self._sync(
+    ~~~~~~~~~~^
+        self._impl_obj.wait_for_timeout(timeout=to_milliseconds(timeout))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_page.py", line 1135, in wait_for_timeout
+    await self._main_frame.wait_for_timeout(timeout)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_frame.py", line 916, in wait_for_timeout
+    await self._channel.send("waitForTimeout", None, {"waitTimeout": timeout})
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_connection.py", line 563, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: Page.wait_for_timeout: Target page, context or browser has been closed
+2026-09-25 12:00:44 - INFO - Browser closed successfully
+2026-09-25 12:00:44 - ERROR - Bot execution failed
+Traceback (most recent call last):
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\main.py", line 67, in main
+    total_employees, successful_records, failed_records, errors = run_bot(
+                                                                  ~~~~~~~^
+        file_path,
+        ^^^^^^^^^^
+        username,
+        ^^^^^^^^^
+        password
+        ^^^^^^^^
+    )
+    ^
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\modules\bot_runner.py", line 61, in run_bot
+    result = process_employees(
+        page,
+        file_path
+    )
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\modules\employee_processor.py", line 292, in process_employees
+    page.wait_for_timeout(2000)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\sync_api\_generated.py", line 12529, in wait_for_timeout
+    self._sync(
+    ~~~~~~~~~~^
+        self._impl_obj.wait_for_timeout(timeout=to_milliseconds(timeout))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_page.py", line 1135, in wait_for_timeout
+    await self._main_frame.wait_for_timeout(timeout)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_frame.py", line 916, in wait_for_timeout
+    await self._channel.send("waitForTimeout", None, {"waitTimeout": timeout})
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\playwright\_impl\_connection.py", line 563, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: Page.wait_for_timeout: Target page, context or browser has been closed
+2026-09-25 12:00:48 - INFO - Exception email sent successfully

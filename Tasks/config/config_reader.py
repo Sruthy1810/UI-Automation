@@ -1,4 +1,4 @@
-from configparser import ConfigParser
+from configparser import RawConfigParser
 from pathlib import Path
 
 
@@ -6,7 +6,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 CONFIG_FILE = BASE_DIR / "config.ini"
 
 
-config = ConfigParser()
+config = RawConfigParser()
 config.read(CONFIG_FILE)
 
 

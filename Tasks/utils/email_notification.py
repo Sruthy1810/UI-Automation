@@ -2,12 +2,14 @@ import configparser
 import socket
 import getpass
 import smtplib
+import os
 
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
-import os
+from datetime import datetime
 from email.mime.base import MIMEBase
 from email import encoders
+from utils.logger import logger
 
 
 # ---------------------------------------------------------
@@ -261,3 +263,54 @@ The bot execution process has been completed.
 """
 
     return send_email(subject, body, execution_log_file)
+
+
+def send_exception_email(error, start_time=None):
+    try:
+        machine_name = socket.gethostname()
+        user_name = getpass.getuser()
+        error_time = datetime.now()
+
+        subject = "OrangeHRM Bot - Exception Occurred"
+
+        body = f"""
+OrangeHRM Bot Exception
+
+--------------------------------------------------
+EXCEPTION DETAILS
+--------------------------------------------------
+
+Bot Name       : OrangeHRM Employee Automation Bot
+Date & Time    : {error_time.strftime("%Y-%m-%d %H:%M:%S")}
+Machine Name   : {machine_name}
+User Name      : {user_name}
+
+Error:
+{error}
+
+--------------------------------------------------
+"""
+
+        msg = MIMEMultipart()
+        msg["From"] = SENDER_EMAIL
+        msg["To"] = RECEIVER_EMAIL
+        msg["Subject"] = subject
+
+        msg.attach(MIMEText(body, "plain"))
+
+        with smtplib.SMTP(SMTP_SERVER, SMTP_PORT) as server:
+            server.starttls()
+            server.login(SENDER_EMAIL, SENDER_PASSWORD)
+            server.send_message(msg)
+
+        logger.info("Exception email sent successfully")
+
+        return True
+
+    except Exception as email_error:
+
+        logger.exception(
+            f"Failed to send exception email: {email_error}"
+        )
+
+        return False

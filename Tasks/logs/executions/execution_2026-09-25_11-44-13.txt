@@ -1,0 +1,27 @@
+2026-09-25 11:42:32 - INFO - Browser started
+2026-09-25 11:42:54 - INFO - Login successful
+2026-09-25 11:42:57 - INFO - PIM page opened successfully
+2026-09-25 11:42:57 - INFO - PIM opened
+2026-09-25 11:42:57 - INFO - Employee data read from Excel. Total employees: 5
+2026-09-25 11:42:57 - INFO - Skipping Michael Anderson - Already successful
+2026-09-25 11:42:57 - INFO - Skipping Sophia Williams - Already successful
+2026-09-25 11:42:57 - INFO - Processing Daniel Thompson - Attempt 1/2
+2026-09-25 11:42:57 - INFO - Opening Add Employee page for Daniel Thompson
+2026-09-25 11:43:00 - INFO - Add Employee page opened for Daniel Thompson
+2026-09-25 11:43:23 - INFO - Employee Personal details filled successfully
+2026-09-25 11:43:24 - ERROR - Employee failed. Fields: ['Attachment']
+2026-09-25 11:43:24 - INFO - Employee created successfully: Daniel Thompson
+2026-09-25 11:43:26 - INFO - Processing Emily Johnson - Attempt 1/2
+2026-09-25 11:43:26 - INFO - Opening Add Employee page for Emily Johnson
+2026-09-25 11:43:29 - INFO - Add Employee page opened for Emily Johnson
+2026-09-25 11:43:48 - INFO - Employee Personal details filled successfully
+2026-09-25 11:43:49 - ERROR - Employee failed. Fields: ['Attachment']
+2026-09-25 11:43:49 - INFO - Employee created successfully: Emily Johnson
+2026-09-25 11:43:51 - INFO - Processing James Martinez - Attempt 1/2
+2026-09-25 11:43:51 - INFO - Opening Add Employee page for James Martinez
+2026-09-25 11:43:56 - INFO - Add Employee page opened for James Martinez
+2026-09-25 11:44:09 - INFO - Employee Personal details filled successfully
+2026-09-25 11:44:10 - ERROR - Employee failed. Fields: ['Date of Birth', 'Attachment']
+2026-09-25 11:44:10 - INFO - Employee created successfully: James Martinez
+2026-09-25 11:44:13 - INFO - Browser closed successfully
+2026-09-25 11:44:13 - INFO - Failed employee rows formatted successfully
