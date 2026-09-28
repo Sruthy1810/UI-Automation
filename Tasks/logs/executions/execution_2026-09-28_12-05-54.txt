@@ -1,0 +1,31 @@
+2026-09-28 12:04:00 - INFO - Browser started
+2026-09-28 12:04:14 - INFO - Login successful
+2026-09-28 12:04:17 - INFO - PIM page opened successfully
+2026-09-28 12:04:17 - INFO - PIM opened
+2026-09-28 12:04:17 - INFO - Employee data read from Excel. Total employees: 5
+2026-09-28 12:04:17 - INFO - Skipping Michael Anderson - Already successful
+2026-09-28 12:04:17 - INFO - Processing Sophia Williams - Attempt 1/2
+2026-09-28 12:04:17 - INFO - Opening Add Employee page for Sophia Williams
+2026-09-28 12:04:20 - INFO - Add Employee page opened for Sophia Williams
+2026-09-28 12:04:30 - INFO - Employee Personal details filled successfully
+2026-09-28 12:04:31 - ERROR - Employee failed. Fields: ['Date of Birth', 'Attachment']
+2026-09-28 12:04:31 - INFO - Employee created successfully: Sophia Williams
+2026-09-28 12:04:33 - INFO - Skipping Daniel Thompson - Already successful
+2026-09-28 12:04:33 - INFO - Processing Emily Johnson - Attempt 1/2
+2026-09-28 12:04:33 - INFO - Opening Add Employee page for Emily Johnson
+2026-09-28 12:04:37 - INFO - Add Employee page opened for Emily Johnson
+2026-09-28 12:05:19 - ERROR - Employee creation returned False: Emily Johnson - Attempt 1/2
+2026-09-28 12:05:19 - INFO - Taking failure screenshot: Emily Johnson - Attempt 1
+2026-09-28 12:05:19 - INFO - Screenshot saved: C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\Screenshots\failed\Emily_Johnson_attempt_1_2026-09-28_12-05-19.png
+2026-09-28 12:05:19 - INFO - Failure screenshot saved: C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\Screenshots\failed\Emily_Johnson_attempt_1_2026-09-28_12-05-19.png
+2026-09-28 12:05:19 - WARNING - Retrying employee: Emily Johnson
+2026-09-28 12:05:21 - INFO - Processing Emily Johnson - Attempt 2/2
+2026-09-28 12:05:21 - INFO - Retrying Emily Johnson from current page
+2026-09-28 12:05:52 - ERROR - Employee creation returned False: Emily Johnson - Attempt 2/2
+2026-09-28 12:05:52 - INFO - Taking failure screenshot: Emily Johnson - Attempt 2
+2026-09-28 12:05:52 - INFO - Screenshot saved: C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\Screenshots\failed\Emily_Johnson_attempt_2_2026-09-28_12-05-52.png
+2026-09-28 12:05:52 - INFO - Failure screenshot saved: C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\Screenshots\failed\Emily_Johnson_attempt_2_2026-09-28_12-05-52.png
+2026-09-28 12:05:52 - ERROR - Employee permanently failed: Emily Johnson
+2026-09-28 12:05:54 - INFO - Skipping James Martinez - Already successful
+2026-09-28 12:05:54 - INFO - Browser closed successfully
+2026-09-28 12:05:54 - INFO - Failed employee rows formatted successfully

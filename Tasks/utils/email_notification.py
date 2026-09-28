@@ -157,8 +157,6 @@ Bot Execution Started
 Bot Name        : {BOT_NAME}
 Execution Date  : {start_time.strftime("%d-%m-%Y")}
 Execution Time  : {start_time.strftime("%H:%M:%S")}
-Machine Name    : {machine_name}
-User Name       : {user_name}
 
 The bot execution has started successfully.
 """
@@ -196,8 +194,8 @@ def send_completion_email(
     #failed_records = int(failed_records)
 
 
-    machine_name = get_machine_name()
-    user_name = get_user_name()
+    #machine_name = get_machine_name()
+    #user_name = get_user_name()
 
     duration = end_time - start_time
 
@@ -225,14 +223,12 @@ def send_completion_email(
 
         error_summary = "No errors"
 
-    subject = f"{BOT_NAME} - Execution Completed"
+    subject = f"{BOT_NAME} - Bot Completed"
 
     body = f"""
 Bot Execution Completed
 
 Bot Name        : {BOT_NAME}
-Machine Name    : {machine_name}
-User Name       : {user_name}
 
 --------------------------------------------------
 EXECUTION SUMMARY
@@ -265,13 +261,12 @@ The bot execution process has been completed.
     return send_email(subject, body, execution_log_file)
 
 
-def send_exception_email(error, start_time=None):
+def send_exception_email(error, screenshot_file=None):
     try:
-        machine_name = socket.gethostname()
-        user_name = getpass.getuser()
+
         error_time = datetime.now()
 
-        subject = "OrangeHRM Bot - Exception Occurred"
+        subject = "OrangeHRM Bot - Bot failed"
 
         body = f"""
 OrangeHRM Bot Exception
@@ -280,10 +275,8 @@ OrangeHRM Bot Exception
 EXCEPTION DETAILS
 --------------------------------------------------
 
-Bot Name       : OrangeHRM Employee Automation Bot
+Bot Name       : OrangeHRM Bot
 Date & Time    : {error_time.strftime("%Y-%m-%d %H:%M:%S")}
-Machine Name   : {machine_name}
-User Name      : {user_name}
 
 Error:
 {error}
@@ -298,11 +291,56 @@ Error:
 
         msg.attach(MIMEText(body, "plain"))
 
+        # -------------------------------------------------
+        # Attach Failed Screenshot
+        # -------------------------------------------------
+
+        if screenshot_file:
+
+            if os.path.exists(screenshot_file):
+
+                with open(screenshot_file, "rb") as file:
+
+                    attachment = MIMEBase(
+                        "application",
+                        "octet-stream"
+                    )
+
+                    attachment.set_payload(
+                        file.read()
+                    )
+
+                encoders.encode_base64(
+                    attachment
+                )
+
+                attachment.add_header(
+                    "Content-Disposition",
+                    f'attachment; filename="{os.path.basename(screenshot_file)}"'
+                )
+
+                msg.attach(attachment)
+
+                print(
+                    f"Failed screenshot attached: {screenshot_file}"
+                )
+
+            else:
+
+                print(
+                    f"Failed screenshot not found: {screenshot_file}"
+                )
+
+        # -------------------------------------------------
+        # Send Email
+        # -------------------------------------------------        
+
         with smtplib.SMTP(SMTP_SERVER, SMTP_PORT) as server:
             server.starttls()
             server.login(SENDER_EMAIL, SENDER_PASSWORD)
             server.send_message(msg)
 
+        print("Exception email sent successfully")
         logger.info("Exception email sent successfully")
 
         return True

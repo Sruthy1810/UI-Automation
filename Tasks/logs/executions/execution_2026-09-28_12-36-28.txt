@@ -1,0 +1,40 @@
+2026-09-28 12:36:24 - ERROR - Mandatory employee data is missing.
+
+Row 2 - Michael Anderson
+Missing fields: Middle Name, Employee ID, Excel Document
+
+Row 3 - Sophia Williams
+Missing fields: Middle Name, Employee ID, Excel Document
+
+Row 4 - Daniel Thompson
+Missing fields: Middle Name, Employee ID, Excel Document
+
+Row 5 - Emily Johnson
+Missing fields: Middle Name, Employee ID, Blood Group, Excel Document
+
+Row 6 - James Martinez
+Missing fields: Middle Name, Employee ID, Excel Document
+
+
+2026-09-28 12:36:28 - INFO - Exception email sent successfully
+2026-09-28 12:36:28 - INFO - Browser closed successfully
+2026-09-28 12:36:28 - ERROR - Bot execution failed
+Traceback (most recent call last):
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\main.py", line 67, in main
+    total_employees, successful_records, failed_records, errors = run_bot(
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: cannot unpack non-iterable NoneType object
+2026-09-28 12:36:28 - ERROR - Failed to send exception email: _path_exists: path should be string, bytes, os.PathLike or integer, not datetime
+Traceback (most recent call last):
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\main.py", line 67, in main
+    total_employees, successful_records, failed_records, errors = run_bot(
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: cannot unpack non-iterable NoneType object
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\utils\email_notification.py", line 302, in send_exception_email
+    if os.path.exists(screenshot_file):
+       ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+TypeError: _path_exists: path should be string, bytes, os.PathLike or integer, not datetime

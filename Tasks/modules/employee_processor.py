@@ -239,6 +239,8 @@ def process_employees(page, file_path):
                     f"on attempt {attempt}: {e}"
                 )
 
+                screenshot_path = None
+
                 # -----------------------------------------
                 # TAKE SCREENSHOT FOR EXCEPTION
                 # -----------------------------------------
@@ -253,7 +255,8 @@ def process_employees(page, file_path):
 
                     screenshot_path = take_screenshot(
                         page,
-                        f"{employee_name}_attempt_{attempt}"
+                        employee_name, type(e).__name__,
+                        #f"{employee_name}_attempt_{attempt}"
                     )
 
                     logger.info(
@@ -261,14 +264,16 @@ def process_employees(page, file_path):
                         f"{screenshot_path}"
                     )
 
-                    print(
-                        f"Exception screenshot saved: "
-                        f"{screenshot_path}"
-                    )
+
+                    if screenshot_path:
+                        print(
+                            f"Exception screenshot saved: "
+                            f"{screenshot_path}"
+                        )
 
                 except Exception as screenshot_error:
 
-                    logger.error(
+                    logger.exception(
                         f"Screenshot failed for "
                         f"{employee_name}: "
                         f"{screenshot_error}"

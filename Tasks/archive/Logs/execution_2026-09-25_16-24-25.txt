@@ -1,0 +1,33 @@
+2026-09-25 16:23:28 - INFO - Browser started
+2026-09-25 16:23:36 - INFO - Login successful
+2026-09-25 16:23:37 - INFO - PIM page opened successfully
+2026-09-25 16:23:37 - INFO - PIM opened
+2026-09-25 16:23:37 - INFO - Employee data read from Excel. Total employees: 5
+2026-09-25 16:23:37 - INFO - Skipping Michael Anderson - Already successful
+2026-09-25 16:23:37 - INFO - Skipping Sophia Williams - Already successful
+2026-09-25 16:23:37 - INFO - Processing Daniel Thompson - Attempt 1/2
+2026-09-25 16:23:37 - INFO - Opening Add Employee page for Daniel Thompson
+2026-09-25 16:23:38 - INFO - Add Employee page opened for Daniel Thompson
+2026-09-25 16:23:48 - INFO - Employee Personal details filled successfully
+2026-09-25 16:23:49 - ERROR - Employee failed. Fields: ['Attachment']
+2026-09-25 16:23:49 - INFO - Employee created successfully: Daniel Thompson
+2026-09-25 16:23:51 - INFO - Processing Emily Johnson - Attempt 1/2
+2026-09-25 16:23:51 - INFO - Opening Add Employee page for Emily Johnson
+2026-09-25 16:23:52 - INFO - Add Employee page opened for Emily Johnson
+2026-09-25 16:24:02 - INFO - Employee Personal details filled successfully
+2026-09-25 16:24:03 - ERROR - Employee failed. Fields: ['Attachment']
+2026-09-25 16:24:03 - INFO - Employee created successfully: Emily Johnson
+2026-09-25 16:24:05 - INFO - Processing James Martinez - Attempt 1/2
+2026-09-25 16:24:05 - INFO - Opening Add Employee page for James Martinez
+2026-09-25 16:24:06 - INFO - Add Employee page opened for James Martinez
+2026-09-25 16:24:17 - INFO - Employee Personal details filled successfully
+2026-09-25 16:24:18 - ERROR - Employee failed. Fields: ['Date of Birth', 'Attachment']
+2026-09-25 16:24:18 - INFO - Employee created successfully: James Martinez
+2026-09-25 16:24:21 - INFO - Browser closed successfully
+2026-09-25 16:24:21 - ERROR - Bot execution failed
+Traceback (most recent call last):
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\main.py", line 67, in main
+    total_employees, successful_records, failed_records, errors,screenshot_path = run_bot(
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: not enough values to unpack (expected 5, got 4)
+2026-09-25 16:24:25 - INFO - Exception email sent successfully

@@ -1,0 +1,23 @@
+2026-09-28 10:21:45 - INFO - Browser started
+2026-09-28 10:22:06 - INFO - Login successful
+2026-09-28 10:22:15 - INFO - PIM page opened successfully
+2026-09-28 10:22:15 - INFO - PIM opened
+2026-09-28 10:22:15 - INFO - Employee data read from Excel. Total employees: 5
+2026-09-28 10:22:15 - INFO - Skipping Michael Anderson - Already successful
+2026-09-28 10:22:15 - INFO - Skipping Sophia Williams - Already successful
+2026-09-28 10:22:15 - INFO - Processing Daniel Thompson - Attempt 1/2
+2026-09-28 10:22:15 - INFO - Opening Add Employee page for Daniel Thompson
+2026-09-28 10:22:20 - INFO - Add Employee page opened for Daniel Thompson
+2026-09-28 10:22:32 - INFO - Employee Personal details filled successfully
+2026-09-28 10:22:33 - ERROR - Employee failed. Fields: ['Attachment']
+2026-09-28 10:22:34 - INFO - Employee created successfully: Daniel Thompson
+2026-09-28 10:22:36 - INFO - Skipping Emily Johnson - Already successful
+2026-09-28 10:22:36 - INFO - Skipping James Martinez - Already successful
+2026-09-28 10:22:36 - INFO - Browser closed successfully
+2026-09-28 10:22:36 - ERROR - Bot execution failed
+Traceback (most recent call last):
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\main.py", line 67, in main
+    total_employees, successful_records, failed_records, errors,screenshot_path = run_bot(
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: not enough values to unpack (expected 5, got 4)
+2026-09-28 10:22:40 - INFO - Exception email sent successfully

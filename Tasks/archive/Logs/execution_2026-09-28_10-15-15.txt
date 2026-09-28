@@ -1,0 +1,42 @@
+2026-09-28 10:13:14 - INFO - Browser started
+2026-09-28 10:13:24 - INFO - Login successful
+2026-09-28 10:13:26 - INFO - PIM page opened successfully
+2026-09-28 10:13:26 - INFO - PIM opened
+2026-09-28 10:13:26 - INFO - Employee data read from Excel. Total employees: 5
+2026-09-28 10:13:26 - INFO - Skipping Michael Anderson - Already successful
+2026-09-28 10:13:26 - INFO - Skipping Sophia Williams - Already successful
+2026-09-28 10:13:26 - INFO - Processing Daniel Thompson - Attempt 1/2
+2026-09-28 10:13:26 - INFO - Opening Add Employee page for Daniel Thompson
+2026-09-28 10:13:29 - INFO - Add Employee page opened for Daniel Thompson
+2026-09-28 10:14:08 - ERROR - Employee creation returned False: Daniel Thompson - Attempt 1/2
+2026-09-28 10:14:08 - INFO - Taking failure screenshot: Daniel Thompson - Attempt 1
+2026-09-28 10:14:08 - INFO - Screenshot saved: C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\Screenshots\failed\Daniel_Thompson_attempt_1_2026-09-28_10-14-08.png
+2026-09-28 10:14:08 - INFO - Failure screenshot saved: C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\Screenshots\failed\Daniel_Thompson_attempt_1_2026-09-28_10-14-08.png
+2026-09-28 10:14:08 - WARNING - Retrying employee: Daniel Thompson
+2026-09-28 10:14:10 - INFO - Processing Daniel Thompson - Attempt 2/2
+2026-09-28 10:14:10 - INFO - Retrying Daniel Thompson from current page
+2026-09-28 10:14:40 - ERROR - Employee creation returned False: Daniel Thompson - Attempt 2/2
+2026-09-28 10:14:40 - INFO - Taking failure screenshot: Daniel Thompson - Attempt 2
+2026-09-28 10:14:40 - INFO - Screenshot saved: C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\Screenshots\failed\Daniel_Thompson_attempt_2_2026-09-28_10-14-40.png
+2026-09-28 10:14:40 - INFO - Failure screenshot saved: C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\Screenshots\failed\Daniel_Thompson_attempt_2_2026-09-28_10-14-40.png
+2026-09-28 10:14:40 - ERROR - Employee permanently failed: Daniel Thompson
+2026-09-28 10:14:42 - INFO - Processing Emily Johnson - Attempt 1/2
+2026-09-28 10:14:42 - INFO - Opening Add Employee page for Emily Johnson
+2026-09-28 10:14:43 - INFO - Add Employee page opened for Emily Johnson
+2026-09-28 10:14:53 - INFO - Employee Personal details filled successfully
+2026-09-28 10:14:54 - ERROR - Employee failed. Fields: ['Attachment']
+2026-09-28 10:14:54 - INFO - Employee created successfully: Emily Johnson
+2026-09-28 10:14:56 - INFO - Processing James Martinez - Attempt 1/2
+2026-09-28 10:14:56 - INFO - Opening Add Employee page for James Martinez
+2026-09-28 10:14:59 - INFO - Add Employee page opened for James Martinez
+2026-09-28 10:15:08 - INFO - Employee Personal details filled successfully
+2026-09-28 10:15:09 - ERROR - Employee failed. Fields: ['Date of Birth', 'Attachment']
+2026-09-28 10:15:09 - INFO - Employee created successfully: James Martinez
+2026-09-28 10:15:11 - INFO - Browser closed successfully
+2026-09-28 10:15:12 - ERROR - Bot execution failed
+Traceback (most recent call last):
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\Tasks\main.py", line 67, in main
+    total_employees, successful_records, failed_records, errors,screenshot_path = run_bot(
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: not enough values to unpack (expected 5, got 4)
+2026-09-28 10:15:15 - INFO - Exception email sent successfully
