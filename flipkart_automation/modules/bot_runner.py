@@ -2,7 +2,8 @@ from browser.browser_manager import start_browser
 from config.config_reader import (get_flipkart_url,get_email,get_login_type,get_phonenumber)
 from utils.logger import logger
 from modules.login import open_flipkart
-from modules.excel_reader import read_products
+from modules.excel_reader import read_products,update_found_status
+
 from modules.flipkart_actions import (
     search_product,
     apply_price_filter,
@@ -14,6 +15,8 @@ from modules.email_sender import (send_trigger_email,
                                    send_product_email,
                                    send_exception_email)
 from datetime import datetime
+from utils.screenshot import take_failure_screenshot
+from utils.archive import archive_old_files
 
 from modules.retry import retry_async
 
@@ -23,6 +26,8 @@ async def run_bot():
     print("BOT RUNNER STARTED")
 
     start_time = datetime.now()
+
+    archive_old_files(keep=2)
 
     successful_products = 0
     failed_products = 0
@@ -106,7 +111,6 @@ async def run_bot():
         )
 
 
-        #print(f"Products received: {products}")
         # --------------------------------
         # Process Products
         # --------------------------------   
@@ -184,6 +188,13 @@ async def run_bot():
                         selected_products
                     )
 
+                    # Write "Found" to Excel after the mail is sent
+                    update_found_status(
+                        product,
+                        "Found",
+                        name=product_data["Name"]
+                    )
+
                 else:
 
                     failed_products += 1
@@ -196,31 +207,50 @@ async def run_bot():
 
                     logger.error(error_message)
 
+                    update_found_status(
+                        product,
+                        "Not Found",
+                        name=product_data["Name"]
+                    )
+
             except Exception as e:
 
-                failed_products += 1
-
-                error_message = (
-                    f"{product}: {str(e)}"
+                # Fatal: browser/page/context is gone, no point continuing
+                fatal_markers = (
+                    "has been closed",
+                    "Target closed",
+                    "Browser closed",
+                    "Connection closed",
                 )
+                if any(m.lower() in str(e).lower() for m in fatal_markers):
+                    logger.error(f"Browser closed, aborting run: {e}")
+                    raise
 
+                screenshot_path = await take_failure_screenshot(
+                    page,
+                    f"{product}_error"
+                )               
+
+                failed_products += 1
+                error_message = f"{product}: {str(e)}"
                 errors.append(error_message)
 
-                logger.warning(
-                    f"Product processing failed: {e}"
+                update_found_status(
+                    product,
+                    "Not Found",
+                    name=product_data["Name"]
                 )
+
+                logger.warning(f"Product processing failed: {e}")
 
                 send_exception_email(
-                        exception=e,
-                        start_time=start_time,
-                        bot_name="Flipkart Automation"
+                    exception=e,
+                    start_time=start_time,
+                    bot_name="Flipkart Automation",
+                    screenshot_path=screenshot_path
                 )
 
-                logger.info(
-                    f"Exception email sent for {product}"
-                )
-
-                # Continue with next product
+                logger.info(f"Exception email sent for {product}")
                 continue
 
         # ==========================================
@@ -258,13 +288,17 @@ async def run_bot():
 
         errors.append(str(e))
 
-        send_exception_email(
-        exception=e,
-        start_time=start_time
-        )
+        screenshot_path = None
+        if page:
+            screenshot_path = await take_failure_screenshot(page, "bot_failed")
 
-        # Send execution mail even when
-        # the entire bot fails.
+        
+        send_exception_email(
+            exception=e,
+            start_time=start_time,
+            bot_name="Flipkart Automation",
+            screenshot_path=screenshot_path
+        )
 
         send_execution_email(
             start_time=start_time,
@@ -275,58 +309,13 @@ async def run_bot():
             errors=errors
         )
 
-        raise 
+        raise
 
-    finally:
+    #finally:
 
         # ==========================================
         # CLEANUP
         # ==========================================
 
-        if context:
+        
 
-            try:
-
-                await context.close()
-
-                logger.info(
-                    "Browser context closed."
-                )
-
-            except Exception as e:
-
-                logger.error(
-                    f"Error closing context: {e}"
-                )
-
-        if browser:
-
-            try:
-
-                await browser.close()
-
-                logger.info(
-                    "Browser closed."
-                )
-
-            except Exception as e:
-
-                logger.error(
-                    f"Error closing browser: {e}"
-                )
-
-        if playwright:
-
-            try:
-
-                await playwright.stop()
-
-                logger.info(
-                    "Playwright stopped."
-                )
-
-            except Exception as e:
-
-                logger.error(
-                    f"Error stopping Playwright: {e}"
-                )

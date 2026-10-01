@@ -1,18 +1,11 @@
-from configparser import RawConfigParser
-import os
+from configparser import ConfigParser
 from pathlib import Path
 
-BASE_DIR = Path(__file__).resolve().parent.parent
-CONFIG_FILE = BASE_DIR / "config.ini"
 
-config = RawConfigParser()
+CONFIG_FILE = r"C:/config/Flipkart_automation.txt"
+config = ConfigParser()
 
-config_path = os.path.join(
-    os.path.dirname(os.path.dirname(__file__)),
-    "config.ini"
-)
-
-config.read(config_path)
+config.read(CONFIG_FILE)
 
 
 def get_flipkart_url():
@@ -56,3 +49,6 @@ def get_sender_password():
 
 def get_receiver_email():
     return config["EMAIL"]["receiver_email"]
+
+def get_log_folder():
+    return Path(config["FILES"]["LOG_FOLDER"])

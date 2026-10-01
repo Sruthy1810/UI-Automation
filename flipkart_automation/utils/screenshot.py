@@ -29,7 +29,8 @@ async def take_failure_screenshot(page, name):
 
         await page.screenshot(
             path=str(screenshot_path),
-            full_page=True
+            full_page=True,
+            timeout=15000
         )
 
         logger.info(

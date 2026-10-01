@@ -2,6 +2,11 @@ import smtplib
 from email.message import EmailMessage
 from email.utils import formataddr
 from datetime import datetime
+import html
+from sys import exception
+import traceback
+from utils.logger import logger,get_log_file 
+import os
 
 from config.config_reader import (
     get_smtp_server,
@@ -57,10 +62,12 @@ Automation Bot
             server.send_message(msg)
 
         print("Trigger email sent successfully.")
+        logger.info("Trigger email sent successfully.")
 
     except Exception as e:
 
         print(f"Failed to send trigger email: {e}")
+        logger.error(f"Failed to send trigger email: {e}")
 
 
 
@@ -217,199 +224,97 @@ def send_exception_email(
     exception,
     start_time=None,
     bot_name="Flipkart Automation",
-    subject="Flipkart Automation - Bot failed"
+    subject="Flipkart Automation - Bot failed",
+    screenshot_path=None
 ):
     """
     Sends an HTML email whenever an exception occurs.
     """
 
-    exception_time = datetime.now().strftime(
-        "%d-%m-%Y %H:%M:%S"
-    )
+    try:
+                exception_time = datetime.now().strftime("%d-%m-%Y %H:%M:%S")
+                duration = str(datetime.now() - start_time) if start_time else "N/A"
 
-    if start_time:
+                error_type = type(exception).__name__
+                exception_message = html.escape(str(exception))
+                trace = html.escape(traceback.format_exc())
 
-        duration = datetime.now() - start_time
+                html_body = f"""
+        <!DOCTYPE html>
+        <html>
+        <head>
+        <meta charset="UTF-8">
+        <style>
+            body {{ font-family: Arial, sans-serif; background:#f4f6f8; padding:30px; }}
+            .container {{ max-width:700px; margin:auto; background:#fff; border-radius:10px;
+                        overflow:hidden; box-shadow:0 2px 8px rgba(0,0,0,0.10); }}
+            .header {{ background:#c62828; color:#fff; padding:20px; text-align:center; }}
+            .content {{ padding:25px; }}
+            table {{ width:100%; border-collapse:collapse; margin-top:15px; }}
+            th {{ background:#f1f3f5; text-align:left; padding:12px; border:1px solid #ddd; }}
+            td {{ padding:12px; border:1px solid #ddd; }}
+            .exception {{ background:#fff3f3; color:#b71c1c; padding:15px; border-radius:6px;
+                        margin-top:15px; font-family:Consolas, monospace;
+                        white-space:pre-wrap; word-break:break-word; }}
+            .footer {{ background:#f1f3f5; padding:15px; text-align:center;
+                    color:#666; font-size:12px; }}
+        </style>
+        </head>
+        <body>
+        <div class="container">
+            <div class="header"><h2>⚠ Automation Exception</h2></div>
+            <div class="content">
+                <table>
+                    <tr><th>Bot Name</th><td>{bot_name}</td></tr>
+                    <tr><th>Exception Time</th><td>{exception_time}</td></tr>
+                    <tr><th>Execution Duration</th><td>{duration}</td></tr>
+                    <tr><th>Error Type</th><td>{error_type}</td></tr>
+                </table>
 
-    else:
+                <h3>Exception Details</h3>
+                <div class="exception">{exception_message}</div>
 
-        duration = "N/A"
-
-    # Convert exception to string
-    exception_message = str(exception)
-
-    html_body = f"""
-<!DOCTYPE html>
-
-<html>
-
-<head>
-
-    <meta charset="UTF-8">
-
-    <style>
-
-        body {{
-            font-family: Arial, Helvetica, sans-serif;
-            background-color: #f4f6f8;
-            margin: 0;
-            padding: 30px;
-        }}
-
-        .container {{
-            max-width: 700px;
-            margin: auto;
-            background-color: #ffffff;
-            border-radius: 10px;
-            overflow: hidden;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.10);
-        }}
-
-        .header {{
-            background-color: #c62828;
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }}
-
-        .header h2 {{
-            margin: 0;
-            font-size: 22px;
-        }}
-
-        .content {{
-            padding: 25px;
-        }}
-
-        .status {{
-            background-color: #ffebee;
-            border-left: 5px solid #c62828;
-            padding: 15px;
-            margin-bottom: 20px;
-        }}
-
-        .status strong {{
-            color: #c62828;
-        }}
-
-        table {{
-            width: 100%;
-            border-collapse: collapse;
-            margin-top: 15px;
-        }}
-
-        th {{
-            background-color: #f1f3f5;
-            text-align: left;
-            padding: 12px;
-            border: 1px solid #ddd;
-        }}
-
-        td {{
-            padding: 12px;
-            border: 1px solid #ddd;
-        }}
-
-        .exception {{
-            background-color: #fff3f3;
-            color: #b71c1c;
-            padding: 15px;
-            border-radius: 6px;
-            margin-top: 20px;
-            font-family: Consolas, monospace;
-            word-break: break-word;
-        }}
-
-        .footer {{
-            background-color: #f1f3f5;
-            padding: 15px;
-            text-align: center;
-            color: #666;
-            font-size: 12px;
-        }}
-
-    </style>
-
-</head>
-
-
-<body>
-
-    <div class="container">
-
-        <div class="header">
-
-            <h2>
-                ⚠ Automation Exception
-            </h2>
-
-        </div>
-
-
-        <div class="content">
-
-            <div class="status">
-
-                <strong>
-                    Automation execution failed.
-                </strong>
-
-                <br><br>
-
-                An unexpected exception occurred during
-                the automation process.
-
+                <h3>Traceback</h3>
+                <div class="exception">{trace}</div>
             </div>
-
-
-            <table>
-
-                <tr>
-                    <th>Bot Name</th>
-                    <td>{bot_name}</td>
-                </tr>
-
-                <tr>
-                    <th>Exception Time</th>
-                    <td>{exception_time}</td>
-                </tr>
-
-                <tr>
-                    <th>Execution Duration</th>
-                    <td>{duration}</td>
-                </tr>
-
-            </table>
-
-
-            <h3>
-                Exception Details
-            </h3>
-
-
-            <div class="exception">
-
-                {exception_message}
-
+            <div class="footer">
+                Flipkart Automation Bot<br>Automated Exception Notification
             </div>
-
         </div>
+        </body>
+        </html>
+        """
 
+                message = EmailMessage()
+                message["From"] = formataddr(("Flipkart Automation Bot", get_sender_email()))
+                message["To"] = get_receiver_email()
+                message["Subject"] = subject
+                message.set_content(f"{bot_name} failed at {exception_time}\n\n{exception}")
+                message.add_alternative(html_body, subtype="html")
 
-        <div class="footer">
+                 # Attach failure screenshot
+                if screenshot_path:
+                    import os
+                    if os.path.exists(screenshot_path):
+                        with open(screenshot_path, "rb") as f:
+                            message.add_attachment(
+                                f.read(),
+                                maintype="image",
+                                subtype="png",
+                                filename=os.path.basename(screenshot_path)
+                            )
 
-            Flipkart Automation Bot<br>
+                
 
-            Automated Exception Notification
+                with smtplib.SMTP(get_smtp_server(), get_smtp_port()) as server:
+                    server.starttls()
+                    server.login(get_sender_email(), get_sender_password())
+                    server.send_message(message)
 
-        </div>
+                print("Exception email sent successfully.")
 
-    </div>
-
-</body>
-
-</html>
-"""
+    except Exception as mail_error:
+            print(f"Failed to send exception email: {mail_error}")
 
     #send_exception_email(
      #   subject="Flipkart Automation - Bot failed",
@@ -483,6 +388,30 @@ Automation Bot
 """
 
     msg.set_content(body)
+
+   # -----------------------------------------
+    # Attach execution log file
+    # -----------------------------------------
+    try:
+        # Flush buffered log lines to disk before reading
+        for h in logger.handlers:
+            h.flush()
+
+        log_file_path = get_log_file()
+
+        if os.path.exists(log_file_path):
+            with open(log_file_path, "rb") as f:
+                msg.add_attachment(
+                    f.read(),
+                    maintype="text",
+                    subtype="plain",
+                    filename=os.path.basename(log_file_path)
+                )
+        else:
+            print(f"Log file not found, skipping attachment: {log_file_path}")
+
+    except Exception as e:
+        print(f"Could not attach log file: {e}")
 
     try:
 

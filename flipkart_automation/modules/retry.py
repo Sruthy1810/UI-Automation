@@ -1,5 +1,6 @@
 import asyncio
 from utils.logger import logger
+from utils.screenshot import take_failure_screenshot
 
 
 async def retry_async(
@@ -7,7 +8,8 @@ async def retry_async(
     *args,
     retries=3,
     delay=2,
-    action_name="Action"
+    action_name="Action",
+    **kwargs
 ):
     """
     Retry an async function when it fails.
@@ -23,7 +25,7 @@ async def retry_async(
                 f"{action_name} - Attempt {attempt}/{retries}"
             )
 
-            result = await function(*args)
+            result = await function(*args, **kwargs)
 
             logger.info(
                 f"{action_name} completed successfully."
@@ -37,6 +39,14 @@ async def retry_async(
                 f"{action_name} failed on attempt "
                 f"{attempt}/{retries}: {e}"
             )
+
+            # Screenshot of the page at this failed attempt
+            # (page is the first argument of every action function)
+            if args:
+                await take_failure_screenshot(
+                    args[0],
+                    f"{action_name}_attempt{attempt}"
+                )
 
             if attempt < retries:
                 await asyncio.sleep(delay)

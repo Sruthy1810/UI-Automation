@@ -1,6 +1,8 @@
 from playwright.async_api import TimeoutError
 from utils.logger import logger
 from utils.screenshot import take_failure_screenshot
+import re
+
 
 async def search_product(page, product):
 
@@ -330,145 +332,163 @@ async def get_products(page):
 
     try:
         # Wait for product cards to appear
-        await page.wait_for_selector(
-            "div[data-id]",
-            timeout=10000
-        )
+        await page.wait_for_selector("div[data-id]", timeout=10000)
 
-        # Get product cards
         product_cards = page.locator("div[data-id]")
+        total = await product_cards.count()
+        logger.info(f"Product cards found: {total}")
 
-        count = await product_cards.count()
+        ignore_lines = {"add to compare", "sponsored", "ad", "bestseller", "assured"}
 
-        print(f"Product cards found: {count}")
+        def clean(text):
+            return re.sub(r"\s+", " ", text).strip() if text else ""
 
-        # Maximum 3 products
-        max_products = min(count, 3)
-
-        for i in range(max_products):
-
+        for i in range(min(total, 3)):
             card = product_cards.nth(i)
 
             try:
+                card_text = await card.inner_text()
+                lines = [clean(l) for l in card_text.split("\n") if clean(l)]
+
                 # -----------------------------
                 # Product Name
                 # -----------------------------
                 name = ""
 
-                name_locators = [
-                    "div.KzDlHZ",
-                    "a.wjcEIp",
-                    "div._4rR01T",
-                    "a[title]"
-                ]
+                # 1) title attribute on any element inside the card
+                titled = card.locator("[title]")
+                for k in range(await titled.count()):
+                    t = clean(await titled.nth(k).get_attribute("title"))
+                    if t and len(t) > 5:
+                        name = t
+                        break
 
-                for selector in name_locators:
+                # 2) image alt text
+                if not name:
+                    img_alt = card.locator("img").first
+                    if await img_alt.count() > 0:
+                        alt = clean(await img_alt.get_attribute("alt"))
+                        if alt and len(alt) > 5:
+                            name = alt
 
-                    locator = card.locator(selector)
-
-                    if await locator.count() > 0:
-                        name = await locator.first.inner_text()
-                        name = name.strip()
-
-                        if name:
+                # 3) first meaningful text line
+                if not name:
+                    for line in lines:
+                        if (
+                            line.lower() not in ignore_lines
+                            and not re.fullmatch(r"[\d.,₹%\s]+", line)
+                        ):
+                            name = line
                             break
 
-                # -----------------------------
-                # Price
-                # -----------------------------
-                price = ""
+                name = name or "N/A"
 
-                price_locator = card.locator(
-                    "div.Nx9bqj",
-                    "hZ3P6w DeU9vF"
-                )
-
-                if await price_locator.count() > 0:
-                    price = await price_locator.first.inner_text()
-                    price = price.strip()
+                # -----------------------------
+                # Price (current) and MRP
+                # -----------------------------
+                amounts = re.findall(r"₹\s?([\d,]+)", card_text)
+                price = f"₹{amounts[0]}" if amounts else "N/A"
+                mrp = f"₹{amounts[1]}" if len(amounts) > 1 else ""
 
                 # -----------------------------
                 # Rating
                 # -----------------------------
-                rating = ""
+                rating = "N/A"
 
-                rating_locator = card.locator(
-                    "div.XQDdHH",
-                    "MKiFS6"
+                # 1) Rating followed by the ratings count, e.g. "4.618,521 Ratings"
+                #    or "4.6 18,521 Ratings". The lookahead stops the regex from
+                #    swallowing the first digit of the count.
+                m = re.search(
+                    r"(?<![\d.])([1-5]\.\d)(?=\s*[\d,]+\s*Ratings?)",
+                    card_text
                 )
+                if m:
+                    rating = m.group(1)
 
-                if await rating_locator.count() > 0:
-                    rating = await rating_locator.first.inner_text()
-                    rating = rating.strip()
+                # 2) Rating on its own line, e.g. "4.6" or "4.6 ★"
+                if rating == "N/A":
+                    for line in lines:
+                        m = re.fullmatch(r"([1-5](?:\.\d)?)\s*★?", line)
+                        if m:
+                            rating = m.group(1)
+                            break
+
+                # 3) Rating shown with a count in brackets, e.g. "4.3 (1,234)"
+                if rating == "N/A":
+                    m = re.search(
+                        r"(?<![\d.₹,])([1-5]\.\d)\s*\(\s*[\d,.]+[kK]?\s*\)",
+                        card_text
+                    )
+                    if m:
+                        rating = m.group(1)
+
+                # 4) Last resort: any small element whose whole text is a rating
+                if rating == "N/A":
+                    rating_el = card.locator("div, span").filter(
+                        has_text=re.compile(r"^\s*[1-5](\.\d)?\s*$")
+                    )
+                    if await rating_el.count() > 0:
+                        rating = clean(await rating_el.first.inner_text())
 
                 # -----------------------------
                 # Product URL
                 # -----------------------------
                 product_url = ""
 
-                link_locator = card.locator("a").first
+                link = card.locator("a[href*='/p/']").first
+                if await link.count() == 0:
+                    link = card.locator("a").first
 
-                if await link_locator.count() > 0:
-
-                    href = await link_locator.get_attribute("href")
-
+                if await link.count() > 0:
+                    href = await link.get_attribute("href")
                     if href:
-
-                        if href.startswith("/"):
-                            product_url = "https://www.flipkart.com" + href
-                        else:
-                            product_url = href
+                        product_url = (
+                            "https://www.flipkart.com" + href
+                            if href.startswith("/")
+                            else href
+                        )
 
                 # -----------------------------
                 # Product Image
                 # -----------------------------
                 image_url = ""
 
-                image_locator = card.locator("img").first
-
-                if await image_locator.count() > 0:
-
-                    image_url = await image_locator.get_attribute("src")
-
-                    # Sometimes Flipkart uses lazy loading
-                    if not image_url:
-                        image_url = await image_locator.get_attribute(
-                            "data-src"
-                        )
+                img = card.locator("img").first
+                if await img.count() > 0:
+                    image_url = (
+                        await img.get_attribute("src")
+                        or await img.get_attribute("data-src")
+                        or ""
+                    )
 
                 # -----------------------------
                 # Store Product
                 # -----------------------------
                 product = {
                     "name": name,
-                    "price":price,
+                    "price": price,
+                    "mrp": mrp,
                     "rating": rating,
                     "url": product_url,
-                    "image": image_url
+                    "image": image_url,
                 }
-
                 products.append(product)
 
                 logger.info(f"\nProduct {i + 1}")
                 logger.info(f"Name   : {name}")
                 logger.info(f"Price  : {price}")
+                logger.info(f"MRP    : {mrp}")
                 logger.info(f"Rating : {rating}")
                 logger.info(f"URL    : {product_url}")
                 logger.info(f"Image  : {image_url}")
 
             except Exception as e:
-
-                logger.error(
-                    f"Error extracting product {i + 1}: {e}"
-                )
+                logger.error(f"Error extracting product {i + 1}: {e}")
 
         logger.info(f"\nTotal products selected: {len(products)}")
-
         return products
 
     except Exception as e:
-
         logger.error(f"Error getting products: {e}")
-
         return []
     

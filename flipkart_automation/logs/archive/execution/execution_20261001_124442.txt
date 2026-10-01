@@ -1,0 +1,401 @@
+2026-10-01 12:44:42 - INFO - Flipkart Automation Started
+2026-10-01 12:44:42 - INFO - BOT RUNNER STARTED
+2026-10-01 12:44:49 - INFO - Trigger email sent.
+2026-10-01 12:44:49 - INFO - Opening Flipkart...
+2026-10-01 12:44:50 - INFO - Flipkart opened successfully
+2026-10-01 12:44:50 - INFO - Logging into flipkart
+2026-10-01 12:44:53 - INFO - Products found: 5
+2026-10-01 12:44:53 - INFO - Products found in Excel: 5
+2026-10-01 12:44:53 - INFO - 
+==================================================
+2026-10-01 12:44:53 - INFO - Processing Product : smart watch
+2026-10-01 12:44:53 - INFO - Maximum Price      : 5000
+2026-10-01 12:44:53 - INFO - Customer Rating    : 3
+2026-10-01 12:44:53 - INFO - ==================================================
+2026-10-01 12:44:53 - INFO - Search smart watch - Attempt 1/3
+2026-10-01 12:44:53 - INFO - Searching product: smart watch
+2026-10-01 12:44:56 - INFO - Product entered: smart watch
+2026-10-01 12:44:57 - INFO - Search clicked: smart watch
+2026-10-01 12:45:00 - INFO - Search completed successfully: smart watch
+2026-10-01 12:45:00 - INFO - Search smart watch completed successfully.
+2026-10-01 12:45:00 - INFO - Price Filter - Attempt 1/3
+2026-10-01 12:45:00 - INFO - Applying price filter: 5000
+2026-10-01 12:45:00 - INFO - Price filter found.
+2026-10-01 12:45:00 - INFO - Price dropdowns found: 2
+2026-10-01 12:45:00 - INFO - Maximum price selected: 5000
+2026-10-01 12:45:00 - INFO - Price Filter completed successfully.
+2026-10-01 12:45:00 - INFO - Rating Filter - Attempt 1/3
+2026-10-01 12:45:00 - INFO - Applying rating filter: 3
+2026-10-01 12:45:00 - INFO - Customer Ratings filter found.
+2026-10-01 12:45:00 - INFO - Looking for rating option: 3★ & above
+2026-10-01 12:45:00 - INFO - Rating options are already visible.
+2026-10-01 12:45:00 - INFO - Rating checkbox found: 3★ & above
+2026-10-01 12:45:00 - INFO - Current checkbox state: False
+2026-10-01 12:45:01 - INFO - Rating option clicked: 3★ & above
+2026-10-01 12:45:02 - INFO - Rating filter applied successfully: 3★ & above
+2026-10-01 12:45:02 - INFO - Rating Filter completed successfully.
+2026-10-01 12:45:02 - INFO - Get Products - smart watch - Attempt 1/3
+2026-10-01 12:45:02 - INFO - Getting products...
+2026-10-01 12:45:02 - INFO - Product cards found: 40
+2026-10-01 12:45:02 - INFO - 
+Product 1
+2026-10-01 12:45:02 - INFO - Name   : GOBOULT Thrux 1.39''HD Screen, GPS Tracker, Working Crown Smartwatch
+2026-10-01 12:45:02 - INFO - Price  : ₹1,999₹7,99975% off
+2026-10-01 12:45:02 - INFO - Rating : 
+2026-10-01 12:45:02 - INFO - URL    : https://www.flipkart.com/goboult-thrux-1-39-hd-screen-gps-tracker-working-crown-smartwatch/p/itm96183629a95a9?pid=SMWH8WKXKXXQ8UB9&lid=LSTSMWH8WKXKXXQ8UB9UF0TLH&marketplace=FLIPKART&q=smart+watch&store=ajy%2Fbuh&srno=s_1_1&otracker=search&otracker1=search&fm=Search&iid=en_WHjC0TnYUNFP5jFwTUH4-U78nnyH6ZIHFJglJQCaxKkGgFjr63pqo18f_WWDJ05BGek-w7NbnVvJhRdRxHI3mPT6Bu1xz3wSb1sNZV-SVdDrMteYwvzhiWvKne9T7XQ1&ppt=sp&ppn=sp&ssid=kgh1ph5f6o0000001790838898134&qH=acc05e33fb140cc4&ov_redirect=true
+2026-10-01 12:45:02 - INFO - Image  : https://rukminim2.flixcart.com/image/612/612/xif0q/smartwatch/b/p/s/-original-imahpfzfvua3cabj.jpeg?q=70
+2026-10-01 12:45:02 - INFO - 
+Product 2
+2026-10-01 12:45:02 - INFO - Name   : Noise Twist Go 1.39'' Display, Bluetooth Calling, Metallic Finish, 100 Sports Modes Smartwatch
+2026-10-01 12:45:02 - INFO - Price  : ₹1,599₹4,99968% off
+2026-10-01 12:45:02 - INFO - Rating : 
+2026-10-01 12:45:02 - INFO - URL    : https://www.flipkart.com/noise-twist-go-1-39-display-bluetooth-calling-metallic-finish-100-sports-modes-smartwatch/p/itmc939a4ad660f9?pid=SMWHDNTJ8HGCTKAG&lid=LSTSMWHDNTJ8HGCTKAG2LTJBT&marketplace=FLIPKART&q=smart+watch&store=ajy%2Fbuh&srno=s_1_2&otracker=search&otracker1=search&fm=Search&iid=en_WHjC0TnYUNFP5jFwTUH4-U78nnyH6ZIHFJglJQCaxKkN1-YF9UiWYmBTc4DTWL8NBXZMvul6NSGqRdKH33wQzsPTtnXIulqM6C-uvPWNVknrMteYwvzhiWvKne9T7XQ1&ppt=sp&ppn=sp&ssid=kgh1ph5f6o0000001790838898134&qH=acc05e33fb140cc4&ov_redirect=true
+2026-10-01 12:45:02 - INFO - Image  : https://rukminim2.flixcart.com/image/612/612/xif0q/smartwatch/s/f/w/-enriched-transparent-original-imahehpsahwnxgtb.png?q=70
+2026-10-01 12:45:02 - INFO - 
+Product 3
+2026-10-01 12:45:02 - INFO - Name   : TECHIO H9 PRO MAX SMART WATCH. Smartwatch
+2026-10-01 12:45:02 - INFO - Price  : ₹669₹1,99966% off
+2026-10-01 12:45:02 - INFO - Rating : 
+2026-10-01 12:45:02 - INFO - URL    : https://www.flipkart.com/techio-h9-pro-max-smart-watch-smartwatch/p/itm6d465ef8be501?pid=SMWHGHYFXJTKXDFX&lid=LSTSMWHGHYFXJTKXDFXXR9LXJ&marketplace=FLIPKART&q=smart+watch&store=ajy%2Fbuh&srno=s_1_3&otracker=search&otracker1=search&fm=Search&iid=7ba073b2-4273-4503-9061-fdc32d1a604c.SMWHGHYFXJTKXDFX.SEARCH&ppt=sp&ppn=sp&ssid=kgh1ph5f6o0000001790838898134&qH=acc05e33fb140cc4&ov_redirect=true
+2026-10-01 12:45:02 - INFO - Image  : https://rukminim2.flixcart.com/image/612/612/xif0q/shopsy-smartwatch/u/6/k/34-android-ios-h9-smart-watch-003-techio-yes-original-imahgtd9twmjxdtm.jpeg?q=70
+2026-10-01 12:45:02 - INFO - 
+Total products selected: 3
+2026-10-01 12:45:02 - INFO - Get Products - smart watch completed successfully.
+2026-10-01 12:45:02 - INFO - Products extracted for smart watch
+2026-10-01 12:45:06 - INFO - 
+==================================================
+2026-10-01 12:45:06 - INFO - Processing Product : Phone
+2026-10-01 12:45:06 - INFO - Maximum Price      : 20000
+2026-10-01 12:45:06 - INFO - Customer Rating    : 4
+2026-10-01 12:45:06 - INFO - ==================================================
+2026-10-01 12:45:06 - INFO - Search Phone - Attempt 1/3
+2026-10-01 12:45:06 - INFO - Searching product: Phone
+2026-10-01 12:45:09 - INFO - Product entered: Phone
+2026-10-01 12:45:09 - INFO - Search clicked: Phone
+2026-10-01 12:45:12 - INFO - Search completed successfully: Phone
+2026-10-01 12:45:12 - INFO - Search Phone completed successfully.
+2026-10-01 12:45:12 - INFO - Price Filter - Attempt 1/3
+2026-10-01 12:45:12 - INFO - Applying price filter: 20000
+2026-10-01 12:45:12 - INFO - Price filter found.
+2026-10-01 12:45:12 - INFO - Price dropdowns found: 2
+2026-10-01 12:45:12 - INFO - Maximum price selected: 20000
+2026-10-01 12:45:12 - INFO - Price Filter completed successfully.
+2026-10-01 12:45:12 - INFO - Rating Filter - Attempt 1/3
+2026-10-01 12:45:12 - INFO - Applying rating filter: 4
+2026-10-01 12:45:13 - INFO - Customer Ratings filter found.
+2026-10-01 12:45:13 - INFO - Looking for rating option: 4★ & above
+2026-10-01 12:45:15 - INFO - Rating options are collapsed. Clicking Customer Ratings.
+2026-10-01 12:45:15 - INFO - Customer Ratings section clicked.
+2026-10-01 12:45:15 - INFO - Rating options are now visible.
+2026-10-01 12:45:15 - INFO - Rating checkbox found: 4★ & above
+2026-10-01 12:45:15 - INFO - Current checkbox state: False
+2026-10-01 12:45:15 - INFO - Rating option clicked: 4★ & above
+2026-10-01 12:45:46 - ERROR - Customer Ratings section, rating option, or checkbox not found.
+2026-10-01 12:45:46 - ERROR - Rating Filter failed on attempt 1/3: Locator.is_checked: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("section.KNnSWQ").filter(has_text="Customer Ratings").first.locator("div[title=\"4★ & above\"]").locator("input[type=\"checkbox\"]")
+
+2026-10-01 12:45:48 - INFO - Rating Filter - Attempt 2/3
+2026-10-01 12:45:48 - INFO - Applying rating filter: 4
+2026-10-01 12:45:48 - INFO - Customer Ratings filter found.
+2026-10-01 12:45:48 - INFO - Looking for rating option: 4★ & above
+2026-10-01 12:45:50 - INFO - Rating options are collapsed. Clicking Customer Ratings.
+2026-10-01 12:45:50 - INFO - Customer Ratings section clicked.
+2026-10-01 12:45:50 - INFO - Rating options are now visible.
+2026-10-01 12:45:50 - INFO - Rating checkbox found: 4★ & above
+2026-10-01 12:45:50 - INFO - Current checkbox state: True
+2026-10-01 12:45:50 - INFO - Rating already selected: 4★ & above
+2026-10-01 12:45:51 - INFO - Rating filter applied successfully: 4★ & above
+2026-10-01 12:45:51 - INFO - Rating Filter completed successfully.
+2026-10-01 12:45:51 - INFO - Get Products - Phone - Attempt 1/3
+2026-10-01 12:45:51 - INFO - Getting products...
+2026-10-01 12:45:51 - INFO - Product cards found: 24
+2026-10-01 12:45:51 - INFO - 
+Product 1
+2026-10-01 12:45:51 - INFO - Name   : Bestseller
+Add to Compare
+Nokia 105 Classic Single Sim Keypad Phone, Without Charger
+430,195 Ratings & 1,567 Reviews
+32 MB RAM | 32 MB ROM
+4.5 cm (1.77 inch) Display
+0MP Front Camera
+800 mAh Battery
+SC6531E Processor
+1 Month Company Domestic Warranty by Company Authorized Service Center.
+₹1,049
+₹1,34922% off
+Upto ₹400 Off on Exchange
+Bank Offer
+2026-10-01 12:45:51 - INFO - Price  : ₹1,049
+₹1,34922% off
+Upto ₹400 Off on Exchange
+Bank Offer
+2026-10-01 12:45:51 - INFO - Rating : 4
+2026-10-01 12:45:51 - INFO - URL    : https://www.flipkart.com/nokia-105-classic-single-sim-keypad-phone-without-charger/p/itmfdb404ec1d0f4?pid=MOBGWZUWPTFTQZAH&lid=LSTMOBGWZUWPTFTQZAHSIXCDR&marketplace=FLIPKART&q=Phone&store=tyy%2F4io&spotlightTagId=default_BestsellerId_tyy%2F4io&srno=s_1_1&otracker=search&otracker1=search&fm=Search&iid=a43436b7-3270-420e-8b0c-937c6b93de11.MOBGWZUWPTFTQZAH.SEARCH&ppt=sp&ppn=sp&ssid=5eys4s9agw0000001790838909886&qH=bcc254b55c4a1bab&ov_redirect=true
+2026-10-01 12:45:51 - INFO - Image  : https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/p/o/i/105-single-sim-keypad-mobile-phone-with-wireless-fm-radio-nokia-resized-original-imah2xgc9z6cwcqv.jpeg?q=70
+2026-10-01 12:45:51 - INFO - 
+Product 2
+2026-10-01 12:45:51 - INFO - Name   : Add to Compare
+BOLTT EVO (Berry Red, 64 GB)
+4.41,327 Ratings & 695 Reviews
+4 GB RAM | 64 GB ROM | Expandable Upto 1 TB
+17.25 cm (6.79 inch) HD+ Display
+50MP + 2MP | 8MP Front Camera
+6000 mAh Lithium ion Battery
+T7250 Processor
+6.79'' HD+ punch hole display
+1 Year Manufacturer Warranty for Device and 6 Months Manufacturer Warranty for In-box Accessories.
+₹9,999
+₹17,99944% off
+Upto ₹7,400 Off on Exchange
+Bank Offer
+2026-10-01 12:45:51 - INFO - Price  : ₹9,999
+₹17,99944% off
+Upto ₹7,400 Off on Exchange
+Bank Offer
+2026-10-01 12:45:51 - INFO - Rating : 4.4
+2026-10-01 12:45:51 - INFO - URL    : https://www.flipkart.com/boltt-evo-berry-red-64-gb/p/itmf046d663a1fd7?pid=MOBHPP598ENKRGBY&lid=LSTMOBHPP598ENKRGBYC3QECN&marketplace=FLIPKART&q=Phone&store=tyy%2F4io&srno=s_1_2&otracker=search&otracker1=search&fm=Search&iid=a43436b7-3270-420e-8b0c-937c6b93de11.MOBHPP598ENKRGBY.SEARCH&ppt=sp&ppn=sp&ssid=5eys4s9agw0000001790838909886&qH=bcc254b55c4a1bab&ov_redirect=true
+2026-10-01 12:45:51 - INFO - Image  : https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/d/b/p/-resized-original-imahqk5pywazwh3t.jpeg?q=70
+2026-10-01 12:45:51 - INFO - 
+Product 3
+2026-10-01 12:45:51 - INFO - Name   : Coming Soon
+Add to Compare
+HMD Vibe2 5G (Nordic Blue, 128 GB)
+4.55,538 Ratings & 695 Reviews
+4 GB RAM | 128 GB ROM
+17.02 cm (6.7 inch) HD+ Display
+50MP Rear Camera | 8MP Front Camera
+6000 mAh Li-Poly Battery
+1-year manufacturer warranty
+₹12,999
+₹19,99935% off
+2026-10-01 12:45:51 - INFO - Price  : ₹12,999
+₹19,99935% off
+2026-10-01 12:45:51 - INFO - Rating : 4.5
+2026-10-01 12:45:51 - INFO - URL    : https://www.flipkart.com/hmd-vibe2-5g-nordic-blue-128-gb/p/itm71c3ae6df2a26?pid=MOBHN6XYNGZQCBWB&lid=LSTMOBHN6XYNGZQCBWBVAYNRE&marketplace=FLIPKART&q=Phone&store=tyy%2F4io&srno=s_1_3&otracker=search&otracker1=search&fm=Search&iid=a43436b7-3270-420e-8b0c-937c6b93de11.MOBHN6XYNGZQCBWB.SEARCH&ppt=sp&ppn=sp&ssid=5eys4s9agw0000001790838909886&qH=bcc254b55c4a1bab&ov_redirect=true
+2026-10-01 12:45:51 - INFO - Image  : https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/q/8/t/-resized-original-imahnkky56bcvnaz.jpeg?q=70
+2026-10-01 12:45:51 - INFO - 
+Total products selected: 3
+2026-10-01 12:45:51 - INFO - Get Products - Phone completed successfully.
+2026-10-01 12:45:51 - INFO - Products extracted for Phone
+2026-10-01 12:45:55 - INFO - 
+==================================================
+2026-10-01 12:45:55 - INFO - Processing Product : Headphone
+2026-10-01 12:45:55 - INFO - Maximum Price      : 2000
+2026-10-01 12:45:55 - INFO - Customer Rating    : 3
+2026-10-01 12:45:55 - INFO - ==================================================
+2026-10-01 12:45:55 - INFO - Search Headphone - Attempt 1/3
+2026-10-01 12:45:55 - INFO - Searching product: Headphone
+2026-10-01 12:45:58 - INFO - Product entered: Headphone
+2026-10-01 12:45:58 - INFO - Search clicked: Headphone
+2026-10-01 12:46:01 - INFO - Search completed successfully: Headphone
+2026-10-01 12:46:01 - INFO - Search Headphone completed successfully.
+2026-10-01 12:46:01 - INFO - Price Filter - Attempt 1/3
+2026-10-01 12:46:01 - INFO - Applying price filter: 2000
+2026-10-01 12:46:01 - INFO - Price filter found.
+2026-10-01 12:46:01 - INFO - Price dropdowns found: 2
+2026-10-01 12:46:01 - INFO - Maximum price selected: 2000
+2026-10-01 12:46:01 - INFO - Price Filter completed successfully.
+2026-10-01 12:46:01 - INFO - Rating Filter - Attempt 1/3
+2026-10-01 12:46:01 - INFO - Applying rating filter: 3
+2026-10-01 12:46:01 - INFO - Customer Ratings filter found.
+2026-10-01 12:46:01 - INFO - Looking for rating option: 3★ & above
+2026-10-01 12:46:01 - INFO - Rating options are already visible.
+2026-10-01 12:46:01 - INFO - Rating checkbox found: 3★ & above
+2026-10-01 12:46:01 - INFO - Current checkbox state: False
+2026-10-01 12:46:02 - INFO - Rating option clicked: 3★ & above
+2026-10-01 12:46:03 - INFO - Rating filter applied successfully: 3★ & above
+2026-10-01 12:46:03 - INFO - Rating Filter completed successfully.
+2026-10-01 12:46:03 - INFO - Get Products - Headphone - Attempt 1/3
+2026-10-01 12:46:03 - INFO - Getting products...
+2026-10-01 12:46:03 - INFO - Product cards found: 40
+2026-10-01 12:46:03 - INFO - 
+Product 1
+2026-10-01 12:46:03 - INFO - Name   : TRIGGR Punkheadz Z4 with 50H Battery, Dual Pairing, 40mm Drivers, Gaming Mode, BT v6.0 Bluetooth
+2026-10-01 12:46:03 - INFO - Price  : ₹999₹3,99975% off
+2026-10-01 12:46:03 - INFO - Rating : 4.1
+2026-10-01 12:46:03 - INFO - URL    : https://www.flipkart.com/triggr-punkheadz-z4-50h-battery-dual-pairing-40mm-drivers-gaming-mode-bt-v6-0-bluetooth/p/itm7ae1ba9c3f27e?pid=ACCHZFYTYYZFEQAG&lid=LSTACCHZFYTYYZFEQAG3ZNR3E&marketplace=FLIPKART&q=Headphone&store=0pm%2Ffcn&srno=s_1_1&otracker=search&otracker1=search&fm=Search&iid=en_7f4_O92q-d23q9JFjQMDzYOyniYB_m1ZTfVVSWLtRpBGQeBeW-3kNX3i7vMPUAPgTFv6hfdgw4yexkZtCpM4b9x8ltbEVhkuYMrZAnwPxbdRCqWgS95_znVCPrtJgyrx&ppt=sp&ppn=sp&ssid=1c9oxjjots0000001790838958653&qH=52f40b8ad1f6b467&ov_redirect=true&ov_redirect=true
+2026-10-01 12:46:03 - INFO - Image  : https://rukminim2.flixcart.com/image/612/612/xif0q/headphone/o/k/u/-original-imahpczsstvwftfu.jpeg?q=70
+2026-10-01 12:46:03 - INFO - 
+Product 2
+2026-10-01 12:46:03 - INFO - Name   : TRIGGR Punkheadz Z4 with 50H Battery, Dual Pairing, 40mm Drivers, Gaming Mode, BT v6.0 Bluetooth
+2026-10-01 12:46:03 - INFO - Price  : ₹999₹3,99975% off
+2026-10-01 12:46:03 - INFO - Rating : 4.1
+2026-10-01 12:46:03 - INFO - URL    : https://www.flipkart.com/triggr-punkheadz-z4-50h-battery-dual-pairing-40mm-drivers-gaming-mode-bt-v6-0-bluetooth/p/itm09d804f949c43?pid=ACCHZFYTGBRDZYHC&lid=LSTACCHZFYTGBRDZYHCKUFTMZ&marketplace=FLIPKART&q=Headphone&store=0pm%2Ffcn&srno=s_1_2&otracker=search&otracker1=search&fm=Search&iid=en_7f4_O92q-d23q9JFjQMDzYOyniYB_m1ZTfVVSWLtRpBu-UOPzN9Bs6tziDc32Tp5IIShX2eTF2KYTw_yNwZWghf0oxWWxupqkD3UyllNsppRCqWgS95_znVCPrtJgyrx&ppt=sp&ppn=sp&ssid=1c9oxjjots0000001790838958653&qH=52f40b8ad1f6b467&ov_redirect=true&ov_redirect=true
+2026-10-01 12:46:03 - INFO - Image  : https://rukminim2.flixcart.com/image/612/612/xif0q/headphone/s/3/m/-original-imahpczsavtmggzp.jpeg?q=70
+2026-10-01 12:46:03 - INFO - 
+Product 3
+2026-10-01 12:46:03 - INFO - Name   : F FERONS Wireless Headphone BT 5.0 Over Ear Foldable with Built-in Mic SD Card Supported Bluetooth
+2026-10-01 12:46:03 - INFO - Price  : ₹298₹2,59988% off
+2026-10-01 12:46:03 - INFO - Rating : 3.7
+2026-10-01 12:46:03 - INFO - URL    : https://www.flipkart.com/f-ferons-wireless-headphone-bt-5-0-over-ear-foldable-built-in-mic-sd-card-supported-bluetooth/p/itmca679dbd7a473?pid=ACCHEA3KFVTMRQNU&lid=LSTACCHEA3KFVTMRQNUQA4MW0&marketplace=FLIPKART&q=Headphone&store=0pm%2Ffcn&srno=s_1_3&otracker=search&otracker1=search&fm=Search&iid=801829d8-ee96-48a8-b832-f79f7528d04b.ACCHEA3KFVTMRQNU.SEARCH&ppt=sp&ppn=sp&ssid=1c9oxjjots0000001790838958653&qH=52f40b8ad1f6b467&ov_redirect=true&ov_redirect=true
+2026-10-01 12:46:03 - INFO - Image  : https://rukminim2.flixcart.com/image/612/612/xif0q/headphone/y/s/j/wireless-headphone-bt-5-0-over-ear-foldable-with-built-in-mic-sd-original-imahea3jdgx6a36x.jpeg?q=70
+2026-10-01 12:46:03 - INFO - 
+Total products selected: 3
+2026-10-01 12:46:03 - INFO - Get Products - Headphone completed successfully.
+2026-10-01 12:46:03 - INFO - Products extracted for Headphone
+2026-10-01 12:46:07 - INFO - 
+==================================================
+2026-10-01 12:46:07 - INFO - Processing Product : Speaker
+2026-10-01 12:46:07 - INFO - Maximum Price      : 3000
+2026-10-01 12:46:07 - INFO - Customer Rating    : 4
+2026-10-01 12:46:07 - INFO - ==================================================
+2026-10-01 12:46:07 - INFO - Search Speaker - Attempt 1/3
+2026-10-01 12:46:07 - INFO - Searching product: Speaker
+2026-10-01 12:46:11 - INFO - Product entered: Speaker
+2026-10-01 12:46:11 - INFO - Search clicked: Speaker
+2026-10-01 12:46:14 - INFO - Search completed successfully: Speaker
+2026-10-01 12:46:14 - INFO - Search Speaker completed successfully.
+2026-10-01 12:46:14 - INFO - Price Filter - Attempt 1/3
+2026-10-01 12:46:14 - INFO - Applying price filter: 3000
+2026-10-01 12:46:14 - INFO - Price filter found.
+2026-10-01 12:46:14 - INFO - Price dropdowns found: 2
+2026-10-01 12:46:14 - INFO - Maximum price selected: 3000
+2026-10-01 12:46:14 - INFO - Price Filter completed successfully.
+2026-10-01 12:46:14 - INFO - Rating Filter - Attempt 1/3
+2026-10-01 12:46:14 - INFO - Applying rating filter: 4
+2026-10-01 12:46:14 - INFO - Customer Ratings filter found.
+2026-10-01 12:46:14 - INFO - Looking for rating option: 4★ & above
+2026-10-01 12:46:14 - INFO - Rating options are already visible.
+2026-10-01 12:46:14 - INFO - Rating checkbox found: 4★ & above
+2026-10-01 12:46:14 - INFO - Current checkbox state: False
+2026-10-01 12:46:14 - INFO - Rating option clicked: 4★ & above
+2026-10-01 12:46:15 - INFO - Rating filter applied successfully: 4★ & above
+2026-10-01 12:46:15 - INFO - Rating Filter completed successfully.
+2026-10-01 12:46:15 - INFO - Get Products - Speaker - Attempt 1/3
+2026-10-01 12:46:15 - INFO - Getting products...
+2026-10-01 12:46:15 - INFO - Product cards found: 40
+2026-10-01 12:46:15 - INFO - 
+Product 1
+2026-10-01 12:46:15 - INFO - Name   : Mivi Fort S60 with 2 inBuilt Subwoofers, 3EQ Modes, Remote Ctrl 60 W Bluetooth Soundbar
+2026-10-01 12:46:15 - INFO - Price  : ₹2,499₹6,99964% off
+2026-10-01 12:46:15 - INFO - Rating : 4.3
+2026-10-01 12:46:15 - INFO - URL    : https://www.flipkart.com/mivi-fort-s60-2-inbuilt-subwoofers-3eq-modes-remote-ctrl-60-w-bluetooth-soundbar/p/itm25169429bfb89?pid=ACCGAU6GRGWZCCVQ&lid=LSTACCGAU6GRGWZCCVQXWNBBO&marketplace=FLIPKART&q=Speaker&store=0pm%2F0o7&srno=s_1_1&otracker=search&otracker1=search&fm=Search&iid=en_iN3cJwG6zZbmkmFFzNOAzeJYjwL6gp88hHgJP4TLDTDVJQg0p6I-vbszJ1gt2n7ixqJ1tdfYY1EJ7Sjd5K5EM1o9Hp99gg74Xqktk95dtelDYyHCKdcdw4h7oJZozN1Z&ppt=sp&ppn=sp&ssid=n86h69kdww0000001790838971072&qH=22cc65fdfc4417d6&ov_redirect=true&ov_redirect=true
+2026-10-01 12:46:15 - INFO - Image  : https://rukminim2.flixcart.com/image/612/612/l0r1j0w0/speaker/8/s/w/-original-imagch7jzhc2yefp.jpeg?q=70
+2026-10-01 12:46:15 - INFO - 
+Product 2
+2026-10-01 12:46:15 - INFO - Name   : Mivi Fort S24 with Dual Full Range Drivers, 6Hrs Playback, Voice Assistant 24 W Bluetooth Soundbar
+2026-10-01 12:46:15 - INFO - Price  : ₹1,499₹3,99962% off
+2026-10-01 12:46:15 - INFO - Rating : 4
+2026-10-01 12:46:15 - INFO - URL    : https://www.flipkart.com/mivi-fort-s24-dual-full-range-drivers-6hrs-playback-voice-assistant-24-w-bluetooth-soundbar/p/itm6306a85c1e536?pid=ACCGFTFKKYHBSBKV&lid=LSTACCGFTFKKYHBSBKVD2UZYR&marketplace=FLIPKART&q=Speaker&store=0pm%2F0o7&srno=s_1_2&otracker=search&otracker1=search&fm=Search&iid=en_iN3cJwG6zZbmkmFFzNOAzeJYjwL6gp88hHgJP4TLDTB35noZmMNDkncvLfqL8NxxTMNdNqjwbj6I8aHDsxYqE8y8JQ4kIOX7f8sEYenXu9E-7rvKt-lJYY3TE6E9ZNkc&ppt=sp&ppn=sp&ssid=n86h69kdww0000001790838971072&qH=22cc65fdfc4417d6&ov_redirect=true&ov_redirect=true
+2026-10-01 12:46:15 - INFO - Image  : https://rukminim2.flixcart.com/image/612/612/xif0q/speaker/y/b/j/-enriched-transparent-original-imahc5fqyugfsx2b.png?q=70
+2026-10-01 12:46:15 - INFO - 
+Product 3
+2026-10-01 12:46:15 - INFO - Name   : ZEBRONICS ZEB-SOUND FEAST 40 (ZEB-PSPK 48) 8 W Bluetooth Speaker
+2026-10-01 12:46:15 - INFO - Price  : ₹599₹1,19950% off
+2026-10-01 12:46:15 - INFO - Rating : 4
+2026-10-01 12:46:15 - INFO - URL    : https://www.flipkart.com/zebronics-zeb-sound-feast-40-zeb-pspk-48-8-w-bluetooth-speaker/p/itm7d7517e20d1f3?pid=ACCH66X7D7TUY5V4&lid=LSTACCH66X7D7TUY5V4WLL2NN&marketplace=FLIPKART&q=Speaker&store=0pm%2F0o7&srno=s_1_3&otracker=search&otracker1=search&fm=Search&iid=8a9b462c-9522-4e98-890d-f458cc964b81.ACCH66X7D7TUY5V4.SEARCH&ppt=sp&ppn=sp&ssid=n86h69kdww0000001790838971072&qH=22cc65fdfc4417d6&ov_redirect=true&ov_redirect=true
+2026-10-01 12:46:15 - INFO - Image  : https://rukminim2.flixcart.com/image/612/612/xif0q/speaker/laptop-desktop-speaker/w/8/h/zeb-sound-feast-40-zeb-pspk-48-zebronics-original-imah66x6nhjqgkfz.jpeg?q=70
+2026-10-01 12:46:15 - INFO - 
+Total products selected: 3
+2026-10-01 12:46:15 - INFO - Get Products - Speaker completed successfully.
+2026-10-01 12:46:15 - INFO - Products extracted for Speaker
+2026-10-01 12:46:19 - INFO - 
+==================================================
+2026-10-01 12:46:19 - INFO - Processing Product : ipad
+2026-10-01 12:46:19 - INFO - Maximum Price      : 30000
+2026-10-01 12:46:19 - INFO - Customer Rating    : 3
+2026-10-01 12:46:19 - INFO - ==================================================
+2026-10-01 12:46:19 - INFO - Search ipad - Attempt 1/3
+2026-10-01 12:46:19 - INFO - Searching product: ipad
+2026-10-01 12:46:22 - INFO - Product entered: ipad
+2026-10-01 12:46:22 - INFO - Search clicked: ipad
+2026-10-01 12:46:25 - INFO - Search completed successfully: ipad
+2026-10-01 12:46:25 - INFO - Search ipad completed successfully.
+2026-10-01 12:46:25 - INFO - Price Filter - Attempt 1/3
+2026-10-01 12:46:25 - INFO - Applying price filter: 30000
+2026-10-01 12:46:25 - INFO - Price filter found.
+2026-10-01 12:46:25 - INFO - Price dropdowns found: 2
+2026-10-01 12:46:25 - INFO - Maximum price selected: 30000
+2026-10-01 12:46:25 - INFO - Price Filter completed successfully.
+2026-10-01 12:46:25 - INFO - Rating Filter - Attempt 1/3
+2026-10-01 12:46:25 - INFO - Applying rating filter: 3
+2026-10-01 12:46:25 - INFO - Customer Ratings filter found.
+2026-10-01 12:46:25 - INFO - Looking for rating option: 3★ & above
+2026-10-01 12:46:25 - INFO - Rating options are already visible.
+2026-10-01 12:46:25 - INFO - Rating checkbox found: 3★ & above
+2026-10-01 12:46:25 - INFO - Current checkbox state: False
+2026-10-01 12:46:26 - INFO - Rating option clicked: 3★ & above
+2026-10-01 12:46:27 - INFO - Rating filter applied successfully: 3★ & above
+2026-10-01 12:46:27 - INFO - Rating Filter completed successfully.
+2026-10-01 12:46:27 - INFO - Get Products - ipad - Attempt 1/3
+2026-10-01 12:46:27 - INFO - Getting products...
+2026-10-01 12:46:27 - INFO - Product cards found: 14
+2026-10-01 12:46:27 - INFO - 
+Product 1
+2026-10-01 12:46:27 - INFO - Name   : Add to Compare
+Apple iPad (10th Gen) 64 GB ROM 10.9 inch with Wi-Fi Only Gaming A14 Bionic Chip (Pink)
+4.618,521 Ratings & 966 Reviews
+64 GB ROM
+27.69 cm (10.9 inch) Full HD Display
+12 MP Primary Camera | 12 MP Front
+iPadOS 16 | Battery: 7606 mAh Lithium Polymer
+Ideal Usage: Entertainment, For Kids, Reading and Browsing
+Processor: A14 Bionic Chip
+1 Year Limited Hardware Warranty
+₹27,399
+₹34,90021% off
+Only 1 left
+Upto ₹22,425 Off on Exchange
+2026-10-01 12:46:27 - INFO - Price  : ₹27,399
+₹34,90021% off
+Only 1 left
+Upto ₹22,425 Off on Exchange
+2026-10-01 12:46:27 - INFO - Rating : 4.6
+2026-10-01 12:46:27 - INFO - URL    : https://www.flipkart.com/apple-ipad-10th-gen-64-gb-rom-10-9-inch-wi-fi-only-gaming-a14-bionic-chip-pink/p/itmaf20456d05879?pid=TABGJ6XUSFTPNTKH&lid=LSTTABGJ6XUSFTPNTKHITLWPF&marketplace=FLIPKART&q=ipad&store=tyy%2Fhry&srno=s_1_1&otracker=search&otracker1=search&fm=Search&iid=0e0751d8-ff5c-4a52-9181-7dd177f063e9.TABGJ6XUSFTPNTKH.SEARCH&ppt=sp&ppn=sp&ssid=mys675rw6o0000001790838982860&qH=09401fded433c347&ov_redirect=true
+2026-10-01 12:46:27 - INFO - Image  : https://rukminim2.flixcart.com/image/312/312/xif0q/tablet/h/b/l/-enriched-transparent-original-imagj72vgvcavh98.png?q=70
+2026-10-01 12:46:27 - INFO - 
+Product 2
+2026-10-01 12:46:27 - INFO - Name   : Currently unavailable
+Add to Compare
+Apple iPad (10th Gen) 64 GB ROM 10.9 inch with Wi-Fi Only Gaming A14 Bionic Chip (Yellow)
+4.618,521 Ratings & 966 Reviews
+64 GB ROM
+27.69 cm (10.9 inch) Full HD Display
+12 MP Primary Camera | 12 MP Front
+iPadOS 16 | Battery: 7606 mAh Lithium Polymer
+Ideal Usage: Entertainment, For Kids, Reading and Browsing
+Processor: A14 Bionic Chip
+1 Year Limited Hardware Warranty
+₹27,399
+₹34,90021% off
+Upto ₹22,425 Off on Exchange
+Bank Offer
+2026-10-01 12:46:27 - INFO - Price  : ₹27,399
+₹34,90021% off
+Upto ₹22,425 Off on Exchange
+Bank Offer
+2026-10-01 12:46:27 - INFO - Rating : 4.6
+2026-10-01 12:46:27 - INFO - URL    : https://www.flipkart.com/apple-ipad-10th-gen-64-gb-rom-10-9-inch-wi-fi-only-gaming-a14-bionic-chip-yellow/p/itmf1a64e377c0c0?pid=TABGJ6XUVMSWMHFX&lid=LSTTABGJ6XUVMSWMHFXAQHZVQ&marketplace=FLIPKART&q=ipad&store=tyy%2Fhry&srno=s_1_2&otracker=search&otracker1=search&fm=Search&iid=0e0751d8-ff5c-4a52-9181-7dd177f063e9.TABGJ6XUVMSWMHFX.SEARCH&ppt=sp&ppn=sp&ssid=mys675rw6o0000001790838982860&qH=09401fded433c347&ov_redirect=true
+2026-10-01 12:46:27 - INFO - Image  : https://rukminim2.flixcart.com/image/312/312/xif0q/tablet/a/x/v/-original-imagj72tu9qfjzrm.jpeg?q=70
+2026-10-01 12:46:27 - INFO - 
+Product 3
+2026-10-01 12:46:27 - INFO - Name   : Currently unavailable
+Add to Compare
+Apple iPad 2 GB RAM 32 GB ROM 11 inch with Wi-Fi Only A9 Chip with 64-bit Architecture with Embedded M...
+4.67,517 Ratings & 1,015 Reviews
+9.7 Retina display for stunning detail
+2 GB RAM | 32 GB ROM
+27.94 cm (11 inch) Full HD Display
+12 MP Primary Camera | 1.2 MP Front
+iOS 10 World's Most Advanced OS | Battery: Lithium Polymer Upto 10 hours of Multimedia Usage
+Ideal Usage: Entertainment
+Processor: A9 Chip with 64-bit Architecture with Embedded M9 Co-processor
+1 Year on Tablet, 6 Months on Accessories
+₹28,000
+Bank Offer
+2026-10-01 12:46:27 - INFO - Price  : ₹28,000
+Bank Offer
+2026-10-01 12:46:27 - INFO - Rating : 4.6
+2026-10-01 12:46:27 - INFO - URL    : https://www.flipkart.com/apple-ipad-2-gb-ram-32-rom-11-inch-wi-fi-only-a9-chip-64-bit-architecture-embedded-m9-co-processor-space-grey/p/itmespzmeutdxung?pid=TABESPZMM7PE2W4Y&lid=LSTTABESPZMM7PE2W4YYZLBJT&marketplace=FLIPKART&q=ipad&store=tyy%2Fhry&srno=s_1_3&otracker=search&otracker1=search&fm=Search&iid=0e0751d8-ff5c-4a52-9181-7dd177f063e9.TABESPZMM7PE2W4Y.SEARCH&ppt=sp&ppn=sp&ssid=mys675rw6o0000001790838982860&qH=09401fded433c347&ov_redirect=true
+2026-10-01 12:46:27 - INFO - Image  : https://rukminim2.flixcart.com/image/312/312/j12gakw0-1/tablet/w/4/y/apple-mp2f2hn-a-original-imaesqd4d9y6cher.jpeg?q=70
+2026-10-01 12:46:27 - INFO - 
+Total products selected: 3
+2026-10-01 12:46:27 - INFO - Get Products - ipad completed successfully.
+2026-10-01 12:46:27 - INFO - Products extracted for ipad
+2026-10-01 12:46:35 - INFO - Execution email sent.
+2026-10-01 12:46:35 - INFO - Browser context closed.
+2026-10-01 12:46:36 - INFO - Playwright stopped.
+2026-10-01 12:46:36 - INFO - Browser closed.
+2026-10-01 12:46:36 - ERROR - Automation failed
+2026-10-01 12:46:36 - INFO - Flipkart Automation Completed
