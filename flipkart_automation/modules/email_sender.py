@@ -17,13 +17,14 @@ from config.config_reader import (
 )
 
 
-def send_trigger_email():
+def send_trigger_email(total_products):
 
     msg = EmailMessage()
 
     msg["Subject"] = "Flipkart Automation - Bot Started"
     msg["From"] = get_sender_email()
     msg["To"] = get_receiver_email()
+    
 
     start_time = datetime.now().strftime(
         "%d-%m-%Y %H:%M:%S"
@@ -36,6 +37,8 @@ The Flipkart automation bot has been triggered successfully.
 
 Bot Name : Flipkart Automation
 Start Time : {start_time}
+Total Products : {total_products}
+
 
 The automation process has started.
 
@@ -236,8 +239,10 @@ def send_exception_email(
                 duration = str(datetime.now() - start_time) if start_time else "N/A"
 
                 error_type = type(exception).__name__
-                exception_message = html.escape(str(exception))
-                trace = html.escape(traceback.format_exc())
+                exception = html.escape(str(exception))
+                trace = html.escape("".join(
+                    traceback.format_exception(type(exception), exception, exception.__traceback__)
+                ))
 
                 html_body = f"""
         <!DOCTYPE html>
@@ -270,11 +275,6 @@ def send_exception_email(
                     <tr><th>Execution Duration</th><td>{duration}</td></tr>
                     <tr><th>Error Type</th><td>{error_type}</td></tr>
                 </table>
-
-                <h3>Exception Details</h3>
-                <div class="exception">{exception_message}</div>
-
-                <h3>Traceback</h3>
                 <div class="exception">{trace}</div>
             </div>
             <div class="footer">
@@ -316,10 +316,6 @@ def send_exception_email(
     except Exception as mail_error:
             print(f"Failed to send exception email: {mail_error}")
 
-    #send_exception_email(
-     #   subject="Flipkart Automation - Bot failed",
-     #   html_body=html_body
-    #)
 
     # -----------------------------------------
     # EXECUTION MAIL

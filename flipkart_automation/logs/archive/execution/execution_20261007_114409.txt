@@ -1,0 +1,15 @@
+2026-10-07 11:44:13 - INFO - Flipkart Automation Started
+2026-10-07 11:44:13 - INFO - BOT RUNNER STARTED
+2026-10-07 11:44:13 - INFO - Archived: execution_20261005_140949.txt
+2026-10-07 11:44:18 - ERROR - Automation failed: name 'normalize_size' is not defined
+Traceback (most recent call last):
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\flipkart_automation\modules\bot_runner.py", line 87, in run_bot
+    all_products = read_products()
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\flipkart_automation\modules\excel_reader.py", line 124, in read_products
+    "Size": normalize_size(data.get("Size")),
+            ^^^^^^^^^^^^^^
+NameError: name 'normalize_size' is not defined
+2026-10-07 11:44:19 - INFO - Failure screenshot saved: C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\flipkart_automation\Screenshots\failed\bot_failed_20261007_114418.png
+2026-10-07 11:44:19 - INFO - Browser closed.
+2026-10-07 11:44:19 - ERROR - Automation failed
+2026-10-07 11:44:19 - INFO - Flipkart Automation Completed

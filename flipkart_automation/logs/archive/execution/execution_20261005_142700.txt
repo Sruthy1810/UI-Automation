@@ -1,0 +1,87 @@
+2026-10-05 14:27:00 - INFO - Flipkart Automation Started
+2026-10-05 14:27:00 - INFO - BOT RUNNER STARTED
+2026-10-05 14:27:00 - INFO - Archived: execution_20261005_140756.txt
+2026-10-05 14:27:00 - INFO - Archived: Add to Cart_attempt1_20261005_141423.png
+2026-10-05 14:27:00 - INFO - Archived: Add to Cart_attempt2_20261005_141417.png
+2026-10-05 14:27:00 - INFO - Archived: Add to Cart_attempt1_20261005_141403.png
+2026-10-05 14:27:00 - INFO - Archived: Add to Cart_attempt2_20261005_141351.png
+2026-10-05 14:27:00 - INFO - Archived: Add to Cart_attempt1_20261005_141338.png
+2026-10-05 14:27:00 - INFO - Archived: Add to Cart_attempt2_20261005_141326.png
+2026-10-05 14:27:00 - INFO - Archived: Add to Cart_attempt1_20261005_141312.png
+2026-10-05 14:27:00 - INFO - Archived: Add to Cart_attempt2_20261005_141301.png
+2026-10-05 14:27:00 - INFO - Archived: Add to Cart_attempt1_20261005_141247.png
+2026-10-05 14:27:00 - INFO - Archived: Add to Cart_attempt2_20261005_141235.png
+2026-10-05 14:27:00 - INFO - Archived: Add to Cart_attempt1_20261005_141222.png
+2026-10-05 14:27:00 - INFO - Archived: Add to Cart_attempt2_20261005_141210.png
+2026-10-05 14:27:00 - INFO - Archived: Add to Cart_attempt1_20261005_141156.png
+2026-10-05 14:27:00 - INFO - Archived: Rating Filter_attempt1_20261005_141057.png
+2026-10-05 14:27:00 - INFO - Archived: Rating Filter_attempt1_20261005_125259.png
+2026-10-05 14:27:00 - INFO - Archived: bot_failed_20261005_124706.png
+2026-10-05 14:27:04 - INFO - Products found: 5
+2026-10-05 14:27:08 - INFO - Trigger email sent successfully.
+2026-10-05 14:27:08 - INFO - Trigger email sent.
+2026-10-05 14:27:08 - INFO - Products found in Excel: 5
+2026-10-05 14:27:08 - INFO - Opening Flipkart...
+2026-10-05 14:27:10 - INFO - Flipkart opened successfully
+2026-10-05 14:27:10 - INFO - Logging into flipkart
+2026-10-05 14:27:13 - INFO - 
+==================================================
+2026-10-05 14:27:13 - INFO - Processing Product : smart watch
+2026-10-05 14:27:13 - INFO - Maximum Price      : 5000
+2026-10-05 14:27:13 - INFO - Customer Rating    : 3
+2026-10-05 14:27:13 - INFO - ==================================================
+2026-10-05 14:27:13 - INFO - Search smart watch - Attempt 1/2
+2026-10-05 14:27:13 - INFO - Searching product: smart watch
+2026-10-05 14:27:16 - INFO - Product entered: smart watch
+2026-10-05 14:27:17 - INFO - Search clicked: smart watch
+2026-10-05 14:27:20 - INFO - Search completed successfully: smart watch
+2026-10-05 14:27:20 - INFO - Search smart watch completed successfully.
+2026-10-05 14:27:20 - INFO - Price Filter - Attempt 1/2
+2026-10-05 14:27:20 - INFO - Applying price filter: 5000
+2026-10-05 14:27:20 - INFO - Price filter found.
+2026-10-05 14:27:20 - INFO - Price dropdowns found: 2
+2026-10-05 14:27:20 - INFO - Maximum price selected: 5000
+2026-10-05 14:27:20 - INFO - Price Filter completed successfully.
+2026-10-05 14:27:20 - INFO - Rating Filter - Attempt 1/2
+2026-10-05 14:27:20 - INFO - Applying rating filter: 3
+2026-10-05 14:27:20 - INFO - Customer Ratings filter found.
+2026-10-05 14:27:20 - INFO - Looking for rating option: 3★ & above
+2026-10-05 14:27:20 - INFO - Rating options are already visible.
+2026-10-05 14:27:20 - INFO - Rating checkbox found: 3★ & above
+2026-10-05 14:27:20 - INFO - Current checkbox state: False
+2026-10-05 14:27:21 - INFO - Rating option clicked: 3★ & above
+2026-10-05 14:27:22 - INFO - Rating filter applied successfully: 3★ & above
+2026-10-05 14:27:22 - INFO - Rating Filter completed successfully.
+2026-10-05 14:27:22 - INFO - Get Products - smart watch - Attempt 1/2
+2026-10-05 14:27:22 - INFO - Getting products...
+2026-10-05 14:27:22 - INFO - Product cards found: 40
+2026-10-05 14:27:22 - INFO - 
+Product 1
+2026-10-05 14:27:22 - INFO - Name   : Noise Twist Hyper 1.38 Display, 14-Day Battery Life, Smart Island, Bluetooth 5.4 Smartwatch
+2026-10-05 14:27:22 - INFO - Price  : ₹1,699
+2026-10-05 14:27:22 - INFO - MRP    : ₹5,99971
+2026-10-05 14:27:22 - INFO - Rating : N/A
+2026-10-05 14:27:22 - INFO - URL    : https://www.flipkart.com/noise-twist-hyper-1-38-display-14-day-battery-life-smart-island-bluetooth-5-4-smartwatch/p/itma479abf044e1e?pid=SMWHJZNYKMSVDGMG&lid=LSTSMWHJZNYKMSVDGMGPTDT6L&marketplace=FLIPKART&q=smart+watch&store=ajy%2Fbuh&srno=s_1_1&otracker=search&otracker1=search&fm=Search&iid=en_M4gBPurh3s68_vehBKcDskfSyRX3fGJHEVg3CxIhpyoDA0AAoGZTE1x-UsGs0n4vRIzU0e8fUfTcmc2CsJkI5hpvVhJ_VyykZAxRE2jDmSBFJDbxMID-IWx6eNBY_9LY&ppt=sp&ppn=sp&ssid=f6tqoanta80000001791190638370&qH=acc05e33fb140cc4&ov_redirect=true
+2026-10-05 14:27:22 - INFO - Image  : https://rukminim2.flixcart.com/image/612/612/xif0q/smartwatch/c/v/i/-original-imahkum8g3ayfwgy.jpeg?q=70
+2026-10-05 14:27:22 - INFO - 
+Product 2
+2026-10-05 14:27:22 - INFO - Name   : Noise Twist Hyper 1.38 Display, 14-Day Battery Life, Smart Island, Bluetooth 5.4 Smartwatch
+2026-10-05 14:27:22 - INFO - Price  : ₹1,699
+2026-10-05 14:27:22 - INFO - MRP    : ₹5,99971
+2026-10-05 14:27:22 - INFO - Rating : N/A
+2026-10-05 14:27:22 - INFO - URL    : https://www.flipkart.com/noise-twist-hyper-1-38-display-14-day-battery-life-smart-island-bluetooth-5-4-smartwatch/p/itm5cfbb1d4b020d?pid=SMWHJZNYGKNG6JXX&lid=LSTSMWHJZNYGKNG6JXX6O3BTT&marketplace=FLIPKART&q=smart+watch&store=ajy%2Fbuh&srno=s_1_2&otracker=search&otracker1=search&fm=Search&iid=en_M4gBPurh3s68_vehBKcDskfSyRX3fGJHEVg3CxIhpyoPuN5mNdnYCeOQwF-9Z0-8Hhdj5RMAJrVWq6zhH2QaMikCfSYXxkaQTdk3QaZYCENFJDbxMID-IWx6eNBY_9LY&ppt=sp&ppn=sp&ssid=f6tqoanta80000001791190638370&qH=acc05e33fb140cc4&ov_redirect=true
+2026-10-05 14:27:22 - INFO - Image  : https://rukminim2.flixcart.com/image/612/612/xif0q/smartwatch/v/v/p/35-052-wrb-sw-twisthyper-std-rgld-pnk-android-ios-noise-yes-original-imahjznyxed2bccy.jpeg?q=70
+2026-10-05 14:27:22 - INFO - 
+Product 3
+2026-10-05 14:27:22 - INFO - Name   : Noise Colorfit Icon 2 1.8'' Display with Bluetooth Calling, AI Voice Assistant Smartwatch
+2026-10-05 14:27:22 - INFO - Price  : ₹1,499
+2026-10-05 14:27:22 - INFO - MRP    : ₹5,99975
+2026-10-05 14:27:22 - INFO - Rating : N/A
+2026-10-05 14:27:22 - INFO - URL    : https://www.flipkart.com/noise-colorfit-icon-2-1-8-display-bluetooth-calling-ai-voice-assistant-smartwatch/p/itmd4cd819eadb9f?pid=SMWGEH7VGYMGCP3V&lid=LSTSMWGEH7VGYMGCP3VXIJHDY&marketplace=FLIPKART&q=smart+watch&store=ajy%2Fbuh&spotlightTagId=default_BestsellerId_ajy%2Fbuh&srno=s_1_3&otracker=search&otracker1=search&fm=Search&iid=dfccf57b-ffe4-4813-863c-d690d025f024.SMWGEH7VGYMGCP3V.SEARCH&ppt=sp&ppn=sp&ssid=f6tqoanta80000001791190638370&qH=acc05e33fb140cc4&ov_redirect=true
+2026-10-05 14:27:22 - INFO - Image  : https://rukminim2.flixcart.com/image/612/612/xif0q/minutes_enrichment_original/-enriched-original-SMWGEH7VGYMGCP3V_0.jpg?q=70
+2026-10-05 14:27:22 - INFO - 
+Total products selected: 3
+2026-10-05 14:27:22 - INFO - Get Products - smart watch completed successfully.
+2026-10-05 14:27:37 - WARNING - Browser close skipped: Browser.close: Connection closed while reading from the driver
+2026-10-05 14:27:37 - INFO - Browser closed.
+2026-10-05 14:27:37 - INFO - Flipkart Automation Completed

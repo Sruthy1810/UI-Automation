@@ -1,0 +1,38 @@
+2026-10-05 12:02:13 - INFO - Flipkart Automation Started
+2026-10-05 12:02:13 - INFO - BOT RUNNER STARTED
+2026-10-05 12:02:13 - INFO - Archived: execution_20261005_115338.txt
+2026-10-05 12:02:21 - INFO - Trigger email sent successfully.
+2026-10-05 12:02:21 - INFO - Trigger email sent.
+2026-10-05 12:02:21 - INFO - Opening Flipkart...
+2026-10-05 12:02:23 - INFO - Flipkart opened successfully
+2026-10-05 12:02:23 - INFO - Logging into flipkart
+2026-10-05 12:02:26 - INFO - Products found: 5
+2026-10-05 12:02:26 - INFO - Products found in Excel: 5
+2026-10-05 12:02:26 - INFO - 
+==================================================
+2026-10-05 12:02:26 - INFO - Processing Product : smart watch
+2026-10-05 12:02:26 - INFO - Maximum Price      : 5000
+2026-10-05 12:02:26 - INFO - Customer Rating    : 3
+2026-10-05 12:02:26 - INFO - ==================================================
+2026-10-05 12:02:26 - INFO - Search smart watch - Attempt 1/3
+2026-10-05 12:02:26 - INFO - Searching product: smart watch
+2026-10-05 12:02:30 - INFO - Product entered: smart watch
+2026-10-05 12:02:30 - INFO - Search clicked: smart watch
+2026-10-05 12:02:31 - ERROR - Search failed
+2026-10-05 12:02:31 - INFO - Failure screenshot saved: C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\flipkart_automation\Screenshots\failed\smart watch_20261005_120231.png
+2026-10-05 12:02:31 - INFO - Failure screenshot: C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\flipkart_automation\Screenshots\failed\smart watch_20261005_120231.png
+2026-10-05 12:02:31 - ERROR - Search smart watch failed on attempt 1/3: Page.wait_for_timeout: Target page, context or browser has been closed
+2026-10-05 12:02:31 - INFO - Failure screenshot saved: C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\flipkart_automation\Screenshots\failed\Search smart watch_attempt1_20261005_120231.png
+2026-10-05 12:02:33 - WARNING - Context close skipped: BrowserContext.close: Target page, context or browser has been closed
+Browser logs:
+
+<launching> C:\Users\Admin\AppData\Local\ms-playwright\chromium-1243\chrome-win64\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,Translate,AutoDeElevate,OptimizationHints,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --window-size=1920,1080 --window-position=0,0 --user-data-dir=C:\Users\Admin\AppData\Local\Temp\playwright_chromiumdev_profile-6RLbHB --remote-debugging-pipe --no-startup-window
+<launched> pid=2720
+[pid=2720][err] [2720:21752:1005/120218.578:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: PHONE_REGISTRATION_ERROR
+[pid=2720][err] [2720:21752:1005/120218.578:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: PHONE_REGISTRATION_ERROR
+[pid=2720][err] [2720:21752:1005/120218.603:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: PHONE_REGISTRATION_ERROR
+[pid=2720][err] [2720:21752:1005/120218.714:ERROR:google_apis\gcm\engine\mcs_client.cc:702]   Error code: 401  Error message: Authentication Failed: wrong_secret
+[pid=2720][err] [2720:21752:1005/120218.714:ERROR:google_apis\gcm\engine\mcs_client.cc:704] Failed to log in to GCM, resetting connection.
+[pid=2720] <gracefully close start>
+2026-10-05 12:02:33 - INFO - Browser closed.
+2026-10-05 12:02:33 - INFO - Flipkart Automation Completed

@@ -1,0 +1,17 @@
+2026-10-05 12:47:03 - INFO - Flipkart Automation Started
+2026-10-05 12:47:03 - INFO - BOT RUNNER STARTED
+2026-10-05 12:47:03 - INFO - Archived: execution_20261005_122048.txt
+2026-10-05 12:47:03 - INFO - Archived: Rating Filter_attempt1_20261005_122405.png
+2026-10-05 12:47:03 - INFO - Archived: Rating Filter_attempt1_20261005_122311.png
+2026-10-05 12:47:03 - INFO - Archived: bot_failed_20261005_122050.png
+2026-10-05 12:47:03 - INFO - Archived: bot_failed_20261005_121504.png
+2026-10-05 12:47:06 - ERROR - Automation failed: cannot access local variable 'total_products' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\flipkart_automation\modules\bot_runner.py", line 82, in run_bot
+    send_trigger_email(total_products)
+                       ^^^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'total_products' where it is not associated with a value
+2026-10-05 12:47:06 - INFO - Failure screenshot saved: C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\flipkart_automation\Screenshots\failed\bot_failed_20261005_124706.png
+2026-10-05 12:47:16 - INFO - Browser closed.
+2026-10-05 12:47:16 - ERROR - Automation failed
+2026-10-05 12:47:16 - INFO - Flipkart Automation Completed

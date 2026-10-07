@@ -1,0 +1,472 @@
+2026-10-05 14:09:50 - INFO - Flipkart Automation Started
+2026-10-05 14:09:50 - INFO - BOT RUNNER STARTED
+2026-10-05 14:09:50 - INFO - Archived: execution_20261005_125155.txt
+2026-10-05 14:09:50 - INFO - Archived: execution_20261005_124702.txt
+2026-10-05 14:09:50 - INFO - Archived: _error_20261005_122418.png
+2026-10-05 14:09:54 - INFO - Products found: 5
+2026-10-05 14:09:58 - INFO - Trigger email sent successfully.
+2026-10-05 14:09:58 - INFO - Trigger email sent.
+2026-10-05 14:09:58 - INFO - Products found in Excel: 5
+2026-10-05 14:09:58 - INFO - Opening Flipkart...
+2026-10-05 14:10:00 - INFO - Flipkart opened successfully
+2026-10-05 14:10:00 - INFO - Logging into flipkart
+2026-10-05 14:10:03 - INFO - 
+==================================================
+2026-10-05 14:10:03 - INFO - Processing Product : smart watch
+2026-10-05 14:10:03 - INFO - Maximum Price      : 5000
+2026-10-05 14:10:03 - INFO - Customer Rating    : 3
+2026-10-05 14:10:03 - INFO - ==================================================
+2026-10-05 14:10:03 - INFO - Search smart watch - Attempt 1/2
+2026-10-05 14:10:03 - INFO - Searching product: smart watch
+2026-10-05 14:10:07 - INFO - Product entered: smart watch
+2026-10-05 14:10:08 - INFO - Search clicked: smart watch
+2026-10-05 14:10:11 - INFO - Search completed successfully: smart watch
+2026-10-05 14:10:11 - INFO - Search smart watch completed successfully.
+2026-10-05 14:10:11 - INFO - Price Filter - Attempt 1/2
+2026-10-05 14:10:11 - INFO - Applying price filter: 5000
+2026-10-05 14:10:11 - INFO - Price filter found.
+2026-10-05 14:10:11 - INFO - Price dropdowns found: 2
+2026-10-05 14:10:11 - INFO - Maximum price selected: 5000
+2026-10-05 14:10:11 - INFO - Price Filter completed successfully.
+2026-10-05 14:10:11 - INFO - Rating Filter - Attempt 1/2
+2026-10-05 14:10:11 - INFO - Applying rating filter: 3
+2026-10-05 14:10:11 - INFO - Customer Ratings filter found.
+2026-10-05 14:10:11 - INFO - Looking for rating option: 3★ & above
+2026-10-05 14:10:11 - INFO - Rating options are already visible.
+2026-10-05 14:10:11 - INFO - Rating checkbox found: 3★ & above
+2026-10-05 14:10:11 - INFO - Current checkbox state: False
+2026-10-05 14:10:12 - INFO - Rating option clicked: 3★ & above
+2026-10-05 14:10:13 - INFO - Rating filter applied successfully: 3★ & above
+2026-10-05 14:10:13 - INFO - Rating Filter completed successfully.
+2026-10-05 14:10:13 - INFO - Get Products - smart watch - Attempt 1/2
+2026-10-05 14:10:13 - INFO - Getting products...
+2026-10-05 14:10:13 - INFO - Product cards found: 40
+2026-10-05 14:10:13 - INFO - 
+Product 1
+2026-10-05 14:10:13 - INFO - Name   : GOBOULT Drift BT Calling HD Display, 140+ Watchface, BT calling, IP68 Smartwatch
+2026-10-05 14:10:13 - INFO - Price  : ₹1,299
+2026-10-05 14:10:13 - INFO - MRP    : ₹7,99983
+2026-10-05 14:10:13 - INFO - Rating : N/A
+2026-10-05 14:10:13 - INFO - URL    : https://www.flipkart.com/goboult-drift-bt-calling-hd-display-140-watchface-calling-ip68-smartwatch/p/itm44dae90456a3d?pid=SMWGMH4RUBYE7SHF&lid=LSTSMWGMH4RUBYE7SHFJEOYVO&marketplace=FLIPKART&q=smart+watch&store=ajy%2Fbuh&srno=s_1_1&otracker=search&otracker1=search&fm=Search&iid=en_fuNwIOTKpK63FV20hIjU6pYNONsFUhz1g8EbbAcFAOb2V5Gnut0aKr18jXV14IpMQjO9q4V5gti6l653ncheRsZVhjGFdwv7kjX3wfA0kA8sAbTLDONZ3IRqqVQ9ZpgZ&ppt=sp&ppn=sp&ssid=kten33brrk0000001791189608803&qH=acc05e33fb140cc4&ov_redirect=true
+2026-10-05 14:10:13 - INFO - Image  : https://rukminim2.flixcart.com/image/612/612/xif0q/smartwatch/g/n/5/-enriched-transparent-original-imaherxuggamz6zv.png?q=70
+2026-10-05 14:10:14 - INFO - 
+Product 2
+2026-10-05 14:10:14 - INFO - Name   : Noise Icon Buzz 1.69" Display with Bluetooth Calling, Built-In Games, Voice Assistant Smartwatch
+2026-10-05 14:10:14 - INFO - Price  : ₹1,499
+2026-10-05 14:10:14 - INFO - MRP    : ₹4,99970
+2026-10-05 14:10:14 - INFO - Rating : N/A
+2026-10-05 14:10:14 - INFO - URL    : https://www.flipkart.com/noise-icon-buzz-1-69-display-bluetooth-calling-built-in-games-voice-assistant-smartwatch/p/itmfb38271d722a7?pid=SMWGAU62XCAESACH&lid=LSTSMWGAU62XCAESACHWSCPNH&marketplace=FLIPKART&q=smart+watch&store=ajy%2Fbuh&srno=s_1_2&otracker=search&otracker1=search&fm=Search&iid=en_fuNwIOTKpK63FV20hIjU6pYNONsFUhz1g8EbbAcFAObKIA4tZhLcHfmk5kPwUcgwvrx86RdnEPX05orZwdfJXp7clQcIBV4OMY_BwILsZe5l8YYsXWVFpMm_vTuxJ-kl&ppt=sp&ppn=sp&ssid=kten33brrk0000001791189608803&qH=acc05e33fb140cc4&ov_redirect=true
+2026-10-05 14:10:14 - INFO - Image  : https://rukminim2.flixcart.com/image/612/612/xif0q/smartwatch/i/4/b/-original-imah2thy4cphhcbe.jpeg?q=70
+2026-10-05 14:10:14 - INFO - 
+Product 3
+2026-10-05 14:10:14 - INFO - Name   : Noise Colorfit Icon 2 1.8'' Display with Bluetooth Calling, AI Voice Assistant Smartwatch
+2026-10-05 14:10:14 - INFO - Price  : ₹1,499
+2026-10-05 14:10:14 - INFO - MRP    : ₹5,99975
+2026-10-05 14:10:14 - INFO - Rating : N/A
+2026-10-05 14:10:14 - INFO - URL    : https://www.flipkart.com/noise-colorfit-icon-2-1-8-display-bluetooth-calling-ai-voice-assistant-smartwatch/p/itmd4cd819eadb9f?pid=SMWGEH7VGYMGCP3V&lid=LSTSMWGEH7VGYMGCP3VXIJHDY&marketplace=FLIPKART&q=smart+watch&store=ajy%2Fbuh&spotlightTagId=default_BestsellerId_ajy%2Fbuh&srno=s_1_3&otracker=search&otracker1=search&fm=Search&iid=971b951c-047e-4e60-96f2-fb9aae34c7d5.SMWGEH7VGYMGCP3V.SEARCH&ppt=sp&ppn=sp&ssid=kten33brrk0000001791189608803&qH=acc05e33fb140cc4&ov_redirect=true
+2026-10-05 14:10:14 - INFO - Image  : https://rukminim2.flixcart.com/image/612/612/xif0q/minutes_enrichment_original/-enriched-original-SMWGEH7VGYMGCP3V_0.jpg?q=70
+2026-10-05 14:10:14 - INFO - 
+Total products selected: 3
+2026-10-05 14:10:14 - INFO - Get Products - smart watch completed successfully.
+2026-10-05 14:10:14 - INFO - Products extracted for smart watch
+2026-10-05 14:10:17 - INFO - Excel updated: smart watch -> Found
+2026-10-05 14:10:17 - INFO - 
+==================================================
+2026-10-05 14:10:17 - INFO - Processing Product : Phone
+2026-10-05 14:10:17 - INFO - Maximum Price      : 20000
+2026-10-05 14:10:17 - INFO - Customer Rating    : 4
+2026-10-05 14:10:17 - INFO - ==================================================
+2026-10-05 14:10:17 - INFO - Search Phone - Attempt 1/2
+2026-10-05 14:10:17 - INFO - Searching product: Phone
+2026-10-05 14:10:20 - INFO - Product entered: Phone
+2026-10-05 14:10:20 - INFO - Search clicked: Phone
+2026-10-05 14:10:23 - INFO - Search completed successfully: Phone
+2026-10-05 14:10:23 - INFO - Search Phone completed successfully.
+2026-10-05 14:10:23 - INFO - Price Filter - Attempt 1/2
+2026-10-05 14:10:23 - INFO - Applying price filter: 20000
+2026-10-05 14:10:23 - INFO - Price filter found.
+2026-10-05 14:10:23 - INFO - Price dropdowns found: 2
+2026-10-05 14:10:23 - INFO - Maximum price selected: 20000
+2026-10-05 14:10:23 - INFO - Price Filter completed successfully.
+2026-10-05 14:10:23 - INFO - Rating Filter - Attempt 1/2
+2026-10-05 14:10:23 - INFO - Applying rating filter: 4
+2026-10-05 14:10:23 - INFO - Customer Ratings filter found.
+2026-10-05 14:10:23 - INFO - Looking for rating option: 4★ & above
+2026-10-05 14:10:25 - INFO - Rating options are collapsed. Clicking Customer Ratings.
+2026-10-05 14:10:25 - INFO - Customer Ratings section clicked.
+2026-10-05 14:10:25 - INFO - Rating options are now visible.
+2026-10-05 14:10:25 - INFO - Rating checkbox found: 4★ & above
+2026-10-05 14:10:25 - INFO - Current checkbox state: False
+2026-10-05 14:10:26 - INFO - Rating option clicked: 4★ & above
+2026-10-05 14:10:57 - ERROR - Customer Ratings section, rating option, or checkbox not found.
+2026-10-05 14:10:57 - ERROR - Rating Filter failed on attempt 1/2: Locator.is_checked: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("section.KNnSWQ").filter(has_text="Customer Ratings").first.locator("div[title=\"4★ & above\"]").locator("input[type=\"checkbox\"]")
+
+2026-10-05 14:10:57 - INFO - Failure screenshot saved: C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\flipkart_automation\Screenshots\failed\Rating Filter_attempt1_20261005_141057.png
+2026-10-05 14:10:59 - INFO - Rating Filter - Attempt 2/2
+2026-10-05 14:10:59 - INFO - Applying rating filter: 4
+2026-10-05 14:10:59 - INFO - Customer Ratings filter found.
+2026-10-05 14:10:59 - INFO - Looking for rating option: 4★ & above
+2026-10-05 14:11:01 - INFO - Rating options are collapsed. Clicking Customer Ratings.
+2026-10-05 14:11:01 - INFO - Customer Ratings section clicked.
+2026-10-05 14:11:01 - INFO - Rating options are now visible.
+2026-10-05 14:11:01 - INFO - Rating checkbox found: 4★ & above
+2026-10-05 14:11:01 - INFO - Current checkbox state: True
+2026-10-05 14:11:01 - INFO - Rating already selected: 4★ & above
+2026-10-05 14:11:02 - INFO - Rating filter applied successfully: 4★ & above
+2026-10-05 14:11:02 - INFO - Rating Filter completed successfully.
+2026-10-05 14:11:02 - INFO - Get Products - Phone - Attempt 1/2
+2026-10-05 14:11:02 - INFO - Getting products...
+2026-10-05 14:11:02 - INFO - Product cards found: 24
+2026-10-05 14:11:02 - INFO - 
+Product 1
+2026-10-05 14:11:02 - INFO - Name   : Nokia 105 Classic Single Sim Keypad Phone, Without Charger
+2026-10-05 14:11:02 - INFO - Price  : ₹1,049
+2026-10-05 14:11:02 - INFO - MRP    : ₹1,34922
+2026-10-05 14:11:02 - INFO - Rating : 4
+2026-10-05 14:11:02 - INFO - URL    : https://www.flipkart.com/nokia-105-classic-single-sim-keypad-phone-without-charger/p/itmfdb404ec1d0f4?pid=MOBGWZUWPTFTQZAH&lid=LSTMOBGWZUWPTFTQZAHSIXCDR&marketplace=FLIPKART&q=Phone&store=tyy%2F4io&spotlightTagId=default_BestsellerId_tyy%2F4io&srno=s_1_1&otracker=search&otracker1=search&fm=Search&iid=ba72b4e4-bf89-428f-8783-c53a219d8bff.MOBGWZUWPTFTQZAH.SEARCH&ppt=sp&ppn=sp&ssid=nkk8bh2c680000001791189620806&qH=bcc254b55c4a1bab&ov_redirect=true
+2026-10-05 14:11:02 - INFO - Image  : https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/p/o/i/105-single-sim-keypad-mobile-phone-with-wireless-fm-radio-nokia-resized-original-imah2xgc9z6cwcqv.jpeg?q=70
+2026-10-05 14:11:02 - INFO - 
+Product 2
+2026-10-05 14:11:02 - INFO - Name   : BOLTT EVO (Berry Red, 64 GB)
+2026-10-05 14:11:02 - INFO - Price  : ₹9,999
+2026-10-05 14:11:02 - INFO - MRP    : ₹17,99944
+2026-10-05 14:11:02 - INFO - Rating : 4.3
+2026-10-05 14:11:02 - INFO - URL    : https://www.flipkart.com/boltt-evo-berry-red-64-gb/p/itmf046d663a1fd7?pid=MOBHPP598ENKRGBY&lid=LSTMOBHPP598ENKRGBYC3QECN&marketplace=FLIPKART&q=Phone&store=tyy%2F4io&srno=s_1_2&otracker=search&otracker1=search&fm=Search&iid=ba72b4e4-bf89-428f-8783-c53a219d8bff.MOBHPP598ENKRGBY.SEARCH&ppt=sp&ppn=sp&ssid=nkk8bh2c680000001791189620806&qH=bcc254b55c4a1bab&ov_redirect=true
+2026-10-05 14:11:02 - INFO - Image  : https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/d/b/p/-resized-original-imahqk5pywazwh3t.jpeg?q=70
+2026-10-05 14:11:02 - INFO - 
+Product 3
+2026-10-05 14:11:02 - INFO - Name   : Samsung Galaxy F07 (Green, 64 GB)
+2026-10-05 14:11:02 - INFO - Price  : ₹11,999
+2026-10-05 14:11:02 - INFO - MRP    : ₹9,425
+2026-10-05 14:11:02 - INFO - Rating : 4.2
+2026-10-05 14:11:02 - INFO - URL    : https://www.flipkart.com/samsung-galaxy-f07-green-64-gb/p/itm294cbb65839e6?pid=MOBHMGHHXHYZEAVB&lid=LSTMOBHMGHHXHYZEAVBR68SR7&marketplace=FLIPKART&q=Phone&store=tyy%2F4io&spotlightTagId=default_BestsellerId_tyy%2F4io&srno=s_1_3&otracker=search&otracker1=search&fm=Search&iid=ba72b4e4-bf89-428f-8783-c53a219d8bff.MOBHMGHHXHYZEAVB.SEARCH&ppt=sp&ppn=sp&ssid=nkk8bh2c680000001791189620806&qH=bcc254b55c4a1bab&ov_redirect=true
+2026-10-05 14:11:02 - INFO - Image  : https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/t/r/o/-original-imahjwcmjfzax5rj.jpeg?q=70
+2026-10-05 14:11:02 - INFO - 
+Total products selected: 3
+2026-10-05 14:11:02 - INFO - Get Products - Phone completed successfully.
+2026-10-05 14:11:02 - INFO - Products extracted for Phone
+2026-10-05 14:11:07 - INFO - Excel updated: Phone -> Found
+2026-10-05 14:11:07 - INFO - 
+==================================================
+2026-10-05 14:11:07 - INFO - Processing Product : Headphone
+2026-10-05 14:11:07 - INFO - Maximum Price      : 2000
+2026-10-05 14:11:07 - INFO - Customer Rating    : 3
+2026-10-05 14:11:07 - INFO - ==================================================
+2026-10-05 14:11:07 - INFO - Search Headphone - Attempt 1/2
+2026-10-05 14:11:07 - INFO - Searching product: Headphone
+2026-10-05 14:11:10 - INFO - Product entered: Headphone
+2026-10-05 14:11:11 - INFO - Search clicked: Headphone
+2026-10-05 14:11:14 - INFO - Search completed successfully: Headphone
+2026-10-05 14:11:14 - INFO - Search Headphone completed successfully.
+2026-10-05 14:11:14 - INFO - Price Filter - Attempt 1/2
+2026-10-05 14:11:14 - INFO - Applying price filter: 2000
+2026-10-05 14:11:14 - INFO - Price filter found.
+2026-10-05 14:11:14 - INFO - Price dropdowns found: 2
+2026-10-05 14:11:14 - INFO - Maximum price selected: 2000
+2026-10-05 14:11:14 - INFO - Price Filter completed successfully.
+2026-10-05 14:11:14 - INFO - Rating Filter - Attempt 1/2
+2026-10-05 14:11:14 - INFO - Applying rating filter: 3
+2026-10-05 14:11:14 - INFO - Customer Ratings filter found.
+2026-10-05 14:11:14 - INFO - Looking for rating option: 3★ & above
+2026-10-05 14:11:14 - INFO - Rating options are already visible.
+2026-10-05 14:11:14 - INFO - Rating checkbox found: 3★ & above
+2026-10-05 14:11:14 - INFO - Current checkbox state: False
+2026-10-05 14:11:15 - INFO - Rating option clicked: 3★ & above
+2026-10-05 14:11:16 - INFO - Rating filter applied successfully: 3★ & above
+2026-10-05 14:11:16 - INFO - Rating Filter completed successfully.
+2026-10-05 14:11:16 - INFO - Get Products - Headphone - Attempt 1/2
+2026-10-05 14:11:16 - INFO - Getting products...
+2026-10-05 14:11:16 - INFO - Product cards found: 40
+2026-10-05 14:11:16 - INFO - 
+Product 1
+2026-10-05 14:11:16 - INFO - Name   : Mivi Duopods K2, 40Hrs PT, HD Call, Fast Charging, 50ms Latency,IPX4, Voice Asst.5.3v Bluetooth
+2026-10-05 14:11:16 - INFO - Price  : ₹599
+2026-10-05 14:11:16 - INFO - MRP    : ₹2,99980
+2026-10-05 14:11:16 - INFO - Rating : 3.9
+2026-10-05 14:11:16 - INFO - URL    : https://www.flipkart.com/mivi-duopods-k2-40hrs-pt-hd-call-fast-charging-50ms-latency-ipx4-voice-asst-5-3v-bluetooth/p/itm5f62275f615f4?pid=ACCGPFCNADSRMQGJ&lid=LSTACCGPFCNADSRMQGJZKAXXT&marketplace=FLIPKART&q=Headphone&store=0pm%2Ffcn&srno=s_1_1&otracker=search&otracker1=search&fm=Search&iid=en_4-IvAM4yLgsp9Db6PksODWQ30GfDu_bQJ0JLmu_xlj3z68w1UzlPT4C7wOiyuBf4gqkcFhvmqK4ON5EHQVyGYw-21dJ3wjI2ypZOOvi7ef1QqLaDkjLRAAvLBwFpbfIN&ppt=sp&ppn=sp&ssid=kz3gyfohg00000001791189671025&qH=52f40b8ad1f6b467&ov_redirect=true&ov_redirect=true
+2026-10-05 14:11:16 - INFO - Image  : https://rukminim2.flixcart.com/image/612/612/xif0q/headphone/j/2/e/-original-imagpxhyanjcqvrg.jpeg?q=70
+2026-10-05 14:11:16 - INFO - 
+Product 2
+2026-10-05 14:11:16 - INFO - Name   : TRIGGR Kraken X4 with 13mm Drivers, 40ms Latency, ENC, 60H Battery, Rubber Finish, v5.4 Bluetooth Gaming
+2026-10-05 14:11:16 - INFO - Price  : ₹899
+2026-10-05 14:11:16 - INFO - MRP    : ₹3,99977
+2026-10-05 14:11:16 - INFO - Rating : 4
+2026-10-05 14:11:16 - INFO - URL    : https://www.flipkart.com/triggr-kraken-x4-13mm-drivers-40ms-latency-enc-60h-battery-rubber-finish-v5-4-bluetooth-gaming/p/itm11fd34f2ddfb6?pid=ACCH2WWTZUWTRNHP&lid=LSTACCH2WWTZUWTRNHPZ7SX0C&marketplace=FLIPKART&q=Headphone&store=0pm%2Ffcn&srno=s_1_2&otracker=search&otracker1=search&fm=Search&iid=en_4-IvAM4yLgsp9Db6PksODWQ30GfDu_bQJ0JLmu_xlj0ztdDzCMeBQU2YT2Xu5AnDceVGx_aUyESvFDLLNlloZfwDo52s_ZYC5Fl1d_gnkhCDfK1SZ2PDZW5ThN4g1EE0&ppt=sp&ppn=sp&ssid=kz3gyfohg00000001791189671025&qH=52f40b8ad1f6b467&ov_redirect=true&ov_redirect=true
+2026-10-05 14:11:16 - INFO - Image  : https://rukminim2.flixcart.com/image/612/612/xif0q/headphone/r/c/n/-enriched-transparent-original-imahhfvtrfdc95xh.png?q=70
+2026-10-05 14:11:16 - INFO - 
+Product 3
+2026-10-05 14:11:16 - INFO - Name   : boAt Rockerz 412, 60H Battery,40ms Latency,ENx, App Support Bluetooth
+2026-10-05 14:11:16 - INFO - Price  : ₹1,299
+2026-10-05 14:11:16 - INFO - MRP    : ₹2,99956
+2026-10-05 14:11:16 - INFO - Rating : 4
+2026-10-05 14:11:16 - INFO - URL    : https://www.flipkart.com/boat-rockerz-412-60h-battery-40ms-latency-enx-app-support-bluetooth/p/itmb5dd2c5d386eb?pid=ACCHCJW3ENYUPQAA&lid=LSTACCHCJW3ENYUPQAADSZLBB&marketplace=FLIPKART&q=Headphone&store=0pm%2Ffcn&srno=s_1_3&otracker=search&otracker1=search&fm=Search&iid=e36f27db-ddfd-4ab9-aaa8-cc8c9f8273d9.ACCHCJW3ENYUPQAA.SEARCH&ppt=sp&ppn=sp&ssid=kz3gyfohg00000001791189671025&qH=52f40b8ad1f6b467&ov_redirect=true&ov_redirect=true
+2026-10-05 14:11:16 - INFO - Image  : https://rukminim2.flixcart.com/image/612/612/xif0q/headphone/w/l/7/-original-imahddyjjbggeeah.jpeg?q=70
+2026-10-05 14:11:16 - INFO - 
+Total products selected: 3
+2026-10-05 14:11:16 - INFO - Get Products - Headphone completed successfully.
+2026-10-05 14:11:16 - INFO - Products extracted for Headphone
+2026-10-05 14:11:21 - INFO - Excel updated: Headphone -> Found
+2026-10-05 14:11:21 - INFO - 
+==================================================
+2026-10-05 14:11:21 - INFO - Processing Product : Speaker
+2026-10-05 14:11:21 - INFO - Maximum Price      : 3000
+2026-10-05 14:11:21 - INFO - Customer Rating    : 3
+2026-10-05 14:11:21 - INFO - ==================================================
+2026-10-05 14:11:21 - INFO - Search Speaker - Attempt 1/2
+2026-10-05 14:11:21 - INFO - Searching product: Speaker
+2026-10-05 14:11:24 - INFO - Product entered: Speaker
+2026-10-05 14:11:24 - INFO - Search clicked: Speaker
+2026-10-05 14:11:27 - INFO - Search completed successfully: Speaker
+2026-10-05 14:11:27 - INFO - Search Speaker completed successfully.
+2026-10-05 14:11:27 - INFO - Price Filter - Attempt 1/2
+2026-10-05 14:11:27 - INFO - Applying price filter: 3000
+2026-10-05 14:11:27 - INFO - Price filter found.
+2026-10-05 14:11:27 - INFO - Price dropdowns found: 2
+2026-10-05 14:11:27 - INFO - Maximum price selected: 3000
+2026-10-05 14:11:27 - INFO - Price Filter completed successfully.
+2026-10-05 14:11:27 - INFO - Rating Filter - Attempt 1/2
+2026-10-05 14:11:27 - INFO - Applying rating filter: 3
+2026-10-05 14:11:27 - INFO - Customer Ratings filter found.
+2026-10-05 14:11:27 - INFO - Looking for rating option: 3★ & above
+2026-10-05 14:11:27 - INFO - Rating options are already visible.
+2026-10-05 14:11:27 - INFO - Rating checkbox found: 3★ & above
+2026-10-05 14:11:27 - INFO - Current checkbox state: False
+2026-10-05 14:11:28 - INFO - Rating option clicked: 3★ & above
+2026-10-05 14:11:29 - INFO - Rating filter applied successfully: 3★ & above
+2026-10-05 14:11:29 - INFO - Rating Filter completed successfully.
+2026-10-05 14:11:29 - INFO - Get Products - Speaker - Attempt 1/2
+2026-10-05 14:11:29 - INFO - Getting products...
+2026-10-05 14:11:29 - INFO - Product cards found: 40
+2026-10-05 14:11:29 - INFO - 
+Product 1
+2026-10-05 14:11:29 - INFO - Name   : Mivi Fort S16 with Dual Full Range Drivers, 6Hrs Playback, Voice Assistant 16 W Bluetooth Soundbar
+2026-10-05 14:11:29 - INFO - Price  : ₹799
+2026-10-05 14:11:29 - INFO - MRP    : ₹2,99973
+2026-10-05 14:11:29 - INFO - Rating : 4
+2026-10-05 14:11:29 - INFO - URL    : https://www.flipkart.com/mivi-fort-s16-dual-full-range-drivers-6hrs-playback-voice-assistant-16-w-bluetooth-soundbar/p/itm8fbbb30ed1fce?pid=ACCGFTFKSEWGYABF&lid=LSTACCGFTFKSEWGYABFDYZP02&marketplace=FLIPKART&q=Speaker&store=0pm%2F0o7&srno=s_1_1&otracker=search&otracker1=search&fm=Search&iid=en_VbCJTh-JoAgcXpRDe1yDiR8VSbMucg-O6PbxH2q-E22Bb0bVQ0pt59GAtqbNrnFk6teuzB4t4o1UENEn2X7bK8y8JQ4kIOX7f8sEYenXu9H0iK6MQi8vxeLLMuoanTrf&ppt=sp&ppn=sp&ssid=iia57uzhps0000001791189684094&qH=22cc65fdfc4417d6&ov_redirect=true&ov_redirect=true
+2026-10-05 14:11:29 - INFO - Image  : https://rukminim2.flixcart.com/image/612/612/xif0q/speaker/m/h/s/-original-imaggrf8mfkyyvvj.jpeg?q=70
+2026-10-05 14:11:29 - INFO - 
+Product 2
+2026-10-05 14:11:29 - INFO - Name   : TRIGGR Horizon 16 with Dual Drivers, 7Hrs Playtime, MEMS Mic, TWS Function 16 W Bluetooth Speaker
+2026-10-05 14:11:29 - INFO - Price  : ₹799
+2026-10-05 14:11:29 - INFO - MRP    : ₹3,99980
+2026-10-05 14:11:29 - INFO - Rating : 4
+2026-10-05 14:11:29 - INFO - URL    : https://www.flipkart.com/triggr-horizon-16-dual-drivers-7hrs-playtime-mems-mic-tws-function-w-bluetooth-speaker/p/itmbfed43aa346a6?pid=ACCHHHSBZ5GZDZQT&lid=LSTACCHHHSBZ5GZDZQTGV5NAP&marketplace=FLIPKART&q=Speaker&store=0pm%2F0o7&srno=s_1_2&otracker=search&otracker1=search&fm=Search&iid=en_VbCJTh-JoAgcXpRDe1yDiR8VSbMucg-O6PbxH2q-E23Tkt3tPwzz5QuWlF_pBogMuoac-g26gbfLdqA6Gj8EMPkhTeA24clIOZHapVVie3Uui98dNJAqip-7W0M70hXT&ppt=sp&ppn=sp&ssid=iia57uzhps0000001791189684094&qH=22cc65fdfc4417d6&ov_redirect=true&ov_redirect=true
+2026-10-05 14:11:29 - INFO - Image  : https://rukminim2.flixcart.com/image/612/612/xif0q/speaker/p/a/n/-original-imahm4afbfgwtty7.jpeg?q=70
+2026-10-05 14:11:29 - INFO - 
+Product 3
+2026-10-05 14:11:29 - INFO - Name   : ZEBRONICS Music bomb i10,12hrs Playback, Dual Drivers, BT v5.4, USB , AUX, Type-C Charging 16 W Bluetooth Speaker
+2026-10-05 14:11:29 - INFO - Price  : ₹899
+2026-10-05 14:11:29 - INFO - MRP    : ₹2,99970
+2026-10-05 14:11:29 - INFO - Rating : 4.2
+2026-10-05 14:11:29 - INFO - URL    : https://www.flipkart.com/zebronics-music-bomb-i10-12hrs-playback-dual-drivers-bt-v5-4-usb-aux-type-c-charging-16-w-bluetooth-speaker/p/itmaf55abdf5778b?pid=ACCHHNFVUYUZZYEP&lid=LSTACCHHNFVUYUZZYEP6AXBJM&marketplace=FLIPKART&q=Speaker&store=0pm%2F0o7&srno=s_1_3&otracker=search&otracker1=search&fm=Search&iid=405dae2d-9450-4abf-ac4b-8b7dcdec01af.ACCHHNFVUYUZZYEP.SEARCH&ppt=sp&ppn=sp&ssid=iia57uzhps0000001791189684094&qH=22cc65fdfc4417d6&ov_redirect=true&ov_redirect=true
+2026-10-05 14:11:29 - INFO - Image  : https://rukminim2.flixcart.com/image/612/612/xif0q/speaker/s/j/j/-original-imahmnddcg8xp7rp.jpeg?q=70
+2026-10-05 14:11:29 - INFO - 
+Total products selected: 3
+2026-10-05 14:11:29 - INFO - Get Products - Speaker completed successfully.
+2026-10-05 14:11:29 - INFO - Products extracted for Speaker
+2026-10-05 14:11:32 - INFO - Excel updated: Speaker -> Found
+2026-10-05 14:11:32 - INFO - 
+==================================================
+2026-10-05 14:11:32 - INFO - Processing Product : Shirt
+2026-10-05 14:11:32 - INFO - Maximum Price      : 1500
+2026-10-05 14:11:32 - INFO - Customer Rating    : 4
+2026-10-05 14:11:32 - INFO - ==================================================
+2026-10-05 14:11:32 - INFO - Search Shirt - Attempt 1/2
+2026-10-05 14:11:32 - INFO - Searching product: Shirt
+2026-10-05 14:11:35 - INFO - Product entered: Shirt
+2026-10-05 14:11:35 - INFO - Search clicked: Shirt
+2026-10-05 14:11:38 - INFO - Search completed successfully: Shirt
+2026-10-05 14:11:38 - INFO - Search Shirt completed successfully.
+2026-10-05 14:11:38 - INFO - Price Filter - Attempt 1/2
+2026-10-05 14:11:38 - INFO - Applying price filter: 1500
+2026-10-05 14:11:38 - INFO - Price filter found.
+2026-10-05 14:11:38 - INFO - Price dropdowns found: 2
+2026-10-05 14:11:38 - INFO - Maximum price selected: 1500
+2026-10-05 14:11:38 - INFO - Price Filter completed successfully.
+2026-10-05 14:11:38 - INFO - Rating Filter - Attempt 1/2
+2026-10-05 14:11:38 - INFO - Applying rating filter: 4
+2026-10-05 14:11:38 - INFO - Customer Ratings filter found.
+2026-10-05 14:11:38 - INFO - Looking for rating option: 4★ & above
+2026-10-05 14:11:38 - INFO - Rating options are already visible.
+2026-10-05 14:11:38 - INFO - Rating checkbox found: 4★ & above
+2026-10-05 14:11:38 - INFO - Current checkbox state: False
+2026-10-05 14:11:40 - INFO - Rating option clicked: 4★ & above
+2026-10-05 14:11:41 - INFO - Rating filter applied successfully: 4★ & above
+2026-10-05 14:11:41 - INFO - Rating Filter completed successfully.
+2026-10-05 14:11:41 - INFO - Get Products - Shirt - Attempt 1/2
+2026-10-05 14:11:41 - INFO - Getting products...
+2026-10-05 14:11:41 - INFO - Product cards found: 40
+2026-10-05 14:11:41 - INFO - 
+Product 1
+2026-10-05 14:11:41 - INFO - Name   : Men Slim Fit Solid Casual Shirt
+2026-10-05 14:11:41 - INFO - Price  : ₹697
+2026-10-05 14:11:41 - INFO - MRP    : ₹2,09966
+2026-10-05 14:11:41 - INFO - Rating : N/A
+2026-10-05 14:11:41 - INFO - URL    : https://www.flipkart.com/wrogn-men-solid-casual-white-shirt/p/itmb37c2b2ce1ff7?pid=SHTHCF8UKGHG6MM6&lid=LSTSHTHCF8UKGHG6MM61PY9DX&marketplace=FLIPKART&q=Shirt&store=clo%2Fash%2Faxc&srno=s_1_1&otracker=search&otracker1=search&fm=Search&iid=en_SygPgQujfhw3N0ezRUsZfhuw2HcnPBQrH5YLV6aXMqCYvsT6ouAW5KDK1WVnGTSrdB15qQKVYqTYCxbc7169Y_V59iL1KjYJjOtFY5MxCaQnSp7ZCE0u-_QC0J7tJrm4&ppt=sp&ppn=sp&ssid=gkn5f77iq80000001791189695843&qH=3f1f22fd0c9264a1&ov_redirect=true
+2026-10-05 14:11:41 - INFO - Image  : https://rukminim2.flixcart.com/image/612/612/xif0q/shirt/h/r/k/xxl-wush2711f-wrogn-original-imahqgydrdvv7jeu.jpeg?q=70
+2026-10-05 14:11:41 - INFO - 
+Product 2
+2026-10-05 14:11:41 - INFO - Name   : Men Regular Fit Solid Spread Collar Casual Shirt
+2026-10-05 14:11:41 - INFO - Price  : ₹630
+2026-10-05 14:11:41 - INFO - MRP    : ₹1,89966
+2026-10-05 14:11:41 - INFO - Rating : N/A
+2026-10-05 14:11:41 - INFO - URL    : https://www.flipkart.com/wrogn-men-solid-casual-white-shirt/p/itm485a1b5358a2e?pid=SHTHFMRYWUY7KR5F&lid=LSTSHTHFMRYWUY7KR5F26EP4V&marketplace=FLIPKART&q=Shirt&store=clo%2Fash%2Faxc&srno=s_1_4&otracker=search&otracker1=search&fm=Search&iid=471a1061-225d-4a37-aa15-394111d51090.SHTHFMRYWUY7KR5F.SEARCH&ppt=sp&ppn=sp&ssid=gkn5f77iq80000001791189695843&qH=3f1f22fd0c9264a1&ov_redirect=true
+2026-10-05 14:11:41 - INFO - Image  : https://rukminim2.flixcart.com/image/612/612/xif0q/shirt/l/e/z/-original-imahzzhzuryfz2aj.jpeg?q=70
+2026-10-05 14:11:41 - INFO - 
+Product 3
+2026-10-05 14:11:41 - INFO - Name   : Men Regular Fit Solid Casual Shirt
+2026-10-05 14:11:41 - INFO - Price  : ₹532
+2026-10-05 14:11:41 - INFO - MRP    : ₹1,49964
+2026-10-05 14:11:41 - INFO - Rating : N/A
+2026-10-05 14:11:41 - INFO - URL    : https://www.flipkart.com/roadster-men-solid-casual-blue-shirt/p/itm23c7e959cec0a?pid=SHTH6U73JZQPK28M&lid=LSTSHTH6U73JZQPK28MEEUPJQ&marketplace=FLIPKART&q=Shirt&store=clo%2Fash%2Faxc&srno=s_1_3&otracker=search&otracker1=search&fm=Search&iid=471a1061-225d-4a37-aa15-394111d51090.SHTH6U73JZQPK28M.SEARCH&ppt=sp&ppn=sp&ssid=gkn5f77iq80000001791189695843&qH=3f1f22fd0c9264a1&ov_redirect=true
+2026-10-05 14:11:41 - INFO - Image  : https://rukminim2.flixcart.com/image/612/612/xif0q/shirt/g/n/g/l-15557590-roadster-original-imah6u73a88kwhyb.jpeg?q=70
+2026-10-05 14:11:41 - INFO - 
+Total products selected: 3
+2026-10-05 14:11:41 - INFO - Get Products - Shirt completed successfully.
+2026-10-05 14:11:41 - INFO - Products extracted for Shirt
+2026-10-05 14:11:45 - INFO - Excel updated: Shirt -> Found
+2026-10-05 14:11:45 - INFO - Add to Cart - Attempt 1/2
+2026-10-05 14:11:56 - ERROR - Add to Cart failed on attempt 1/2: Locator.wait_for: Timeout 10000ms exceeded.
+Call log:
+  - waiting for get_by_role("button", name=re.compile(r"add to cart", re.IGNORECASE)).first to be visible
+
+2026-10-05 14:11:57 - INFO - Failure screenshot saved: C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\flipkart_automation\Screenshots\failed\Add to Cart_attempt1_20261005_141156.png
+2026-10-05 14:11:59 - INFO - Add to Cart - Attempt 2/2
+2026-10-05 14:12:10 - ERROR - Add to Cart failed on attempt 2/2: Locator.wait_for: Timeout 10000ms exceeded.
+Call log:
+  - waiting for get_by_role("button", name=re.compile(r"add to cart", re.IGNORECASE)).first to be visible
+
+2026-10-05 14:12:10 - INFO - Failure screenshot saved: C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\flipkart_automation\Screenshots\failed\Add to Cart_attempt2_20261005_141210.png
+2026-10-05 14:12:10 - ERROR - Add to Cart failed after 2 attempts.
+2026-10-05 14:12:10 - WARNING - Add to cart failed for https://www.flipkart.com/goboult-drift-bt-calling-hd-display-140-watchface-calling-ip68-smartwatch/p/itm44dae90456a3d?pid=SMWGMH4RUBYE7SHF&lid=LSTSMWGMH4RUBYE7SHFJEOYVO&marketplace=FLIPKART&q=smart+watch&store=ajy%2Fbuh&srno=s_1_1&otracker=search&otracker1=search&fm=Search&iid=en_fuNwIOTKpK63FV20hIjU6pYNONsFUhz1g8EbbAcFAOb2V5Gnut0aKr18jXV14IpMQjO9q4V5gti6l653ncheRsZVhjGFdwv7kjX3wfA0kA8sAbTLDONZ3IRqqVQ9ZpgZ&ppt=sp&ppn=sp&ssid=kten33brrk0000001791189608803&qH=acc05e33fb140cc4&ov_redirect=true: Locator.wait_for: Timeout 10000ms exceeded.
+Call log:
+  - waiting for get_by_role("button", name=re.compile(r"add to cart", re.IGNORECASE)).first to be visible
+
+2026-10-05 14:12:10 - INFO - Add to Cart - Attempt 1/2
+2026-10-05 14:12:22 - ERROR - Add to Cart failed on attempt 1/2: Locator.wait_for: Timeout 10000ms exceeded.
+Call log:
+  - waiting for get_by_role("button", name=re.compile(r"add to cart", re.IGNORECASE)).first to be visible
+
+2026-10-05 14:12:22 - INFO - Failure screenshot saved: C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\flipkart_automation\Screenshots\failed\Add to Cart_attempt1_20261005_141222.png
+2026-10-05 14:12:24 - INFO - Add to Cart - Attempt 2/2
+2026-10-05 14:12:35 - ERROR - Add to Cart failed on attempt 2/2: Locator.wait_for: Timeout 10000ms exceeded.
+Call log:
+  - waiting for get_by_role("button", name=re.compile(r"add to cart", re.IGNORECASE)).first to be visible
+
+2026-10-05 14:12:36 - INFO - Failure screenshot saved: C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\flipkart_automation\Screenshots\failed\Add to Cart_attempt2_20261005_141235.png
+2026-10-05 14:12:36 - ERROR - Add to Cart failed after 2 attempts.
+2026-10-05 14:12:36 - WARNING - Add to cart failed for https://www.flipkart.com/noise-icon-buzz-1-69-display-bluetooth-calling-built-in-games-voice-assistant-smartwatch/p/itmfb38271d722a7?pid=SMWGAU62XCAESACH&lid=LSTSMWGAU62XCAESACHWSCPNH&marketplace=FLIPKART&q=smart+watch&store=ajy%2Fbuh&srno=s_1_2&otracker=search&otracker1=search&fm=Search&iid=en_fuNwIOTKpK63FV20hIjU6pYNONsFUhz1g8EbbAcFAObKIA4tZhLcHfmk5kPwUcgwvrx86RdnEPX05orZwdfJXp7clQcIBV4OMY_BwILsZe5l8YYsXWVFpMm_vTuxJ-kl&ppt=sp&ppn=sp&ssid=kten33brrk0000001791189608803&qH=acc05e33fb140cc4&ov_redirect=true: Locator.wait_for: Timeout 10000ms exceeded.
+Call log:
+  - waiting for get_by_role("button", name=re.compile(r"add to cart", re.IGNORECASE)).first to be visible
+
+2026-10-05 14:12:36 - INFO - Add to Cart - Attempt 1/2
+2026-10-05 14:12:47 - ERROR - Add to Cart failed on attempt 1/2: Locator.wait_for: Timeout 10000ms exceeded.
+Call log:
+  - waiting for get_by_role("button", name=re.compile(r"add to cart", re.IGNORECASE)).first to be visible
+
+2026-10-05 14:12:47 - INFO - Failure screenshot saved: C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\flipkart_automation\Screenshots\failed\Add to Cart_attempt1_20261005_141247.png
+2026-10-05 14:12:49 - INFO - Add to Cart - Attempt 2/2
+2026-10-05 14:13:01 - ERROR - Add to Cart failed on attempt 2/2: Locator.wait_for: Timeout 10000ms exceeded.
+Call log:
+  - waiting for get_by_role("button", name=re.compile(r"add to cart", re.IGNORECASE)).first to be visible
+
+2026-10-05 14:13:01 - INFO - Failure screenshot saved: C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\flipkart_automation\Screenshots\failed\Add to Cart_attempt2_20261005_141301.png
+2026-10-05 14:13:01 - ERROR - Add to Cart failed after 2 attempts.
+2026-10-05 14:13:01 - WARNING - Add to cart failed for https://www.flipkart.com/noise-colorfit-icon-2-1-8-display-bluetooth-calling-ai-voice-assistant-smartwatch/p/itmd4cd819eadb9f?pid=SMWGEH7VGYMGCP3V&lid=LSTSMWGEH7VGYMGCP3VXIJHDY&marketplace=FLIPKART&q=smart+watch&store=ajy%2Fbuh&spotlightTagId=default_BestsellerId_ajy%2Fbuh&srno=s_1_3&otracker=search&otracker1=search&fm=Search&iid=971b951c-047e-4e60-96f2-fb9aae34c7d5.SMWGEH7VGYMGCP3V.SEARCH&ppt=sp&ppn=sp&ssid=kten33brrk0000001791189608803&qH=acc05e33fb140cc4&ov_redirect=true: Locator.wait_for: Timeout 10000ms exceeded.
+Call log:
+  - waiting for get_by_role("button", name=re.compile(r"add to cart", re.IGNORECASE)).first to be visible
+
+2026-10-05 14:13:01 - INFO - Add to Cart - Attempt 1/2
+2026-10-05 14:13:12 - ERROR - Add to Cart failed on attempt 1/2: Locator.wait_for: Timeout 10000ms exceeded.
+Call log:
+  - waiting for get_by_role("button", name=re.compile(r"add to cart", re.IGNORECASE)).first to be visible
+
+2026-10-05 14:13:13 - INFO - Failure screenshot saved: C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\flipkart_automation\Screenshots\failed\Add to Cart_attempt1_20261005_141312.png
+2026-10-05 14:13:15 - INFO - Add to Cart - Attempt 2/2
+2026-10-05 14:13:26 - ERROR - Add to Cart failed on attempt 2/2: Locator.wait_for: Timeout 10000ms exceeded.
+Call log:
+  - waiting for get_by_role("button", name=re.compile(r"add to cart", re.IGNORECASE)).first to be visible
+
+2026-10-05 14:13:26 - INFO - Failure screenshot saved: C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\flipkart_automation\Screenshots\failed\Add to Cart_attempt2_20261005_141326.png
+2026-10-05 14:13:26 - ERROR - Add to Cart failed after 2 attempts.
+2026-10-05 14:13:26 - WARNING - Add to cart failed for https://www.flipkart.com/nokia-105-classic-single-sim-keypad-phone-without-charger/p/itmfdb404ec1d0f4?pid=MOBGWZUWPTFTQZAH&lid=LSTMOBGWZUWPTFTQZAHSIXCDR&marketplace=FLIPKART&q=Phone&store=tyy%2F4io&spotlightTagId=default_BestsellerId_tyy%2F4io&srno=s_1_1&otracker=search&otracker1=search&fm=Search&iid=ba72b4e4-bf89-428f-8783-c53a219d8bff.MOBGWZUWPTFTQZAH.SEARCH&ppt=sp&ppn=sp&ssid=nkk8bh2c680000001791189620806&qH=bcc254b55c4a1bab&ov_redirect=true: Locator.wait_for: Timeout 10000ms exceeded.
+Call log:
+  - waiting for get_by_role("button", name=re.compile(r"add to cart", re.IGNORECASE)).first to be visible
+
+2026-10-05 14:13:26 - INFO - Add to Cart - Attempt 1/2
+2026-10-05 14:13:38 - ERROR - Add to Cart failed on attempt 1/2: Locator.wait_for: Timeout 10000ms exceeded.
+Call log:
+  - waiting for get_by_role("button", name=re.compile(r"add to cart", re.IGNORECASE)).first to be visible
+
+2026-10-05 14:13:38 - INFO - Failure screenshot saved: C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\flipkart_automation\Screenshots\failed\Add to Cart_attempt1_20261005_141338.png
+2026-10-05 14:13:40 - INFO - Add to Cart - Attempt 2/2
+2026-10-05 14:13:51 - ERROR - Add to Cart failed on attempt 2/2: Locator.wait_for: Timeout 10000ms exceeded.
+Call log:
+  - waiting for get_by_role("button", name=re.compile(r"add to cart", re.IGNORECASE)).first to be visible
+
+2026-10-05 14:13:51 - INFO - Failure screenshot saved: C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\flipkart_automation\Screenshots\failed\Add to Cart_attempt2_20261005_141351.png
+2026-10-05 14:13:51 - ERROR - Add to Cart failed after 2 attempts.
+2026-10-05 14:13:51 - WARNING - Add to cart failed for https://www.flipkart.com/boltt-evo-berry-red-64-gb/p/itmf046d663a1fd7?pid=MOBHPP598ENKRGBY&lid=LSTMOBHPP598ENKRGBYC3QECN&marketplace=FLIPKART&q=Phone&store=tyy%2F4io&srno=s_1_2&otracker=search&otracker1=search&fm=Search&iid=ba72b4e4-bf89-428f-8783-c53a219d8bff.MOBHPP598ENKRGBY.SEARCH&ppt=sp&ppn=sp&ssid=nkk8bh2c680000001791189620806&qH=bcc254b55c4a1bab&ov_redirect=true: Locator.wait_for: Timeout 10000ms exceeded.
+Call log:
+  - waiting for get_by_role("button", name=re.compile(r"add to cart", re.IGNORECASE)).first to be visible
+
+2026-10-05 14:13:51 - INFO - Add to Cart - Attempt 1/2
+2026-10-05 14:14:03 - ERROR - Add to Cart failed on attempt 1/2: Locator.wait_for: Timeout 10000ms exceeded.
+Call log:
+  - waiting for get_by_role("button", name=re.compile(r"add to cart", re.IGNORECASE)).first to be visible
+
+2026-10-05 14:14:03 - INFO - Failure screenshot saved: C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\flipkart_automation\Screenshots\failed\Add to Cart_attempt1_20261005_141403.png
+2026-10-05 14:14:05 - INFO - Add to Cart - Attempt 2/2
+2026-10-05 14:14:17 - ERROR - Add to Cart failed on attempt 2/2: Locator.wait_for: Timeout 10000ms exceeded.
+Call log:
+  - waiting for get_by_role("button", name=re.compile(r"add to cart", re.IGNORECASE)).first to be visible
+
+2026-10-05 14:14:17 - INFO - Failure screenshot saved: C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\flipkart_automation\Screenshots\failed\Add to Cart_attempt2_20261005_141417.png
+2026-10-05 14:14:17 - ERROR - Add to Cart failed after 2 attempts.
+2026-10-05 14:14:17 - WARNING - Add to cart failed for https://www.flipkart.com/samsung-galaxy-f07-green-64-gb/p/itm294cbb65839e6?pid=MOBHMGHHXHYZEAVB&lid=LSTMOBHMGHHXHYZEAVBR68SR7&marketplace=FLIPKART&q=Phone&store=tyy%2F4io&spotlightTagId=default_BestsellerId_tyy%2F4io&srno=s_1_3&otracker=search&otracker1=search&fm=Search&iid=ba72b4e4-bf89-428f-8783-c53a219d8bff.MOBHMGHHXHYZEAVB.SEARCH&ppt=sp&ppn=sp&ssid=nkk8bh2c680000001791189620806&qH=bcc254b55c4a1bab&ov_redirect=true: Locator.wait_for: Timeout 10000ms exceeded.
+Call log:
+  - waiting for get_by_role("button", name=re.compile(r"add to cart", re.IGNORECASE)).first to be visible
+
+2026-10-05 14:14:17 - INFO - Add to Cart - Attempt 1/2
+2026-10-05 14:14:23 - ERROR - Add to Cart failed on attempt 1/2: Locator.wait_for: Target page, context or browser has been closed
+Call log:
+  - waiting for get_by_role("button", name=re.compile(r"add to cart", re.IGNORECASE)).first to be visible
+
+2026-10-05 14:14:23 - INFO - Failure screenshot saved: C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\flipkart_automation\Screenshots\failed\Add to Cart_attempt1_20261005_141423.png
+2026-10-05 14:14:25 - INFO - Add to Cart - Attempt 2/2
+2026-10-05 14:14:28 - ERROR - Add to Cart failed on attempt 2/2: Locator.wait_for: Target page, context or browser has been closed
+Call log:
+  - waiting for get_by_role("button", name=re.compile(r"add to cart", re.IGNORECASE)).first to be visible
+
+2026-10-05 14:14:29 - INFO - Failure screenshot saved: C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\flipkart_automation\Screenshots\failed\Add to Cart_attempt2_20261005_141428.png
+2026-10-05 14:14:29 - ERROR - Add to Cart failed after 2 attempts.
+2026-10-05 14:14:29 - WARNING - Add to cart failed for https://www.flipkart.com/mivi-duopods-k2-40hrs-pt-hd-call-fast-charging-50ms-latency-ipx4-voice-asst-5-3v-bluetooth/p/itm5f62275f615f4?pid=ACCGPFCNADSRMQGJ&lid=LSTACCGPFCNADSRMQGJZKAXXT&marketplace=FLIPKART&q=Headphone&store=0pm%2Ffcn&srno=s_1_1&otracker=search&otracker1=search&fm=Search&iid=en_4-IvAM4yLgsp9Db6PksODWQ30GfDu_bQJ0JLmu_xlj3z68w1UzlPT4C7wOiyuBf4gqkcFhvmqK4ON5EHQVyGYw-21dJ3wjI2ypZOOvi7ef1QqLaDkjLRAAvLBwFpbfIN&ppt=sp&ppn=sp&ssid=kz3gyfohg00000001791189671025&qH=52f40b8ad1f6b467&ov_redirect=true&ov_redirect=true: Locator.wait_for: Target page, context or browser has been closed
+Call log:
+  - waiting for get_by_role("button", name=re.compile(r"add to cart", re.IGNORECASE)).first to be visible
+
+2026-10-05 14:14:29 - INFO - Add to Cart - Attempt 1/2
+2026-10-05 14:14:32 - ERROR - Add to Cart failed on attempt 1/2: Locator.wait_for: Target page, context or browser has been closed
+Call log:
+  - waiting for get_by_role("button", name=re.compile(r"add to cart", re.IGNORECASE)).first to be visible
+
+2026-10-05 14:14:32 - INFO - Failure screenshot saved: C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\flipkart_automation\Screenshots\failed\Add to Cart_attempt1_20261005_141432.png
+2026-10-05 14:14:34 - INFO - Add to Cart - Attempt 2/2
+2026-10-05 14:14:37 - WARNING - Context close skipped: BrowserContext.close: Target page, context or browser has been closed
+Browser logs:
+
+<launching> C:\Users\Admin\AppData\Local\ms-playwright\chromium-1243\chrome-win64\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,Translate,AutoDeElevate,OptimizationHints,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --window-size=1920,1080 --window-position=0,0 --user-data-dir=C:\Users\Admin\AppData\Local\Temp\playwright_chromiumdev_profile-oK73os --remote-debugging-pipe --no-startup-window
+<launched> pid=10132
+[pid=10132][err] [10132:20320:1005/140957.309:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: PHONE_REGISTRATION_ERROR
+[pid=10132][err] [10132:20320:1005/140957.309:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: PHONE_REGISTRATION_ERROR
+[pid=10132][err] [10132:20320:1005/140957.324:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: PHONE_REGISTRATION_ERROR
+[pid=10132][err] [10132:20320:1005/140957.444:ERROR:google_apis\gcm\engine\mcs_client.cc:702]   Error code: 401  Error message: Authentication Failed: wrong_secret
+[pid=10132][err] [10132:20320:1005/140957.444:ERROR:google_apis\gcm\engine\mcs_client.cc:704] Failed to log in to GCM, resetting connection.
+[pid=10132][err] [10132:20320:1005/141024.701:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+[pid=10132][err] [10132:20320:1005/141122.619:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+[pid=10132][err] [10132:20320:1005/141318.825:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+[pid=10132] <gracefully close start>
+2026-10-05 14:14:38 - INFO - Browser closed.
+2026-10-05 14:14:38 - INFO - Flipkart Automation Completed

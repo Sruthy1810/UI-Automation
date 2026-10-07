@@ -1,0 +1,4 @@
+2026-10-05 11:34:00 - INFO - Flipkart Automation Started
+2026-10-05 11:34:00 - INFO - BOT RUNNER STARTED
+2026-10-05 11:34:00 - ERROR - Automation failed
+2026-10-05 11:34:00 - INFO - Flipkart Automation Completed

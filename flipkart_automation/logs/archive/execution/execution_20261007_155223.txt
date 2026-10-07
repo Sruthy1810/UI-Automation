@@ -1,0 +1,270 @@
+2026-10-07 15:52:23 - INFO - Flipkart Automation Started
+2026-10-07 15:52:23 - INFO - BOT RUNNER STARTED
+2026-10-07 15:52:23 - INFO - Archived: execution_20261007_140018.txt
+2026-10-07 15:52:23 - INFO - Archived: Headphone_error_20261007_151203.png
+2026-10-07 15:52:23 - INFO - Archived: Phone_error_20261007_151147.png
+2026-10-07 15:52:23 - INFO - Archived: Rating Filter_attempt1_20261007_151054.png
+2026-10-07 15:52:23 - INFO - Archived: smart watch_error_20261007_151014.png
+2026-10-07 15:52:23 - INFO - Archived: Shirt_error_20261007_140513.png
+2026-10-07 15:52:23 - INFO - Archived: Speaker_error_20261007_140439.png
+2026-10-07 15:52:26 - INFO - Products found: 5
+2026-10-07 15:52:26 - INFO - Products in Excel: 5 | Already Success (skipped): 0 | To process: 5
+2026-10-07 15:52:38 - INFO - Trigger email sent successfully.
+2026-10-07 15:52:38 - INFO - Trigger email sent.
+2026-10-07 15:52:38 - INFO - Opening Flipkart...
+2026-10-07 15:52:40 - INFO - Flipkart opened successfully
+2026-10-07 15:52:40 - INFO - Logging into flipkart
+2026-10-07 15:52:43 - INFO - 
+==================================================
+2026-10-07 15:52:43 - INFO - Processing Product : smart watch
+2026-10-07 15:52:43 - INFO - Maximum Price      : 5000
+2026-10-07 15:52:43 - INFO - Customer Rating    : 3
+2026-10-07 15:52:43 - INFO - ==================================================
+2026-10-07 15:52:43 - INFO - Search smart watch - Attempt 1/2
+2026-10-07 15:52:43 - INFO - Searching product: smart watch
+2026-10-07 15:52:46 - INFO - Product entered: smart watch
+2026-10-07 15:52:47 - INFO - Search clicked: smart watch
+2026-10-07 15:52:50 - INFO - Search completed successfully: smart watch
+2026-10-07 15:52:50 - INFO - Search smart watch completed successfully.
+2026-10-07 15:52:50 - INFO - Price Filter - Attempt 1/2
+2026-10-07 15:52:50 - INFO - Applying price filter: 5000
+2026-10-07 15:52:50 - INFO - Price filter found.
+2026-10-07 15:52:50 - INFO - Price dropdowns found: 2
+2026-10-07 15:52:50 - INFO - Maximum price selected: 5000
+2026-10-07 15:52:50 - INFO - Price Filter completed successfully.
+2026-10-07 15:52:50 - INFO - Rating Filter - Attempt 1/2
+2026-10-07 15:52:50 - INFO - Applying rating filter: 3
+2026-10-07 15:52:50 - INFO - Customer Ratings filter found.
+2026-10-07 15:52:50 - INFO - Looking for rating option: 3★ & above
+2026-10-07 15:52:50 - INFO - Rating options are already visible.
+2026-10-07 15:52:50 - INFO - Rating checkbox found: 3★ & above
+2026-10-07 15:52:50 - INFO - Current checkbox state: False
+2026-10-07 15:52:51 - INFO - Rating option clicked: 3★ & above
+2026-10-07 15:52:52 - INFO - Rating filter applied successfully: 3★ & above
+2026-10-07 15:52:52 - INFO - Rating Filter completed successfully.
+2026-10-07 15:52:52 - INFO - Get Products - smart watch - Attempt 1/2
+2026-10-07 15:52:52 - INFO - Getting products...
+2026-10-07 15:52:52 - INFO - Product cards found: 40
+2026-10-07 15:52:52 - INFO - 
+Product 1
+2026-10-07 15:52:52 - INFO - Name   : Noise Colorfit Icon 2 1.8'' Display with Bluetooth Calling, AI Voice Assistant Smartwatch
+2026-10-07 15:52:52 - INFO - Price  : ₹1,499
+2026-10-07 15:52:52 - INFO - MRP    : ₹5,99975
+2026-10-07 15:52:52 - INFO - Rating : N/A
+2026-10-07 15:52:52 - INFO - URL    : https://www.flipkart.com/noise-colorfit-icon-2-1-8-display-bluetooth-calling-ai-voice-assistant-smartwatch/p/itmd4cd819eadb9f?pid=SMWGEH7VGYMGCP3V&lid=LSTSMWGEH7VGYMGCP3VXIJHDY&marketplace=FLIPKART&q=smart+watch&store=ajy%2Fbuh&srno=s_1_3&otracker=search&otracker1=search&fm=Search&iid=ced989d1-d679-4d11-bdda-dc8930ee2754.SMWGEH7VGYMGCP3V.SEARCH&ppt=sp&ppn=sp&ssid=7j97n4lkds0000001791368568195&qH=acc05e33fb140cc4&ov_redirect=true
+2026-10-07 15:52:52 - INFO - Image  : https://rukminim2.flixcart.com/image/612/612/xif0q/minutes_enrichment_original/-enriched-original-SMWGEH7VGYMGCP3V_0.jpg?q=70
+2026-10-07 15:52:52 - INFO - 
+Total products selected: 1
+2026-10-07 15:52:52 - INFO - Get Products - smart watch completed successfully.
+2026-10-07 15:52:59 - INFO - Failure screenshot saved: C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\flipkart_automation\Screenshots\failed\smart watch_error_20261007_155258.png
+2026-10-07 15:52:59 - INFO - Excel updated: smart watch -> Not Found
+2026-10-07 15:52:59 - WARNING - Product processing failed: too many values to unpack (expected 2)
+2026-10-07 15:52:59 - INFO - Exception email sent for smart watch
+2026-10-07 15:52:59 - INFO - 
+==================================================
+2026-10-07 15:52:59 - INFO - Processing Product : Phone
+2026-10-07 15:52:59 - INFO - Maximum Price      : 20000
+2026-10-07 15:52:59 - INFO - Customer Rating    : 4
+2026-10-07 15:52:59 - INFO - ==================================================
+2026-10-07 15:52:59 - INFO - Search Phone - Attempt 1/2
+2026-10-07 15:52:59 - INFO - Searching product: Phone
+2026-10-07 15:53:02 - INFO - Product entered: Phone
+2026-10-07 15:53:02 - INFO - Search clicked: Phone
+2026-10-07 15:53:05 - INFO - Search completed successfully: Phone
+2026-10-07 15:53:05 - INFO - Search Phone completed successfully.
+2026-10-07 15:53:05 - INFO - Price Filter - Attempt 1/2
+2026-10-07 15:53:05 - INFO - Applying price filter: 20000
+2026-10-07 15:53:05 - INFO - Price filter found.
+2026-10-07 15:53:05 - INFO - Price dropdowns found: 2
+2026-10-07 15:53:05 - INFO - Maximum price selected: 20000
+2026-10-07 15:53:05 - INFO - Price Filter completed successfully.
+2026-10-07 15:53:05 - INFO - Rating Filter - Attempt 1/2
+2026-10-07 15:53:05 - INFO - Applying rating filter: 4
+2026-10-07 15:53:05 - INFO - Customer Ratings filter found.
+2026-10-07 15:53:05 - INFO - Looking for rating option: 4★ & above
+2026-10-07 15:53:07 - INFO - Rating options are collapsed. Clicking Customer Ratings.
+2026-10-07 15:53:07 - INFO - Customer Ratings section clicked.
+2026-10-07 15:53:07 - INFO - Rating options are now visible.
+2026-10-07 15:53:07 - INFO - Rating checkbox found: 4★ & above
+2026-10-07 15:53:07 - INFO - Current checkbox state: False
+2026-10-07 15:53:07 - INFO - Rating option clicked: 4★ & above
+2026-10-07 15:53:38 - ERROR - Customer Ratings section, rating option, or checkbox not found.
+2026-10-07 15:53:38 - ERROR - Rating Filter failed on attempt 1/2: Locator.is_checked: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("section.KNnSWQ").filter(has_text="Customer Ratings").first.locator("div[title=\"4★ & above\"]").locator("input[type=\"checkbox\"]")
+
+2026-10-07 15:53:39 - INFO - Failure screenshot saved: C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\flipkart_automation\Screenshots\failed\Rating Filter_attempt1_20261007_155338.png
+2026-10-07 15:53:41 - INFO - Rating Filter - Attempt 2/2
+2026-10-07 15:53:41 - INFO - Applying rating filter: 4
+2026-10-07 15:53:41 - INFO - Customer Ratings filter found.
+2026-10-07 15:53:41 - INFO - Looking for rating option: 4★ & above
+2026-10-07 15:53:43 - INFO - Rating options are collapsed. Clicking Customer Ratings.
+2026-10-07 15:53:43 - INFO - Customer Ratings section clicked.
+2026-10-07 15:53:43 - INFO - Rating options are now visible.
+2026-10-07 15:53:43 - INFO - Rating checkbox found: 4★ & above
+2026-10-07 15:53:43 - INFO - Current checkbox state: True
+2026-10-07 15:53:43 - INFO - Rating already selected: 4★ & above
+2026-10-07 15:53:44 - INFO - Rating filter applied successfully: 4★ & above
+2026-10-07 15:53:44 - INFO - Rating Filter completed successfully.
+2026-10-07 15:53:44 - INFO - Get Products - Phone - Attempt 1/2
+2026-10-07 15:53:44 - INFO - Getting products...
+2026-10-07 15:53:44 - INFO - Product cards found: 24
+2026-10-07 15:53:44 - INFO - 
+Product 1
+2026-10-07 15:53:44 - INFO - Name   : BOLTT EVO (Berry Red, 64 GB)
+2026-10-07 15:53:44 - INFO - Price  : ₹9,999
+2026-10-07 15:53:44 - INFO - MRP    : ₹17,99944
+2026-10-07 15:53:44 - INFO - Rating : 4.3
+2026-10-07 15:53:44 - INFO - URL    : https://www.flipkart.com/boltt-evo-berry-red-64-gb/p/itmf046d663a1fd7?pid=MOBHPP598ENKRGBY&lid=LSTMOBHPP598ENKRGBYC3QECN&marketplace=FLIPKART&q=Phone&store=tyy%2F4io&srno=s_1_1&otracker=search&otracker1=search&fm=Search&iid=en_Lazg95YNTW1MpFFyaHJyHrCV9LvaNL1Eb83flVjP1VsOeVqLL5JHApGgQgNDWPbgewOe7wySU3AQ7T4QnQNb7QUkEe0fuaYcWz0DPTexUHYR1EnCAit0VjzM9_rS8imd&ppt=sp&ppn=sp&ssid=av0brbkwrk0000001791368582183&qH=bcc254b55c4a1bab&ov_redirect=true
+2026-10-07 15:53:44 - INFO - Image  : https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/d/b/p/-resized-original-imahqk5pywazwh3t.jpeg?q=70
+2026-10-07 15:53:44 - INFO - 
+Total products selected: 1
+2026-10-07 15:53:44 - INFO - Get Products - Phone completed successfully.
+2026-10-07 15:53:55 - INFO - Failure screenshot saved: C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\flipkart_automation\Screenshots\failed\Phone_error_20261007_155355.png
+2026-10-07 15:53:55 - INFO - Excel updated: Phone -> Not Found
+2026-10-07 15:53:55 - WARNING - Product processing failed: too many values to unpack (expected 2)
+2026-10-07 15:53:55 - INFO - Exception email sent for Phone
+2026-10-07 15:53:55 - INFO - 
+==================================================
+2026-10-07 15:53:55 - INFO - Processing Product : Headphone
+2026-10-07 15:53:55 - INFO - Maximum Price      : 2000
+2026-10-07 15:53:55 - INFO - Customer Rating    : 3
+2026-10-07 15:53:55 - INFO - ==================================================
+2026-10-07 15:53:55 - INFO - Search Headphone - Attempt 1/2
+2026-10-07 15:53:55 - INFO - Searching product: Headphone
+2026-10-07 15:53:59 - INFO - Product entered: Headphone
+2026-10-07 15:53:59 - INFO - Search clicked: Headphone
+2026-10-07 15:54:02 - INFO - Search completed successfully: Headphone
+2026-10-07 15:54:02 - INFO - Search Headphone completed successfully.
+2026-10-07 15:54:02 - INFO - Price Filter - Attempt 1/2
+2026-10-07 15:54:02 - INFO - Applying price filter: 2000
+2026-10-07 15:54:02 - INFO - Price filter found.
+2026-10-07 15:54:02 - INFO - Price dropdowns found: 2
+2026-10-07 15:54:02 - INFO - Maximum price selected: 2000
+2026-10-07 15:54:02 - INFO - Price Filter completed successfully.
+2026-10-07 15:54:02 - INFO - Rating Filter - Attempt 1/2
+2026-10-07 15:54:02 - INFO - Applying rating filter: 3
+2026-10-07 15:54:02 - INFO - Customer Ratings filter found.
+2026-10-07 15:54:02 - INFO - Looking for rating option: 3★ & above
+2026-10-07 15:54:02 - INFO - Rating options are already visible.
+2026-10-07 15:54:02 - INFO - Rating checkbox found: 3★ & above
+2026-10-07 15:54:02 - INFO - Current checkbox state: False
+2026-10-07 15:54:03 - INFO - Rating option clicked: 3★ & above
+2026-10-07 15:54:04 - INFO - Rating filter applied successfully: 3★ & above
+2026-10-07 15:54:04 - INFO - Rating Filter completed successfully.
+2026-10-07 15:54:04 - INFO - Get Products - Headphone - Attempt 1/2
+2026-10-07 15:54:04 - INFO - Getting products...
+2026-10-07 15:54:04 - INFO - Product cards found: 40
+2026-10-07 15:54:04 - INFO - 
+Product 1
+2026-10-07 15:54:04 - INFO - Name   : Mivi Duopods D4, 50Hrs Playtime, HD Call, Fast Charging, IPX4, Voice Assistant, 5.3v Bluetooth
+2026-10-07 15:54:04 - INFO - Price  : ₹699
+2026-10-07 15:54:04 - INFO - MRP    : ₹2,99976
+2026-10-07 15:54:04 - INFO - Rating : 3.9
+2026-10-07 15:54:04 - INFO - URL    : https://www.flipkart.com/mivi-duopods-d4-50hrs-playtime-hd-call-fast-charging-ipx4-voice-assistant-5-3v-bluetooth/p/itmc26875401af73?pid=ACCGQQ2TFVCUPJHG&lid=LSTACCGQQ2TFVCUPJHGAALMR0&marketplace=FLIPKART&q=Headphone&store=0pm%2Ffcn&srno=s_1_1&otracker=search&otracker1=search&fm=Search&iid=en_R5f40TPc9ACWfnh-CoLF5u3GSb8trXcpLOHWbwidwfhhUWfBgzFKsLdMOaSAAzq7FRcGpGNuyQMytd3BUSuvD1Qm66a0jeniP4RZDaKSCyr28dcE8VTb5BUQyX3GyE-p&ppt=sp&ppn=sp&ssid=591y0msbps0000001791368639039&qH=52f40b8ad1f6b467&ov_redirect=true&ov_redirect=true
+2026-10-07 15:54:04 - INFO - Image  : https://rukminim2.flixcart.com/image/612/612/xif0q/headphone/j/6/h/-original-imagr6pf6brggp2x.jpeg?q=70
+2026-10-07 15:54:04 - INFO - 
+Total products selected: 1
+2026-10-07 15:54:04 - INFO - Get Products - Headphone completed successfully.
+2026-10-07 15:54:19 - INFO - Failure screenshot saved: C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\flipkart_automation\Screenshots\failed\Headphone_error_20261007_155418.png
+2026-10-07 15:54:19 - INFO - Excel updated: Headphone -> Not Found
+2026-10-07 15:54:19 - WARNING - Product processing failed: too many values to unpack (expected 2)
+2026-10-07 15:54:19 - INFO - Exception email sent for Headphone
+2026-10-07 15:54:19 - INFO - 
+==================================================
+2026-10-07 15:54:19 - INFO - Processing Product : Speaker
+2026-10-07 15:54:19 - INFO - Maximum Price      : 3000
+2026-10-07 15:54:19 - INFO - Customer Rating    : 3
+2026-10-07 15:54:19 - INFO - ==================================================
+2026-10-07 15:54:19 - INFO - Search Speaker - Attempt 1/2
+2026-10-07 15:54:19 - INFO - Searching product: Speaker
+2026-10-07 15:54:22 - INFO - Product entered: Speaker
+2026-10-07 15:54:22 - INFO - Search clicked: Speaker
+2026-10-07 15:54:25 - INFO - Search completed successfully: Speaker
+2026-10-07 15:54:25 - INFO - Search Speaker completed successfully.
+2026-10-07 15:54:25 - INFO - Price Filter - Attempt 1/2
+2026-10-07 15:54:25 - INFO - Applying price filter: 3000
+2026-10-07 15:54:25 - INFO - Price filter found.
+2026-10-07 15:54:25 - INFO - Price dropdowns found: 2
+2026-10-07 15:54:25 - INFO - Maximum price selected: 3000
+2026-10-07 15:54:25 - INFO - Price Filter completed successfully.
+2026-10-07 15:54:25 - INFO - Rating Filter - Attempt 1/2
+2026-10-07 15:54:25 - INFO - Applying rating filter: 3
+2026-10-07 15:54:25 - INFO - Customer Ratings filter found.
+2026-10-07 15:54:25 - INFO - Looking for rating option: 3★ & above
+2026-10-07 15:54:25 - INFO - Rating options are already visible.
+2026-10-07 15:54:25 - INFO - Rating checkbox found: 3★ & above
+2026-10-07 15:54:25 - INFO - Current checkbox state: False
+2026-10-07 15:54:26 - INFO - Rating option clicked: 3★ & above
+2026-10-07 15:54:27 - INFO - Rating filter applied successfully: 3★ & above
+2026-10-07 15:54:27 - INFO - Rating Filter completed successfully.
+2026-10-07 15:54:27 - INFO - Get Products - Speaker - Attempt 1/2
+2026-10-07 15:54:27 - INFO - Getting products...
+2026-10-07 15:54:27 - INFO - Product cards found: 40
+2026-10-07 15:54:27 - INFO - 
+Product 1
+2026-10-07 15:54:27 - INFO - Name   : Mivi Fort S16 with Dual Full Range Drivers, 6Hrs Playback, Voice Assistant 16 W Bluetooth Soundbar
+2026-10-07 15:54:27 - INFO - Price  : ₹2,999
+2026-10-07 15:54:27 - INFO - MRP    : 
+2026-10-07 15:54:27 - INFO - Rating : 4
+2026-10-07 15:54:27 - INFO - URL    : https://www.flipkart.com/mivi-fort-s16-dual-full-range-drivers-6hrs-playback-voice-assistant-16-w-bluetooth-soundbar/p/itm8fbbb30ed1fce?pid=ACCGFTFKSEWGYABF&lid=LSTACCGFTFKSEWGYABFDYZP02&marketplace=FLIPKART&q=Speaker&store=0pm%2F0o7&srno=s_1_1&otracker=search&otracker1=search&fm=Search&iid=en_KVxwescVnPpS8EyaUEdetATCSJJDgolLbUc5AF1qIf9mbcncK3Z1b2Z87TF2YjKg6teuzB4t4o1UENEn2X7bK8y8JQ4kIOX7f8sEYenXu9G52WP6RmKnUoq1N3Ie9efV&ppt=sp&ppn=sp&ssid=vh92rj53f40000001791368662596&qH=22cc65fdfc4417d6&ov_redirect=true&ov_redirect=true
+2026-10-07 15:54:27 - INFO - Image  : https://rukminim2.flixcart.com/image/612/612/xif0q/speaker/m/h/s/-original-imaggrf8mfkyyvvj.jpeg?q=70
+2026-10-07 15:54:27 - INFO - 
+Total products selected: 1
+2026-10-07 15:54:27 - INFO - Get Products - Speaker completed successfully.
+2026-10-07 15:54:33 - INFO - Failure screenshot saved: C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\flipkart_automation\Screenshots\failed\Speaker_error_20261007_155433.png
+2026-10-07 15:54:33 - INFO - Excel updated: Speaker -> Not Found
+2026-10-07 15:54:33 - WARNING - Product processing failed: too many values to unpack (expected 2)
+2026-10-07 15:54:33 - INFO - Exception email sent for Speaker
+2026-10-07 15:54:33 - INFO - 
+==================================================
+2026-10-07 15:54:33 - INFO - Processing Product : Shirt
+2026-10-07 15:54:33 - INFO - Maximum Price      : 1500
+2026-10-07 15:54:33 - INFO - Customer Rating    : 4
+2026-10-07 15:54:33 - INFO - ==================================================
+2026-10-07 15:54:33 - INFO - Search Shirt - Attempt 1/2
+2026-10-07 15:54:33 - INFO - Searching product: Shirt
+2026-10-07 15:54:37 - INFO - Product entered: Shirt
+2026-10-07 15:54:37 - INFO - Search clicked: Shirt
+2026-10-07 15:54:40 - INFO - Search completed successfully: Shirt
+2026-10-07 15:54:40 - INFO - Search Shirt completed successfully.
+2026-10-07 15:54:40 - INFO - Price Filter - Attempt 1/2
+2026-10-07 15:54:40 - INFO - Applying price filter: 1500
+2026-10-07 15:54:40 - INFO - Price filter found.
+2026-10-07 15:54:40 - INFO - Price dropdowns found: 2
+2026-10-07 15:54:40 - INFO - Maximum price selected: 1500
+2026-10-07 15:54:40 - INFO - Price Filter completed successfully.
+2026-10-07 15:54:40 - INFO - Rating Filter - Attempt 1/2
+2026-10-07 15:54:40 - INFO - Applying rating filter: 4
+2026-10-07 15:54:40 - INFO - Customer Ratings filter found.
+2026-10-07 15:54:40 - INFO - Looking for rating option: 4★ & above
+2026-10-07 15:54:40 - INFO - Rating options are already visible.
+2026-10-07 15:54:40 - INFO - Rating checkbox found: 4★ & above
+2026-10-07 15:54:40 - INFO - Current checkbox state: False
+2026-10-07 15:54:41 - INFO - Rating option clicked: 4★ & above
+2026-10-07 15:54:42 - INFO - Rating filter applied successfully: 4★ & above
+2026-10-07 15:54:42 - INFO - Rating Filter completed successfully.
+2026-10-07 15:54:42 - INFO - Get Products - Shirt - Attempt 1/2
+2026-10-07 15:54:42 - INFO - Getting products...
+2026-10-07 15:54:42 - INFO - Product cards found: 40
+2026-10-07 15:54:42 - INFO - 
+Product 1
+2026-10-07 15:54:42 - INFO - Name   : Men Regular Fit Solid Casual Shirt
+2026-10-07 15:54:42 - INFO - Price  : ₹1,110
+2026-10-07 15:54:42 - INFO - MRP    : ₹2,69958
+2026-10-07 15:54:42 - INFO - Rating : N/A
+2026-10-07 15:54:42 - INFO - URL    : https://www.flipkart.com/rare-rabbit-men-solid-casual-black-shirt/p/itm4da1829ae0b28?pid=SHTHMAQYG2RGSHFZ&lid=LSTSHTHMAQYG2RGSHFZIYX3O5&marketplace=FLIPKART&q=Shirt&store=clo%2Fash%2Faxc&srno=s_1_1&otracker=search&otracker1=search&fm=Search&iid=en_a2Qm7KlFWhKXRZhV-g7OhHNZ3piatuN2Ah0W10BfwFB4q8ajuV7uG96E36p9a_wPCmO662Nk5OWdg-AgVX3r9mUdRp6BA01DMt96fmCMeyCdVlLrZtv4V0aoFK4UU9eC&ppt=sp&ppn=sp&ssid=7mxt1gsjow0000001791368677040&qH=3f1f22fd0c9264a1&ov_redirect=true
+2026-10-07 15:54:42 - INFO - Image  : https://rukminim2.flixcart.com/image/612/612/xif0q/shirt/i/h/p/-original-imahzy69vks3y2j8.jpeg?q=70
+2026-10-07 15:54:42 - INFO - 
+Total products selected: 1
+2026-10-07 15:54:42 - INFO - Get Products - Shirt completed successfully.
+2026-10-07 15:54:57 - INFO - Failure screenshot saved: C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\flipkart_automation\Screenshots\failed\Shirt_error_20261007_155456.png
+2026-10-07 15:54:57 - INFO - Excel updated: Shirt -> Not Found
+2026-10-07 15:54:57 - WARNING - Product processing failed: too many values to unpack (expected 2)
+2026-10-07 15:54:57 - INFO - Exception email sent for Shirt
+2026-10-07 15:55:01 - INFO - Cart step done. Added 0 item(s).
+2026-10-07 15:55:01 - INFO - Run summary - Success: 0, Failed: 5, Skipped: 0
+2026-10-07 15:55:05 - INFO - Execution email sent.
+2026-10-07 15:55:06 - INFO - Browser closed.
+2026-10-07 15:55:06 - ERROR - Automation failed
+2026-10-07 15:55:06 - INFO - Flipkart Automation Completed

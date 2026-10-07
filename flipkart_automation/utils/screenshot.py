@@ -1,12 +1,18 @@
+import asyncio
 from pathlib import Path
 from datetime import datetime
+from PIL import ImageGrab
 from utils.logger import logger
 
+SCREENSHOT_FAILED_DIR = Path(__file__).resolve().parent.parent / "Screenshots" / "failed"
 
 async def take_failure_screenshot(page, name):
 
     try:
-        screenshot_dir = Path("Screenshots") / "failed"
+
+        # Absolute path, same no matter where the bot is launched from
+        
+        screenshot_dir = SCREENSHOT_FAILED_DIR
         screenshot_dir.mkdir(
             parents=True,
             exist_ok=True
@@ -27,11 +33,18 @@ async def take_failure_screenshot(page, name):
             / f"{safe_name}_{timestamp}.png"
         )
 
-        await page.screenshot(
-            path=str(screenshot_path),
-            full_page=True,
-            timeout=15000
-        )
+        try:
+            await page.bring_to_front()
+            await asyncio.sleep(0.5)
+        
+        except Exception:
+            pass
+
+        def grab_screen():
+            image = ImageGrab.grab(all_screens=True)
+            image.save(str(screenshot_path))
+
+        await asyncio.to_thread(grab_screen)
 
         logger.info(
             f"Failure screenshot saved: {screenshot_path}"

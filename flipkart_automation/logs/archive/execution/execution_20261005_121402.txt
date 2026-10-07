@@ -1,0 +1,155 @@
+2026-10-05 12:14:02 - INFO - Flipkart Automation Started
+2026-10-05 12:14:02 - INFO - BOT RUNNER STARTED
+2026-10-05 12:14:02 - INFO - Archived: execution_20261005_121311.txt
+2026-10-05 12:14:02 - INFO - Archived: smart watch_20261005_121350.png
+2026-10-05 12:14:02 - INFO - Archived: Search smart watch_attempt1_20261005_121348.png
+2026-10-05 12:14:02 - INFO - Archived: smart watch_20261005_121347.png
+2026-10-05 12:14:02 - INFO - Archived: Search smart watch_attempt1_20261005_121325.png
+2026-10-05 12:14:02 - INFO - Archived: smart watch_20261005_121325.png
+2026-10-05 12:14:07 - INFO - Trigger email sent successfully.
+2026-10-05 12:14:07 - INFO - Trigger email sent.
+2026-10-05 12:14:07 - INFO - Opening Flipkart...
+2026-10-05 12:14:09 - INFO - Flipkart opened successfully
+2026-10-05 12:14:09 - INFO - Logging into flipkart
+2026-10-05 12:14:12 - INFO - Products found: 5
+2026-10-05 12:14:12 - INFO - Products found in Excel: 5
+2026-10-05 12:14:12 - INFO - 
+==================================================
+2026-10-05 12:14:12 - INFO - Processing Product : smart watch
+2026-10-05 12:14:12 - INFO - Maximum Price      : 5000
+2026-10-05 12:14:12 - INFO - Customer Rating    : 3
+2026-10-05 12:14:12 - INFO - ==================================================
+2026-10-05 12:14:12 - INFO - Search smart watch - Attempt 1/2
+2026-10-05 12:14:12 - INFO - Searching product: smart watch
+2026-10-05 12:14:15 - INFO - Product entered: smart watch
+2026-10-05 12:14:16 - INFO - Search clicked: smart watch
+2026-10-05 12:14:19 - INFO - Search completed successfully: smart watch
+2026-10-05 12:14:19 - INFO - Search smart watch completed successfully.
+2026-10-05 12:14:19 - INFO - Price Filter - Attempt 1/2
+2026-10-05 12:14:19 - INFO - Applying price filter: 5000
+2026-10-05 12:14:19 - INFO - Price filter found.
+2026-10-05 12:14:19 - INFO - Price dropdowns found: 2
+2026-10-05 12:14:19 - INFO - Maximum price selected: 5000
+2026-10-05 12:14:19 - INFO - Price Filter completed successfully.
+2026-10-05 12:14:19 - INFO - Rating Filter - Attempt 1/2
+2026-10-05 12:14:19 - INFO - Applying rating filter: 3
+2026-10-05 12:14:19 - INFO - Customer Ratings filter found.
+2026-10-05 12:14:19 - INFO - Looking for rating option: 3★ & above
+2026-10-05 12:14:19 - INFO - Rating options are already visible.
+2026-10-05 12:14:19 - INFO - Rating checkbox found: 3★ & above
+2026-10-05 12:14:19 - INFO - Current checkbox state: False
+2026-10-05 12:14:20 - INFO - Rating option clicked: 3★ & above
+2026-10-05 12:14:21 - INFO - Rating filter applied successfully: 3★ & above
+2026-10-05 12:14:21 - INFO - Rating Filter completed successfully.
+2026-10-05 12:14:21 - INFO - Get Products - smart watch - Attempt 1/2
+2026-10-05 12:14:21 - INFO - Getting products...
+2026-10-05 12:14:21 - INFO - Product cards found: 40
+2026-10-05 12:14:21 - INFO - 
+Product 1
+2026-10-05 12:14:21 - INFO - Name   : Noise Colorfit Icon 2 1.8'' Display with Bluetooth Calling, AI Voice Assistant Smartwatch
+2026-10-05 12:14:21 - INFO - Price  : ₹1,499
+2026-10-05 12:14:21 - INFO - MRP    : ₹5,99975
+2026-10-05 12:14:21 - INFO - Rating : N/A
+2026-10-05 12:14:21 - INFO - URL    : https://www.flipkart.com/noise-colorfit-icon-2-1-8-display-bluetooth-calling-ai-voice-assistant-smartwatch/p/itmd4cd819eadb9f?pid=SMWGEH7VGYMGCP3V&lid=LSTSMWGEH7VGYMGCP3VXIJHDY&marketplace=FLIPKART&q=smart+watch&store=ajy%2Fbuh&srno=s_1_1&otracker=search&otracker1=search&fm=Search&iid=en_kCaBSHFrTI_fpDUDA1ihkL85zL21PjRcNo9FcoVO_UBYXdjrgBLARJYfvvIEQnQicdRKuXpL4Oi7I9_PiiQQbmVR48euatCXTLsJoBxWUhuGE20YSoioO8jONM57cbi4&ppt=sp&ppn=sp&ssid=grdyxsr7800000001791182656779&qH=acc05e33fb140cc4&ov_redirect=true
+2026-10-05 12:14:21 - INFO - Image  : https://rukminim2.flixcart.com/image/612/612/xif0q/minutes_enrichment_original/-enriched-original-SMWGEH7VGYMGCP3V_0.jpg?q=70
+2026-10-05 12:14:21 - INFO - 
+Product 2
+2026-10-05 12:14:21 - INFO - Name   : Noise Icon 2 Gen 2 - 1.81 Display, BT Calling, 500 NITS Brightness Smartwatch
+2026-10-05 12:14:21 - INFO - Price  : ₹1,399
+2026-10-05 12:14:21 - INFO - MRP    : ₹5,99976
+2026-10-05 12:14:21 - INFO - Rating : N/A
+2026-10-05 12:14:21 - INFO - URL    : https://www.flipkart.com/noise-icon-2-gen-1-81-display-bt-calling-500-nits-brightness-smartwatch/p/itm19231bf80a61d?pid=SMWH7NZFERHW3K3Y&lid=LSTSMWH7NZFERHW3K3YC55LHZ&marketplace=FLIPKART&q=smart+watch&store=ajy%2Fbuh&srno=s_1_2&otracker=search&otracker1=search&fm=Search&iid=en_kCaBSHFrTI_fpDUDA1ihkL85zL21PjRcNo9FcoVO_UApxTtB9TVG_dr9ShKcdYq83KkBYeLB_Mxg5QShQFvB9bp0qfJ2IWw6bpbqfISNKSz75cJaSlJ_f_5kjKpPBWNn&ppt=sp&ppn=sp&ssid=grdyxsr7800000001791182656779&qH=acc05e33fb140cc4&ov_redirect=true
+2026-10-05 12:14:21 - INFO - Image  : https://rukminim2.flixcart.com/image/612/612/xif0q/smartwatch/q/a/n/45-72-wrb-sw-colorfiticon2-2025-std-blk-blk-android-ios-noise-enriched-transparent-original-imahe6dt3gazezmm.png?q=70
+2026-10-05 12:14:21 - INFO - 
+Product 3
+2026-10-05 12:14:21 - INFO - Name   : Samsung Galaxy Fit3 | AMOLED Display & Aluminium Body | Upto 13Day Battery | 5ATM & IP68
+2026-10-05 12:14:21 - INFO - Price  : ₹3,899
+2026-10-05 12:14:21 - INFO - MRP    : ₹9,99961
+2026-10-05 12:14:21 - INFO - Rating : N/A
+2026-10-05 12:14:21 - INFO - URL    : https://www.flipkart.com/samsung-galaxy-fit3-amoled-display-aluminium-body-upto-13day-battery-5atm-ip68/p/itm5d52a219c74a5?pid=SMWGY6YRYKY3GXQU&lid=LSTSMWGY6YRYKY3GXQURNE9WV&marketplace=FLIPKART&q=smart+watch&store=ajy%2Fbuh&srno=s_1_3&otracker=search&otracker1=search&fm=Search&iid=a6c92ec8-1ac5-439a-a240-6e92ff84230b.SMWGY6YRYKY3GXQU.SEARCH&ppt=sp&ppn=sp&ssid=grdyxsr7800000001791182656779&qH=acc05e33fb140cc4&ov_redirect=true
+2026-10-05 12:14:21 - INFO - Image  : https://rukminim2.flixcart.com/image/612/612/xif0q/smartwatch/n/l/a/-enriched-transparent-original-imahgh9twzzte3uf.png?q=70
+2026-10-05 12:14:21 - INFO - 
+Total products selected: 3
+2026-10-05 12:14:21 - INFO - Get Products - smart watch completed successfully.
+2026-10-05 12:14:21 - INFO - Products extracted for smart watch
+2026-10-05 12:14:24 - ERROR - Could not update Excel: the file is open. Close it and run again.
+2026-10-05 12:14:24 - INFO - 
+==================================================
+2026-10-05 12:14:24 - INFO - Processing Product : Phone
+2026-10-05 12:14:24 - INFO - Maximum Price      : 20000
+2026-10-05 12:14:24 - INFO - Customer Rating    : 4
+2026-10-05 12:14:24 - INFO - ==================================================
+2026-10-05 12:14:24 - INFO - Search Phone - Attempt 1/2
+2026-10-05 12:14:24 - INFO - Searching product: Phone
+2026-10-05 12:14:28 - INFO - Product entered: Phone
+2026-10-05 12:14:28 - INFO - Search clicked: Phone
+2026-10-05 12:14:31 - INFO - Search completed successfully: Phone
+2026-10-05 12:14:31 - INFO - Search Phone completed successfully.
+2026-10-05 12:14:31 - INFO - Price Filter - Attempt 1/2
+2026-10-05 12:14:31 - INFO - Applying price filter: 20000
+2026-10-05 12:14:31 - INFO - Price filter found.
+2026-10-05 12:14:31 - INFO - Price dropdowns found: 2
+2026-10-05 12:14:31 - INFO - Maximum price selected: 20000
+2026-10-05 12:14:31 - INFO - Price Filter completed successfully.
+2026-10-05 12:14:31 - INFO - Rating Filter - Attempt 1/2
+2026-10-05 12:14:31 - INFO - Applying rating filter: 4
+2026-10-05 12:14:31 - INFO - Customer Ratings filter found.
+2026-10-05 12:14:31 - INFO - Looking for rating option: 4★ & above
+2026-10-05 12:14:33 - INFO - Rating options are collapsed. Clicking Customer Ratings.
+2026-10-05 12:14:33 - INFO - Customer Ratings section clicked.
+2026-10-05 12:14:33 - INFO - Rating options are now visible.
+2026-10-05 12:14:33 - INFO - Rating checkbox found: 4★ & above
+2026-10-05 12:14:33 - INFO - Current checkbox state: False
+2026-10-05 12:14:33 - INFO - Rating option clicked: 4★ & above
+2026-10-05 12:15:02 - ERROR - Rating filter error: Locator.is_checked: Target page, context or browser has been closed
+Call log:
+  - waiting for locator("section.KNnSWQ").filter(has_text="Customer Ratings").first.locator("div[title=\"4★ & above\"]").locator("input[type=\"checkbox\"]")
+
+2026-10-05 12:15:02 - ERROR - Rating Filter failed on attempt 1/2: Locator.is_checked: Target page, context or browser has been closed
+Call log:
+  - waiting for locator("section.KNnSWQ").filter(has_text="Customer Ratings").first.locator("div[title=\"4★ & above\"]").locator("input[type=\"checkbox\"]")
+
+2026-10-05 12:15:02 - INFO - Failure screenshot saved: C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\flipkart_automation\Screenshots\failed\Rating Filter_attempt1_20261005_121502.png
+2026-10-05 12:15:04 - INFO - Rating Filter - Attempt 2/2
+2026-10-05 12:15:04 - INFO - Applying rating filter: 4
+2026-10-05 12:15:04 - ERROR - Rating filter error: Locator.wait_for: Target page, context or browser has been closed
+2026-10-05 12:15:04 - ERROR - Rating Filter failed on attempt 2/2: Locator.wait_for: Target page, context or browser has been closed
+2026-10-05 12:15:04 - INFO - Failure screenshot saved: C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\flipkart_automation\Screenshots\failed\Rating Filter_attempt2_20261005_121504.png
+2026-10-05 12:15:04 - ERROR - Rating Filter failed after 2 attempts.
+2026-10-05 12:15:04 - ERROR - Browser closed, aborting run: Locator.wait_for: Target page, context or browser has been closed
+2026-10-05 12:15:04 - ERROR - Automation failed: Locator.wait_for: Target page, context or browser has been closed
+Traceback (most recent call last):
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\flipkart_automation\modules\bot_runner.py", line 183, in run_bot
+    await retry_async(
+    ...<4 lines>...
+    )
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\flipkart_automation\modules\retry.py", line 28, in retry_async
+    result = await function(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\flipkart_automation\modules\flipkart_actions.py", line 147, in apply_rating_filter
+    await rating_section.wait_for(
+    ...<2 lines>...
+    )
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\flipkart_automation\flipkart_env\Lib\site-packages\playwright\async_api\_generated.py", line 20672, in wait_for
+    await self._impl_obj.wait_for(timeout=to_milliseconds(timeout), state=state)
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\flipkart_automation\flipkart_env\Lib\site-packages\playwright\_impl\_locator.py", line 752, in wait_for
+    await self._frame.wait_for_selector(
+        self._selector, strict=True, timeout=timeout, state=state
+    )
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\flipkart_automation\flipkart_env\Lib\site-packages\playwright\_impl\_frame.py", line 395, in wait_for_selector
+    await self._channel.send(
+        "waitForSelector", self._timeout, locals_to_params(locals())
+    )
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\flipkart_automation\flipkart_env\Lib\site-packages\playwright\_impl\_connection.py", line 76, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\flipkart_automation\flipkart_env\Lib\site-packages\playwright\_impl\_connection.py", line 632, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: Locator.wait_for: Target page, context or browser has been closed
+2026-10-05 12:15:05 - INFO - Failure screenshot saved: C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\flipkart_automation\Screenshots\failed\bot_failed_20261005_121504.png
+2026-10-05 12:15:15 - INFO - Browser closed.
+2026-10-05 12:15:15 - ERROR - Automation failed
+2026-10-05 12:15:15 - INFO - Flipkart Automation Completed

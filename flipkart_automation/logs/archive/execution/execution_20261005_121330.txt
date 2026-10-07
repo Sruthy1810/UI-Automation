@@ -1,0 +1,70 @@
+2026-10-05 12:13:30 - INFO - Flipkart Automation Started
+2026-10-05 12:13:30 - INFO - BOT RUNNER STARTED
+2026-10-05 12:13:30 - INFO - Archived: execution_20261005_120512.txt
+2026-10-05 12:13:30 - INFO - Archived: _error_20261005_120723.png
+2026-10-05 12:13:30 - INFO - Archived: Rating Filter_attempt2_20261005_120723.png
+2026-10-05 12:13:35 - INFO - Trigger email sent successfully.
+2026-10-05 12:13:35 - INFO - Trigger email sent.
+2026-10-05 12:13:35 - INFO - Opening Flipkart...
+2026-10-05 12:13:37 - INFO - Flipkart opened successfully
+2026-10-05 12:13:37 - INFO - Logging into flipkart
+2026-10-05 12:13:40 - INFO - Products found: 5
+2026-10-05 12:13:40 - INFO - Products found in Excel: 5
+2026-10-05 12:13:40 - INFO - 
+==================================================
+2026-10-05 12:13:40 - INFO - Processing Product : smart watch
+2026-10-05 12:13:40 - INFO - Maximum Price      : 5000
+2026-10-05 12:13:40 - INFO - Customer Rating    : 3
+2026-10-05 12:13:40 - INFO - ==================================================
+2026-10-05 12:13:40 - INFO - Search smart watch - Attempt 1/2
+2026-10-05 12:13:40 - INFO - Searching product: smart watch
+2026-10-05 12:13:43 - INFO - Product entered: smart watch
+2026-10-05 12:13:45 - INFO - Search clicked: smart watch
+2026-10-05 12:13:47 - ERROR - Search failed
+2026-10-05 12:13:48 - INFO - Failure screenshot saved: C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\flipkart_automation\Screenshots\failed\smart watch_20261005_121347.png
+2026-10-05 12:13:48 - INFO - Failure screenshot: C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\flipkart_automation\Screenshots\failed\smart watch_20261005_121347.png
+2026-10-05 12:13:48 - ERROR - Search smart watch failed on attempt 1/2: Page.wait_for_timeout: Target page, context or browser has been closed
+2026-10-05 12:13:48 - INFO - Failure screenshot saved: C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\flipkart_automation\Screenshots\failed\Search smart watch_attempt1_20261005_121348.png
+2026-10-05 12:13:50 - INFO - Search smart watch - Attempt 2/2
+2026-10-05 12:13:50 - INFO - Searching product: smart watch
+2026-10-05 12:13:50 - ERROR - Search failed
+2026-10-05 12:13:50 - INFO - Failure screenshot saved: C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\flipkart_automation\Screenshots\failed\smart watch_20261005_121350.png
+2026-10-05 12:13:50 - INFO - Failure screenshot: C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\flipkart_automation\Screenshots\failed\smart watch_20261005_121350.png
+2026-10-05 12:13:50 - ERROR - Search smart watch failed on attempt 2/2: Locator.wait_for: Target page, context or browser has been closed
+2026-10-05 12:13:50 - INFO - Failure screenshot saved: C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\flipkart_automation\Screenshots\failed\Search smart watch_attempt2_20261005_121350.png
+2026-10-05 12:13:50 - ERROR - Search smart watch failed after 2 attempts.
+2026-10-05 12:13:50 - ERROR - Browser closed, aborting run: Locator.wait_for: Target page, context or browser has been closed
+2026-10-05 12:13:50 - ERROR - Automation failed: Locator.wait_for: Target page, context or browser has been closed
+Traceback (most recent call last):
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\flipkart_automation\modules\bot_runner.py", line 161, in run_bot
+    await retry_async(
+    ...<4 lines>...
+    )
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\flipkart_automation\modules\retry.py", line 28, in retry_async
+    result = await function(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\flipkart_automation\modules\flipkart_actions.py", line 21, in search_product
+    await search_box.wait_for(
+    ...<2 lines>...
+    )
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\flipkart_automation\flipkart_env\Lib\site-packages\playwright\async_api\_generated.py", line 20672, in wait_for
+    await self._impl_obj.wait_for(timeout=to_milliseconds(timeout), state=state)
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\flipkart_automation\flipkart_env\Lib\site-packages\playwright\_impl\_locator.py", line 752, in wait_for
+    await self._frame.wait_for_selector(
+        self._selector, strict=True, timeout=timeout, state=state
+    )
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\flipkart_automation\flipkart_env\Lib\site-packages\playwright\_impl\_frame.py", line 395, in wait_for_selector
+    await self._channel.send(
+        "waitForSelector", self._timeout, locals_to_params(locals())
+    )
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\flipkart_automation\flipkart_env\Lib\site-packages\playwright\_impl\_connection.py", line 76, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\flipkart_automation\flipkart_env\Lib\site-packages\playwright\_impl\_connection.py", line 632, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: Locator.wait_for: Target page, context or browser has been closed
+2026-10-05 12:13:50 - INFO - Failure screenshot saved: C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\flipkart_automation\Screenshots\failed\bot_failed_20261005_121350.png
+2026-10-05 12:13:59 - INFO - Flipkart Automation Completed

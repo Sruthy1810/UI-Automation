@@ -6,7 +6,7 @@ from utils.screenshot import take_failure_screenshot
 async def retry_async(
     function,
     *args,
-    retries=3,
+    retries=2,
     delay=2,
     action_name="Action",
     **kwargs

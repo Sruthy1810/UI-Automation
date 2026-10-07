@@ -1,0 +1,315 @@
+2026-10-05 12:21:50 - INFO - Flipkart Automation Started
+2026-10-05 12:21:50 - INFO - BOT RUNNER STARTED
+2026-10-05 12:21:50 - INFO - Archived: execution_20261005_121402.txt
+2026-10-05 12:21:50 - INFO - Archived: Rating Filter_attempt2_20261005_121504.png
+2026-10-05 12:21:55 - INFO - Trigger email sent successfully.
+2026-10-05 12:21:55 - INFO - Trigger email sent.
+2026-10-05 12:21:55 - INFO - Opening Flipkart...
+2026-10-05 12:21:57 - INFO - Flipkart opened successfully
+2026-10-05 12:21:57 - INFO - Logging into flipkart
+2026-10-05 12:21:59 - INFO - Continue button clicked.
+2026-10-05 12:22:16 - INFO - OTP Continue button clicked.
+2026-10-05 12:22:19 - INFO - Products found: 5
+2026-10-05 12:22:19 - INFO - Products found in Excel: 5
+2026-10-05 12:22:19 - INFO - 
+==================================================
+2026-10-05 12:22:19 - INFO - Processing Product : smart watch
+2026-10-05 12:22:19 - INFO - Maximum Price      : 5000
+2026-10-05 12:22:19 - INFO - Customer Rating    : 3
+2026-10-05 12:22:19 - INFO - ==================================================
+2026-10-05 12:22:19 - INFO - Search smart watch - Attempt 1/2
+2026-10-05 12:22:19 - INFO - Searching product: smart watch
+2026-10-05 12:22:22 - INFO - Product entered: smart watch
+2026-10-05 12:22:23 - INFO - Search clicked: smart watch
+2026-10-05 12:22:26 - INFO - Search completed successfully: smart watch
+2026-10-05 12:22:26 - INFO - Search smart watch completed successfully.
+2026-10-05 12:22:26 - INFO - Price Filter - Attempt 1/2
+2026-10-05 12:22:26 - INFO - Applying price filter: 5000
+2026-10-05 12:22:26 - INFO - Price filter found.
+2026-10-05 12:22:26 - INFO - Price dropdowns found: 2
+2026-10-05 12:22:26 - INFO - Maximum price selected: 5000
+2026-10-05 12:22:26 - INFO - Price Filter completed successfully.
+2026-10-05 12:22:26 - INFO - Rating Filter - Attempt 1/2
+2026-10-05 12:22:26 - INFO - Applying rating filter: 3
+2026-10-05 12:22:26 - INFO - Customer Ratings filter found.
+2026-10-05 12:22:26 - INFO - Looking for rating option: 3★ & above
+2026-10-05 12:22:26 - INFO - Rating options are already visible.
+2026-10-05 12:22:26 - INFO - Rating checkbox found: 3★ & above
+2026-10-05 12:22:26 - INFO - Current checkbox state: False
+2026-10-05 12:22:27 - INFO - Rating option clicked: 3★ & above
+2026-10-05 12:22:28 - INFO - Rating filter applied successfully: 3★ & above
+2026-10-05 12:22:28 - INFO - Rating Filter completed successfully.
+2026-10-05 12:22:28 - INFO - Get Products - smart watch - Attempt 1/2
+2026-10-05 12:22:28 - INFO - Getting products...
+2026-10-05 12:22:28 - INFO - Product cards found: 40
+2026-10-05 12:22:28 - INFO - 
+Product 1
+2026-10-05 12:22:28 - INFO - Name   : Noise Colorfit Icon 2 1.8'' Display with Bluetooth Calling, AI Voice Assistant Smartwatch
+2026-10-05 12:22:28 - INFO - Price  : ₹1,499
+2026-10-05 12:22:28 - INFO - MRP    : ₹5,99975
+2026-10-05 12:22:28 - INFO - Rating : N/A
+2026-10-05 12:22:28 - INFO - URL    : https://www.flipkart.com/noise-colorfit-icon-2-1-8-display-bluetooth-calling-ai-voice-assistant-smartwatch/p/itmd4cd819eadb9f?pid=SMWGEH7VGYMGCP3V&lid=LSTSMWGEH7VGYMGCP3VXIJHDY&marketplace=FLIPKART&q=smart+watch&store=ajy%2Fbuh&srno=s_1_1&otracker=search&otracker1=search&fm=Search&iid=en_IxK5bCArlG7ccojfF0MpAKoaUg6PFb81UUeYalp-Ep14JmsnO_qI0fVs-ZAZGLEicdRKuXpL4Oi7I9_PiiQQbmVR48euatCXTLsJoBxWUhsioSYd6yaomzwfA5Dr-tbD&ppt=sp&ppn=sp&ssid=52d4x3v40w0000001791183144387&qH=acc05e33fb140cc4&ov_redirect=true
+2026-10-05 12:22:28 - INFO - Image  : https://rukminim2.flixcart.com/image/612/612/xif0q/minutes_enrichment_original/-enriched-original-SMWGEH7VGYMGCP3V_0.jpg?q=70
+2026-10-05 12:22:28 - INFO - 
+Product 2
+2026-10-05 12:22:28 - INFO - Name   : Noise Icon 2 Gen 2 - 1.81 Display, BT Calling, 500 NITS Brightness Smartwatch
+2026-10-05 12:22:28 - INFO - Price  : ₹1,399
+2026-10-05 12:22:28 - INFO - MRP    : ₹5,99976
+2026-10-05 12:22:28 - INFO - Rating : N/A
+2026-10-05 12:22:28 - INFO - URL    : https://www.flipkart.com/noise-icon-2-gen-1-81-display-bt-calling-500-nits-brightness-smartwatch/p/itm19231bf80a61d?pid=SMWH7NZFERHW3K3Y&lid=LSTSMWH7NZFERHW3K3YC55LHZ&marketplace=FLIPKART&q=smart+watch&store=ajy%2Fbuh&srno=s_1_2&otracker=search&otracker1=search&fm=Search&iid=en_IxK5bCArlG7ccojfF0MpAKoaUg6PFb81UUeYalp-Ep0mUYoa1ZB4D1gyGa0SyJ4Q3KkBYeLB_Mxg5QShQFvB9bp0qfJ2IWw6bpbqfISNKSxoubWo6ZUQ_G4beHdxB2bc&ppt=sp&ppn=sp&ssid=52d4x3v40w0000001791183144387&qH=acc05e33fb140cc4&ov_redirect=true
+2026-10-05 12:22:28 - INFO - Image  : https://rukminim2.flixcart.com/image/612/612/xif0q/smartwatch/q/a/n/45-72-wrb-sw-colorfiticon2-2025-std-blk-blk-android-ios-noise-enriched-transparent-original-imahe6dt3gazezmm.png?q=70
+2026-10-05 12:22:28 - INFO - 
+Product 3
+2026-10-05 12:22:28 - INFO - Name   : Samsung Galaxy Fit3 | AMOLED Display & Aluminium Body | Upto 13Day Battery | 5ATM & IP68
+2026-10-05 12:22:28 - INFO - Price  : ₹3,899
+2026-10-05 12:22:28 - INFO - MRP    : ₹9,99961
+2026-10-05 12:22:28 - INFO - Rating : N/A
+2026-10-05 12:22:28 - INFO - URL    : https://www.flipkart.com/samsung-galaxy-fit3-amoled-display-aluminium-body-upto-13day-battery-5atm-ip68/p/itm5d52a219c74a5?pid=SMWGY6YRYKY3GXQU&lid=LSTSMWGY6YRYKY3GXQURNE9WV&marketplace=FLIPKART&q=smart+watch&store=ajy%2Fbuh&srno=s_1_3&otracker=search&otracker1=search&fm=Search&iid=4e894aee-3fa2-497c-b850-09ace2e5acb3.SMWGY6YRYKY3GXQU.SEARCH&ppt=sp&ppn=sp&ssid=52d4x3v40w0000001791183144387&qH=acc05e33fb140cc4&ov_redirect=true
+2026-10-05 12:22:28 - INFO - Image  : https://rukminim2.flixcart.com/image/612/612/xif0q/smartwatch/n/l/a/-enriched-transparent-original-imahgh9twzzte3uf.png?q=70
+2026-10-05 12:22:28 - INFO - 
+Total products selected: 3
+2026-10-05 12:22:28 - INFO - Get Products - smart watch completed successfully.
+2026-10-05 12:22:28 - INFO - Products extracted for smart watch
+2026-10-05 12:22:32 - INFO - Excel updated: smart watch -> Found
+2026-10-05 12:22:32 - INFO - 
+==================================================
+2026-10-05 12:22:32 - INFO - Processing Product : Phone
+2026-10-05 12:22:32 - INFO - Maximum Price      : 20000
+2026-10-05 12:22:32 - INFO - Customer Rating    : 4
+2026-10-05 12:22:32 - INFO - ==================================================
+2026-10-05 12:22:32 - INFO - Search Phone - Attempt 1/2
+2026-10-05 12:22:32 - INFO - Searching product: Phone
+2026-10-05 12:22:35 - INFO - Product entered: Phone
+2026-10-05 12:22:35 - INFO - Search clicked: Phone
+2026-10-05 12:22:38 - INFO - Search completed successfully: Phone
+2026-10-05 12:22:38 - INFO - Search Phone completed successfully.
+2026-10-05 12:22:38 - INFO - Price Filter - Attempt 1/2
+2026-10-05 12:22:38 - INFO - Applying price filter: 20000
+2026-10-05 12:22:38 - INFO - Price filter found.
+2026-10-05 12:22:38 - INFO - Price dropdowns found: 2
+2026-10-05 12:22:38 - INFO - Maximum price selected: 20000
+2026-10-05 12:22:38 - INFO - Price Filter completed successfully.
+2026-10-05 12:22:38 - INFO - Rating Filter - Attempt 1/2
+2026-10-05 12:22:38 - INFO - Applying rating filter: 4
+2026-10-05 12:22:38 - INFO - Customer Ratings filter found.
+2026-10-05 12:22:38 - INFO - Looking for rating option: 4★ & above
+2026-10-05 12:22:40 - INFO - Rating options are collapsed. Clicking Customer Ratings.
+2026-10-05 12:22:40 - INFO - Customer Ratings section clicked.
+2026-10-05 12:22:40 - INFO - Rating options are now visible.
+2026-10-05 12:22:40 - INFO - Rating checkbox found: 4★ & above
+2026-10-05 12:22:40 - INFO - Current checkbox state: False
+2026-10-05 12:22:40 - INFO - Rating option clicked: 4★ & above
+2026-10-05 12:23:11 - ERROR - Customer Ratings section, rating option, or checkbox not found.
+2026-10-05 12:23:11 - ERROR - Rating Filter failed on attempt 1/2: Locator.is_checked: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("section.KNnSWQ").filter(has_text="Customer Ratings").first.locator("div[title=\"4★ & above\"]").locator("input[type=\"checkbox\"]")
+
+2026-10-05 12:23:12 - INFO - Failure screenshot saved: C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\flipkart_automation\Screenshots\failed\Rating Filter_attempt1_20261005_122311.png
+2026-10-05 12:23:14 - INFO - Rating Filter - Attempt 2/2
+2026-10-05 12:23:14 - INFO - Applying rating filter: 4
+2026-10-05 12:23:14 - INFO - Customer Ratings filter found.
+2026-10-05 12:23:14 - INFO - Looking for rating option: 4★ & above
+2026-10-05 12:23:16 - INFO - Rating options are collapsed. Clicking Customer Ratings.
+2026-10-05 12:23:16 - INFO - Customer Ratings section clicked.
+2026-10-05 12:23:16 - INFO - Rating options are now visible.
+2026-10-05 12:23:16 - INFO - Rating checkbox found: 4★ & above
+2026-10-05 12:23:16 - INFO - Current checkbox state: True
+2026-10-05 12:23:16 - INFO - Rating already selected: 4★ & above
+2026-10-05 12:23:17 - INFO - Rating filter applied successfully: 4★ & above
+2026-10-05 12:23:17 - INFO - Rating Filter completed successfully.
+2026-10-05 12:23:17 - INFO - Get Products - Phone - Attempt 1/2
+2026-10-05 12:23:17 - INFO - Getting products...
+2026-10-05 12:23:17 - INFO - Product cards found: 24
+2026-10-05 12:23:17 - INFO - 
+Product 1
+2026-10-05 12:23:17 - INFO - Name   : Tecno Spark Go 3 (Galaxy Blue, 64 GB)
+2026-10-05 12:23:17 - INFO - Price  : ₹12,499
+2026-10-05 12:23:17 - INFO - MRP    : ₹15,99921
+2026-10-05 12:23:17 - INFO - Rating : 4.1
+2026-10-05 12:23:17 - INFO - URL    : https://www.flipkart.com/tecno-spark-go-3-galaxy-blue-64-gb/p/itma9c8f128a61c6?pid=MOBHP2QYFPVRGYKZ&lid=LSTMOBHP2QYFPVRGYKZGBFHIL&marketplace=FLIPKART&q=Phone&store=tyy%2F4io&srno=s_1_1&otracker=search&otracker1=search&fm=Search&iid=en_S_TZGqQGYtskLC1sMJQMekgSShTXb-WdmtZqBNKuXgz-woEo1FHn7jkTn4Sixi_xOd5zdNacyygaW1VZ4EzmNNt2wjSX7Npz1-HJnop0xC9YoB37lqtsInn4E8yEVOpG&ppt=sp&ppn=sp&ssid=if7dkrdxxc0000001791183155324&qH=bcc254b55c4a1bab&ov_redirect=true
+2026-10-05 12:23:17 - INFO - Image  : https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/2/y/z/-resized-original-imahpffghzmsdwjh.jpeg?q=70
+2026-10-05 12:23:17 - INFO - 
+Product 2
+2026-10-05 12:23:17 - INFO - Name   : Nokia 105 Classic Single Sim Keypad Phone, Without Charger
+2026-10-05 12:23:17 - INFO - Price  : ₹1,049
+2026-10-05 12:23:17 - INFO - MRP    : ₹1,34922
+2026-10-05 12:23:17 - INFO - Rating : 4
+2026-10-05 12:23:17 - INFO - URL    : https://www.flipkart.com/nokia-105-classic-single-sim-keypad-phone-without-charger/p/itmfdb404ec1d0f4?pid=MOBGWZUWPTFTQZAH&lid=LSTMOBGWZUWPTFTQZAHSIXCDR&marketplace=FLIPKART&q=Phone&store=tyy%2F4io&spotlightTagId=default_BestsellerId_tyy%2F4io&srno=s_1_2&otracker=search&otracker1=search&fm=Search&iid=d049c37e-a9c5-4192-9a64-af5b5e4b45b3.MOBGWZUWPTFTQZAH.SEARCH&ppt=sp&ppn=sp&ssid=if7dkrdxxc0000001791183155324&qH=bcc254b55c4a1bab&ov_redirect=true
+2026-10-05 12:23:17 - INFO - Image  : https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/p/o/i/105-single-sim-keypad-mobile-phone-with-wireless-fm-radio-nokia-resized-original-imah2xgc9z6cwcqv.jpeg?q=70
+2026-10-05 12:23:17 - INFO - 
+Product 3
+2026-10-05 12:23:17 - INFO - Name   : BOLTT EVO (Berry Red, 64 GB)
+2026-10-05 12:23:17 - INFO - Price  : ₹9,999
+2026-10-05 12:23:17 - INFO - MRP    : ₹17,99944
+2026-10-05 12:23:17 - INFO - Rating : 4.3
+2026-10-05 12:23:17 - INFO - URL    : https://www.flipkart.com/boltt-evo-berry-red-64-gb/p/itmf046d663a1fd7?pid=MOBHPP598ENKRGBY&lid=LSTMOBHPP598ENKRGBYC3QECN&marketplace=FLIPKART&q=Phone&store=tyy%2F4io&srno=s_1_3&otracker=search&otracker1=search&fm=Search&iid=d049c37e-a9c5-4192-9a64-af5b5e4b45b3.MOBHPP598ENKRGBY.SEARCH&ppt=sp&ppn=sp&ssid=if7dkrdxxc0000001791183155324&qH=bcc254b55c4a1bab&ov_redirect=true
+2026-10-05 12:23:17 - INFO - Image  : https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/d/b/p/-resized-original-imahqk5pywazwh3t.jpeg?q=70
+2026-10-05 12:23:17 - INFO - 
+Total products selected: 3
+2026-10-05 12:23:17 - INFO - Get Products - Phone completed successfully.
+2026-10-05 12:23:17 - INFO - Products extracted for Phone
+2026-10-05 12:23:21 - INFO - Excel updated: Phone -> Found
+2026-10-05 12:23:21 - INFO - 
+==================================================
+2026-10-05 12:23:21 - INFO - Processing Product : Headphone
+2026-10-05 12:23:21 - INFO - Maximum Price      : 2000
+2026-10-05 12:23:21 - INFO - Customer Rating    : 3
+2026-10-05 12:23:21 - INFO - ==================================================
+2026-10-05 12:23:21 - INFO - Search Headphone - Attempt 1/2
+2026-10-05 12:23:21 - INFO - Searching product: Headphone
+2026-10-05 12:23:24 - INFO - Product entered: Headphone
+2026-10-05 12:23:24 - INFO - Search clicked: Headphone
+2026-10-05 12:23:27 - INFO - Search completed successfully: Headphone
+2026-10-05 12:23:27 - INFO - Search Headphone completed successfully.
+2026-10-05 12:23:27 - INFO - Price Filter - Attempt 1/2
+2026-10-05 12:23:27 - INFO - Applying price filter: 2000
+2026-10-05 12:23:27 - INFO - Price filter found.
+2026-10-05 12:23:27 - INFO - Price dropdowns found: 2
+2026-10-05 12:23:27 - INFO - Maximum price selected: 2000
+2026-10-05 12:23:27 - INFO - Price Filter completed successfully.
+2026-10-05 12:23:27 - INFO - Rating Filter - Attempt 1/2
+2026-10-05 12:23:27 - INFO - Applying rating filter: 3
+2026-10-05 12:23:27 - INFO - Customer Ratings filter found.
+2026-10-05 12:23:27 - INFO - Looking for rating option: 3★ & above
+2026-10-05 12:23:27 - INFO - Rating options are already visible.
+2026-10-05 12:23:27 - INFO - Rating checkbox found: 3★ & above
+2026-10-05 12:23:27 - INFO - Current checkbox state: False
+2026-10-05 12:23:27 - INFO - Rating option clicked: 3★ & above
+2026-10-05 12:23:28 - INFO - Rating filter applied successfully: 3★ & above
+2026-10-05 12:23:28 - INFO - Rating Filter completed successfully.
+2026-10-05 12:23:28 - INFO - Get Products - Headphone - Attempt 1/2
+2026-10-05 12:23:28 - INFO - Getting products...
+2026-10-05 12:23:28 - INFO - Product cards found: 40
+2026-10-05 12:23:28 - INFO - 
+Product 1
+2026-10-05 12:23:28 - INFO - Name   : TRIGGR Punkheadz Z4 with 50H Battery, Dual Pairing, 40mm Drivers, Gaming Mode, BT v6.0 Bluetooth
+2026-10-05 12:23:28 - INFO - Price  : ₹1,199
+2026-10-05 12:23:28 - INFO - MRP    : ₹3,99970
+2026-10-05 12:23:28 - INFO - Rating : 4.1
+2026-10-05 12:23:28 - INFO - URL    : https://www.flipkart.com/triggr-punkheadz-z4-50h-battery-dual-pairing-40mm-drivers-gaming-mode-bt-v6-0-bluetooth/p/itma63b33cdf34a3?pid=ACCHZFYTXJWFZZGD&lid=LSTACCHZFYTXJWFZZGDDET526&marketplace=FLIPKART&q=Headphone&store=0pm%2Ffcn&srno=s_1_1&otracker=search&otracker1=search&fm=Search&iid=en_8br1Bo3Cy0IkTKWPjwrZwQK1SfLU26FlHIVtg49gZyx_mV4E9pTt8K-uVNtqB66E0ml4x2AlVto3lPEy7W-WQ2uSqQZcSuh4WBrPLxIMvRSdgI0nB97qhnWNOk2W2l2q&ppt=sp&ppn=sp&ssid=t0qx30usww0000001791183204098&qH=52f40b8ad1f6b467&ov_redirect=true&ov_redirect=true
+2026-10-05 12:23:28 - INFO - Image  : https://rukminim2.flixcart.com/image/612/612/xif0q/headphone/g/w/w/-original-imahpczszhsy3ffa.jpeg?q=70
+2026-10-05 12:23:28 - INFO - 
+Product 2
+2026-10-05 12:23:28 - INFO - Name   : TRIGGR Punkheadz Z4 with 50H Battery, Dual Pairing, 40mm Drivers, Gaming Mode, BT v6.0 Bluetooth
+2026-10-05 12:23:28 - INFO - Price  : ₹1,199
+2026-10-05 12:23:28 - INFO - MRP    : ₹3,99970
+2026-10-05 12:23:28 - INFO - Rating : 4.1
+2026-10-05 12:23:28 - INFO - URL    : https://www.flipkart.com/triggr-punkheadz-z4-50h-battery-dual-pairing-40mm-drivers-gaming-mode-bt-v6-0-bluetooth/p/itm7ae1ba9c3f27e?pid=ACCHZFYTYYZFEQAG&lid=LSTACCHZFYTYYZFEQAG3ZNR3E&marketplace=FLIPKART&q=Headphone&store=0pm%2Ffcn&srno=s_1_2&otracker=search&otracker1=search&fm=Search&iid=en_8br1Bo3Cy0IkTKWPjwrZwQK1SfLU26FlHIVtg49gZyzrm1PlxHS5ujst8L4hl84NTFv6hfdgw4yexkZtCpM4bx4knxcGqwBYt1iMzA1EKWmdgI0nB97qhnWNOk2W2l2q&ppt=sp&ppn=sp&ssid=t0qx30usww0000001791183204098&qH=52f40b8ad1f6b467&ov_redirect=true&ov_redirect=true
+2026-10-05 12:23:28 - INFO - Image  : https://rukminim2.flixcart.com/image/612/612/xif0q/headphone/o/k/u/-original-imahpczsstvwftfu.jpeg?q=70
+2026-10-05 12:23:28 - INFO - 
+Product 3
+2026-10-05 12:23:28 - INFO - Name   : boAt Rockerz 412, 60H Battery,40ms Latency,ENx, App Support Bluetooth
+2026-10-05 12:23:28 - INFO - Price  : ₹1,299
+2026-10-05 12:23:28 - INFO - MRP    : ₹2,99956
+2026-10-05 12:23:28 - INFO - Rating : 4
+2026-10-05 12:23:28 - INFO - URL    : https://www.flipkart.com/boat-rockerz-412-60h-battery-40ms-latency-enx-app-support-bluetooth/p/itmb5dd2c5d386eb?pid=ACCHCJW3ENYUPQAA&lid=LSTACCHCJW3ENYUPQAADSZLBB&marketplace=FLIPKART&q=Headphone&store=0pm%2Ffcn&srno=s_1_3&otracker=search&otracker1=search&fm=Search&iid=ce71ded9-7fc3-466b-bc71-ed8f708c3454.ACCHCJW3ENYUPQAA.SEARCH&ppt=sp&ppn=sp&ssid=t0qx30usww0000001791183204098&qH=52f40b8ad1f6b467&ov_redirect=true&ov_redirect=true
+2026-10-05 12:23:28 - INFO - Image  : https://rukminim2.flixcart.com/image/612/612/xif0q/headphone/w/l/7/-original-imahddyjjbggeeah.jpeg?q=70
+2026-10-05 12:23:28 - INFO - 
+Total products selected: 3
+2026-10-05 12:23:28 - INFO - Get Products - Headphone completed successfully.
+2026-10-05 12:23:28 - INFO - Products extracted for Headphone
+2026-10-05 12:23:32 - INFO - Excel updated: Headphone -> Found
+2026-10-05 12:23:32 - INFO - 
+==================================================
+2026-10-05 12:23:32 - INFO - Processing Product : Speaker
+2026-10-05 12:23:32 - INFO - Maximum Price      : 3000
+2026-10-05 12:23:32 - INFO - Customer Rating    : 3
+2026-10-05 12:23:32 - INFO - ==================================================
+2026-10-05 12:23:32 - INFO - Search Speaker - Attempt 1/2
+2026-10-05 12:23:32 - INFO - Searching product: Speaker
+2026-10-05 12:23:35 - INFO - Product entered: Speaker
+2026-10-05 12:23:35 - INFO - Search clicked: Speaker
+2026-10-05 12:23:38 - INFO - Search completed successfully: Speaker
+2026-10-05 12:23:38 - INFO - Search Speaker completed successfully.
+2026-10-05 12:23:38 - INFO - Price Filter - Attempt 1/2
+2026-10-05 12:23:38 - INFO - Applying price filter: 3000
+2026-10-05 12:23:38 - INFO - Price filter found.
+2026-10-05 12:23:38 - INFO - Price dropdowns found: 2
+2026-10-05 12:23:38 - INFO - Maximum price selected: 3000
+2026-10-05 12:23:38 - INFO - Price Filter completed successfully.
+2026-10-05 12:23:38 - INFO - Rating Filter - Attempt 1/2
+2026-10-05 12:23:38 - INFO - Applying rating filter: 3
+2026-10-05 12:23:38 - INFO - Customer Ratings filter found.
+2026-10-05 12:23:38 - INFO - Looking for rating option: 3★ & above
+2026-10-05 12:23:38 - INFO - Rating options are already visible.
+2026-10-05 12:23:38 - INFO - Rating checkbox found: 3★ & above
+2026-10-05 12:23:38 - INFO - Current checkbox state: False
+2026-10-05 12:23:39 - INFO - Rating option clicked: 3★ & above
+2026-10-05 12:23:40 - INFO - Rating filter applied successfully: 3★ & above
+2026-10-05 12:23:40 - INFO - Rating Filter completed successfully.
+2026-10-05 12:23:40 - INFO - Get Products - Speaker - Attempt 1/2
+2026-10-05 12:23:40 - INFO - Getting products...
+2026-10-05 12:23:40 - INFO - Product cards found: 40
+2026-10-05 12:23:40 - INFO - 
+Product 1
+2026-10-05 12:23:40 - INFO - Name   : Mivi Fort S16 with Dual Full Range Drivers, 6Hrs Playback, Voice Assistant 16 W Bluetooth Soundbar
+2026-10-05 12:23:40 - INFO - Price  : ₹799
+2026-10-05 12:23:40 - INFO - MRP    : ₹2,99973
+2026-10-05 12:23:40 - INFO - Rating : 4
+2026-10-05 12:23:40 - INFO - URL    : https://www.flipkart.com/mivi-fort-s16-dual-full-range-drivers-6hrs-playback-voice-assistant-16-w-bluetooth-soundbar/p/itm8fbbb30ed1fce?pid=ACCGFTFKSEWGYABF&lid=LSTACCGFTFKSEWGYABFDYZP02&marketplace=FLIPKART&q=Speaker&store=0pm%2F0o7&srno=s_1_1&otracker=search&otracker1=search&fm=Search&iid=en_ebVz3pzXwPUpZrp4dXuYvRcRvMbEMyKdHLIjazc90TadJN4RJts5f1RjiPK3yFx_6teuzB4t4o1UENEn2X7bK8y8JQ4kIOX7f8sEYenXu9EMsYCdLy6g7xT59V4yyk0h&ppt=sp&ppn=sp&ssid=ih4sez2zts0000001791183215739&qH=22cc65fdfc4417d6&ov_redirect=true&ov_redirect=true
+2026-10-05 12:23:40 - INFO - Image  : https://rukminim2.flixcart.com/image/612/612/xif0q/speaker/m/h/s/-original-imaggrf8mfkyyvvj.jpeg?q=70
+2026-10-05 12:23:40 - INFO - 
+Product 2
+2026-10-05 12:23:40 - INFO - Name   : Mivi Fort S60 with 2 inBuilt Subwoofers, 3EQ Modes, Remote Ctrl 60 W Bluetooth Soundbar
+2026-10-05 12:23:40 - INFO - Price  : ₹2,499
+2026-10-05 12:23:40 - INFO - MRP    : ₹6,99964
+2026-10-05 12:23:40 - INFO - Rating : 4.3
+2026-10-05 12:23:40 - INFO - URL    : https://www.flipkart.com/mivi-fort-s60-2-inbuilt-subwoofers-3eq-modes-remote-ctrl-60-w-bluetooth-soundbar/p/itm25169429bfb89?pid=ACCGAU6GRGWZCCVQ&lid=LSTACCGAU6GRGWZCCVQXWNBBO&marketplace=FLIPKART&q=Speaker&store=0pm%2F0o7&srno=s_1_2&otracker=search&otracker1=search&fm=Search&iid=en_ebVz3pzXwPUpZrp4dXuYvRcRvMbEMyKdHLIjazc90TblelliPPa1NDLt8HSyb4voxqJ1tdfYY1EJ7Sjd5K5EMzmdxMK4taTZZOepZhfXS-eT7tYCXOMElhCeLOEn3EpD&ppt=sp&ppn=sp&ssid=ih4sez2zts0000001791183215739&qH=22cc65fdfc4417d6&ov_redirect=true&ov_redirect=true
+2026-10-05 12:23:40 - INFO - Image  : https://rukminim2.flixcart.com/image/612/612/l0r1j0w0/speaker/8/s/w/-original-imagch7jzhc2yefp.jpeg?q=70
+2026-10-05 12:23:40 - INFO - 
+Product 3
+2026-10-05 12:23:40 - INFO - Name   : ZEBRONICS Music bomb i10,12hrs Playback, Dual Drivers, BT v5.4, USB , AUX, Type-C Charging 16 W Bluetooth Speaker
+2026-10-05 12:23:40 - INFO - Price  : ₹899
+2026-10-05 12:23:40 - INFO - MRP    : ₹2,99970
+2026-10-05 12:23:40 - INFO - Rating : 4.2
+2026-10-05 12:23:40 - INFO - URL    : https://www.flipkart.com/zebronics-music-bomb-i10-12hrs-playback-dual-drivers-bt-v5-4-usb-aux-type-c-charging-16-w-bluetooth-speaker/p/itmaf55abdf5778b?pid=ACCHHNFVUYUZZYEP&lid=LSTACCHHNFVUYUZZYEP6AXBJM&marketplace=FLIPKART&q=Speaker&store=0pm%2F0o7&srno=s_1_3&otracker=search&otracker1=search&fm=Search&iid=2248f08e-b564-4bb9-94b3-cb7837004d44.ACCHHNFVUYUZZYEP.SEARCH&ppt=sp&ppn=sp&ssid=ih4sez2zts0000001791183215739&qH=22cc65fdfc4417d6&ov_redirect=true&ov_redirect=true
+2026-10-05 12:23:40 - INFO - Image  : https://rukminim2.flixcart.com/image/612/612/xif0q/speaker/s/j/j/-original-imahmnddcg8xp7rp.jpeg?q=70
+2026-10-05 12:23:40 - INFO - 
+Total products selected: 3
+2026-10-05 12:23:40 - INFO - Get Products - Speaker completed successfully.
+2026-10-05 12:23:40 - INFO - Products extracted for Speaker
+2026-10-05 12:23:44 - INFO - Excel updated: Speaker -> Found
+2026-10-05 12:23:44 - INFO - 
+==================================================
+2026-10-05 12:23:44 - INFO - Processing Product : #$!$%
+2026-10-05 12:23:44 - INFO - Maximum Price      : 30000
+2026-10-05 12:23:44 - INFO - Customer Rating    : 3
+2026-10-05 12:23:44 - INFO - ==================================================
+2026-10-05 12:23:44 - INFO - Search #$!$% - Attempt 1/2
+2026-10-05 12:23:44 - INFO - Searching product: #$!$%
+2026-10-05 12:23:47 - INFO - Product entered: #$!$%
+2026-10-05 12:23:47 - INFO - Search clicked: #$!$%
+2026-10-05 12:23:50 - INFO - Search completed successfully: #$!$%
+2026-10-05 12:23:50 - INFO - Search #$!$% completed successfully.
+2026-10-05 12:23:50 - INFO - Price Filter - Attempt 1/2
+2026-10-05 12:23:50 - INFO - Applying price filter: 30000
+2026-10-05 12:23:55 - ERROR - Price filter not found.
+2026-10-05 12:23:55 - INFO - Price Filter completed successfully.
+2026-10-05 12:23:55 - INFO - Rating Filter - Attempt 1/2
+2026-10-05 12:23:55 - INFO - Applying rating filter: 3
+2026-10-05 12:24:05 - ERROR - Customer Ratings section, rating option, or checkbox not found.
+2026-10-05 12:24:05 - ERROR - Rating Filter failed on attempt 1/2: Locator.wait_for: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator("section.KNnSWQ").filter(has_text="Customer Ratings").first to be visible
+
+2026-10-05 12:24:06 - INFO - Failure screenshot saved: C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\flipkart_automation\Screenshots\failed\Rating Filter_attempt1_20261005_122405.png
+2026-10-05 12:24:08 - INFO - Rating Filter - Attempt 2/2
+2026-10-05 12:24:08 - INFO - Applying rating filter: 3
+2026-10-05 12:24:18 - ERROR - Customer Ratings section, rating option, or checkbox not found.
+2026-10-05 12:24:18 - ERROR - Rating Filter failed on attempt 2/2: Locator.wait_for: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator("section.KNnSWQ").filter(has_text="Customer Ratings").first to be visible
+
+2026-10-05 12:24:18 - INFO - Failure screenshot saved: C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\flipkart_automation\Screenshots\failed\Rating Filter_attempt2_20261005_122418.png
+2026-10-05 12:24:18 - ERROR - Rating Filter failed after 2 attempts.
+2026-10-05 12:24:19 - INFO - Failure screenshot saved: C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\flipkart_automation\Screenshots\failed\_error_20261005_122418.png
+2026-10-05 12:24:19 - INFO - Excel updated: #$!$% -> Not Found
+2026-10-05 12:24:19 - WARNING - Product processing failed: Locator.wait_for: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator("section.KNnSWQ").filter(has_text="Customer Ratings").first to be visible
+
+2026-10-05 12:24:24 - INFO - Exception email sent for #$!$%
+2026-10-05 12:24:28 - INFO - Execution email sent.
+2026-10-05 12:24:29 - INFO - Browser closed.
+2026-10-05 12:24:29 - ERROR - Automation failed
+2026-10-05 12:24:29 - INFO - Flipkart Automation Completed

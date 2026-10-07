@@ -1,0 +1,265 @@
+2026-10-07 12:33:38 - INFO - Flipkart Automation Started
+2026-10-07 12:33:38 - INFO - BOT RUNNER STARTED
+2026-10-07 12:33:38 - INFO - Archived: execution_20261007_121112.txt
+2026-10-07 12:33:38 - INFO - Archived: Headphone_error_20261007_121744.png
+2026-10-07 12:33:38 - INFO - Archived: Phone_error_20261007_121716.png
+2026-10-07 12:33:38 - INFO - Archived: Rating Filter_attempt1_20261007_121659.png
+2026-10-07 12:33:38 - INFO - Archived: smart watch_error_20261007_121610.png
+2026-10-07 12:33:38 - INFO - Archived: bot_failed_20261007_114418.png
+2026-10-07 12:33:38 - INFO - Archived: Add to Cart_attempt1_20261005_141432.png
+2026-10-07 12:33:41 - INFO - Products found: 5
+2026-10-07 12:33:41 - INFO - Products in Excel: 5 | Already Success (skipped): 0 | To process: 5
+2026-10-07 12:33:45 - INFO - Trigger email sent successfully.
+2026-10-07 12:33:45 - INFO - Trigger email sent.
+2026-10-07 12:33:45 - INFO - Opening Flipkart...
+2026-10-07 12:33:47 - INFO - Flipkart opened successfully
+2026-10-07 12:33:47 - INFO - Logging into flipkart
+2026-10-07 12:33:50 - INFO - 
+==================================================
+2026-10-07 12:33:50 - INFO - Processing Product : smart watch
+2026-10-07 12:33:50 - INFO - Maximum Price      : 5000
+2026-10-07 12:33:50 - INFO - Customer Rating    : 3
+2026-10-07 12:33:50 - INFO - ==================================================
+2026-10-07 12:33:50 - INFO - Search smart watch - Attempt 1/2
+2026-10-07 12:33:50 - INFO - Searching product: smart watch
+2026-10-07 12:33:53 - INFO - Product entered: smart watch
+2026-10-07 12:33:54 - INFO - Search clicked: smart watch
+2026-10-07 12:33:57 - INFO - Search completed successfully: smart watch
+2026-10-07 12:33:57 - INFO - Search smart watch completed successfully.
+2026-10-07 12:33:57 - INFO - Price Filter - Attempt 1/2
+2026-10-07 12:33:57 - INFO - Applying price filter: 5000
+2026-10-07 12:33:57 - INFO - Price filter found.
+2026-10-07 12:33:57 - INFO - Price dropdowns found: 2
+2026-10-07 12:33:57 - INFO - Maximum price selected: 5000
+2026-10-07 12:33:57 - INFO - Price Filter completed successfully.
+2026-10-07 12:33:57 - INFO - Rating Filter - Attempt 1/2
+2026-10-07 12:33:57 - INFO - Applying rating filter: 3
+2026-10-07 12:33:57 - INFO - Customer Ratings filter found.
+2026-10-07 12:33:57 - INFO - Looking for rating option: 3★ & above
+2026-10-07 12:33:57 - INFO - Rating options are already visible.
+2026-10-07 12:33:57 - INFO - Rating checkbox found: 3★ & above
+2026-10-07 12:33:57 - INFO - Current checkbox state: False
+2026-10-07 12:33:58 - INFO - Rating option clicked: 3★ & above
+2026-10-07 12:33:59 - INFO - Rating filter applied successfully: 3★ & above
+2026-10-07 12:33:59 - INFO - Rating Filter completed successfully.
+2026-10-07 12:33:59 - INFO - Get Products - smart watch - Attempt 1/2
+2026-10-07 12:33:59 - INFO - Getting products...
+2026-10-07 12:33:59 - INFO - Product cards found: 40
+2026-10-07 12:33:59 - INFO - 
+Product 1
+2026-10-07 12:33:59 - INFO - Name   : Noise Colorfit Icon 2 1.8'' Display with Bluetooth Calling, AI Voice Assistant Smartwatch
+2026-10-07 12:33:59 - INFO - Price  : ₹1,499
+2026-10-07 12:33:59 - INFO - MRP    : ₹5,99975
+2026-10-07 12:33:59 - INFO - Rating : N/A
+2026-10-07 12:33:59 - INFO - URL    : https://www.flipkart.com/noise-colorfit-icon-2-1-8-display-bluetooth-calling-ai-voice-assistant-smartwatch/p/itmd4cd819eadb9f?pid=SMWGEH7VGYMGCP3V&lid=LSTSMWGEH7VGYMGCP3VXIJHDY&marketplace=FLIPKART&q=smart+watch&store=ajy%2Fbuh&srno=s_1_3&otracker=search&otracker1=search&fm=Search&iid=c88c082a-2c19-47fe-ba81-205b9f0b8641.SMWGEH7VGYMGCP3V.SEARCH&ppt=sp&ppn=sp&ssid=cvvga8b1ww0000001791356635110&qH=acc05e33fb140cc4&ov_redirect=true
+2026-10-07 12:33:59 - INFO - Image  : https://rukminim2.flixcart.com/image/612/612/xif0q/minutes_enrichment_original/-enriched-original-SMWGEH7VGYMGCP3V_0.jpg?q=70
+2026-10-07 12:33:59 - INFO - 
+Total products selected: 1
+2026-10-07 12:33:59 - INFO - Get Products - smart watch completed successfully.
+2026-10-07 12:34:10 - ERROR - Excel update failed for 'smart watch': expected str, bytes or os.PathLike object, not list
+2026-10-07 12:34:10 - ERROR - Excel update failed for 'smart watch': expected str, bytes or os.PathLike object, not list
+2026-10-07 12:34:10 - INFO - Excel updated: smart watch -> Found
+2026-10-07 12:34:10 - INFO - 
+==================================================
+2026-10-07 12:34:10 - INFO - Processing Product : Phone
+2026-10-07 12:34:10 - INFO - Maximum Price      : 20000
+2026-10-07 12:34:10 - INFO - Customer Rating    : 4
+2026-10-07 12:34:10 - INFO - ==================================================
+2026-10-07 12:34:10 - INFO - Search Phone - Attempt 1/2
+2026-10-07 12:34:10 - INFO - Searching product: Phone
+2026-10-07 12:34:13 - INFO - Product entered: Phone
+2026-10-07 12:34:13 - INFO - Search clicked: Phone
+2026-10-07 12:34:16 - INFO - Search completed successfully: Phone
+2026-10-07 12:34:16 - INFO - Search Phone completed successfully.
+2026-10-07 12:34:16 - INFO - Price Filter - Attempt 1/2
+2026-10-07 12:34:16 - INFO - Applying price filter: 20000
+2026-10-07 12:34:16 - INFO - Price filter found.
+2026-10-07 12:34:16 - INFO - Price dropdowns found: 2
+2026-10-07 12:34:16 - INFO - Maximum price selected: 20000
+2026-10-07 12:34:16 - INFO - Price Filter completed successfully.
+2026-10-07 12:34:16 - INFO - Rating Filter - Attempt 1/2
+2026-10-07 12:34:16 - INFO - Applying rating filter: 4
+2026-10-07 12:34:16 - INFO - Customer Ratings filter found.
+2026-10-07 12:34:16 - INFO - Looking for rating option: 4★ & above
+2026-10-07 12:34:18 - INFO - Rating options are collapsed. Clicking Customer Ratings.
+2026-10-07 12:34:18 - INFO - Customer Ratings section clicked.
+2026-10-07 12:34:18 - INFO - Rating options are now visible.
+2026-10-07 12:34:18 - INFO - Rating checkbox found: 4★ & above
+2026-10-07 12:34:18 - INFO - Current checkbox state: False
+2026-10-07 12:34:18 - INFO - Rating option clicked: 4★ & above
+2026-10-07 12:34:49 - ERROR - Customer Ratings section, rating option, or checkbox not found.
+2026-10-07 12:34:49 - ERROR - Rating Filter failed on attempt 1/2: Locator.is_checked: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("section.KNnSWQ").filter(has_text="Customer Ratings").first.locator("div[title=\"4★ & above\"]").locator("input[type=\"checkbox\"]")
+
+2026-10-07 12:34:50 - INFO - Failure screenshot saved: C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\flipkart_automation\Screenshots\failed\Rating Filter_attempt1_20261007_123449.png
+2026-10-07 12:34:52 - INFO - Rating Filter - Attempt 2/2
+2026-10-07 12:34:52 - INFO - Applying rating filter: 4
+2026-10-07 12:34:52 - INFO - Customer Ratings filter found.
+2026-10-07 12:34:52 - INFO - Looking for rating option: 4★ & above
+2026-10-07 12:34:54 - INFO - Rating options are collapsed. Clicking Customer Ratings.
+2026-10-07 12:34:54 - INFO - Customer Ratings section clicked.
+2026-10-07 12:34:54 - INFO - Rating options are now visible.
+2026-10-07 12:34:54 - INFO - Rating checkbox found: 4★ & above
+2026-10-07 12:34:54 - INFO - Current checkbox state: True
+2026-10-07 12:34:54 - INFO - Rating already selected: 4★ & above
+2026-10-07 12:34:55 - INFO - Rating filter applied successfully: 4★ & above
+2026-10-07 12:34:55 - INFO - Rating Filter completed successfully.
+2026-10-07 12:34:55 - INFO - Get Products - Phone - Attempt 1/2
+2026-10-07 12:34:55 - INFO - Getting products...
+2026-10-07 12:34:55 - INFO - Product cards found: 24
+2026-10-07 12:34:55 - INFO - 
+Product 1
+2026-10-07 12:34:55 - INFO - Name   : BOLTT EVO (Berry Red, 64 GB)
+2026-10-07 12:34:55 - INFO - Price  : ₹9,999
+2026-10-07 12:34:55 - INFO - MRP    : ₹17,99944
+2026-10-07 12:34:55 - INFO - Rating : 4.3
+2026-10-07 12:34:55 - INFO - URL    : https://www.flipkart.com/boltt-evo-berry-red-64-gb/p/itmf046d663a1fd7?pid=MOBHPP598ENKRGBY&lid=LSTMOBHPP598ENKRGBYC3QECN&marketplace=FLIPKART&q=Phone&store=tyy%2F4io&srno=s_1_1&otracker=search&otracker1=search&fm=Search&iid=en_cwkIFLzLVhYmWyQNjfCB4QtuBK2zlBSzpWhUXfTIafW54gBbOAHJkHPptOgphJSAWgYDzg5EiD4epixKWj56QSkNY6uPnlKqoA2H11JAEa9G4ZGTh7QLxEhqwIAZTFoU&ppt=sp&ppn=sp&ssid=gskyhqwusg0000001791356653556&qH=bcc254b55c4a1bab&ov_redirect=true
+2026-10-07 12:34:55 - INFO - Image  : https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/d/b/p/-resized-original-imahqk5pywazwh3t.jpeg?q=70
+2026-10-07 12:34:55 - INFO - 
+Total products selected: 1
+2026-10-07 12:34:55 - INFO - Get Products - Phone completed successfully.
+2026-10-07 12:35:42 - ERROR - Excel update failed for 'Phone': expected str, bytes or os.PathLike object, not list
+2026-10-07 12:35:42 - ERROR - Excel update failed for 'Phone': expected str, bytes or os.PathLike object, not list
+2026-10-07 12:35:42 - INFO - Excel updated: Phone -> Found
+2026-10-07 12:35:42 - INFO - 
+==================================================
+2026-10-07 12:35:42 - INFO - Processing Product : Headphone
+2026-10-07 12:35:42 - INFO - Maximum Price      : 2000
+2026-10-07 12:35:42 - INFO - Customer Rating    : 3
+2026-10-07 12:35:42 - INFO - ==================================================
+2026-10-07 12:35:42 - INFO - Search Headphone - Attempt 1/2
+2026-10-07 12:35:42 - INFO - Searching product: Headphone
+2026-10-07 12:35:45 - INFO - Product entered: Headphone
+2026-10-07 12:35:45 - INFO - Search clicked: Headphone
+2026-10-07 12:35:48 - INFO - Search completed successfully: Headphone
+2026-10-07 12:35:48 - INFO - Search Headphone completed successfully.
+2026-10-07 12:35:48 - INFO - Price Filter - Attempt 1/2
+2026-10-07 12:35:48 - INFO - Applying price filter: 2000
+2026-10-07 12:35:48 - INFO - Price filter found.
+2026-10-07 12:35:48 - INFO - Price dropdowns found: 2
+2026-10-07 12:35:48 - INFO - Maximum price selected: 2000
+2026-10-07 12:35:48 - INFO - Price Filter completed successfully.
+2026-10-07 12:35:48 - INFO - Rating Filter - Attempt 1/2
+2026-10-07 12:35:48 - INFO - Applying rating filter: 3
+2026-10-07 12:35:48 - INFO - Customer Ratings filter found.
+2026-10-07 12:35:48 - INFO - Looking for rating option: 3★ & above
+2026-10-07 12:35:48 - INFO - Rating options are already visible.
+2026-10-07 12:35:48 - INFO - Rating checkbox found: 3★ & above
+2026-10-07 12:35:48 - INFO - Current checkbox state: False
+2026-10-07 12:35:49 - INFO - Rating option clicked: 3★ & above
+2026-10-07 12:35:50 - INFO - Rating filter applied successfully: 3★ & above
+2026-10-07 12:35:50 - INFO - Rating Filter completed successfully.
+2026-10-07 12:35:50 - INFO - Get Products - Headphone - Attempt 1/2
+2026-10-07 12:35:50 - INFO - Getting products...
+2026-10-07 12:35:50 - INFO - Product cards found: 40
+2026-10-07 12:35:50 - INFO - 
+Product 1
+2026-10-07 12:35:50 - INFO - Name   : Mivi Duopods D4, 50Hrs Playtime, HD Call, Fast Charging, IPX4, Voice Assistant, 5.3v Bluetooth
+2026-10-07 12:35:50 - INFO - Price  : ₹699
+2026-10-07 12:35:50 - INFO - MRP    : ₹2,99976
+2026-10-07 12:35:50 - INFO - Rating : 3.9
+2026-10-07 12:35:50 - INFO - URL    : https://www.flipkart.com/mivi-duopods-d4-50hrs-playtime-hd-call-fast-charging-ipx4-voice-assistant-5-3v-bluetooth/p/itmc26875401af73?pid=ACCGQQ2TFVCUPJHG&lid=LSTACCGQQ2TFVCUPJHGAALMR0&marketplace=FLIPKART&q=Headphone&store=0pm%2Ffcn&srno=s_1_1&otracker=search&otracker1=search&fm=Search&iid=en_zMHX2Ju5QWzXpbMKTQIAfEVx4svmzrUVBcJTdkf1FoNSbB1FzQITxjZwUzNjv56-FRcGpGNuyQMytd3BUSuvD1Qm66a0jeniP4RZDaKSCyrfbU-hnGiGaxvslbqr7OQd&ppt=sp&ppn=sp&ssid=n982hc5u680000001791356745351&qH=52f40b8ad1f6b467&ov_redirect=true&ov_redirect=true
+2026-10-07 12:35:50 - INFO - Image  : https://rukminim2.flixcart.com/image/612/612/xif0q/headphone/j/6/h/-original-imagr6pf6brggp2x.jpeg?q=70
+2026-10-07 12:35:50 - INFO - 
+Total products selected: 1
+2026-10-07 12:35:50 - INFO - Get Products - Headphone completed successfully.
+2026-10-07 12:36:01 - ERROR - Excel update failed for 'Headphone': expected str, bytes or os.PathLike object, not list
+2026-10-07 12:36:01 - ERROR - Excel update failed for 'Headphone': expected str, bytes or os.PathLike object, not list
+2026-10-07 12:36:01 - INFO - Excel updated: Headphone -> Found
+2026-10-07 12:36:01 - INFO - 
+==================================================
+2026-10-07 12:36:01 - INFO - Processing Product : Speaker
+2026-10-07 12:36:01 - INFO - Maximum Price      : 3000
+2026-10-07 12:36:01 - INFO - Customer Rating    : 3
+2026-10-07 12:36:01 - INFO - ==================================================
+2026-10-07 12:36:01 - INFO - Search Speaker - Attempt 1/2
+2026-10-07 12:36:01 - INFO - Searching product: Speaker
+2026-10-07 12:36:04 - INFO - Product entered: Speaker
+2026-10-07 12:36:04 - INFO - Search clicked: Speaker
+2026-10-07 12:36:07 - INFO - Search completed successfully: Speaker
+2026-10-07 12:36:07 - INFO - Search Speaker completed successfully.
+2026-10-07 12:36:07 - INFO - Price Filter - Attempt 1/2
+2026-10-07 12:36:07 - INFO - Applying price filter: 3000
+2026-10-07 12:36:07 - INFO - Price filter found.
+2026-10-07 12:36:07 - INFO - Price dropdowns found: 2
+2026-10-07 12:36:07 - INFO - Maximum price selected: 3000
+2026-10-07 12:36:07 - INFO - Price Filter completed successfully.
+2026-10-07 12:36:07 - INFO - Rating Filter - Attempt 1/2
+2026-10-07 12:36:07 - INFO - Applying rating filter: 3
+2026-10-07 12:36:07 - INFO - Customer Ratings filter found.
+2026-10-07 12:36:07 - INFO - Looking for rating option: 3★ & above
+2026-10-07 12:36:07 - INFO - Rating options are already visible.
+2026-10-07 12:36:07 - INFO - Rating checkbox found: 3★ & above
+2026-10-07 12:36:07 - INFO - Current checkbox state: False
+2026-10-07 12:36:07 - INFO - Rating option clicked: 3★ & above
+2026-10-07 12:36:08 - INFO - Rating filter applied successfully: 3★ & above
+2026-10-07 12:36:08 - INFO - Rating Filter completed successfully.
+2026-10-07 12:36:08 - INFO - Get Products - Speaker - Attempt 1/2
+2026-10-07 12:36:08 - INFO - Getting products...
+2026-10-07 12:36:08 - INFO - Product cards found: 40
+2026-10-07 12:36:08 - INFO - 
+Product 1
+2026-10-07 12:36:08 - INFO - Name   : Mivi Fort S16 with Dual Full Range Drivers, 6Hrs Playback, Voice Assistant 16 W Bluetooth Soundbar
+2026-10-07 12:36:08 - INFO - Price  : ₹2,999
+2026-10-07 12:36:08 - INFO - MRP    : 
+2026-10-07 12:36:08 - INFO - Rating : 4
+2026-10-07 12:36:08 - INFO - URL    : https://www.flipkart.com/mivi-fort-s16-dual-full-range-drivers-6hrs-playback-voice-assistant-16-w-bluetooth-soundbar/p/itm8fbbb30ed1fce?pid=ACCGFTFKSEWGYABF&lid=LSTACCGFTFKSEWGYABFDYZP02&marketplace=FLIPKART&q=Speaker&store=0pm%2F0o7&srno=s_1_1&otracker=search&otracker1=search&fm=Search&iid=en_eEof3HTcBrO66ezEt5dQ_dsRVHUWVFXTGyq9E-R8YpygIJY-eT5x7xf5e-G7hs8f6teuzB4t4o1UENEn2X7bK8y8JQ4kIOX7f8sEYenXu9Hz2h1SkkRe31CYrs-FJwsl&ppt=sp&ppn=sp&ssid=bgvx3fpr7k0000001791356764305&qH=22cc65fdfc4417d6&ov_redirect=true&ov_redirect=true
+2026-10-07 12:36:08 - INFO - Image  : https://rukminim2.flixcart.com/image/612/612/xif0q/speaker/m/h/s/-original-imaggrf8mfkyyvvj.jpeg?q=70
+2026-10-07 12:36:08 - INFO - 
+Total products selected: 1
+2026-10-07 12:36:08 - INFO - Get Products - Speaker completed successfully.
+2026-10-07 12:36:25 - ERROR - Excel update failed for 'Speaker': expected str, bytes or os.PathLike object, not list
+2026-10-07 12:36:25 - ERROR - Excel update failed for 'Speaker': expected str, bytes or os.PathLike object, not list
+2026-10-07 12:36:25 - INFO - Excel updated: Speaker -> Found
+2026-10-07 12:36:25 - INFO - 
+==================================================
+2026-10-07 12:36:25 - INFO - Processing Product : Shirt
+2026-10-07 12:36:25 - INFO - Maximum Price      : 1500
+2026-10-07 12:36:25 - INFO - Customer Rating    : 4
+2026-10-07 12:36:25 - INFO - ==================================================
+2026-10-07 12:36:25 - INFO - Search Shirt - Attempt 1/2
+2026-10-07 12:36:25 - INFO - Searching product: Shirt
+2026-10-07 12:36:28 - INFO - Product entered: Shirt
+2026-10-07 12:36:28 - INFO - Search clicked: Shirt
+2026-10-07 12:36:31 - INFO - Search completed successfully: Shirt
+2026-10-07 12:36:31 - INFO - Search Shirt completed successfully.
+2026-10-07 12:36:31 - INFO - Price Filter - Attempt 1/2
+2026-10-07 12:36:31 - INFO - Applying price filter: 1500
+2026-10-07 12:36:31 - INFO - Price filter found.
+2026-10-07 12:36:31 - INFO - Price dropdowns found: 2
+2026-10-07 12:36:31 - INFO - Maximum price selected: 1500
+2026-10-07 12:36:31 - INFO - Price Filter completed successfully.
+2026-10-07 12:36:31 - INFO - Rating Filter - Attempt 1/2
+2026-10-07 12:36:31 - INFO - Applying rating filter: 4
+2026-10-07 12:36:31 - INFO - Customer Ratings filter found.
+2026-10-07 12:36:31 - INFO - Looking for rating option: 4★ & above
+2026-10-07 12:36:31 - INFO - Rating options are already visible.
+2026-10-07 12:36:31 - INFO - Rating checkbox found: 4★ & above
+2026-10-07 12:36:31 - INFO - Current checkbox state: False
+2026-10-07 12:36:32 - INFO - Rating option clicked: 4★ & above
+2026-10-07 12:36:33 - INFO - Rating filter applied successfully: 4★ & above
+2026-10-07 12:36:33 - INFO - Rating Filter completed successfully.
+2026-10-07 12:36:33 - INFO - Get Products - Shirt - Attempt 1/2
+2026-10-07 12:36:33 - INFO - Getting products...
+2026-10-07 12:36:33 - INFO - Product cards found: 40
+2026-10-07 12:36:33 - INFO - 
+Product 1
+2026-10-07 12:36:33 - INFO - Name   : Men Regular Fit Solid Casual Shirt
+2026-10-07 12:36:33 - INFO - Price  : ₹1,110
+2026-10-07 12:36:33 - INFO - MRP    : ₹2,69958
+2026-10-07 12:36:33 - INFO - Rating : N/A
+2026-10-07 12:36:33 - INFO - URL    : https://www.flipkart.com/rare-rabbit-men-solid-casual-pink-shirt/p/itm50efc4b69b1fc?pid=SHTHMAQXGYNTKTYZ&lid=LSTSHTHMAQXGYNTKTYZ87XKT0&marketplace=FLIPKART&q=Shirt&store=clo%2Fash%2Faxc&srno=s_1_1&otracker=search&otracker1=search&fm=Search&iid=en_DtIFFtz7H5aj1ito_6a-JDEOzJcRtsVsfi4-AaCB9PtNWGRD4f48eoOYZMNV5dSomqL2trisG_qKSbVChg2tzmUdRp6BA01DMt96fmCMeyDGK3RU3iR-9-W8_T8ZNCxK&ppt=sp&ppn=sp&ssid=62g7eohl280000001791356788719&qH=3f1f22fd0c9264a1&ov_redirect=true
+2026-10-07 12:36:33 - INFO - Image  : https://rukminim2.flixcart.com/image/612/612/xif0q/shirt/9/f/q/-original-imahn7fdwnxshw7r.jpeg?q=70
+2026-10-07 12:36:33 - INFO - 
+Total products selected: 1
+2026-10-07 12:36:33 - INFO - Get Products - Shirt completed successfully.
+2026-10-07 12:36:50 - ERROR - Excel update failed for 'Shirt': expected str, bytes or os.PathLike object, not list
+2026-10-07 12:36:50 - ERROR - Excel update failed for 'Shirt': expected str, bytes or os.PathLike object, not list
+2026-10-07 12:36:50 - INFO - Excel updated: Shirt -> Found
+2026-10-07 12:36:53 - INFO - Cart step done. Added 0 item(s).
+2026-10-07 12:36:53 - INFO - Run summary - Success: 2, Failed: 3, Skipped: 0
+2026-10-07 12:36:58 - INFO - Execution email sent.
+2026-10-07 12:36:58 - INFO - Browser closed.
+2026-10-07 12:36:58 - ERROR - Automation failed
+2026-10-07 12:36:58 - INFO - Flipkart Automation Completed

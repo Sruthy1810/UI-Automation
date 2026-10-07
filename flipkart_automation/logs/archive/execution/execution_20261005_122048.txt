@@ -1,0 +1,16 @@
+2026-10-05 12:20:48 - INFO - Flipkart Automation Started
+2026-10-05 12:20:48 - INFO - BOT RUNNER STARTED
+2026-10-05 12:20:48 - INFO - Archived: execution_20261005_121330.txt
+2026-10-05 12:20:48 - INFO - Archived: Rating Filter_attempt1_20261005_121502.png
+2026-10-05 12:20:48 - INFO - Archived: bot_failed_20261005_121350.png
+2026-10-05 12:20:48 - INFO - Archived: Search smart watch_attempt2_20261005_121350.png
+2026-10-05 12:20:50 - ERROR - Automation failed: send_trigger_email() missing 1 required positional argument: 'total_products'
+Traceback (most recent call last):
+  File "C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\flipkart_automation\modules\bot_runner.py", line 82, in run_bot
+    send_trigger_email()
+    ~~~~~~~~~~~~~~~~~~^^
+TypeError: send_trigger_email() missing 1 required positional argument: 'total_products'
+2026-10-05 12:20:51 - INFO - Failure screenshot saved: C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\flipkart_automation\Screenshots\failed\bot_failed_20261005_122050.png
+2026-10-05 12:20:59 - INFO - Browser closed.
+2026-10-05 12:20:59 - ERROR - Automation failed
+2026-10-05 12:20:59 - INFO - Flipkart Automation Completed

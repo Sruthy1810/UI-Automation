@@ -52,3 +52,6 @@ def get_receiver_email():
 
 def get_log_folder():
     return Path(config["FILES"]["LOG_FOLDER"])
+
+def get_cart_url():
+    return config["FLIPKART"]["CART_URL"]

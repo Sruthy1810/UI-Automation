@@ -1,0 +1,72 @@
+2026-10-07 12:11:13 - INFO - Flipkart Automation Started
+2026-10-07 12:11:13 - INFO - BOT RUNNER STARTED
+2026-10-07 12:11:13 - INFO - Archived: execution_20261005_142700.txt
+2026-10-07 12:11:13 - INFO - Archived: Add to Cart_attempt2_20261005_141428.png
+2026-10-07 12:11:18 - INFO - Products found: 5
+2026-10-07 12:11:18 - INFO - Products in Excel: 5 | Already Success (skipped): 0 | To process: 5
+2026-10-07 12:11:22 - INFO - Trigger email sent successfully.
+2026-10-07 12:11:22 - INFO - Trigger email sent.
+2026-10-07 12:11:22 - INFO - Opening Flipkart...
+2026-10-07 12:11:24 - INFO - Flipkart opened successfully
+2026-10-07 12:11:24 - INFO - Logging into flipkart
+2026-10-07 12:11:27 - INFO - 
+==================================================
+2026-10-07 12:11:27 - INFO - Processing Product : smart watch
+2026-10-07 12:11:27 - INFO - Maximum Price      : 5000
+2026-10-07 12:11:27 - INFO - Customer Rating    : 3
+2026-10-07 12:11:27 - INFO - ==================================================
+2026-10-07 12:11:27 - INFO - Search smart watch - Attempt 1/2
+2026-10-07 12:11:27 - INFO - Searching product: smart watch
+2026-10-07 12:11:30 - INFO - Product entered: smart watch
+2026-10-07 12:11:31 - INFO - Search clicked: smart watch
+2026-10-07 12:11:34 - INFO - Search completed successfully: smart watch
+2026-10-07 12:11:34 - INFO - Search smart watch completed successfully.
+2026-10-07 12:11:34 - INFO - Price Filter - Attempt 1/2
+2026-10-07 12:11:34 - INFO - Applying price filter: 5000
+2026-10-07 12:11:34 - INFO - Price filter found.
+2026-10-07 12:11:34 - INFO - Price dropdowns found: 2
+2026-10-07 12:11:34 - INFO - Maximum price selected: 5000
+2026-10-07 12:11:34 - INFO - Price Filter completed successfully.
+2026-10-07 12:11:34 - INFO - Rating Filter - Attempt 1/2
+2026-10-07 12:11:34 - INFO - Applying rating filter: 3
+2026-10-07 12:11:34 - INFO - Customer Ratings filter found.
+2026-10-07 12:11:34 - INFO - Looking for rating option: 3★ & above
+2026-10-07 12:11:34 - INFO - Rating options are already visible.
+2026-10-07 12:11:34 - INFO - Rating checkbox found: 3★ & above
+2026-10-07 12:11:34 - INFO - Current checkbox state: False
+2026-10-07 12:11:35 - INFO - Rating option clicked: 3★ & above
+2026-10-07 12:11:36 - INFO - Rating filter applied successfully: 3★ & above
+2026-10-07 12:11:36 - INFO - Rating Filter completed successfully.
+2026-10-07 12:11:36 - INFO - Get Products - smart watch - Attempt 1/2
+2026-10-07 12:11:36 - INFO - Getting products...
+2026-10-07 12:11:36 - INFO - Product cards found: 40
+2026-10-07 12:11:36 - INFO - 
+Product 1
+2026-10-07 12:11:36 - INFO - Name   : Noise Colorfit Icon 2 1.8'' Display with Bluetooth Calling, AI Voice Assistant Smartwatch
+2026-10-07 12:11:36 - INFO - Price  : ₹1,499
+2026-10-07 12:11:36 - INFO - MRP    : ₹5,99975
+2026-10-07 12:11:36 - INFO - Rating : N/A
+2026-10-07 12:11:36 - INFO - URL    : https://www.flipkart.com/noise-colorfit-icon-2-1-8-display-bluetooth-calling-ai-voice-assistant-smartwatch/p/itmd4cd819eadb9f?pid=SMWGEH7VGYMGCP3V&lid=LSTSMWGEH7VGYMGCP3VXIJHDY&marketplace=FLIPKART&q=smart+watch&store=ajy%2Fbuh&srno=s_1_3&otracker=search&otracker1=search&fm=Search&iid=9dc7463d-b74d-4487-af20-9b73fb185ac2.SMWGEH7VGYMGCP3V.SEARCH&ppt=sp&ppn=sp&ssid=g2g47a2mo00000001791355292155&qH=acc05e33fb140cc4&ov_redirect=true
+2026-10-07 12:11:36 - INFO - Image  : https://rukminim2.flixcart.com/image/612/612/xif0q/minutes_enrichment_original/-enriched-original-SMWGEH7VGYMGCP3V_0.jpg?q=70
+2026-10-07 12:11:36 - INFO - 
+Product 2
+2026-10-07 12:11:36 - INFO - Name   : Noise Icon 2 1.8'' Display with Bluetooth Calling, Women's Edition, AI Voice Assistant Smartwatch
+2026-10-07 12:11:36 - INFO - Price  : ₹1,499
+2026-10-07 12:11:36 - INFO - MRP    : ₹5,99975
+2026-10-07 12:11:36 - INFO - Rating : N/A
+2026-10-07 12:11:36 - INFO - URL    : https://www.flipkart.com/noise-icon-2-1-8-display-bluetooth-calling-women-s-edition-ai-voice-assistant-smartwatch/p/itm968c523d99eae?pid=SMWGEH7VNGPYN5NV&lid=LSTSMWGEH7VNGPYN5NVEORYD7&marketplace=FLIPKART&q=smart+watch&store=ajy%2Fbuh&srno=s_1_2&otracker=search&otracker1=search&fm=Search&iid=en_its4uNgH_UFRmb_J11bC5DNzqvDj6qk4mTtiv7LktNYCa21prX0tTKznMnQMxQVp_X84Kx69Fuhjx73V2nsARHLGDirwftGqs2izSDFC1eFL8msdTTjShixyrDtWMMFi&ppt=sp&ppn=sp&ssid=g2g47a2mo00000001791355292155&qH=acc05e33fb140cc4&ov_redirect=true
+2026-10-07 12:11:36 - INFO - Image  : https://rukminim2.flixcart.com/image/612/612/xif0q/smartwatch/n/o/z/-enriched-transparent-original-imah76jstup5zdww.png?q=70
+2026-10-07 12:11:36 - INFO - 
+Product 3
+2026-10-07 12:11:36 - INFO - Name   : Noise Colorfit Icon 2 1.8'' Display with Bluetooth Calling, AI Voice Assistant Smartwatch
+2026-10-07 12:11:36 - INFO - Price  : ₹1,499
+2026-10-07 12:11:36 - INFO - MRP    : ₹5,99975
+2026-10-07 12:11:36 - INFO - Rating : N/A
+2026-10-07 12:11:36 - INFO - URL    : https://www.flipkart.com/noise-colorfit-icon-2-1-8-display-bluetooth-calling-ai-voice-assistant-smartwatch/p/itmd4cd819eadb9f?pid=SMWGEH7VGYMGCP3V&lid=LSTSMWGEH7VGYMGCP3VXIJHDY&marketplace=FLIPKART&q=smart+watch&store=ajy%2Fbuh&srno=s_1_3&otracker=search&otracker1=search&fm=Search&iid=9dc7463d-b74d-4487-af20-9b73fb185ac2.SMWGEH7VGYMGCP3V.SEARCH&ppt=sp&ppn=sp&ssid=g2g47a2mo00000001791355292155&qH=acc05e33fb140cc4&ov_redirect=true
+2026-10-07 12:11:36 - INFO - Image  : https://rukminim2.flixcart.com/image/612/612/xif0q/minutes_enrichment_original/-enriched-original-SMWGEH7VGYMGCP3V_0.jpg?q=70
+2026-10-07 12:11:36 - INFO - 
+Total products selected: 3
+2026-10-07 12:11:36 - INFO - Get Products - smart watch completed successfully.
+2026-10-07 12:11:58 - WARNING - Browser close skipped: Browser.close: Connection closed while reading from the driver
+2026-10-07 12:11:58 - INFO - Browser closed.
+2026-10-07 12:11:58 - INFO - Flipkart Automation Completed

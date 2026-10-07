@@ -343,7 +343,7 @@ async def get_products(page):
         def clean(text):
             return re.sub(r"\s+", " ", text).strip() if text else ""
 
-        for i in range(min(total, 3)):
+        for i in range(min(total, 1)):
             card = product_cards.nth(i)
 
             try:

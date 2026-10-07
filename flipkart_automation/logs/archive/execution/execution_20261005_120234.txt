@@ -1,0 +1,87 @@
+2026-10-05 12:02:35 - INFO - Flipkart Automation Started
+2026-10-05 12:02:35 - INFO - BOT RUNNER STARTED
+2026-10-05 12:02:35 - INFO - Archived: execution_20261005_120202.txt
+2026-10-05 12:02:35 - INFO - Archived: _error_20261005_115601.png
+2026-10-05 12:02:35 - INFO - Archived: Rating Filter_attempt3_20261005_115600.png
+2026-10-05 12:02:42 - INFO - Trigger email sent successfully.
+2026-10-05 12:02:42 - INFO - Trigger email sent.
+2026-10-05 12:02:42 - INFO - Opening Flipkart...
+2026-10-05 12:02:44 - INFO - Flipkart opened successfully
+2026-10-05 12:02:44 - INFO - Logging into flipkart
+2026-10-05 12:02:46 - INFO - Continue button clicked.
+2026-10-05 12:02:55 - INFO - OTP Continue button clicked.
+2026-10-05 12:02:58 - INFO - Products found: 5
+2026-10-05 12:02:58 - INFO - Products found in Excel: 5
+2026-10-05 12:02:58 - INFO - 
+==================================================
+2026-10-05 12:02:58 - INFO - Processing Product : smart watch
+2026-10-05 12:02:58 - INFO - Maximum Price      : 5000
+2026-10-05 12:02:58 - INFO - Customer Rating    : 3
+2026-10-05 12:02:58 - INFO - ==================================================
+2026-10-05 12:02:58 - INFO - Search smart watch - Attempt 1/3
+2026-10-05 12:02:58 - INFO - Searching product: smart watch
+2026-10-05 12:03:01 - INFO - Product entered: smart watch
+2026-10-05 12:03:01 - INFO - Search clicked: smart watch
+2026-10-05 12:03:04 - INFO - Search completed successfully: smart watch
+2026-10-05 12:03:04 - INFO - Search smart watch completed successfully.
+2026-10-05 12:03:04 - INFO - Price Filter - Attempt 1/3
+2026-10-05 12:03:04 - INFO - Applying price filter: 5000
+2026-10-05 12:03:04 - INFO - Price filter found.
+2026-10-05 12:03:04 - INFO - Price dropdowns found: 2
+2026-10-05 12:03:05 - INFO - Maximum price selected: 5000
+2026-10-05 12:03:05 - INFO - Price Filter completed successfully.
+2026-10-05 12:03:05 - INFO - Rating Filter - Attempt 1/3
+2026-10-05 12:03:05 - INFO - Applying rating filter: 3
+2026-10-05 12:03:05 - INFO - Customer Ratings filter found.
+2026-10-05 12:03:05 - INFO - Looking for rating option: 3★ & above
+2026-10-05 12:03:05 - INFO - Rating options are already visible.
+2026-10-05 12:03:05 - INFO - Rating checkbox found: 3★ & above
+2026-10-05 12:03:05 - INFO - Current checkbox state: False
+2026-10-05 12:03:06 - INFO - Rating option clicked: 3★ & above
+2026-10-05 12:03:07 - INFO - Rating filter applied successfully: 3★ & above
+2026-10-05 12:03:07 - INFO - Rating Filter completed successfully.
+2026-10-05 12:03:07 - INFO - Get Products - smart watch - Attempt 1/3
+2026-10-05 12:03:07 - INFO - Getting products...
+2026-10-05 12:03:07 - INFO - Product cards found: 40
+2026-10-05 12:03:07 - INFO - 
+Product 1
+2026-10-05 12:03:07 - INFO - Name   : Noise Colorfit Icon 2 1.8'' Display with Bluetooth Calling, AI Voice Assistant Smartwatch
+2026-10-05 12:03:07 - INFO - Price  : ₹1,499
+2026-10-05 12:03:07 - INFO - MRP    : ₹5,99975
+2026-10-05 12:03:07 - INFO - Rating : N/A
+2026-10-05 12:03:07 - INFO - URL    : https://www.flipkart.com/noise-colorfit-icon-2-1-8-display-bluetooth-calling-ai-voice-assistant-smartwatch/p/itmd4cd819eadb9f?pid=SMWGEH7VGYMGCP3V&lid=LSTSMWGEH7VGYMGCP3VXIJHDY&marketplace=FLIPKART&q=smart+watch&store=ajy%2Fbuh&srno=s_1_1&otracker=search&otracker1=search&fm=Search&iid=en_o7bi3pLl7La7fWMsQFwcMk_ZtClQIxmx_Q1URbE3-HFeNw2xNSbZSpTBvvMJGVGicdRKuXpL4Oi7I9_PiiQQbmVR48euatCXTLsJoBxWUhssiVsKuit_N3BFUc66xZ0C&ppt=sp&ppn=sp&ssid=e01tmrkcm80000001791181982518&qH=acc05e33fb140cc4&ov_redirect=true
+2026-10-05 12:03:07 - INFO - Image  : https://rukminim2.flixcart.com/image/612/612/xif0q/minutes_enrichment_original/-enriched-original-SMWGEH7VGYMGCP3V_0.jpg?q=70
+2026-10-05 12:03:07 - INFO - 
+Product 2
+2026-10-05 12:03:07 - INFO - Name   : Noise Icon 2 Gen 2 - 1.81 Display, BT Calling, 500 NITS Brightness Smartwatch
+2026-10-05 12:03:07 - INFO - Price  : ₹1,399
+2026-10-05 12:03:07 - INFO - MRP    : ₹5,99976
+2026-10-05 12:03:07 - INFO - Rating : N/A
+2026-10-05 12:03:07 - INFO - URL    : https://www.flipkart.com/noise-icon-2-gen-1-81-display-bt-calling-500-nits-brightness-smartwatch/p/itm19231bf80a61d?pid=SMWH7NZFERHW3K3Y&lid=LSTSMWH7NZFERHW3K3YC55LHZ&marketplace=FLIPKART&q=smart+watch&store=ajy%2Fbuh&srno=s_1_2&otracker=search&otracker1=search&fm=Search&iid=en_o7bi3pLl7La7fWMsQFwcMk_ZtClQIxmx_Q1URbE3-HFB5O3xEnp8jSfFwZe7hWOm3KkBYeLB_Mxg5QShQFvB9bp0qfJ2IWw6bpbqfISNKSygmWz6dO1W4RHnON16tH4h&ppt=sp&ppn=sp&ssid=e01tmrkcm80000001791181982518&qH=acc05e33fb140cc4&ov_redirect=true
+2026-10-05 12:03:07 - INFO - Image  : https://rukminim2.flixcart.com/image/612/612/xif0q/smartwatch/q/a/n/45-72-wrb-sw-colorfiticon2-2025-std-blk-blk-android-ios-noise-enriched-transparent-original-imahe6dt3gazezmm.png?q=70
+2026-10-05 12:03:07 - INFO - 
+Product 3
+2026-10-05 12:03:07 - INFO - Name   : Samsung Galaxy Fit3 | AMOLED Display & Aluminium Body | Upto 13Day Battery | 5ATM & IP68
+2026-10-05 12:03:07 - INFO - Price  : ₹3,899
+2026-10-05 12:03:07 - INFO - MRP    : ₹9,99961
+2026-10-05 12:03:07 - INFO - Rating : N/A
+2026-10-05 12:03:07 - INFO - URL    : https://www.flipkart.com/samsung-galaxy-fit3-amoled-display-aluminium-body-upto-13day-battery-5atm-ip68/p/itm5d52a219c74a5?pid=SMWGY6YRYKY3GXQU&lid=LSTSMWGY6YRYKY3GXQURNE9WV&marketplace=FLIPKART&q=smart+watch&store=ajy%2Fbuh&srno=s_1_3&otracker=search&otracker1=search&fm=Search&iid=acd8c33e-3abb-46cd-9c2d-0edae68ba491.SMWGY6YRYKY3GXQU.SEARCH&ppt=sp&ppn=sp&ssid=e01tmrkcm80000001791181982518&qH=acc05e33fb140cc4&ov_redirect=true
+2026-10-05 12:03:07 - INFO - Image  : https://rukminim2.flixcart.com/image/612/612/xif0q/smartwatch/n/l/a/-enriched-transparent-original-imahgh9twzzte3uf.png?q=70
+2026-10-05 12:03:07 - INFO - 
+Total products selected: 3
+2026-10-05 12:03:07 - INFO - Get Products - smart watch completed successfully.
+2026-10-05 12:03:07 - INFO - Products extracted for smart watch
+2026-10-05 12:03:10 - INFO - Excel updated: smart watch -> Found
+2026-10-05 12:03:10 - INFO - 
+==================================================
+2026-10-05 12:03:10 - INFO - Processing Product : Phone
+2026-10-05 12:03:10 - INFO - Maximum Price      : 20000
+2026-10-05 12:03:10 - INFO - Customer Rating    : 4
+2026-10-05 12:03:10 - INFO - ==================================================
+2026-10-05 12:03:10 - INFO - Search Phone - Attempt 1/3
+2026-10-05 12:03:10 - INFO - Searching product: Phone
+2026-10-05 12:03:13 - INFO - Product entered: Phone
+2026-10-05 12:03:14 - INFO - Search clicked: Phone
+2026-10-05 12:03:15 - WARNING - Browser close skipped: Browser.close: Connection closed while reading from the driver
+2026-10-05 12:03:15 - INFO - Browser closed.
+2026-10-05 12:03:15 - INFO - Flipkart Automation Completed
