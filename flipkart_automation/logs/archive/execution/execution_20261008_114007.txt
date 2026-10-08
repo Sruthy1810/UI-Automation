@@ -1,0 +1,264 @@
+2026-10-08 11:40:07 - INFO - Flipkart Automation Started
+2026-10-08 11:40:07 - INFO - BOT RUNNER STARTED
+2026-10-08 11:40:07 - INFO - Archived: execution_20261008_102847.txt
+2026-10-08 11:40:07 - INFO - Archived: Speaker_error_20261008_103139.png
+2026-10-08 11:40:11 - INFO - Products found: 5
+2026-10-08 11:40:11 - INFO - Products in Excel: 5 | Already Success (skipped): 0 | To process: 5
+2026-10-08 11:40:16 - INFO - Trigger email sent successfully.
+2026-10-08 11:40:16 - INFO - Trigger email sent.
+2026-10-08 11:40:16 - INFO - Opening Flipkart...
+2026-10-08 11:40:18 - INFO - Flipkart opened successfully
+2026-10-08 11:40:18 - INFO - Logging into flipkart
+2026-10-08 11:40:21 - INFO - 
+==================================================
+2026-10-08 11:40:21 - INFO - Processing Product : smart watch
+2026-10-08 11:40:21 - INFO - Maximum Price      : 5000
+2026-10-08 11:40:21 - INFO - Customer Rating    : 3
+2026-10-08 11:40:21 - INFO - ==================================================
+2026-10-08 11:40:21 - INFO - Search smart watch - Attempt 1/2
+2026-10-08 11:40:21 - INFO - Searching product: smart watch
+2026-10-08 11:40:24 - INFO - Product entered: smart watch
+2026-10-08 11:40:24 - INFO - Search clicked: smart watch
+2026-10-08 11:40:27 - INFO - Search completed successfully: smart watch
+2026-10-08 11:40:27 - INFO - Search smart watch completed successfully.
+2026-10-08 11:40:27 - INFO - Price Filter - Attempt 1/2
+2026-10-08 11:40:27 - INFO - Applying price filter: 5000
+2026-10-08 11:40:27 - INFO - Price filter found.
+2026-10-08 11:40:27 - INFO - Price dropdowns found: 2
+2026-10-08 11:40:27 - INFO - Maximum price selected: 5000
+2026-10-08 11:40:27 - INFO - Price Filter completed successfully.
+2026-10-08 11:40:27 - INFO - Rating Filter - Attempt 1/2
+2026-10-08 11:40:27 - INFO - Applying rating filter: 3
+2026-10-08 11:40:27 - INFO - Customer Ratings filter found.
+2026-10-08 11:40:27 - INFO - Looking for rating option: 3★ & above
+2026-10-08 11:40:27 - INFO - Rating options are already visible.
+2026-10-08 11:40:27 - INFO - Rating checkbox found: 3★ & above
+2026-10-08 11:40:27 - INFO - Current checkbox state: False
+2026-10-08 11:40:28 - INFO - Rating option clicked: 3★ & above
+2026-10-08 11:40:29 - INFO - Rating filter applied successfully: 3★ & above
+2026-10-08 11:40:29 - INFO - Rating Filter completed successfully.
+2026-10-08 11:40:29 - INFO - Get Products - smart watch - Attempt 1/2
+2026-10-08 11:40:29 - INFO - Getting products...
+2026-10-08 11:40:29 - INFO - Product cards found: 40
+2026-10-08 11:40:29 - INFO - 
+Product 1
+2026-10-08 11:40:29 - INFO - Name   : Noise Colorfit Icon 2 1.8'' Display with Bluetooth Calling, AI Voice Assistant Smartwatch
+2026-10-08 11:40:29 - INFO - Price  : ₹1,099
+2026-10-08 11:40:29 - INFO - MRP    : ₹5,99981
+2026-10-08 11:40:29 - INFO - Rating : N/A
+2026-10-08 11:40:29 - INFO - URL    : https://www.flipkart.com/noise-colorfit-icon-2-1-8-display-bluetooth-calling-ai-voice-assistant-smartwatch/p/itmd4cd819eadb9f?pid=SMWGEH7VGYMGCP3V&lid=LSTSMWGEH7VGYMGCP3VXIJHDY&marketplace=FLIPKART&q=smart+watch&store=ajy%2Fbuh&srno=s_1_3&otracker=search&otracker1=search&fm=Search&iid=428d408c-fb52-4011-a063-0cf7948bea48.SMWGEH7VGYMGCP3V.SEARCH&ppt=sp&ppn=sp&ssid=jryff99vw00000001791439825399&qH=acc05e33fb140cc4&ov_redirect=true
+2026-10-08 11:40:29 - INFO - Image  : https://rukminim2.flixcart.com/image/612/612/xif0q/minutes_enrichment_original/-enriched-original-SMWGEH7VGYMGCP3V_0.jpg?q=70
+2026-10-08 11:40:29 - INFO - 
+Total products selected: 1
+2026-10-08 11:40:29 - INFO - Get Products - smart watch completed successfully.
+2026-10-08 11:40:41 - INFO - Product email sent for: smart watch (Success)
+2026-10-08 11:40:45 - INFO - Product email sent for: Noise Colorfit Icon 2 1.8&#x27;&#x27; Display with Bluetooth Calling, AI Voice Assistant Smartwatch (Success)
+2026-10-08 11:40:45 - INFO - Excel row 2: Status=Success | Remarks=
+2026-10-08 11:40:45 - INFO - Excel row 2: Status=Success | Remarks=1 of 1 products added to cart
+2026-10-08 11:40:45 - INFO - 
+==================================================
+2026-10-08 11:40:45 - INFO - Processing Product : Phone
+2026-10-08 11:40:45 - INFO - Maximum Price      : 20000
+2026-10-08 11:40:45 - INFO - Customer Rating    : 4
+2026-10-08 11:40:45 - INFO - ==================================================
+2026-10-08 11:40:45 - INFO - Search Phone - Attempt 1/2
+2026-10-08 11:40:45 - INFO - Searching product: Phone
+2026-10-08 11:40:48 - INFO - Product entered: Phone
+2026-10-08 11:40:48 - INFO - Search clicked: Phone
+2026-10-08 11:40:51 - INFO - Search completed successfully: Phone
+2026-10-08 11:40:51 - INFO - Search Phone completed successfully.
+2026-10-08 11:40:51 - INFO - Price Filter - Attempt 1/2
+2026-10-08 11:40:51 - INFO - Applying price filter: 20000
+2026-10-08 11:40:51 - INFO - Price filter found.
+2026-10-08 11:40:51 - INFO - Price dropdowns found: 2
+2026-10-08 11:40:51 - INFO - Maximum price selected: 20000
+2026-10-08 11:40:51 - INFO - Price Filter completed successfully.
+2026-10-08 11:40:51 - INFO - Rating Filter - Attempt 1/2
+2026-10-08 11:40:51 - INFO - Applying rating filter: 4
+2026-10-08 11:40:51 - INFO - Customer Ratings filter found.
+2026-10-08 11:40:51 - INFO - Looking for rating option: 4★ & above
+2026-10-08 11:40:53 - INFO - Rating options are collapsed. Clicking Customer Ratings.
+2026-10-08 11:40:53 - INFO - Customer Ratings section clicked.
+2026-10-08 11:40:53 - INFO - Rating options are now visible.
+2026-10-08 11:40:53 - INFO - Rating checkbox found: 4★ & above
+2026-10-08 11:40:53 - INFO - Current checkbox state: False
+2026-10-08 11:40:54 - INFO - Rating option clicked: 4★ & above
+2026-10-08 11:41:25 - ERROR - Customer Ratings section, rating option, or checkbox not found.
+2026-10-08 11:41:25 - ERROR - Rating Filter failed on attempt 1/2: Locator.is_checked: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("section.KNnSWQ").filter(has_text="Customer Ratings").first.locator("div[title=\"4★ & above\"]").locator("input[type=\"checkbox\"]")
+
+2026-10-08 11:41:25 - INFO - Failure screenshot saved: C:\Users\Admin\OneDrive - StayAhead\Documents\Demo_Sruthy\flipkart_automation\Screenshots\failed\Rating Filter_attempt1_20261008_114125.png
+2026-10-08 11:41:27 - INFO - Rating Filter - Attempt 2/2
+2026-10-08 11:41:27 - INFO - Applying rating filter: 4
+2026-10-08 11:41:27 - INFO - Customer Ratings filter found.
+2026-10-08 11:41:27 - INFO - Looking for rating option: 4★ & above
+2026-10-08 11:41:29 - INFO - Rating options are collapsed. Clicking Customer Ratings.
+2026-10-08 11:41:29 - INFO - Customer Ratings section clicked.
+2026-10-08 11:41:29 - INFO - Rating options are now visible.
+2026-10-08 11:41:29 - INFO - Rating checkbox found: 4★ & above
+2026-10-08 11:41:29 - INFO - Current checkbox state: True
+2026-10-08 11:41:29 - INFO - Rating already selected: 4★ & above
+2026-10-08 11:41:30 - INFO - Rating filter applied successfully: 4★ & above
+2026-10-08 11:41:30 - INFO - Rating Filter completed successfully.
+2026-10-08 11:41:30 - INFO - Get Products - Phone - Attempt 1/2
+2026-10-08 11:41:30 - INFO - Getting products...
+2026-10-08 11:41:30 - INFO - Product cards found: 24
+2026-10-08 11:41:30 - INFO - 
+Product 1
+2026-10-08 11:41:30 - INFO - Name   : BOLTT EVO (Midnight Black, 64 GB)
+2026-10-08 11:41:30 - INFO - Price  : ₹9,999
+2026-10-08 11:41:30 - INFO - MRP    : ₹17,99944
+2026-10-08 11:41:30 - INFO - Rating : 4.3
+2026-10-08 11:41:30 - INFO - URL    : https://www.flipkart.com/boltt-evo-midnight-black-64-gb/p/itmf046d663a1fd7?pid=MOBHPP597GB8ZHTY&lid=LSTMOBHPP597GB8ZHTYGYX70A&marketplace=FLIPKART&q=Phone&store=tyy%2F4io&srno=s_1_1&otracker=search&otracker1=search&fm=Search&iid=en_LkJi7-pujlGrGg-2He5fBOfa7LYt7kX6sT_5JzLHEZ-e3_xuQaslPh4ViiUSCXUf9Ou-TN2wYWfYf9BNHQxv9_-AzXGzJAmqbMDPWv8koZG_vIN44wftcxFudkmAYzvX&ppt=sp&ppn=sp&ssid=k77lki751s0000001791439848773&qH=bcc254b55c4a1bab&ov_redirect=true
+2026-10-08 11:41:30 - INFO - Image  : https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/p/l/m/-resized-original-imahqk5pabfpqz4g.jpeg?q=70
+2026-10-08 11:41:30 - INFO - 
+Total products selected: 1
+2026-10-08 11:41:30 - INFO - Get Products - Phone completed successfully.
+2026-10-08 11:41:48 - INFO - Product email sent for: Phone (Success)
+2026-10-08 11:41:52 - INFO - Product email sent for: BOLTT EVO (Midnight Black, 64 GB) (Success)
+2026-10-08 11:41:52 - INFO - Excel row 3: Status=Success | Remarks=
+2026-10-08 11:41:52 - INFO - Excel row 3: Status=Success | Remarks=1 of 1 products added to cart
+2026-10-08 11:41:52 - INFO - 
+==================================================
+2026-10-08 11:41:52 - INFO - Processing Product : Headphone
+2026-10-08 11:41:52 - INFO - Maximum Price      : 2000
+2026-10-08 11:41:52 - INFO - Customer Rating    : 3
+2026-10-08 11:41:52 - INFO - ==================================================
+2026-10-08 11:41:52 - INFO - Search Headphone - Attempt 1/2
+2026-10-08 11:41:52 - INFO - Searching product: Headphone
+2026-10-08 11:41:55 - INFO - Product entered: Headphone
+2026-10-08 11:41:55 - INFO - Search clicked: Headphone
+2026-10-08 11:41:58 - INFO - Search completed successfully: Headphone
+2026-10-08 11:41:58 - INFO - Search Headphone completed successfully.
+2026-10-08 11:41:58 - INFO - Price Filter - Attempt 1/2
+2026-10-08 11:41:58 - INFO - Applying price filter: 2000
+2026-10-08 11:41:58 - INFO - Price filter found.
+2026-10-08 11:41:58 - INFO - Price dropdowns found: 2
+2026-10-08 11:41:58 - INFO - Maximum price selected: 2000
+2026-10-08 11:41:58 - INFO - Price Filter completed successfully.
+2026-10-08 11:41:58 - INFO - Rating Filter - Attempt 1/2
+2026-10-08 11:41:58 - INFO - Applying rating filter: 3
+2026-10-08 11:41:58 - INFO - Customer Ratings filter found.
+2026-10-08 11:41:58 - INFO - Looking for rating option: 3★ & above
+2026-10-08 11:41:58 - INFO - Rating options are already visible.
+2026-10-08 11:41:58 - INFO - Rating checkbox found: 3★ & above
+2026-10-08 11:41:58 - INFO - Current checkbox state: False
+2026-10-08 11:41:59 - INFO - Rating option clicked: 3★ & above
+2026-10-08 11:42:00 - INFO - Rating filter applied successfully: 3★ & above
+2026-10-08 11:42:00 - INFO - Rating Filter completed successfully.
+2026-10-08 11:42:00 - INFO - Get Products - Headphone - Attempt 1/2
+2026-10-08 11:42:00 - INFO - Getting products...
+2026-10-08 11:42:00 - INFO - Product cards found: 40
+2026-10-08 11:42:00 - INFO - 
+Product 1
+2026-10-08 11:42:00 - INFO - Name   : TRIGGR Punkheadz Z4 with 50H Battery, Dual Pairing, 40mm Drivers, Gaming Mode, BT v6.0 Bluetooth
+2026-10-08 11:42:00 - INFO - Price  : ₹899
+2026-10-08 11:42:00 - INFO - MRP    : ₹3,99977
+2026-10-08 11:42:00 - INFO - Rating : 4.1
+2026-10-08 11:42:00 - INFO - URL    : https://www.flipkart.com/triggr-punkheadz-z4-50h-battery-dual-pairing-40mm-drivers-gaming-mode-bt-v6-0-bluetooth/p/itm94db24ce3745b?pid=ACCHZFYTG3QWQFKH&lid=LSTACCHZFYTG3QWQFKHNVSTPY&marketplace=FLIPKART&q=Headphone&store=0pm%2Ffcn&srno=s_1_1&otracker=search&otracker1=search&fm=Search&iid=en_-X069Qb3bMA7NdSNr-3zotpcthW73P1b7eRhfjCLTQ1khhzHvq3lEK5npfpNaPDvLHFffN1Sc07PnFivTDyqelrdLBo5KKmQItoH6ktCQgSjPJwlHW3kxsXdYFZu1thn&ppt=sp&ppn=sp&ssid=hi83tg8rpc0000001791439915410&qH=52f40b8ad1f6b467&ov_redirect=true&ov_redirect=true
+2026-10-08 11:42:00 - INFO - Image  : https://rukminim2.flixcart.com/image/612/612/xif0q/headphone/z/g/m/-original-imahpczs5zk2u24a.jpeg?q=70
+2026-10-08 11:42:00 - INFO - 
+Total products selected: 1
+2026-10-08 11:42:00 - INFO - Get Products - Headphone completed successfully.
+2026-10-08 11:42:11 - INFO - Product email sent for: Headphone (Success)
+2026-10-08 11:42:15 - INFO - Product email sent for: TRIGGR Punkheadz Z4 with 50H Battery, Dual Pairing, 40mm Drivers, Gaming Mode, BT v6.0 Bluetooth (Success)
+2026-10-08 11:42:15 - INFO - Excel row 4: Status=Success | Remarks=
+2026-10-08 11:42:15 - INFO - Excel row 4: Status=Success | Remarks=1 of 1 products added to cart
+2026-10-08 11:42:15 - INFO - 
+==================================================
+2026-10-08 11:42:15 - INFO - Processing Product : Speaker
+2026-10-08 11:42:15 - INFO - Maximum Price      : 800
+2026-10-08 11:42:15 - INFO - Customer Rating    : 4
+2026-10-08 11:42:15 - INFO - ==================================================
+2026-10-08 11:42:15 - INFO - Search Speaker - Attempt 1/2
+2026-10-08 11:42:15 - INFO - Searching product: Speaker
+2026-10-08 11:42:18 - INFO - Product entered: Speaker
+2026-10-08 11:42:18 - INFO - Search clicked: Speaker
+2026-10-08 11:42:21 - INFO - Search completed successfully: Speaker
+2026-10-08 11:42:21 - INFO - Search Speaker completed successfully.
+2026-10-08 11:42:21 - INFO - Price Filter - Attempt 1/2
+2026-10-08 11:42:21 - INFO - Applying price filter: 800
+2026-10-08 11:42:21 - INFO - Price filter found.
+2026-10-08 11:42:21 - INFO - Price dropdowns found: 2
+2026-10-08 11:42:21 - INFO - Maximum price selected: 800
+2026-10-08 11:42:21 - INFO - Price Filter completed successfully.
+2026-10-08 11:42:21 - INFO - Rating Filter - Attempt 1/2
+2026-10-08 11:42:21 - INFO - Applying rating filter: 4
+2026-10-08 11:42:21 - INFO - Customer Ratings filter found.
+2026-10-08 11:42:21 - INFO - Looking for rating option: 4★ & above
+2026-10-08 11:42:21 - INFO - Rating options are already visible.
+2026-10-08 11:42:21 - INFO - Rating checkbox found: 4★ & above
+2026-10-08 11:42:21 - INFO - Current checkbox state: False
+2026-10-08 11:42:22 - INFO - Rating option clicked: 4★ & above
+2026-10-08 11:42:23 - INFO - Rating filter applied successfully: 4★ & above
+2026-10-08 11:42:23 - INFO - Rating Filter completed successfully.
+2026-10-08 11:42:23 - INFO - Get Products - Speaker - Attempt 1/2
+2026-10-08 11:42:23 - INFO - Getting products...
+2026-10-08 11:42:23 - INFO - Product cards found: 40
+2026-10-08 11:42:23 - INFO - 
+Product 1
+2026-10-08 11:42:23 - INFO - Name   : TRIGGR Roar 12 Portable BT, V5.3, FM Mode, Rubber Finish, 8 Hr Playtime 12 W Bluetooth Speaker
+2026-10-08 11:42:23 - INFO - Price  : ₹729
+2026-10-08 11:42:23 - INFO - MRP    : ₹3,99981
+2026-10-08 11:42:23 - INFO - Rating : 4.3
+2026-10-08 11:42:23 - INFO - URL    : https://www.flipkart.com/triggr-roar-12-portable-bt-v5-3-fm-mode-rubber-finish-8-hr-playtime-w-bluetooth-speaker/p/itm21547e8af7782?pid=ACCHEAX6MFHPPRHR&lid=LSTACCHEAX6MFHPPRHRR5E2ZQ&marketplace=FLIPKART&q=Speaker&store=0pm%2F0o7&srno=s_1_1&otracker=search&otracker1=search&fm=Search&iid=en_bPwd0Uo4K3ApDTlqNa1XdA9hW5scL-6cn7fy0tT2AUUu1Jhf6xma53ONskQQ6BqvSdnYqPzY6X15ln-RLj3F8rfiNFc_BMlQYdbHXocb3x3CGx6ZEKKuWT07on9247JF&ppt=sp&ppn=sp&ssid=0jagb1rq680000001791439938602&qH=22cc65fdfc4417d6&ov_redirect=true&ov_redirect=true
+2026-10-08 11:42:23 - INFO - Image  : https://rukminim2.flixcart.com/image/612/612/xif0q/speaker/b/y/8/-original-imahfntyygufcykj.jpeg?q=70
+2026-10-08 11:42:23 - INFO - 
+Total products selected: 1
+2026-10-08 11:42:23 - INFO - Get Products - Speaker completed successfully.
+2026-10-08 11:42:35 - INFO - Product email sent for: Speaker (Success)
+2026-10-08 11:42:40 - INFO - Product email sent for: TRIGGR Roar 12 Portable BT, V5.3, FM Mode, Rubber Finish, 8 Hr Playtime 12 W Bluetooth Speaker (Success)
+2026-10-08 11:42:40 - INFO - Excel row 5: Status=Success | Remarks=
+2026-10-08 11:42:40 - INFO - Excel row 5: Status=Success | Remarks=1 of 1 products added to cart
+2026-10-08 11:42:40 - INFO - 
+==================================================
+2026-10-08 11:42:40 - INFO - Processing Product : Shirt
+2026-10-08 11:42:40 - INFO - Maximum Price      : 1500
+2026-10-08 11:42:40 - INFO - Customer Rating    : 4
+2026-10-08 11:42:40 - INFO - ==================================================
+2026-10-08 11:42:40 - INFO - Search Shirt - Attempt 1/2
+2026-10-08 11:42:40 - INFO - Searching product: Shirt
+2026-10-08 11:42:43 - INFO - Product entered: Shirt
+2026-10-08 11:42:43 - INFO - Search clicked: Shirt
+2026-10-08 11:42:46 - INFO - Search completed successfully: Shirt
+2026-10-08 11:42:46 - INFO - Search Shirt completed successfully.
+2026-10-08 11:42:46 - INFO - Price Filter - Attempt 1/2
+2026-10-08 11:42:46 - INFO - Applying price filter: 1500
+2026-10-08 11:42:46 - INFO - Price filter found.
+2026-10-08 11:42:46 - INFO - Price dropdowns found: 2
+2026-10-08 11:42:46 - INFO - Maximum price selected: 1500
+2026-10-08 11:42:46 - INFO - Price Filter completed successfully.
+2026-10-08 11:42:46 - INFO - Rating Filter - Attempt 1/2
+2026-10-08 11:42:46 - INFO - Applying rating filter: 4
+2026-10-08 11:42:46 - INFO - Customer Ratings filter found.
+2026-10-08 11:42:46 - INFO - Looking for rating option: 4★ & above
+2026-10-08 11:42:46 - INFO - Rating options are already visible.
+2026-10-08 11:42:46 - INFO - Rating checkbox found: 4★ & above
+2026-10-08 11:42:46 - INFO - Current checkbox state: False
+2026-10-08 11:42:47 - INFO - Rating option clicked: 4★ & above
+2026-10-08 11:42:48 - INFO - Rating filter applied successfully: 4★ & above
+2026-10-08 11:42:48 - INFO - Rating Filter completed successfully.
+2026-10-08 11:42:48 - INFO - Get Products - Shirt - Attempt 1/2
+2026-10-08 11:42:48 - INFO - Getting products...
+2026-10-08 11:42:48 - INFO - Product cards found: 40
+2026-10-08 11:42:48 - INFO - 
+Product 1
+2026-10-08 11:42:48 - INFO - Name   : Men Slim Fit Checkered Button Down Collar Casual Shirt
+2026-10-08 11:42:48 - INFO - Price  : ₹521
+2026-10-08 11:42:48 - INFO - MRP    : ₹1,79971
+2026-10-08 11:42:48 - INFO - Rating : N/A
+2026-10-08 11:42:48 - INFO - URL    : https://www.flipkart.com/bear-house-men-checkered-casual-maroon-shirt/p/itme1db6a5051049?pid=SHTFXXDHBB2VYHHF&lid=LSTSHTFXXDHBB2VYHHF99DEPG&marketplace=FLIPKART&q=Shirt&store=clo%2Fash%2Faxc&srno=s_1_1&otracker=search&otracker1=search&fm=Search&iid=en_XzCnMmACX5qSVE1W6tWwNJGQpLwRZv8aUFvqQlKgR7VA0jeNeDaJz3aXfkbWDLW4vI2kz1y_DsbtsVbrzjitfnU-JvtLJhlNzLtXWqSotRA1b4Kqow86MxWSzs4-eoe-&ppt=sp&ppn=sp&ssid=8jyy8w9m2o0000001791439963429&qH=3f1f22fd0c9264a1&ov_redirect=true
+2026-10-08 11:42:48 - INFO - Image  : https://rukminim2.flixcart.com/image/612/612/xif0q/shirt/2/o/a/s-tbh-uber-mr-the-bear-house-original-imahcdynajzpwvup.jpeg?q=70
+2026-10-08 11:42:48 - INFO - 
+Total products selected: 1
+2026-10-08 11:42:48 - INFO - Get Products - Shirt completed successfully.
+2026-10-08 11:43:00 - INFO - Product email sent for: Shirt (Failed)
+2026-10-08 11:43:00 - INFO - Excel row 6: Status=Success | Remarks=
+2026-10-08 11:43:00 - INFO - Excel row 6: Status=Failed | Remarks=Products found but none could be added to cart | Men Slim Fit Checkered Button Down Collar Casual Shirt: Product needs a size but Size is empty in Excel
+2026-10-08 11:43:04 - INFO - Cart step done. Added 0 item(s).
+2026-10-08 11:43:04 - INFO - Run summary - Success: 4, Failed: 1, Skipped: 0
+2026-10-08 11:43:09 - INFO - Execution email sent.
+2026-10-08 11:43:10 - INFO - Browser closed.
+2026-10-08 11:43:10 - ERROR - Automation failed
+2026-10-08 11:43:10 - INFO - Flipkart Automation Completed

@@ -1,0 +1,62 @@
+2026-10-08 14:28:58 - INFO - Flipkart Automation Started
+2026-10-08 14:28:58 - INFO - BOT RUNNER STARTED
+2026-10-08 14:28:58 - INFO - Archived: execution_20261008_141035.txt
+2026-10-08 14:29:00 - INFO - Row colours synced for 4 row(s)
+2026-10-08 14:29:00 - INFO - Products found: 5
+2026-10-08 14:29:00 - INFO - Products in Excel: 5 | Already Success (skipped): 4 | To process: 1
+2026-10-08 14:29:04 - INFO - Trigger email sent successfully.
+2026-10-08 14:29:04 - INFO - Trigger email sent.
+2026-10-08 14:29:04 - INFO - Opening Flipkart...
+2026-10-08 14:29:07 - INFO - Flipkart opened successfully
+2026-10-08 14:29:07 - INFO - Logging into flipkart
+2026-10-08 14:29:10 - INFO - 
+==================================================
+2026-10-08 14:29:10 - INFO - Processing Product : Speaker
+2026-10-08 14:29:10 - INFO - Maximum Price      : 1300
+2026-10-08 14:29:10 - INFO - Customer Rating    : 4
+2026-10-08 14:29:10 - INFO - ==================================================
+2026-10-08 14:29:10 - INFO - Search Speaker - Attempt 1/2
+2026-10-08 14:29:10 - INFO - Searching product: Speaker
+2026-10-08 14:29:13 - INFO - Product entered: Speaker
+2026-10-08 14:29:13 - INFO - Search clicked: Speaker
+2026-10-08 14:29:16 - INFO - Search completed successfully: Speaker
+2026-10-08 14:29:16 - INFO - Search Speaker completed successfully.
+2026-10-08 14:29:16 - INFO - Price Filter - Attempt 1/2
+2026-10-08 14:29:16 - INFO - Applying price filter: 1300
+2026-10-08 14:29:16 - INFO - Price filter found.
+2026-10-08 14:29:16 - INFO - Price dropdowns found: 2
+2026-10-08 14:29:16 - INFO - Maximum price selected: 1300
+2026-10-08 14:29:16 - INFO - Price Filter completed successfully.
+2026-10-08 14:29:16 - INFO - Rating Filter - Attempt 1/2
+2026-10-08 14:29:16 - INFO - Applying rating filter: 4
+2026-10-08 14:29:16 - INFO - Customer Ratings filter found.
+2026-10-08 14:29:16 - INFO - Looking for rating option: 4★ & above
+2026-10-08 14:29:16 - INFO - Rating options are already visible.
+2026-10-08 14:29:17 - INFO - Rating checkbox found: 4★ & above
+2026-10-08 14:29:17 - INFO - Current checkbox state: False
+2026-10-08 14:29:17 - INFO - Rating option clicked: 4★ & above
+2026-10-08 14:29:18 - INFO - Rating filter applied successfully: 4★ & above
+2026-10-08 14:29:18 - INFO - Rating Filter completed successfully.
+2026-10-08 14:29:18 - INFO - Get Products - Speaker - Attempt 1/2
+2026-10-08 14:29:18 - INFO - Getting products...
+2026-10-08 14:29:19 - INFO - Product cards found: 40
+2026-10-08 14:29:19 - INFO - 
+Product 1
+2026-10-08 14:29:19 - INFO - Name   : Mivi Fort S24 with Dual Full Range Drivers, 6Hrs Playback, Voice Assistant 24 W Bluetooth Soundbar
+2026-10-08 14:29:19 - INFO - Price  : ₹1,199
+2026-10-08 14:29:19 - INFO - MRP    : ₹3,99970
+2026-10-08 14:29:19 - INFO - Rating : 4
+2026-10-08 14:29:19 - INFO - URL    : https://www.flipkart.com/mivi-fort-s24-dual-full-range-drivers-6hrs-playback-voice-assistant-24-w-bluetooth-soundbar/p/itm6306a85c1e536?pid=ACCGFTFKKYHBSBKV&lid=LSTACCGFTFKKYHBSBKVD2UZYR&marketplace=FLIPKART&q=Speaker&store=0pm%2F0o7&srno=s_1_4&otracker=search&otracker1=search&fm=Search&iid=59b2a9be-d4f6-49ac-b455-734bed2c356a.ACCGFTFKKYHBSBKV.SEARCH&ppt=sp&ppn=sp&ssid=fw8ppy68yo0000001791449954584&qH=22cc65fdfc4417d6&ov_redirect=true&ov_redirect=true
+2026-10-08 14:29:19 - INFO - Image  : https://rukminim2.flixcart.com/image/612/612/xif0q/speaker/y/b/j/-enriched-transparent-original-imahc5fqyugfsx2b.png?q=70
+2026-10-08 14:29:19 - INFO - 
+Total products selected: 1
+2026-10-08 14:29:19 - INFO - Get Products - Speaker completed successfully.
+2026-10-08 14:29:43 - INFO - Product email sent for: Speaker (Failed)
+2026-10-08 14:29:43 - INFO - Product email already sent, skipping: https://www.flipkart.com/mivi-fort-s24-dual-full-range-drivers-6hrs-playback-voice-assistant-24-w-bluetooth-soundbar/p/itm6306a85c1e536?pid=ACCGFTFKKYHBSBKV&lid=LSTACCGFTFKKYHBSBKVD2UZYR&marketplace=FLIPKART&q=Speaker&store=0pm%2F0o7&srno=s_1_4&otracker=search&otracker1=search&fm=Search&iid=59b2a9be-d4f6-49ac-b455-734bed2c356a.ACCGFTFKKYHBSBKV.SEARCH&ppt=sp&ppn=sp&ssid=fw8ppy68yo0000001791449954584&qH=22cc65fdfc4417d6&ov_redirect=true&ov_redirect=true
+2026-10-08 14:29:43 - INFO - Excel row 5: Status=Failed | Remarks=Products found but none could be added to cart | Mivi Fort S24 with Dual Full Range Drivers, 6Hrs Playback, Voice Assistant 24 W Bluetooth Soundbar: Add to cart button not found (neither text nor icon)
+2026-10-08 14:29:47 - INFO - Cart step done. Added 0 item(s).
+2026-10-08 14:29:47 - INFO - Run summary - Success: 0, Failed: 1, Skipped: 4
+2026-10-08 14:29:51 - INFO - Execution email sent.
+2026-10-08 14:29:52 - INFO - Browser closed.
+2026-10-08 14:29:52 - ERROR - Automation failed
+2026-10-08 14:29:52 - INFO - Flipkart Automation Completed

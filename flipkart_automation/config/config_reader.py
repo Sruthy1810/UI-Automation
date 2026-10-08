@@ -55,3 +55,10 @@ def get_log_folder():
 
 def get_cart_url():
     return config["FLIPKART"]["CART_URL"]
+
+def get_max_products():
+    try:
+        value = int(config["SETTINGS"]["max_products"])   # use your section/object names
+        return max(1, value)                               # never less than 1
+    except Exception:
+        return 1  

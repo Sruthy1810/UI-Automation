@@ -1,0 +1,65 @@
+2026-10-08 12:03:34 - INFO - Flipkart Automation Started
+2026-10-08 12:03:34 - INFO - BOT RUNNER STARTED
+2026-10-08 12:03:34 - INFO - Archived: execution_20261008_110012.txt
+2026-10-08 12:03:34 - INFO - Archived: Shirt_error_20261008_103210.png
+2026-10-08 12:03:37 - INFO - Products found: 5
+2026-10-08 12:03:37 - INFO - Products in Excel: 5 | Already Success (skipped): 4 | To process: 1
+2026-10-08 12:03:41 - INFO - Trigger email sent successfully.
+2026-10-08 12:03:41 - INFO - Trigger email sent.
+2026-10-08 12:03:41 - INFO - Opening Flipkart...
+2026-10-08 12:03:43 - INFO - Flipkart opened successfully
+2026-10-08 12:03:43 - INFO - Logging into flipkart
+2026-10-08 12:03:46 - INFO - 
+==================================================
+2026-10-08 12:03:46 - INFO - Processing Product : Shirt
+2026-10-08 12:03:46 - INFO - Maximum Price      : 1500
+2026-10-08 12:03:46 - INFO - Customer Rating    : 4
+2026-10-08 12:03:46 - INFO - ==================================================
+2026-10-08 12:03:46 - INFO - Search Shirt - Attempt 1/2
+2026-10-08 12:03:46 - INFO - Searching product: Shirt
+2026-10-08 12:03:49 - INFO - Product entered: Shirt
+2026-10-08 12:03:50 - INFO - Search clicked: Shirt
+2026-10-08 12:03:53 - INFO - Search completed successfully: Shirt
+2026-10-08 12:03:53 - INFO - Search Shirt completed successfully.
+2026-10-08 12:03:53 - INFO - Price Filter - Attempt 1/2
+2026-10-08 12:03:53 - INFO - Applying price filter: 1500
+2026-10-08 12:03:53 - INFO - Price filter found.
+2026-10-08 12:03:53 - INFO - Price dropdowns found: 2
+2026-10-08 12:03:53 - INFO - Maximum price selected: 1500
+2026-10-08 12:03:53 - INFO - Price Filter completed successfully.
+2026-10-08 12:03:53 - INFO - Rating Filter - Attempt 1/2
+2026-10-08 12:03:53 - INFO - Applying rating filter: 4
+2026-10-08 12:03:53 - INFO - Customer Ratings filter found.
+2026-10-08 12:03:53 - INFO - Looking for rating option: 4★ & above
+2026-10-08 12:03:53 - INFO - Rating options are already visible.
+2026-10-08 12:03:53 - INFO - Rating checkbox found: 4★ & above
+2026-10-08 12:03:53 - INFO - Current checkbox state: False
+2026-10-08 12:03:54 - INFO - Rating option clicked: 4★ & above
+2026-10-08 12:03:55 - INFO - Rating filter applied successfully: 4★ & above
+2026-10-08 12:03:55 - INFO - Rating Filter completed successfully.
+2026-10-08 12:03:55 - INFO - Get Products - Shirt - Attempt 1/2
+2026-10-08 12:03:55 - INFO - Getting products...
+2026-10-08 12:03:55 - INFO - Product cards found: 40
+2026-10-08 12:03:55 - INFO - 
+Product 1
+2026-10-08 12:03:55 - INFO - Name   : Men Slim Fit Checkered Button Down Collar Casual Shirt
+2026-10-08 12:03:55 - INFO - Price  : ₹521
+2026-10-08 12:03:55 - INFO - MRP    : ₹1,79971
+2026-10-08 12:03:55 - INFO - Rating : N/A
+2026-10-08 12:03:55 - INFO - URL    : https://www.flipkart.com/bear-house-men-checkered-casual-maroon-shirt/p/itme1db6a5051049?pid=SHTFXXDHBB2VYHHF&lid=LSTSHTFXXDHBB2VYHHF99DEPG&marketplace=FLIPKART&q=Shirt&store=clo%2Fash%2Faxc&srno=s_1_1&otracker=search&otracker1=search&fm=Search&iid=en_EQ144GBpwl99-qypgmuoyEsCY0kXQH0UfytFV-iirbpQWYDAJdyjrpYzif_6pwFovI2kz1y_DsbtsVbrzjitfnU-JvtLJhlNzLtXWqSotRD8iPe5B_K4ZrEsuAUne-F4&ppt=sp&ppn=sp&ssid=5aw5p6e4z40000001791441231183&qH=3f1f22fd0c9264a1&ov_redirect=true
+2026-10-08 12:03:55 - INFO - Image  : https://rukminim2.flixcart.com/image/612/612/xif0q/shirt/2/o/a/s-tbh-uber-mr-the-bear-house-original-imahcdynajzpwvup.jpeg?q=70
+2026-10-08 12:03:55 - INFO - 
+Total products selected: 1
+2026-10-08 12:03:55 - INFO - Get Products - Shirt completed successfully.
+2026-10-08 12:04:07 - INFO - Product email sent for: Men Slim Fit Checkered Button Down Collar Casual Shirt (Failed)
+2026-10-08 12:04:07 - INFO - Product email already sent, skipping: https://www.flipkart.com/bear-house-men-checkered-casual-maroon-shirt/p/itme1db6a5051049?pid=SHTFXXDHBB2VYHHF&lid=LSTSHTFXXDHBB2VYHHF99DEPG&marketplace=FLIPKART&q=Shirt&store=clo%2Fash%2Faxc&srno=s_1_1&otracker=search&otracker1=search&fm=Search&iid=en_EQ144GBpwl99-qypgmuoyEsCY0kXQH0UfytFV-iirbpQWYDAJdyjrpYzif_6pwFovI2kz1y_DsbtsVbrzjitfnU-JvtLJhlNzLtXWqSotRD8iPe5B_K4ZrEsuAUne-F4&ppt=sp&ppn=sp&ssid=5aw5p6e4z40000001791441231183&qH=3f1f22fd0c9264a1&ov_redirect=true
+2026-10-08 12:04:07 - WARNING - Excel is open/locked (attempt 1/3). Retrying...
+2026-10-08 12:04:09 - WARNING - Excel is open/locked (attempt 2/3). Retrying...
+2026-10-08 12:04:11 - WARNING - Excel is open/locked (attempt 3/3). Retrying...
+2026-10-08 12:04:13 - ERROR - COULD NOT SAVE Excel for 'Shirt'. Close product.xlsx and pause OneDrive sync.
+2026-10-08 12:04:18 - INFO - Cart step done. Added 0 item(s).
+2026-10-08 12:04:18 - INFO - Run summary - Success: 0, Failed: 1, Skipped: 4
+2026-10-08 12:04:22 - INFO - Execution email sent.
+2026-10-08 12:04:22 - INFO - Browser closed.
+2026-10-08 12:04:22 - ERROR - Automation failed
+2026-10-08 12:04:22 - INFO - Flipkart Automation Completed

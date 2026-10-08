@@ -1,110 +1,246 @@
+import re
 from openpyxl import load_workbook
+from openpyxl.styles import PatternFill
 from config.config_reader import get_product_file
 from utils.logger import logger
-from openpyxl.styles import PatternFill
-import math
-import re
-
+import time
 GREEN = PatternFill("solid", fgColor="C6EFCE")
 RED = PatternFill("solid", fgColor="FFC7CE")
+
 
 def is_missing(value):
     """True if a cell is empty. 0 is treated as a real value."""
     return value is None or str(value).strip() == ""
 
 
-def mark_rows_red(row_numbers):
-    """
-    Color the given Excel rows red and clear their 'Found/Not' cell.
-    Never raises, so it can't stop the bot.
-    """
-
-    if not row_numbers:
-        return
-
-    workbook = None
-
-    try:
-        file_path = get_product_file()
-
-        workbook = load_workbook(filename=str(file_path))
-        sheet = workbook.active
-
-        red_fill = PatternFill(fill_type="solid", fgColor="FF0000")
-
-        headers = {}
-
-        for cell in sheet[1]:
-            if cell.value:
-                headers[str(cell.value).strip()] = cell.column
-
-        status_col = headers.get("Status")
-
-        for row in row_numbers:
-
-            for column in range(1, sheet.max_column + 1):
-                sheet.cell(row=row, column=column).fill = red_fill
-
-            # No result for an unprocessed row
-            if status_col:
-               sheet.cell(row=row, column=status_col).value = None
-
-        workbook.save(str(file_path))
-
-        logger.info(f"Marked rows red (missing data): {row_numbers}")
-
-    except PermissionError:
-        logger.error(
-            "Could not mark rows: the file is open. Close it and run again."
-        )
-
-    except Exception as e:
-        logger.error(f"Could not mark rows red: {e}")
-
-    finally:
-        if workbook:
-            workbook.close()
-
-
-SIZE_MAP = {
-    "EXTRA SMALL": "XS", "X-SMALL": "XS", "XSMALL": "XS",
-    "SMALL": "S",
-    "MEDIUM": "M",
-    "LARGE": "L",
-    "EXTRA LARGE": "XL", "X-LARGE": "XL", "XLARGE": "XL",
-    "2XL": "XXL", "XXL": "XXL",
-    "3XL": "XXXL", "XXXL": "XXXL",
-    "FREE SIZE": "Free Size", "FREESIZE": "Free Size",
-    "FREE": "Free Size", "FS": "Free Size", "F/S": "Free Size",
-    "ONE SIZE": "Free Size", "OS": "Free Size",
-}
+# ---------------- SIZE HANDLING ----------------
 
 BLANKS = {"", "nan", "none", "na", "n/a", "-", "--"}
 
+# words in Excel -> letters on Flipkart
+SIZE_WORDS = {
+    "EXTRA SMALL": "XS", "X-SMALL": "XS", "XSMALL": "XS",
+    "SMALL": "S", "MEDIUM": "M", "LARGE": "L",
+    "EXTRA LARGE": "XL", "X-LARGE": "XL", "XLARGE": "XL",
+    "FREESIZE": "FREE SIZE", "FREE": "FREE SIZE", "FS": "FREE SIZE",
+    "F/S": "FREE SIZE", "ONE SIZE": "FREE SIZE", "OS": "FREE SIZE",
+}
+
+# other spellings Flipkart may use for the same size
+SIZE_ALIASES = {"3XL": "XXXL", "XXXL": "3XL", "2XL": "XXL", "XXL": "2XL",
+                "4XL": "XXXXL", "XXXXL": "4XL"}
+
+
 def normalize_size(value):
-    """40, 40.0, ' s ', '3xl' -> '40', '40', 'S', '3XL'. Returns None if empty."""
+    """Clean the Excel cell but keep combos: 40.0 -> '40', ' s ' -> 'S', '40/s' -> '40/S'."""
     if value is None:
         return None
     if isinstance(value, float) and value.is_integer():
         value = int(value)
     size = str(value).strip().upper()
-    if size in ("", "NAN", "NONE", "N/A", "-"):
+    if size.lower() in BLANKS:
         return None
     return size
 
 
+def parse_sizes(value):
+    """'40/S' -> ['40','S'];  'S,3XL' -> ['S','3XL','XXXL']"""
+    if value is None:
+        return []
+    text = str(value).strip()
+    if text.endswith(".0"):
+        text = text[:-2]
+    result = []
+    for part in re.split(r"[/,;|]+", text):
+        part = part.strip().upper()
+        part = SIZE_WORDS.get(part, part)
+        if part and part.lower() not in BLANKS and part not in result:
+            result.append(part)
+            alias = SIZE_ALIASES.get(part)
+            if alias and alias not in result:
+                result.append(alias)
+    return result
+
+
+# ---------------- EXCEL WRITING ----------------
+
+def mark_rows_red(row_numbers):
+    """
+    Color the given Excel rows red and clear their Status/Remarks cells.
+    Never raises, so it can't stop the bot.
+    """
+    if not row_numbers:
+        return
+
+    workbook = None
+    try:
+        file_path = get_product_file()
+        workbook = load_workbook(filename=str(file_path))
+        sheet = workbook.active
+
+        red_fill = PatternFill(fill_type="solid", fgColor="FF0000")
+        headers = {str(c.value).strip(): c.column for c in sheet[1] if c.value}
+        status_col = headers.get("Status")
+        remarks_col = headers.get("Remarks")
+
+        for row in row_numbers:
+            for column in range(1, sheet.max_column + 1):
+                sheet.cell(row=row, column=column).fill = red_fill
+            if status_col:
+                sheet.cell(row=row, column=status_col).value = None
+            if remarks_col:
+                sheet.cell(row=row, column=remarks_col).value = "Skipped: mandatory data missing"
+
+        workbook.save(str(file_path))
+        logger.info(f"Marked rows red (missing data): {row_numbers}")
+
+    except PermissionError:
+        logger.error("Could not mark rows: the file is open. Close it and run again.")
+    except Exception as e:
+        logger.error(f"Could not mark rows red: {e}")
+    finally:
+        if workbook:
+            workbook.close()
+
+
+def update_status(product, status, remarks="", name=None, row_num=None,
+                  excel_path=None, retries=3):
+    """
+    Write Status ('Success' / 'Failed') + Remarks and colour the WHOLE row
+    (green = Success, red = Failed). Retries if the file is locked.
+    Returns True if saved.
+    """
+    for attempt in range(1, retries + 1):
+        workbook = None
+        try:
+            path = excel_path or get_product_file()
+            workbook = load_workbook(str(path))
+            sheet = workbook.active
+
+            headers = {str(c.value).strip(): c.column for c in sheet[1] if c.value}
+
+            for col_name in ("Status", "Remarks"):
+                if col_name not in headers:
+                    new_col = sheet.max_column + 1
+                    sheet.cell(row=1, column=new_col, value=col_name)
+                    headers[col_name] = new_col
+
+            target_row = row_num
+
+            if target_row is None:
+                product_col = headers.get("Product")
+                name_col = headers.get("Name")
+                if product_col:
+                    for r in range(2, sheet.max_row + 1):
+                        if str(sheet.cell(r, product_col).value or "").strip().lower() \
+                                != str(product).strip().lower():
+                            continue
+                        if name and name_col and \
+                                str(sheet.cell(r, name_col).value or "").strip().lower() \
+                                != str(name).strip().lower():
+                            continue
+                        target_row = r
+                        break
+
+            if target_row is None:
+                logger.error(f"Excel row not found for product: {product}")
+                return False
+
+            sheet.cell(row=target_row, column=headers["Status"]).value = status
+            sheet.cell(row=target_row, column=headers["Remarks"]).value = str(remarks)[:250]
+
+            fill = GREEN if str(status).strip().lower() == "success" else RED
+            for col in range(1, sheet.max_column + 1):
+                sheet.cell(row=target_row, column=col).fill = fill
+
+            workbook.save(str(path))
+            logger.info(f"Excel row {target_row}: Status={status} | Remarks={remarks}")
+            return True
+
+        except PermissionError:
+            logger.warning(f"Excel is open/locked (attempt {attempt}/{retries}). Retrying...")
+            time.sleep(2)
+        except Exception as e:
+            logger.error(f"Excel update failed for '{product}': {e}")
+            return False
+        finally:
+            if workbook:
+                workbook.close()
+
+    logger.error(f"COULD NOT SAVE Excel for '{product}'. Close product.xlsx and pause OneDrive sync.")
+    return False
+
+
+update_cart_status = update_status
+
+
+def update_found_status(*args, **kwargs):
+    """No-op: the Found/Not column was removed. Kept so old imports don't break."""
+    return None
+
+def sync_row_colors(retries=3):
+    """
+    Repaint every data row from its Status cell:
+      Success -> green, Failed -> light red. Other rows are left alone.
+    Fixes old colours left by earlier versions. Never raises.
+    """
+    for attempt in range(1, retries + 1):
+        workbook = None
+        try:
+            path = get_product_file()
+            workbook = load_workbook(str(path))
+            sheet = workbook.active
+
+            headers = {str(c.value).strip(): c.column for c in sheet[1] if c.value}
+            status_col = headers.get("Status")
+            if not status_col:
+                return
+
+            changed = 0
+            for row in range(2, sheet.max_row + 1):
+                status = str(sheet.cell(row, status_col).value or "").strip().lower()
+                if status == "success":
+                    fill = GREEN
+                elif status == "failed":
+                    fill = RED
+                else:
+                    continue
+                for col in range(1, sheet.max_column + 1):
+                    sheet.cell(row=row, column=col).fill = fill
+                changed += 1
+
+            if changed:
+                workbook.save(str(path))
+                logger.info(f"Row colours synced for {changed} row(s)")
+            return
+
+        except PermissionError:
+            logger.warning(f"Excel is open/locked (attempt {attempt}/{retries}). Retrying...")
+            time.sleep(2)
+        except Exception as e:
+            logger.error(f"Could not sync row colours: {e}")
+            return
+        finally:
+            if workbook:
+                workbook.close()
+
+
+def is_already_success(product_data):
+    """True if this row was already processed successfully (skip it on rerun)."""
+    return str(product_data.get("Status") or "").strip().lower() == "success"
+
+
+is_already_found = is_already_success
+
+
+# ---------------- EXCEL READING ----------------
 
 def read_products():
 
     file_path = get_product_file()
-
     print(f"Reading product Excel: {file_path}")
 
-    workbook = load_workbook(
-        filename=str(file_path),
-        data_only=True
-    )
-
+    workbook = load_workbook(filename=str(file_path), data_only=True)
     sheet = workbook.active
 
     products = []
@@ -112,27 +248,20 @@ def read_products():
 
     headers = [str(c.value).strip() if c.value else "" for c in sheet[1]]
 
-    # --------------------------------
     # Validate required columns
-    # --------------------------------
     required_columns = [
         "Name", "Product", "Price", "Customer Ratings",
-         "Email", "Status", "Remarks", "Size"
+        "Email", "Status", "Remarks", "Size"
     ]
-
     for column in required_columns:
         if column not in headers:
             raise ValueError(f"{column} column not found in Excel.")
 
     mandatory_columns = ["Name", "Product", "Price", "Customer Ratings", "Email"]
 
-    # --------------------------------
     # Read customer rows
-    # --------------------------------
-    for row_num, row in enumerate(
-        sheet.iter_rows(min_row=2, values_only=True), start=2
-    ):
-        data = dict(zip(headers, row))   # includes Status and Remarks
+    for row_num, row in enumerate(sheet.iter_rows(min_row=2, values_only=True), start=2):
+        data = dict(zip(headers, row))
 
         missing = [c for c in mandatory_columns if is_missing(data.get(c))]
 
@@ -143,9 +272,7 @@ def read_products():
         # Some data missing: skip row and mark it red
         if missing:
             invalid_rows.append(row_num)
-            logger.warning(
-                f"Row {row_num} skipped, missing: {', '.join(missing)}"
-            )
+            logger.warning(f"Row {row_num} skipped, missing: {', '.join(missing)}")
             continue
 
         products.append({
@@ -164,6 +291,7 @@ def read_products():
 
     # Color invalid rows (after the workbook is closed)
     mark_rows_red(invalid_rows)
+    sync_row_colors()
 
     print(f"Products found: {len(products)}")
     logger.info(f"Products found: {len(products)}")
@@ -172,119 +300,3 @@ def read_products():
         logger.info(f"Rows skipped due to missing data: {len(invalid_rows)}")
 
     return products
-
-def update_found_status(product, status, name=None, row_num=None):
-    """
-    Write 'Found' / 'Not Found' in the 'Found/Not' column (that cell only).
-    Uses row_num when given, otherwise matches Product (and Name).
-    Never raises, so it can't stop the bot.
-    """
-    workbook = None
-    try:
-        file_path = get_product_file()
-        workbook = load_workbook(filename=str(file_path))
-        sheet = workbook.active
-
-        headers = {str(c.value).strip(): c.column for c in sheet[1] if c.value}
-        product_col = headers.get("Product")
-        name_col = headers.get("Name")
-        status_col = headers.get("Status")
-        remarks_col = headers.get("Remarks")
-
-        if not status_col:
-            logger.error("Excel column 'Status' not found.")
-            return
-
-        target_row = row_num
-
-        if target_row is None and product_col:
-            for row in range(2, sheet.max_row + 1):
-                if str(sheet.cell(row=row, column=product_col).value or "").strip().lower() \
-                        != str(product).strip().lower():
-                    continue
-                if name and name_col and \
-                        str(sheet.cell(row=row, column=name_col).value or "").strip().lower() \
-                        != str(name).strip().lower():
-                    continue
-                target_row = row
-                break
-
-        if target_row is None:
-            logger.error(f"Row not found in Excel for product: {product}")
-            return
-
-        cell = sheet.cell(row=target_row, column=status_col)
-        cell.value = status
-        cell.fill = GREEN if status.strip().lower() == "found" else RED
-
-        workbook.save(str(file_path))
-        logger.info(f"Excel row {target_row}: Found/Not={status}")
-
-    except PermissionError:
-        logger.error("Could not update Excel: the file is open. Close it and run again.")
-    except Exception as e:
-        logger.error(f"Could not update Excel: {e}")
-    finally:
-        if workbook:
-            workbook.close()
-
-def update_cart_status(product,  status, remarks, name=None, row_num=None,excel_path=None,):
-    """Write Status (Success/Failed) and Remarks for one Excel row.
-    Uses row_num when given, otherwise matches Product (and Name)."""
-    try:
-        excel_path = excel_path or get_product_file()
-        wb = load_workbook(excel_path)
-        ws = wb.active
-
-        headers = {
-            str(c.value).strip(): c.column
-            for c in ws[1] if c.value is not None
-        }
-
-        # Create the columns if missing
-        for col_name in ("Status", "Remarks"):
-            if col_name not in headers:
-                new_col = ws.max_column + 1
-                ws.cell(row=1, column=new_col, value=col_name)
-                headers[col_name] = new_col
-
-        target_row = row_num
-
-        # Fallback: find the row by Product (and Name)
-        if target_row is None:
-            product_col = headers["Product"]
-            name_col = headers.get("Name")
-
-            for row in range(2, ws.max_row + 1):
-                if str(ws.cell(row, product_col).value).strip() != str(product).strip():
-                    continue
-                if name and name_col and \
-                        str(ws.cell(row, name_col).value).strip() != str(name).strip():
-                    continue
-                target_row = row
-                break
-
-        if target_row is None:
-            logger.warning(f"Excel row not found for product: {product}")
-            wb.close()
-            return
-
-        status_cell = ws.cell(row=target_row, column=headers["Status"])
-        status_cell.value = status
-        status_cell.fill = GREEN if status == "Success" else RED
-
-        ws.cell(row=target_row, column=headers["Remarks"]).value = str(remarks)[:250]
-
-        wb.save(excel_path)
-        wb.close()
-        logger.info(f"Excel row {target_row}: Status={status}")
-
-    except PermissionError:
-        logger.error("Could not save Excel. Close product.xlsx and run again.")
-    except Exception as e:
-        logger.error(f"Excel update failed for '{product}': {e}")
-
-
-def is_already_found(product_data):
-    status = str(product_data.get("Status") or "").strip().lower()
-    return status == "found"

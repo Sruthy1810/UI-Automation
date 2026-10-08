@@ -1,0 +1,63 @@
+2026-10-08 14:14:29 - INFO - Flipkart Automation Started
+2026-10-08 14:14:29 - INFO - BOT RUNNER STARTED
+2026-10-08 14:14:29 - INFO - Archived: execution_20261008_135532.txt
+2026-10-08 14:14:32 - INFO - Row colours synced for 5 row(s)
+2026-10-08 14:14:32 - INFO - Products found: 5
+2026-10-08 14:14:32 - INFO - Products in Excel: 5 | Already Success (skipped): 4 | To process: 1
+2026-10-08 14:14:37 - INFO - Trigger email sent successfully.
+2026-10-08 14:14:37 - INFO - Trigger email sent.
+2026-10-08 14:14:37 - INFO - Opening Flipkart...
+2026-10-08 14:14:39 - INFO - Flipkart opened successfully
+2026-10-08 14:14:39 - INFO - Logging into flipkart
+2026-10-08 14:14:42 - INFO - 
+==================================================
+2026-10-08 14:14:42 - INFO - Processing Product : Shirt
+2026-10-08 14:14:42 - INFO - Maximum Price      : 1500
+2026-10-08 14:14:42 - INFO - Customer Rating    : 3
+2026-10-08 14:14:42 - INFO - ==================================================
+2026-10-08 14:14:42 - INFO - Search Shirt - Attempt 1/2
+2026-10-08 14:14:42 - INFO - Searching product: Shirt
+2026-10-08 14:14:45 - INFO - Product entered: Shirt
+2026-10-08 14:14:46 - INFO - Search clicked: Shirt
+2026-10-08 14:14:49 - INFO - Search completed successfully: Shirt
+2026-10-08 14:14:49 - INFO - Search Shirt completed successfully.
+2026-10-08 14:14:49 - INFO - Price Filter - Attempt 1/2
+2026-10-08 14:14:49 - INFO - Applying price filter: 1500
+2026-10-08 14:14:49 - INFO - Price filter found.
+2026-10-08 14:14:49 - INFO - Price dropdowns found: 2
+2026-10-08 14:14:49 - INFO - Maximum price selected: 1500
+2026-10-08 14:14:49 - INFO - Price Filter completed successfully.
+2026-10-08 14:14:49 - INFO - Rating Filter - Attempt 1/2
+2026-10-08 14:14:49 - INFO - Applying rating filter: 3
+2026-10-08 14:14:49 - INFO - Customer Ratings filter found.
+2026-10-08 14:14:49 - INFO - Looking for rating option: 3★ & above
+2026-10-08 14:14:49 - INFO - Rating options are already visible.
+2026-10-08 14:14:49 - INFO - Rating checkbox found: 3★ & above
+2026-10-08 14:14:49 - INFO - Current checkbox state: False
+2026-10-08 14:14:50 - INFO - Rating option clicked: 3★ & above
+2026-10-08 14:14:51 - INFO - Rating filter applied successfully: 3★ & above
+2026-10-08 14:14:51 - INFO - Rating Filter completed successfully.
+2026-10-08 14:14:51 - INFO - Get Products - Shirt - Attempt 1/2
+2026-10-08 14:14:51 - INFO - Getting products...
+2026-10-08 14:14:51 - INFO - Product cards found: 40
+2026-10-08 14:14:51 - INFO - 
+Product 1
+2026-10-08 14:14:51 - INFO - Name   : Men Regular Fit Solid Casual Shirt
+2026-10-08 14:14:51 - INFO - Price  : ₹659
+2026-10-08 14:14:51 - INFO - MRP    : ₹2,19970
+2026-10-08 14:14:51 - INFO - Rating : N/A
+2026-10-08 14:14:51 - INFO - URL    : https://www.flipkart.com/wrogn-men-solid-casual-light-blue-shirt/p/itmcb57c206612f4?pid=SHTHFJ8ZBXHFGQUA&lid=LSTSHTHFJ8ZBXHFGQUAQOTKTI&marketplace=FLIPKART&q=Shirt&store=clo%2Fash%2Faxc&srno=s_1_1&otracker=search&otracker1=search&fm=Search&iid=en_wnXIoNEMurwfGTo8ZhTFoHajU6rn6GaIj9e0c1bRFh2NzJ0a-EeZr9XLW2yB7Z6iu_-BlUlXMj6OqU0tnBdYI2VQpwOEwCaiWIOFPi8LlmUCKjwMDCkCTwdbKq-oadXd&ppt=sp&ppn=sp&ssid=8bvltygj4w0000001791449086710&qH=3f1f22fd0c9264a1&ov_redirect=true
+2026-10-08 14:14:51 - INFO - Image  : https://rukminim2.flixcart.com/image/612/612/xif0q/shirt/f/n/w/-original-imah38837cnsqadh.jpeg?q=70
+2026-10-08 14:14:51 - INFO - 
+Total products selected: 1
+2026-10-08 14:14:51 - INFO - Get Products - Shirt completed successfully.
+2026-10-08 14:15:08 - INFO - Product email sent for: Shirt (Success)
+2026-10-08 14:15:08 - INFO - Product email already sent, skipping: https://www.flipkart.com/wrogn-men-solid-casual-light-blue-shirt/p/itmcb57c206612f4?pid=SHTHFJ8ZBXHFGQUA&lid=LSTSHTHFJ8ZBXHFGQUAQOTKTI&marketplace=FLIPKART&q=Shirt&store=clo%2Fash%2Faxc&srno=s_1_1&otracker=search&otracker1=search&fm=Search&iid=en_wnXIoNEMurwfGTo8ZhTFoHajU6rn6GaIj9e0c1bRFh2NzJ0a-EeZr9XLW2yB7Z6iu_-BlUlXMj6OqU0tnBdYI2VQpwOEwCaiWIOFPi8LlmUCKjwMDCkCTwdbKq-oadXd&ppt=sp&ppn=sp&ssid=8bvltygj4w0000001791449086710&qH=3f1f22fd0c9264a1&ov_redirect=true
+2026-10-08 14:15:08 - INFO - Product email already sent, skipping: https://www.flipkart.com/wrogn-men-solid-casual-light-blue-shirt/p/itmcb57c206612f4?pid=SHTHFJ8ZBXHFGQUA&lid=LSTSHTHFJ8ZBXHFGQUAQOTKTI&marketplace=FLIPKART&q=Shirt&store=clo%2Fash%2Faxc&srno=s_1_1&otracker=search&otracker1=search&fm=Search&iid=en_wnXIoNEMurwfGTo8ZhTFoHajU6rn6GaIj9e0c1bRFh2NzJ0a-EeZr9XLW2yB7Z6iu_-BlUlXMj6OqU0tnBdYI2VQpwOEwCaiWIOFPi8LlmUCKjwMDCkCTwdbKq-oadXd&ppt=sp&ppn=sp&ssid=8bvltygj4w0000001791449086710&qH=3f1f22fd0c9264a1&ov_redirect=true
+2026-10-08 14:15:08 - INFO - Excel row 6: Status=Success | Remarks=1 of 1 products added to cart
+2026-10-08 14:15:12 - INFO - Cart step done. Added 0 item(s).
+2026-10-08 14:15:12 - INFO - Run summary - Success: 1, Failed: 0, Skipped: 4
+2026-10-08 14:15:15 - INFO - Execution email sent.
+2026-10-08 14:15:17 - INFO - Browser closed.
+2026-10-08 14:15:17 - ERROR - Automation failed
+2026-10-08 14:15:17 - INFO - Flipkart Automation Completed

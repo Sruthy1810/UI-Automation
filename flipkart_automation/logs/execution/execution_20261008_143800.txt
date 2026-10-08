@@ -1,0 +1,108 @@
+2026-10-08 14:38:01 - INFO - Flipkart Automation Started
+2026-10-08 14:38:01 - INFO - BOT RUNNER STARTED
+2026-10-08 14:38:01 - INFO - Archived: execution_20261008_142857.txt
+2026-10-08 14:38:04 - INFO - Row colours synced for 4 row(s)
+2026-10-08 14:38:04 - INFO - Products found: 5
+2026-10-08 14:38:04 - INFO - Products in Excel: 5 | Already Success (skipped): 3 | To process: 2
+2026-10-08 14:38:07 - INFO - Trigger email sent successfully.
+2026-10-08 14:38:07 - INFO - Trigger email sent.
+2026-10-08 14:38:07 - INFO - Opening Flipkart...
+2026-10-08 14:38:09 - INFO - Flipkart opened successfully
+2026-10-08 14:38:09 - INFO - Logging into flipkart
+2026-10-08 14:38:12 - INFO - 
+==================================================
+2026-10-08 14:38:12 - INFO - Processing Product : Headphone
+2026-10-08 14:38:12 - INFO - Maximum Price      : 2000
+2026-10-08 14:38:12 - INFO - Customer Rating    : 3
+2026-10-08 14:38:12 - INFO - ==================================================
+2026-10-08 14:38:12 - INFO - Search Headphone - Attempt 1/2
+2026-10-08 14:38:12 - INFO - Searching product: Headphone
+2026-10-08 14:38:15 - INFO - Product entered: Headphone
+2026-10-08 14:38:16 - INFO - Search clicked: Headphone
+2026-10-08 14:38:19 - INFO - Search completed successfully: Headphone
+2026-10-08 14:38:19 - INFO - Search Headphone completed successfully.
+2026-10-08 14:38:19 - INFO - Price Filter - Attempt 1/2
+2026-10-08 14:38:19 - INFO - Applying price filter: 2000
+2026-10-08 14:38:19 - INFO - Price filter found.
+2026-10-08 14:38:19 - INFO - Price dropdowns found: 2
+2026-10-08 14:38:19 - INFO - Maximum price selected: 2000
+2026-10-08 14:38:19 - INFO - Price Filter completed successfully.
+2026-10-08 14:38:19 - INFO - Rating Filter - Attempt 1/2
+2026-10-08 14:38:19 - INFO - Applying rating filter: 3
+2026-10-08 14:38:19 - INFO - Customer Ratings filter found.
+2026-10-08 14:38:19 - INFO - Looking for rating option: 3★ & above
+2026-10-08 14:38:19 - INFO - Rating options are already visible.
+2026-10-08 14:38:19 - INFO - Rating checkbox found: 3★ & above
+2026-10-08 14:38:19 - INFO - Current checkbox state: False
+2026-10-08 14:38:20 - INFO - Rating option clicked: 3★ & above
+2026-10-08 14:38:21 - INFO - Rating filter applied successfully: 3★ & above
+2026-10-08 14:38:21 - INFO - Rating Filter completed successfully.
+2026-10-08 14:38:21 - INFO - Get Products - Headphone - Attempt 1/2
+2026-10-08 14:38:21 - INFO - Getting products...
+2026-10-08 14:38:21 - INFO - Product cards found: 40
+2026-10-08 14:38:21 - INFO - 
+Product 1
+2026-10-08 14:38:21 - INFO - Name   : Mivi DuoPods Blaze [New launch], AI-ENC, 60 Hrs, 13mm Drivers, Fast Charging, BT v5.3 Bluetooth
+2026-10-08 14:38:21 - INFO - Price  : ₹699
+2026-10-08 14:38:21 - INFO - MRP    : ₹3,99982
+2026-10-08 14:38:21 - INFO - Rating : 4.1
+2026-10-08 14:38:21 - INFO - URL    : https://www.flipkart.com/mivi-duopods-blaze-new-launch-ai-enc-60-hrs-13mm-drivers-fast-charging-bt-v5-3-bluetooth/p/itmfce182b7f7cd7?pid=ACCHEYV9THQDE5ZZ&lid=LSTACCHEYV9THQDE5ZZOE4P6W&marketplace=FLIPKART&q=Headphone&store=0pm%2Ffcn&srno=s_1_1&otracker=search&otracker1=search&fm=Search&iid=en_ioXlsA4GKcQ5WDshvql7CeYk7kFAloteKRrvJey39EvKP3Vq4Q_LsH-vFQ5hQfDdlN_yblNvA8CaZP1JssvubKvgHD6c3LlvwUTG5ulc4GgmR1CM_cliMuomSeI0Bbfe&ppt=sp&ppn=sp&ssid=heicw82iio0000001791450497297&qH=52f40b8ad1f6b467&ov_redirect=true&ov_redirect=true
+2026-10-08 14:38:21 - INFO - Image  : https://rukminim2.flixcart.com/image/612/612/xif0q/headphone/y/d/6/-original-imahfq7e7jhgy2mh.jpeg?q=70
+2026-10-08 14:38:21 - INFO - 
+Total products selected: 1
+2026-10-08 14:38:21 - INFO - Get Products - Headphone completed successfully.
+2026-10-08 14:38:33 - INFO - Product email sent for: Headphone (Success)
+2026-10-08 14:38:33 - INFO - Product email already sent, skipping: https://www.flipkart.com/mivi-duopods-blaze-new-launch-ai-enc-60-hrs-13mm-drivers-fast-charging-bt-v5-3-bluetooth/p/itmfce182b7f7cd7?pid=ACCHEYV9THQDE5ZZ&lid=LSTACCHEYV9THQDE5ZZOE4P6W&marketplace=FLIPKART&q=Headphone&store=0pm%2Ffcn&srno=s_1_1&otracker=search&otracker1=search&fm=Search&iid=en_ioXlsA4GKcQ5WDshvql7CeYk7kFAloteKRrvJey39EvKP3Vq4Q_LsH-vFQ5hQfDdlN_yblNvA8CaZP1JssvubKvgHD6c3LlvwUTG5ulc4GgmR1CM_cliMuomSeI0Bbfe&ppt=sp&ppn=sp&ssid=heicw82iio0000001791450497297&qH=52f40b8ad1f6b467&ov_redirect=true&ov_redirect=true
+2026-10-08 14:38:33 - INFO - Product email already sent, skipping: https://www.flipkart.com/mivi-duopods-blaze-new-launch-ai-enc-60-hrs-13mm-drivers-fast-charging-bt-v5-3-bluetooth/p/itmfce182b7f7cd7?pid=ACCHEYV9THQDE5ZZ&lid=LSTACCHEYV9THQDE5ZZOE4P6W&marketplace=FLIPKART&q=Headphone&store=0pm%2Ffcn&srno=s_1_1&otracker=search&otracker1=search&fm=Search&iid=en_ioXlsA4GKcQ5WDshvql7CeYk7kFAloteKRrvJey39EvKP3Vq4Q_LsH-vFQ5hQfDdlN_yblNvA8CaZP1JssvubKvgHD6c3LlvwUTG5ulc4GgmR1CM_cliMuomSeI0Bbfe&ppt=sp&ppn=sp&ssid=heicw82iio0000001791450497297&qH=52f40b8ad1f6b467&ov_redirect=true&ov_redirect=true
+2026-10-08 14:38:33 - INFO - Excel row 4: Status=Success | Remarks=1 of 1 products added to cart
+2026-10-08 14:38:33 - INFO - 
+==================================================
+2026-10-08 14:38:33 - INFO - Processing Product : Speaker
+2026-10-08 14:38:33 - INFO - Maximum Price      : 800
+2026-10-08 14:38:33 - INFO - Customer Rating    : 4
+2026-10-08 14:38:33 - INFO - ==================================================
+2026-10-08 14:38:33 - INFO - Search Speaker - Attempt 1/2
+2026-10-08 14:38:33 - INFO - Searching product: Speaker
+2026-10-08 14:38:36 - INFO - Product entered: Speaker
+2026-10-08 14:38:36 - INFO - Search clicked: Speaker
+2026-10-08 14:38:39 - INFO - Search completed successfully: Speaker
+2026-10-08 14:38:39 - INFO - Search Speaker completed successfully.
+2026-10-08 14:38:39 - INFO - Price Filter - Attempt 1/2
+2026-10-08 14:38:39 - INFO - Applying price filter: 800
+2026-10-08 14:38:39 - INFO - Price filter found.
+2026-10-08 14:38:39 - INFO - Price dropdowns found: 2
+2026-10-08 14:38:39 - INFO - Maximum price selected: 800
+2026-10-08 14:38:39 - INFO - Price Filter completed successfully.
+2026-10-08 14:38:39 - INFO - Rating Filter - Attempt 1/2
+2026-10-08 14:38:39 - INFO - Applying rating filter: 4
+2026-10-08 14:38:39 - INFO - Customer Ratings filter found.
+2026-10-08 14:38:39 - INFO - Looking for rating option: 4★ & above
+2026-10-08 14:38:39 - INFO - Rating options are already visible.
+2026-10-08 14:38:39 - INFO - Rating checkbox found: 4★ & above
+2026-10-08 14:38:39 - INFO - Current checkbox state: False
+2026-10-08 14:38:40 - INFO - Rating option clicked: 4★ & above
+2026-10-08 14:38:41 - INFO - Rating filter applied successfully: 4★ & above
+2026-10-08 14:38:41 - INFO - Rating Filter completed successfully.
+2026-10-08 14:38:41 - INFO - Get Products - Speaker - Attempt 1/2
+2026-10-08 14:38:41 - INFO - Getting products...
+2026-10-08 14:38:41 - INFO - Product cards found: 40
+2026-10-08 14:38:41 - INFO - 
+Product 1
+2026-10-08 14:38:41 - INFO - Name   : TRIGGR Horizon 16 with Dual Drivers, 7Hrs Playtime, MEMS Mic, TWS Function 16 W Bluetooth Speaker
+2026-10-08 14:38:41 - INFO - Price  : ₹749
+2026-10-08 14:38:41 - INFO - MRP    : ₹3,99981
+2026-10-08 14:38:41 - INFO - Rating : 4
+2026-10-08 14:38:41 - INFO - URL    : https://www.flipkart.com/triggr-horizon-16-dual-drivers-7hrs-playtime-mems-mic-tws-function-w-bluetooth-speaker/p/itmbfed43aa346a6?pid=ACCHHHSBZ5GZDZQT&lid=LSTACCHHHSBZ5GZDZQTGV5NAP&marketplace=FLIPKART&q=Speaker&store=0pm%2F0o7&srno=s_1_1&otracker=search&otracker1=search&fm=Search&iid=en_JjSPzwFEz0i3OmM6TD5FttQy7Lg4ad2jutrdXRx8-ras0JMrJJcmX0OQ7BkdcOFhuoac-g26gbfLdqA6Gj8EMKSd2aaQX1ieM_oSxtYu6f_TG_sfR7IAND-tfO7USRWP&ppt=sp&ppn=sp&ssid=auvmu43sio0000001791450516299&qH=22cc65fdfc4417d6&ov_redirect=true&ov_redirect=true
+2026-10-08 14:38:41 - INFO - Image  : https://rukminim2.flixcart.com/image/612/612/xif0q/speaker/p/a/n/-original-imahm4afbfgwtty7.jpeg?q=70
+2026-10-08 14:38:41 - INFO - 
+Total products selected: 1
+2026-10-08 14:38:41 - INFO - Get Products - Speaker completed successfully.
+2026-10-08 14:39:05 - INFO - Product email sent for: Speaker (Failed)
+2026-10-08 14:39:05 - INFO - Product email already sent, skipping: https://www.flipkart.com/triggr-horizon-16-dual-drivers-7hrs-playtime-mems-mic-tws-function-w-bluetooth-speaker/p/itmbfed43aa346a6?pid=ACCHHHSBZ5GZDZQT&lid=LSTACCHHHSBZ5GZDZQTGV5NAP&marketplace=FLIPKART&q=Speaker&store=0pm%2F0o7&srno=s_1_1&otracker=search&otracker1=search&fm=Search&iid=en_JjSPzwFEz0i3OmM6TD5FttQy7Lg4ad2jutrdXRx8-ras0JMrJJcmX0OQ7BkdcOFhuoac-g26gbfLdqA6Gj8EMKSd2aaQX1ieM_oSxtYu6f_TG_sfR7IAND-tfO7USRWP&ppt=sp&ppn=sp&ssid=auvmu43sio0000001791450516299&qH=22cc65fdfc4417d6&ov_redirect=true&ov_redirect=true
+2026-10-08 14:39:05 - INFO - Excel row 5: Status=Failed | Remarks=Products found but none could be added to cart | TRIGGR Horizon 16 with Dual Drivers, 7Hrs Playtime, MEMS Mic, TWS Function 16 W Bluetooth Speaker: Add to cart button not found (neither text nor icon)
+2026-10-08 14:39:09 - INFO - Cart step done. Added 0 item(s).
+2026-10-08 14:39:09 - INFO - Run summary - Success: 1, Failed: 1, Skipped: 3
+2026-10-08 14:39:13 - INFO - Execution email sent.
+2026-10-08 14:39:14 - INFO - Browser closed.
+2026-10-08 14:39:14 - ERROR - Automation failed
+2026-10-08 14:39:14 - INFO - Flipkart Automation Completed

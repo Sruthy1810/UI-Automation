@@ -227,13 +227,27 @@ async def run_bot():
 
                 if selected_products:
 
+                    items = [
+                        {**sp, "size": size, "Row": product_data["Row"]}
+                        for sp in selected_products
+                    ]
+
                     # ----- Add the selected products to cart -----
-                    added_items, failed_reasons = await add_items_to_cart(
-                        context, selected_products
+                    added_items, failed_reasons, results = await add_items_to_cart(
+                        context, selected_products, size=size, search_term=product
                     )
 
-                    total_selected = len(selected_products)
+                    total_selected = len(items)
                     total_added = len(added_items)
+
+                    for r in results:                      # <-- "results" used here
+                        send_product_email(
+                            r["item"],
+                            cart_status="Success" if r["status"] == "SUCCESS" else "Failed",
+                            remarks=r["reason"] or "Added to cart",
+                            size=size,
+                            search_term=product,
+                        )
 
                     if total_added > 0:
                         successful_products += 1
@@ -252,7 +266,7 @@ async def run_bot():
                         errors.append(f"{product}: {remarks}")
 
                     # Found first (it resets row colour), then the cart status
-                    update_found_status(product, "Found", name=product_data["Name"])
+                    update_found_status(product, "Success", name=product_data["Name"])
                     update_cart_status( product, status, remarks,
                                        name=product_data["Name"], row_num=product_data["Row"])
 
@@ -262,7 +276,7 @@ async def run_bot():
                     errors.append(error_message)
                     logger.error(error_message)
 
-                    update_found_status(product, "Not Found", name=product_data["Name"])
+                    update_found_status(product, "Failed", name=product_data["Name"])
                     update_cart_status(product, "Failed",
                                        "No products found after applying filters",
                                        name=product_data["Name"], row_num=product_data["Row"])
@@ -291,14 +305,14 @@ async def run_bot():
 
                 update_found_status(
                     product,
-                    "Not Found",
+                    "Failed",
                     name=product_data["Name"]
                 )
 
                 logger.warning(f"Product processing failed: {e}")
 
                 send_exception_email(
-                    exception=e,
+                    e,
                     start_time=start_time,
                     bot_name="Flipkart Automation",
                     screenshot_path=screenshot_path

@@ -2,7 +2,7 @@ from playwright.async_api import TimeoutError
 from utils.logger import logger
 from utils.screenshot import take_failure_screenshot
 import re
-
+from config.config_reader import get_max_products
 
 async def search_product(page, product):
 
@@ -324,7 +324,7 @@ async def apply_rating_filter(page, rating):
     #   Get Products
     # --------------------------------
 
-async def get_products(page):
+async def get_products(page, max_products=None):
 
     logger.info("Getting products...")
 
@@ -343,7 +343,9 @@ async def get_products(page):
         def clean(text):
             return re.sub(r"\s+", " ", text).strip() if text else ""
 
-        for i in range(min(total, 1)):
+        max_products = max_products or get_max_products()
+
+        for i in range(min(total, max_products)):
             card = product_cards.nth(i)
 
             try:

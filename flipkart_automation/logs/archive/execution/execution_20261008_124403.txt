@@ -1,0 +1,62 @@
+2026-10-08 12:44:03 - INFO - Flipkart Automation Started
+2026-10-08 12:44:03 - INFO - BOT RUNNER STARTED
+2026-10-08 12:44:03 - INFO - Archived: execution_20261008_121421.txt
+2026-10-08 12:44:07 - INFO - Row colours synced for 4 row(s)
+2026-10-08 12:44:07 - INFO - Products found: 5
+2026-10-08 12:44:07 - INFO - Products in Excel: 5 | Already Success (skipped): 4 | To process: 1
+2026-10-08 12:44:10 - INFO - Trigger email sent successfully.
+2026-10-08 12:44:10 - INFO - Trigger email sent.
+2026-10-08 12:44:10 - INFO - Opening Flipkart...
+2026-10-08 12:44:12 - INFO - Flipkart opened successfully
+2026-10-08 12:44:12 - INFO - Logging into flipkart
+2026-10-08 12:44:15 - INFO - 
+==================================================
+2026-10-08 12:44:15 - INFO - Processing Product : Shirt
+2026-10-08 12:44:15 - INFO - Maximum Price      : 1000
+2026-10-08 12:44:15 - INFO - Customer Rating    : 4
+2026-10-08 12:44:15 - INFO - ==================================================
+2026-10-08 12:44:15 - INFO - Search Shirt - Attempt 1/2
+2026-10-08 12:44:15 - INFO - Searching product: Shirt
+2026-10-08 12:44:18 - INFO - Product entered: Shirt
+2026-10-08 12:44:19 - INFO - Search clicked: Shirt
+2026-10-08 12:44:22 - INFO - Search completed successfully: Shirt
+2026-10-08 12:44:22 - INFO - Search Shirt completed successfully.
+2026-10-08 12:44:22 - INFO - Price Filter - Attempt 1/2
+2026-10-08 12:44:22 - INFO - Applying price filter: 1000
+2026-10-08 12:44:22 - INFO - Price filter found.
+2026-10-08 12:44:22 - INFO - Price dropdowns found: 2
+2026-10-08 12:44:22 - INFO - Maximum price selected: 1000
+2026-10-08 12:44:22 - INFO - Price Filter completed successfully.
+2026-10-08 12:44:22 - INFO - Rating Filter - Attempt 1/2
+2026-10-08 12:44:22 - INFO - Applying rating filter: 4
+2026-10-08 12:44:22 - INFO - Customer Ratings filter found.
+2026-10-08 12:44:22 - INFO - Looking for rating option: 4★ & above
+2026-10-08 12:44:22 - INFO - Rating options are already visible.
+2026-10-08 12:44:22 - INFO - Rating checkbox found: 4★ & above
+2026-10-08 12:44:22 - INFO - Current checkbox state: False
+2026-10-08 12:44:23 - INFO - Rating option clicked: 4★ & above
+2026-10-08 12:44:24 - INFO - Rating filter applied successfully: 4★ & above
+2026-10-08 12:44:24 - INFO - Rating Filter completed successfully.
+2026-10-08 12:44:24 - INFO - Get Products - Shirt - Attempt 1/2
+2026-10-08 12:44:24 - INFO - Getting products...
+2026-10-08 12:44:24 - INFO - Product cards found: 40
+2026-10-08 12:44:24 - INFO - 
+Product 1
+2026-10-08 12:44:24 - INFO - Name   : Men Regular Fit Solid Spread Collar Casual Shirt
+2026-10-08 12:44:24 - INFO - Price  : ₹569
+2026-10-08 12:44:24 - INFO - MRP    : ₹1,89970
+2026-10-08 12:44:24 - INFO - Rating : N/A
+2026-10-08 12:44:24 - INFO - URL    : https://www.flipkart.com/wrogn-men-solid-casual-white-shirt/p/itm485a1b5358a2e?pid=SHTHFMRXF4UMTFJQ&lid=LSTSHTHFMRXF4UMTFJQBYAYQB&marketplace=FLIPKART&q=Shirt&store=clo%2Fash%2Faxc&srno=s_1_1&otracker=search&otracker1=search&fm=Search&iid=en_R7gWKbkJTL4i6asFeAuR8A-93DYY9-8v3UVEK1I77Zbs8BYBD8pGlYPRbFgkcTLEcWAbjABxzxYX2J_qBKsSsELhNBzXeH6kpv2OGG5PPu62F6HboXewXSzOdMaG0z8L&ppt=sp&ppn=sp&ssid=dri9fccgf40000001791443660058&qH=3f1f22fd0c9264a1&ov_redirect=true
+2026-10-08 12:44:24 - INFO - Image  : https://rukminim2.flixcart.com/image/612/612/xif0q/shirt/l/e/z/-original-imahzzhzuryfz2aj.jpeg?q=70
+2026-10-08 12:44:24 - INFO - 
+Total products selected: 1
+2026-10-08 12:44:24 - INFO - Get Products - Shirt completed successfully.
+2026-10-08 12:44:31 - INFO - Product email sent for: Shirt (Failed)
+2026-10-08 12:44:31 - INFO - Product email already sent, skipping: https://www.flipkart.com/wrogn-men-solid-casual-white-shirt/p/itm485a1b5358a2e?pid=SHTHFMRXF4UMTFJQ&lid=LSTSHTHFMRXF4UMTFJQBYAYQB&marketplace=FLIPKART&q=Shirt&store=clo%2Fash%2Faxc&srno=s_1_1&otracker=search&otracker1=search&fm=Search&iid=en_R7gWKbkJTL4i6asFeAuR8A-93DYY9-8v3UVEK1I77Zbs8BYBD8pGlYPRbFgkcTLEcWAbjABxzxYX2J_qBKsSsELhNBzXeH6kpv2OGG5PPu62F6HboXewXSzOdMaG0z8L&ppt=sp&ppn=sp&ssid=dri9fccgf40000001791443660058&qH=3f1f22fd0c9264a1&ov_redirect=true
+2026-10-08 12:44:31 - INFO - Excel row 6: Status=Failed | Remarks=Products found but none could be added to cart | Men Regular Fit Solid Spread Collar Casual Shirt: Product is out of stock
+2026-10-08 12:44:35 - INFO - Cart step done. Added 0 item(s).
+2026-10-08 12:44:35 - INFO - Run summary - Success: 0, Failed: 1, Skipped: 4
+2026-10-08 12:44:39 - INFO - Execution email sent.
+2026-10-08 12:44:39 - INFO - Browser closed.
+2026-10-08 12:44:39 - ERROR - Automation failed
+2026-10-08 12:44:39 - INFO - Flipkart Automation Completed

@@ -1,0 +1,64 @@
+2026-10-08 12:23:22 - INFO - Flipkart Automation Started
+2026-10-08 12:23:22 - INFO - BOT RUNNER STARTED
+2026-10-08 12:23:22 - INFO - Archived: execution_20261008_120443.txt
+2026-10-08 12:23:22 - INFO - Archived: Rating Filter_attempt1_20261008_110136.png
+2026-10-08 12:23:24 - INFO - Row colours synced for 5 row(s)
+2026-10-08 12:23:24 - INFO - Products found: 5
+2026-10-08 12:23:24 - INFO - Products in Excel: 5 | Already Success (skipped): 4 | To process: 1
+2026-10-08 12:23:27 - INFO - Trigger email sent successfully.
+2026-10-08 12:23:27 - INFO - Trigger email sent.
+2026-10-08 12:23:27 - INFO - Opening Flipkart...
+2026-10-08 12:23:29 - INFO - Flipkart opened successfully
+2026-10-08 12:23:29 - INFO - Logging into flipkart
+2026-10-08 12:23:32 - INFO - 
+==================================================
+2026-10-08 12:23:32 - INFO - Processing Product : Shirt
+2026-10-08 12:23:32 - INFO - Maximum Price      : 1500
+2026-10-08 12:23:32 - INFO - Customer Rating    : 4
+2026-10-08 12:23:32 - INFO - ==================================================
+2026-10-08 12:23:32 - INFO - Search Shirt - Attempt 1/2
+2026-10-08 12:23:32 - INFO - Searching product: Shirt
+2026-10-08 12:23:35 - INFO - Product entered: Shirt
+2026-10-08 12:23:36 - INFO - Search clicked: Shirt
+2026-10-08 12:23:39 - INFO - Search completed successfully: Shirt
+2026-10-08 12:23:39 - INFO - Search Shirt completed successfully.
+2026-10-08 12:23:39 - INFO - Price Filter - Attempt 1/2
+2026-10-08 12:23:39 - INFO - Applying price filter: 1500
+2026-10-08 12:23:39 - INFO - Price filter found.
+2026-10-08 12:23:39 - INFO - Price dropdowns found: 2
+2026-10-08 12:23:39 - INFO - Maximum price selected: 1500
+2026-10-08 12:23:39 - INFO - Price Filter completed successfully.
+2026-10-08 12:23:39 - INFO - Rating Filter - Attempt 1/2
+2026-10-08 12:23:39 - INFO - Applying rating filter: 4
+2026-10-08 12:23:39 - INFO - Customer Ratings filter found.
+2026-10-08 12:23:39 - INFO - Looking for rating option: 4★ & above
+2026-10-08 12:23:39 - INFO - Rating options are already visible.
+2026-10-08 12:23:39 - INFO - Rating checkbox found: 4★ & above
+2026-10-08 12:23:39 - INFO - Current checkbox state: False
+2026-10-08 12:23:40 - INFO - Rating option clicked: 4★ & above
+2026-10-08 12:23:41 - INFO - Rating filter applied successfully: 4★ & above
+2026-10-08 12:23:41 - INFO - Rating Filter completed successfully.
+2026-10-08 12:23:41 - INFO - Get Products - Shirt - Attempt 1/2
+2026-10-08 12:23:41 - INFO - Getting products...
+2026-10-08 12:23:41 - INFO - Product cards found: 40
+2026-10-08 12:23:41 - INFO - 
+Product 1
+2026-10-08 12:23:41 - INFO - Name   : Men Slim Fit Checkered Button Down Collar Casual Shirt
+2026-10-08 12:23:41 - INFO - Price  : ₹521
+2026-10-08 12:23:41 - INFO - MRP    : ₹1,79971
+2026-10-08 12:23:41 - INFO - Rating : N/A
+2026-10-08 12:23:41 - INFO - URL    : https://www.flipkart.com/bear-house-men-checkered-casual-maroon-shirt/p/itme1db6a5051049?pid=SHTFXXDHBB2VYHHF&lid=LSTSHTFXXDHBB2VYHHF99DEPG&marketplace=FLIPKART&q=Shirt&store=clo%2Fash%2Faxc&srno=s_1_1&otracker=search&otracker1=search&fm=Search&iid=en_J5iGBUNYIg1nwct2PSSA53pDZ-dSX4qWwybAwantFNbL5zj41LXydmhid7flf28fvI2kz1y_DsbtsVbrzjitfnU-JvtLJhlNzLtXWqSotRAlgHVW3JckF92jcvaNMuS_&ppt=sp&ppn=sp&ssid=nw5zxt1xg00000001791442416939&qH=3f1f22fd0c9264a1&ov_redirect=true
+2026-10-08 12:23:41 - INFO - Image  : https://rukminim2.flixcart.com/image/612/612/xif0q/shirt/2/o/a/s-tbh-uber-mr-the-bear-house-original-imahcdynajzpwvup.jpeg?q=70
+2026-10-08 12:23:41 - INFO - 
+Total products selected: 1
+2026-10-08 12:23:41 - INFO - Get Products - Shirt completed successfully.
+2026-10-08 12:24:05 - INFO - Product email sent for: Shirt (Success)
+2026-10-08 12:24:05 - INFO - Product email already sent, skipping: https://www.flipkart.com/bear-house-men-checkered-casual-maroon-shirt/p/itme1db6a5051049?pid=SHTFXXDHBB2VYHHF&lid=LSTSHTFXXDHBB2VYHHF99DEPG&marketplace=FLIPKART&q=Shirt&store=clo%2Fash%2Faxc&srno=s_1_1&otracker=search&otracker1=search&fm=Search&iid=en_J5iGBUNYIg1nwct2PSSA53pDZ-dSX4qWwybAwantFNbL5zj41LXydmhid7flf28fvI2kz1y_DsbtsVbrzjitfnU-JvtLJhlNzLtXWqSotRAlgHVW3JckF92jcvaNMuS_&ppt=sp&ppn=sp&ssid=nw5zxt1xg00000001791442416939&qH=3f1f22fd0c9264a1&ov_redirect=true
+2026-10-08 12:24:05 - INFO - Product email already sent, skipping: https://www.flipkart.com/bear-house-men-checkered-casual-maroon-shirt/p/itme1db6a5051049?pid=SHTFXXDHBB2VYHHF&lid=LSTSHTFXXDHBB2VYHHF99DEPG&marketplace=FLIPKART&q=Shirt&store=clo%2Fash%2Faxc&srno=s_1_1&otracker=search&otracker1=search&fm=Search&iid=en_J5iGBUNYIg1nwct2PSSA53pDZ-dSX4qWwybAwantFNbL5zj41LXydmhid7flf28fvI2kz1y_DsbtsVbrzjitfnU-JvtLJhlNzLtXWqSotRAlgHVW3JckF92jcvaNMuS_&ppt=sp&ppn=sp&ssid=nw5zxt1xg00000001791442416939&qH=3f1f22fd0c9264a1&ov_redirect=true
+2026-10-08 12:24:05 - INFO - Excel row 6: Status=Success | Remarks=1 of 1 products added to cart
+2026-10-08 12:24:09 - INFO - Cart step done. Added 0 item(s).
+2026-10-08 12:24:09 - INFO - Run summary - Success: 1, Failed: 0, Skipped: 4
+2026-10-08 12:24:13 - INFO - Execution email sent.
+2026-10-08 12:24:14 - INFO - Browser closed.
+2026-10-08 12:24:14 - ERROR - Automation failed
+2026-10-08 12:24:14 - INFO - Flipkart Automation Completed
